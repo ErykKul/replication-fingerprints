@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0129",
+    "what_manipulated": "Associates of a nonpresented word presented in a study list (prime-driven encoding)",
+    "what_measured": "Free recall and recognition of the nonpresented critical word; confidence in recognition",
+    "experiment": "Participants studied lists of 12 words, each composed of associates of a single nonpresented critical word. They then performed immediate free recall on each list, followed by a single recognition test containing studied items, unrelated lures, weakly related lures, and critical nonpresented lures. In Experiment 2 (expanded replication), half the lists received immediate free recall testing while half received unrelated math tasks instead; later recognition test included remember-know judgments.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0130",
+    "what_manipulated": "Temporal spacing between list items (irregular presentation durations); grouping instructions for organizing sequences",
+    "what_measured": "Serial position accuracy in order recall; timing reproduction accuracy; recall latencies; transposition error distances",
+    "experiment": "Participants encoded lists of six digits presented at irregular temporal intervals. After each list, a postcue indicated whether to recall digits in order (serial recall) or reproduce remembered timing by tapping in the presented rhythm. Grouping instructions (partitioning into two groups of three) were given after the first half of trials. Input-output timing relationships, latency patterns, and error migration were analyzed.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0131",
+    "what_manipulated": "Item repetition (identical vs. orthographically similar vs. control items); task demands (identification vs. same-different matching)",
+    "what_measured": "Joint report accuracy of both critical items; proportion of remember versus know judgments; intervening item recall",
+    "experiment": "Participants viewed rapid serial visual presentation (RSVP) sequences containing either identical words/nonwords, orthographically similar items, or unrelated controls. Experiments 1 manipulated orthographic neighborhood size and item type. Experiment 2 added a same-different discrimination task alongside identification. Experiments 3-6 systematically included neighbor trials to detect guessing and examined orthographic similarity effects. Five experiments total examining when repetition blindness vs. repetition advantage occurs.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "many-exploratory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0132",
+    "what_manipulated": "Stochastic task structure (stationary vs. nonstationary; well-defined sunny vs. ill-defined cloudy) in four fishing tournaments; release law (catch-and-keep vs. catch-and-release)",
+    "what_measured": "Number of casts (adjusted risk-taking score) during voluntary stopping; pattern of prior beliefs; learning parameters; response consistency; self-reported drug use",
+    "experiment": "Participants completed four Angling Risk Tasks (ART) representing different combinations of information and stochasticity. Each tournament involved 30 rounds of fishing in a pond; participants earned money per successful catch and lost accumulated winnings if catching a blue fish. Bayesian sequential risk-taking (BSR) model was fit to choice sequences to estimate evaluation, response, and learning parameters. Participants also reported illegal drug use and completed risk-attitude scales.",
+    "design": "within-subjects",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0134",
+    "what_manipulated": "Contingency information: prevalence of Causes A and B (presence-absence frequencies); number of occurrences of outcomes in different presence-absence conditions",
+    "what_measured": "Causal judgment magnitude (scale -100 to +100) for each cause; dimensionality of judgment patterns across conditions",
+    "experiment": "Participants imagined a horticulturalist studying a plant (hosta) with gold-edged leaves, investigating two soil chemicals as potential causes. Each task presented contingency information (plant-by-plant frequencies of chemical presence and leaf outcome) in tabular form. Five experiments orthogonally manipulated cause prevalence, occurrence rates, and outcome frequencies. Participants rated causal strength for each chemical. A weighted averaging model predicted judgments based on accounting for occurrences rather than conditional contingency.",
+    "design": "within-subjects",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "many-exploratory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0135",
+    "what_manipulated": "Phonological similarity (phonologically similar vs. dissimilar word lists); word length (short vs. long words)",
+    "what_measured": "Proportion of items correctly recalled in serial order; distribution of effect sizes across participants; interindividual variability in phonological similarity effect (PSE) and word-length effect (WLE)",
+    "experiment": "Two experiments with large samples (100 participants each) presented lists of words and tested order reconstruction via mouse-click responses. Experiment 1 crossed phonological similarity and word lists. Experiment 2 crossed word length and longer lists. The Feature Model computational simulation was fitted separately to predict distributions of effect sizes and individual differences. Pseudo-subjects with varied attention parameters were used to model interindividual variation in memory capability.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-one"
+  }
+]

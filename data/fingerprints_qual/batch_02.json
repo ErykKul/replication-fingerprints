@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1017/s1366728914000273",
+    "phenomenon": "cognitive-flexibility in dual-demand switching",
+    "constructs": "language-switching attentional-control executive-function reconfiguration",
+    "claim": "routine code-switching practice enhances capacity for stimulus-response reconfiguration independent of verbal domain",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1017/s1930297500001170",
+    "phenomenon": "retrospective inference about sequence-length from outcome rarity",
+    "constructs": "rarity-perception causal-inference sequence-construction expectation",
+    "claim": "rare outcomes are mentally attributed to longer preceding sequences regardless of actual causal probability",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1017/s1930297500005064",
+    "phenomenon": "decision-choice justification under regret and accountability awareness",
+    "constructs": "decision-justification regret-salience accountability self-monitoring standards",
+    "claim": "internal regret consciousness triggers critical self-review eliminating justification-acceptance bias, whereas external accountability maintains it",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1017/xps.2014.22",
+    "phenomenon": "belief-persistence after discredited causal explanation",
+    "constructs": "causal-inference belief-updating debunking replacement interpretation",
+    "claim": "providing alternate causal explanation displaces disconfirmed information more effectively than denial alone",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1017/xps.2017.21",
+    "phenomenon": "performance suppression under stereotype-activated group consciousness",
+    "constructs": "stereotype-threat situational-pressure performance-encoding identity-salience",
+    "claim": "gender-stereotype activation suppresses domain-performance through situational pressure rather than stable capability",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1027/1864-9335/a000147",
+    "phenomenon": "semantic-warmth to thermal-perception transfer",
+    "constructs": "conceptual-metaphor sensory-perception communion-traits social-proximity",
+    "claim": "thinking about social-connection concepts modulates physical temperature experience",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0021-843x.115.4.798",
+    "phenomenon": "distinct behavioral-emotional phenotypes within personality-pathology syndrome",
+    "constructs": "psychopathic-traits emotion-processing impulse-control criminal-severity",
+    "claim": "comorbid psychopathy amplifies emotion-dysfunction and criminal-severity within antisocial syndrome, distinguishing two subtypes",
+    "narrative": "boundary-condition",
+    "scope": "single-population",
+    "stance": "hedged-claim"
+  },
+  {
+    "doi": "10.1037/0021-9010.77.4.419",
+    "phenomenon": "disengagement from failing commitments and escalating investment",
+    "constructs": "sunk-cost-effect escalation threat-reduction boundary-setting process-evaluation",
+    "claim": "three distinct interventions reduce entrapment through threat-reduction, minimum-thresholds, and process-focused accountability",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0021-9010.85.5.751",
+    "phenomenon": "personality-trait prediction of leadership-behavior style",
+    "constructs": "personality-traits leadership-behavior charisma interpersonal-influence",
+    "claim": "extraversion and agreeableness predict charismatic-influence independent of outcome-management orientation",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.67.3.357",
+    "phenomenon": "time-dependent reversal in regret type (action vs. inaction)",
+    "constructs": "regret-type temporal-dynamics counterfactual-thinking outcome-attribution",
+    "claim": "actions produce acute regret but inactions compound into enduring regret through expanding could-have-been possibilities",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.67.4.627",
+    "phenomenon": "unconscious defensive response amplification from mortality-awareness",
+    "constructs": "mortality-consciousness defensive-cognition in-group-bias unconscious-processing",
+    "claim": "death-related thoughts amplify group-favoritism only when suppressed outside awareness, not when consciously contemplated",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.73.4.733",
+    "phenomenon": "long-term formation of relational orientations (prosocial vs. competitive)",
+    "constructs": "attachment-history sibling-family-composition age-related-change social-orientation",
+    "claim": "prosocial orientation roots in secure attachment and larger families, intensifies across adult lifespan",
+    "narrative": "incremental-extension",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.74.3.774",
+    "phenomenon": "regulatory-capacity depletion from prior effortful self-control",
+    "constructs": "self-regulation ego-depletion willpower regulatory-resource metabolic-constraint",
+    "claim": "effortful self-control impairs subsequent regulatory-capacity as though drawing from finite metabolic-neural resource",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.77.4.785",
+    "phenomenon": "culture-specific preference for individuality vs. conformity",
+    "constructs": "cultural-values individual-preference uniqueness-conformity feedback-loops",
+    "claim": "cultural norms shape and reinforce individual preferences for conformity vs. differentiation through self-selection feedback",
+    "narrative": "context-effect",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.80.6.995",
+    "phenomenon": "distinct psychological well-being trajectories in midlife-adulthood",
+    "constructs": "environmental-mastery personal-growth identity ego-development generativity",
+    "claim": "two independent well-being dimensions generate three distinct mature profiles, mediated by identity-formation processes",
+    "narrative": "new-mechanism",
+    "scope": "single-population",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.83.1.138",
+    "phenomenon": "differential emotional response to public exposure and self-evaluation",
+    "constructs": "shame guilt public-exposure self-appraisal moral-transgression conscience",
+    "claim": "shame emerges from public-exposure combined with negative-self-evaluation; guilt from private-conscience and remorse",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.83.1.44",
+    "phenomenon": "stereotype-congruence blocking self-domain identification",
+    "constructs": "implicit-stereotype group-identity domain-association self-concept",
+    "claim": "gender-domain stereotype incompatibility reduces self-identification with domain even among individuals skilled in it",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.83.5.1165",
+    "phenomenon": "developmental continuity of personality and conduct across decade",
+    "constructs": "childhood-personality adult-adaptation emotional-regulation behavioral-control",
+    "claim": "childhood personality and social-competence predict adult personality and relationship-success through continuity",
+    "narrative": "confirmation",
+    "scope": "single-population",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.83.5.1239",
+    "phenomenon": "cross-cultural variation in attribution from behaviorally-constrained action",
+    "constructs": "dispositional-attribution behavior-diagnosticity cultural-context implicit-inference",
+    "claim": "Americans show correspondence-bias regardless of behavioral-diagnosticity; Japanese suppress it when behavior is situationally-forced",
+    "narrative": "context-effect",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.84.2.411",
+    "phenomenon": "personality-to-behavior prediction consistency across measurement instruments",
+    "constructs": "personality-factors behavioral-criteria measurement-validity construct-validity",
+    "claim": "Big Five personality factors reliably predict complex socially-significant behaviors across multiple assessment approaches",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

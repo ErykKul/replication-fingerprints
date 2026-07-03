@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0177",
+    "what_manipulated": "Body-focus salience (skin exposure, attention direction, context)",
+    "what_measured": "Mind perception dimensions (agency vs. experience) and moral judgments",
+    "experiment": "Participants viewed targets varying in body salience (face-only vs. face+body, clothed vs. naked, professional vs. attractiveness framing). In each, mind-perception items rated on scales assessed self-control/planning/agency and pleasure/emotion/experience. Comparison contrasted agency and experience ascriptions across body-salience conditions, testing redistribution hypothesis.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0178",
+    "what_manipulated": "Purchase type and framing (experiential vs. material, emphasis on experience vs. possession qualities)",
+    "what_measured": "Self-concept centrality, life-narrative inclusion, satisfaction, memory retention, anticipated happiness",
+    "experiment": "Participants recalled purchases or considered hypothetical acquisition, assessed closeness to self via Venn diagrams, life-story incorporation, whether knowledge of purchases reveals true self, or memory-exchange reluctance. Across studies, same methods varied task framing (experience vs. material aspects) to test whether experiential purchases are more integrated to self-concept.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0179",
+    "what_manipulated": "Secret burden (meaningful vs. small secret, secret suppression)",
+    "what_measured": "Perception of physical world (hill steepness, distance), task-effort perception, prosocial helping behavior",
+    "experiment": "Participants recalled or suppressed meaningful versus trivial secrets, then judged physical-world features (hill slant angle, beanbag toss distance) or rated effort/energy for physical and nonphysical tasks, or performed helping behaviors. Comparison tested whether secret burden increased perception and action consistent with physical weight-bearing.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0181",
+    "what_manipulated": "Question familiarity (old vs. new questions, answer presence at test)",
+    "what_measured": "Egocentrism in peer-knowledge estimates, response time, calibration and relative accuracy of estimates",
+    "experiment": "Participants saw answers to trivia questions, then answered new and old questions individually and estimated peer accuracy on each. Manipulated within-subjects: old questions (recently seen answers) vs. new questions. Measured gamma correlations between own and estimated-peer accuracy, response times, and calibration. Tested whether recognition of unshared knowledge reduces egocentric bias.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0183",
+    "what_manipulated": "Money exposure (faint money-image background, phrase-descrambling with money words, organ-transplant system type)",
+    "what_measured": "System justification, belief in just world, social dominance orientation, fair-market ideology, preference for market vs. redistribution systems",
+    "experiment": "Participants exposed to money prime or control, then completed scales measuring beliefs in fairness of social systems, deservingness, group hierarchy, and market economics. Some studies used phrase-scrambling primes; one presented competing organ-allocation systems (current need-based vs. hypothetical market). Comparison contrasted money-primed participants to controls on ideology measures.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0184",
+    "what_manipulated": "Overconfidence (induced via false feedback on person-perception accuracy, measured via overclaiming or overplacement)",
+    "what_measured": "Peer-perceived competence, group status/influence, peer-assigned grades, behavioral cues (speech, vocal tone, posture), desire for status",
+    "experiment": "Participants completed ability tasks individually (geography, weight estimation, person perception), received feedback to induce or calibrate confidence, then worked in dyads or groups. Peers rated participant competence and status. Videotaped interactions coded for behavioral cues. In some, status desire was measured via individual differences or experimentally manipulated. Comparison tested whether overconfident individuals appeared competent and achieved status.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "on-request"
+  }
+]

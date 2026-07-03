@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0251",
+    "what_manipulated": "information consumption pace and prediction vs. experience of decision points",
+    "what_measured": "judgment formation threshold, speed of preference formation across multiple domains",
+    "experiment": "Pairs predict how much information they need before deciding, then experiencers consume information piece-by-piece until decided. Compares predicted versus actual information consumption thresholds across impression formation tasks. Tests whether people anticipate the speed at which they form conclusions.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0252",
+    "what_manipulated": "news content valence (positive, neutral, negative) across video stimuli",
+    "what_measured": "psychophysiological activation via skin conductance and heart rate variability",
+    "experiment": "Participants in 17 countries watch standardized news clips of varying emotional tone while wearing physiological sensors. Measured normalized skin conductance levels and heart rate variability to assess arousal and attentiveness by news valence, comparing responses across cultures and individuals.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0255",
+    "what_manipulated": "coalitional affiliation cues via verbal statements and shirt color; race composition of coalitions",
+    "what_measured": "spontaneous categorization via memory confusion errors (within-category vs. between-category misattributions)",
+    "experiment": "Subjects view statements paired with photos implying coalitional membership, then recall which person said each statement. Misattribution patterns reveal whether coalitional categorization occurs without visual cues, whether arbitrary cues suffice when linked to coalition, and whether race encoding diminishes when coalition membership provides stronger cues.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0267",
+    "what_manipulated": "deterministic scenario structure (supercomputer prediction vs. genes-plus-environment causation); action valence (blame, praise, neutral)",
+    "what_measured": "folk intuitions about free will, moral responsibility, and ability to choose otherwise via survey responses",
+    "experiment": "Participants read scenarios portraying determinism then judge whether agents act freely and deserve responsibility. Compares scenario types and manipulates action valence to test whether folk require indeterminism for free will. Separate groups predict freedom, responsibility, or counterfactual ability.",
+    "design": "between-subjects",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0271",
+    "what_manipulated": "moral motivation presence via scenario manipulation (psychopath, inverted commas, moral struggle, listlessness, no explanation)",
+    "what_measured": "willingness to attribute moral belief, moral understanding, or moral judgment via survey responses",
+    "experiment": "Participants rate vignettes of agents with varying moral motivation while classifying actions as wrong. Compares attributions of moral belief versus understanding across scenarios where motivation is completely absent, explained by character trait, explained by circumstance, or present but conflicted. Tests whether folk operate with internalist constraints on moral judgment.",
+    "design": "between-subjects",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0280",
+    "what_manipulated": "presence and timing of commercial interruptions (continuous vs. embedded at two time points) in video programs; program type (high vs. low adaptation eliciting)",
+    "what_measured": "retrospective enjoyment ratings and real-time engagement trajectories via continuous rating sliders; willingness to pay for related content",
+    "experiment": "Participants watch edited video programs (sitcom, documentary, or Bollywood dance) with or without commercial breaks inserted at midpoint. Rate overall enjoyment and report engagement moment-to-moment. Compares adaptation slopes (time-based decline in enjoyment) between continuous and interrupted conditions to test whether breaks disrupt habituation.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "on-request"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0086",
+    "what_manipulated": "structural similarity between implicit and explicit attitude test formats",
+    "what_measured": "correlation between implicit and explicit racial attitude test scores",
+    "experiment": "Participants completed implicit racial attitude tests (affect misattribution procedure) and explicit questionnaires varying in structural similarity to the implicit measure. Implicit measures used ambiguous pictograph ratings; explicit measures ranged from abstract value statements to direct face evaluation. Tests differed in stimulus type (pictographs vs. verbal), judgment abstraction level, and response metric (evaluative ratings vs. scales). Measured correlations between pairs of implicit-explicit tests across conditions.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0088",
+    "what_manipulated": "internal vs. external motivation to respond without prejudice; conflict-monitoring neural activity measured during stereotype-inhibition task",
+    "what_measured": "response accuracy on race-biased stereotype-inhibition task (weapons identification) and error-related negativity (ERN) brain signal",
+    "experiment": "Low-prejudice participants classified guns/tools after Black/White face primes while EEG recorded. Participants grouped by internal motivation scale (IMS) and external motivation scale (EMS) profiles. Black-tool trials created stereotype conflict requiring inhibition; Black-gun trials aligned with stereotype. ERN amplitudes and process-dissociation control estimates compared across groups and trial types.",
+    "design": "between-subjects",
+    "manipulation": "observational",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0089",
+    "what_manipulated": "threat to identity (stereotype threat about being perceived as racist) via conversation topic and partner race; learning goals manipulation",
+    "what_measured": "physical distancing behavior between participant and conversation partner chairs; activation of White-racist stereotype cognition",
+    "experiment": "White male participants arranged three chairs for comfortable conversation with ostensible Black or White partners under threat (racial-profiling discussion) or non-threat (love/relationships) conditions. In some conditions, participants assigned pro-racial-profiling opinions or given learning goals. Measured chair distance (covaried for individual proximity preferences) and stereotype activation via word-stem completion.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0090",
+    "what_manipulated": "framing of goal progress (focus on completed to-date vs. remaining to-go); goal commitment certainty (low-commitment elective vs. high-commitment core course; luxury vs. necessity rewards; desire vs. need framing)",
+    "what_measured": "motivation to pursue goal (study time, effort, purchasing intent, charitable donations) and perceived importance or progress toward goal",
+    "experiment": "Participants made goal-pursuit choices after viewing visual progress bars emphasizing either accumulated progress (to-date) or remaining distance (to-go), holding objective progress constant (~50%). Commitment level was independently manipulated (e.g., core vs. elective exam; luxury vs. necessity rewards). Primary outcome was goal adherence measured as behavioral intention or actual behavior across personal and social goals.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0091",
+    "what_manipulated": "stated ideal mate preferences (attractiveness vs. earning prospects) assessed via questionnaires before and after speed-dating; actual in-vivo partner characteristics encountered during speed-dating",
+    "what_measured": "romantic interest in real potential partners (speed-dating matches and independently-met write-ins) indexed via 17 relationship-initiation variables including passion, commitment, sexual interest",
+    "experiment": "Participants reported ideal partner preferences before speed-dating event, then met opposite-sex individuals in 4-minute dates. Judgments of partner attractiveness and earning prospects were collected during and after dates. Followed-up for one month with repeated measures of romantic interest toward matches and independently-met partners. Meta-analyzed correlations between partner characteristics and romantic interest across 17 outcome variables.",
+    "design": "mixed",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "many-exploratory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0092",
+    "what_manipulated": "normatively important vs. unimportant values linked to persuasive message; within-participant argument quality (strong vs. weak arguments); message consideration in light of values importance",
+    "what_measured": "argument quality effects on attitudes and thought favorability (positive/negative/neutral thoughts); later resistance to counterattitudinal attack; elaboration as evidenced by argument quality modulation and thought-attitude correlations",
+    "experiment": "Participants linked important or unimportant values to paragraphs within a low-involvement persuasive message (Tashkentistan EU admittance). Messages contained strong or weak arguments. Attitudes and thoughts measured. In resistance studies, counterattitudinal attack followed. Argument quality effects expected to be larger under important (vs. unimportant) values if elaboration increased.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  }
+]

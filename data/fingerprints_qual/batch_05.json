@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1037/0278-7393.34.1.167",
+    "phenomenon": "adaptive-strategy-selection-under-uncertainty",
+    "constructs": "learning decision-making risk adaptation bayesian-updating",
+    "claim": "Learners flexibly adjust mental representations and processes to match task structure.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.186",
+    "phenomenon": "inference-error-emergence-from-sampling-strategy",
+    "constructs": "sampling-strategy inference-structure systematic-bias search-orientation",
+    "claim": "Any sampling strategy is unbiased for some inferences and biased for others.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.219",
+    "phenomenon": "memory-effect-variability-across-individuals",
+    "constructs": "effect-size-distribution individual-differences automaticity model-adequacy",
+    "claim": "Feature-based memory encoding predicts realistic variation in effect presence and absence without strategy shifts.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.230",
+    "phenomenon": "forgetting-as-enabler-of-future-learning",
+    "constructs": "retrieval-induced-forgetting relearning memory-consolidation interference",
+    "claim": "Forgetting removes interference, making relearned items benefit more than equivalent unforgotten items.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.237",
+    "phenomenon": "learning-from-interleaved-stimuli",
+    "constructs": "spacing stimulus-similarity discrimination learning-structure",
+    "claim": "The intermixed-blocked learning advantage is not explained by trial spacing alone.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.243",
+    "phenomenon": "sound-disruption-conditionality-on-retrieval-structure",
+    "constructs": "phonological-overlap retrieval-cuing serial-vs-free-recall auditory-distraction",
+    "claim": "Between-sequence similarity effects emerge when category-based retrieval cues are critical, not from low-level phonological competition.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.249",
+    "phenomenon": "semantic-interference-locus-in-word-retrieval",
+    "constructs": "semantic-competition lexical-selection phonological-planning retrieval-dynamics",
+    "claim": "Semantic interference operates at post-lexical processing stages when lexical selection bottleneck is absent.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.50",
+    "phenomenon": "flexible-phonological-pathway-selection-in-reading",
+    "constructs": "stimulus-context reading-process pathway-control task-demands",
+    "claim": "Readers flexibly adjust the pathways generating phonological codes to match stimulus-category patterns.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.80",
+    "phenomenon": "attention-driven-relational-learning-across-distance",
+    "constructs": "attention contiguity associative-learning statistical-learning joint-processing",
+    "claim": "Joint attentional processing of two events is sufficient for learning their relation, independent of spatial contiguity.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.97",
+    "phenomenon": "dissociation-between-explicit-and-implicit-memory-processes",
+    "constructs": "priming recognition fluency single-system multiple-systems computational-modeling",
+    "claim": "Empirical dissociations between priming, recognition, and fluency are consistent with a single integrated memory system.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.2.302",
+    "phenomenon": "bilingual-cognitive-control-specialization",
+    "constructs": "bilingualism inhibitory-control language-switching goal-biasing reactive-inhibition",
+    "claim": "Bilinguals excel at maintaining and using action goals to bias processing, not in active inhibition itself.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.2.343",
+    "phenomenon": "semantic-to-arithmetic-relation-transfer",
+    "constructs": "semantic-relations arithmetic-facts analogical-coordination obligatory-activation",
+    "claim": "Semantic structure of priming words automatically coordinates with arithmetic operation structure.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.2.353",
+    "phenomenon": "attention-guided-activation-flow-in-speech-planning",
+    "constructs": "phonological-activation concept-to-sound attention-distribution task-dependent-capacity",
+    "claim": "Activation spreads continuously from concepts to phonological forms, with capacity limited by and dependent on task focus.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.2.369",
+    "phenomenon": "attention-stabilization-of-volatile-memory-contents",
+    "constructs": "visual-working-memory attention-orienting interference probe-resistance item-volatility",
+    "claim": "Focused attention to a memory item makes it resistant to interference from new probes, preventing obligatory updating.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.2.399",
+    "phenomenon": "feature-binding-in-implicit-statistical-learning",
+    "constructs": "feature-integration statistical-learning object-representation implicit-learning covariance-detection",
+    "claim": "Statistical learning is object-based when dimensions covary perfectly but feature-based when decoupled, suggesting covariance shapes object definition.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.2.408",
+    "phenomenon": "strength-dependence-of-intentional-forgetting",
+    "constructs": "directed-forgetting context-strength item-strength storage-mechanism retrieval-dynamics",
+    "claim": "Directed forgetting magnitude depends on context strength, not item strength alone.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.2.430",
+    "phenomenon": "notation-independent-magnitude-activation",
+    "constructs": "numerical-notation automatic-processing magnitude-representation abstract-code format-independence",
+    "claim": "Numbers in different notations are automatically translated to a common magnitude representation.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.3.439",
+    "phenomenon": "episodic-context-binding-in-recognition-rejection",
+    "constructs": "familiarity recollection context-to-item item-to-context dual-process serial-position",
+    "claim": "Rejection of mislocated items uses both context-based and item-based retrieval routes, supporting dual-process theory.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.3.460",
+    "phenomenon": "expectancy-driven-false-recollection-manufacturing",
+    "constructs": "stereotype-activation source-memory illusory-recollection retrieval-context expectancy-effects",
+    "claim": "Stereotypes and expectations at retrieval spontaneously generate detailed false recollections that feel remembered.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.3.478",
+    "phenomenon": "task-switching-induced-working-memory-load",
+    "constructs": "task-switching working-memory capacity-competition maintenance-interference concurrent-load",
+    "claim": "Task switching imposes working memory costs independent of item-maintenance load, indicating distinct executive demands.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

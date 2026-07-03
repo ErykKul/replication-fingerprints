@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0323",
+    "what_manipulated": "five-factor personality trait differences (neuroticism, extraversion, openness, agreeableness, conscientiousness)",
+    "what_measured": "cortical morphometry measures (thickness, surface area, folding) via structural MRI",
+    "experiment": "Correlate individual differences in personality scores (NEO-FFI) with regional variations in cortical thickness, surface area, and folding across the whole brain. Multivariate GLM tests associations at each vertex, controlling for age, intracranial volume, and sex, with cluster-wise multiple comparison correction.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0324",
+    "what_manipulated": "primary-grade retention status (retained versus non-retained in K-5)",
+    "what_measured": "high school completion, college entry, college completion",
+    "experiment": "Estimate causal effect of early grade retention on secondary and postsecondary educational transitions using propensity score matching and sibling fixed-effects models. Control for pre-retention confounders via matching and regression; test mediation through middle and early high school academic achievements and expectations.",
+    "design": "observational-or-correlational",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-one"
+  },
+  {
+    "paper_id": "p0325",
+    "what_manipulated": "time horizon condition (unspecified, expanded, or limited) via written scenario",
+    "what_measured": "choice of work activity: help colleague, career-advancing project, or company-exploration project",
+    "experiment": "Randomly assign employed participants to one of three time-horizon conditions; measure forced-choice preference for emotionally meaningful (helping) versus future-oriented work activities. Test whether age-related preference for helping is mediated by time horizon constraints.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0328",
+    "what_manipulated": "number of Facebook friends (online social network size)",
+    "what_measured": "grey matter density at multiple brain regions via structural MRI",
+    "experiment": "Correlate Facebook friend count with regional grey matter density using voxel-based morphometry in a primary sample; replicate in an independent sample. Test whether online social network size correlates with real-world network size and whether brain regions are specific to online versus offline networks.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0329",
+    "what_manipulated": "action mode (alone versus joint action with partner; uni-manual versus bi-manual in solo condition)",
+    "what_measured": "proportion of together choices; trial time; movement time; accuracy of task completion",
+    "experiment": "Participants choose repeatedly between acting alone or jointly on a touch-screen task; jointly clearing items incurs coordination costs but yields equal reward per action as solo mode. Measure preference for joint action despite higher instrumental costs. Include solo control (uni- vs. bi-manual) and manipulate difficulty.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "preregistered-with-power",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0330",
+    "what_manipulated": "code snippet variant (method chaining present/absent; comment quality: good/bad/none)",
+    "what_measured": "perceived readability (1-5 scale); reading time; completion task accuracy (cloze test)",
+    "experiment": "Present five Java code snippets in systematically varied versions (two method-chain levels × three comment levels = six variants per snippet). Measure perceived readability and comprehension via reading time and cloze-test accuracy. Between-subjects blocking on snippet sequence; control for prior programming experience.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  }
+]

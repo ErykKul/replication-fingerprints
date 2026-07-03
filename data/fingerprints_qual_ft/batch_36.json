@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0289",
+    "phenomenon": "category size bias in probability judgment",
+    "constructs": "category membership salience category-level probability individual outcome likelihood",
+    "claim": "Individual-level judgments inherit category-level properties when category information is psychologically salient, biasing outcome likelihood estimates upward for larger categories.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0290",
+    "phenomenon": "category elimination as progress proxy in hedonic management",
+    "constructs": "category structure subjective progression valence-dependent strategy",
+    "claim": "Consumers use category elimination as a progress marker, preserving categories in positive experiences and eliminating them in negative experiences to alter perceived rate of progression.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0291",
+    "phenomenon": "processing fluency-decision context fit effect on evaluation intensity",
+    "constructs": "numeric fluency decision mode congruence evaluation amplification",
+    "claim": "Fluency-decision fit induces feeling-right experience that intensifies product evaluations in their original direction rather than shifting judgment valence.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0292",
+    "phenomenon": "imaginative resistance puzzles",
+    "constructs": "imaginability fictionality authorial authority moral deviance",
+    "claim": "Audiences experience multiple interrelated puzzles when authors attempt to make morally or conceptually deviant propositions true in fictional worlds via authorial say-so.",
+    "narrative": "characterization",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0294",
+    "phenomenon": "none",
+    "constructs": "none",
+    "claim": "none",
+    "narrative": "none",
+    "scope": "none",
+    "stance": "none"
+  },
+  {
+    "paper_id": "p0297",
+    "phenomenon": "genre-modulated imaginative resistance to moral deviance",
+    "constructs": "genre conventions genre expectations moral deviance contextual acceptance",
+    "claim": "Identical morally deviant propositions evoke less resistance when presented in genres whose conventions permit moral divergence from reality, suggesting context-dependency overlooked by proposition-focused theories.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  }
+]

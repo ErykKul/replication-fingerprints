@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0586",
+    "what_manipulated": "price subsidies and availability of rapid diagnostic tests for antimalarials",
+    "what_measured": "treatment-seeking behavior, ACT access, medication targeting to malaria-positive individuals",
+    "experiment": "Field experiment randomizing households to subsidy levels (80-92%) and RDT availability; monitored treatment-seeking over 4-month period via drug shop transactions and endline household survey. Compared access and targeting across conditions by measuring share of illnesses treated with ACTs and share of ACT-takers testing malaria-positive.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0587",
+    "what_manipulated": "observability of career preferences to classmates (public vs. private questionnaire responses)",
+    "what_measured": "reported desired compensation, willingness to travel, hours worked, professional ambition, leadership tendency",
+    "experiment": "Randomized questionnaire manipulation on first day of MBA program where students reported job preferences; half saw instruction that answers would be shared with classmates, half saw instruction that answers would be anonymized. Measured whether single vs. non-single women, and men, differentially reported career aspirations based on observability.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0588",
+    "what_manipulated": "migration destination (Western vs. Eastern democracies) following Russian financial crisis of 1998",
+    "what_measured": "electoral voting patterns, Communist Party vote share across parliamentary elections 1998-2010",
+    "experiment": "Quasi-experimental design exploiting quasi-random variation in migration direction across Moldovan communities. Compared election outcomes in communities with high westward vs. eastward emigration, controlling for pre-migration electoral preferences (1998 election), community characteristics, and economic shocks. Identified effects through differences-in-differences approach.",
+    "design": "observational-or-correlational",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0592",
+    "what_manipulated": "presence and type of reference food (anchor) with vs. without healthy side dish",
+    "what_measured": "calorie estimates of target food, healthiness ratings",
+    "experiment": "Three online studies replicating and extending prior work on calorie estimation. Participants estimated calories of foods shown alone or with healthy/unhealthy sides; Study 3 added a reference food (labeled 500 cal) presented before test food in 2×2 design. Tested whether reference-dependent anchoring or averaging explains calorie underestimation.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0593",
+    "what_manipulated": "depth of Theory-of-Mind reasoning (literal vs. pragmatic vs. hyper-pragmatic) through reference game structure complexity",
+    "what_measured": "choice of target vs. competitor referents in comprehension; choice of target vs. competitor messages in production",
+    "experiment": "Two reference games (simple and complex implicatures) embedded in online studies with 60 participants each. Participants either interpreted messages to identify referents (comprehension) or produced messages to identify referents (production). Used Bayesian hierarchical modeling to infer individual reasoning types and compare homogeneous (all Gricean) vs. heterogeneous (mixed reasoning types) population models.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0604",
+    "what_manipulated": "perceived financial scarcity dimensions: liquidity (present/absent), criticality of need (high/low), framing (gain/loss), lending options (present/absent)",
+    "what_measured": "loan amount requested, ability to estimate loan costs, financial risk perception, ego depletion, purchase intention",
+    "experiment": "Five studies using mixed methods. Studies 1–3 were online experiments randomizing payday loan scenarios across scarcity dimensions; measured behavioral (loan amount, cost estimation) and perceptual outcomes (risk, ego depletion). Study 4 conducted content analysis of CFPB payday complaints (N=200) for triangulation. Study 5 tested interventions to reduce perceived scarcity perceptions.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "many-exploratory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "on-request"
+  }
+]

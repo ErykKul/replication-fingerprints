@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1089/cyber.2015.0311",
+    "phenomenon": "proximity-based approach behavior toward valued stimuli",
+    "constructs": "approach-bias embodied-action attentional-preference individual-differences",
+    "claim": "Spontaneous motor-execution patterns reveal selective approach preferences that correlate with personal traits and value systems.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1089/cyber.2016.0530",
+    "phenomenon": "spontaneous affective response to high-salience cues",
+    "constructs": "hedonic-reaction cue-specificity habitual-use craving",
+    "claim": "Frequent users develop automatic positive associations with category-specific cues that drive behavioral persistence.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1093/aesthj/ayu027",
+    "phenomenon": "reluctance to engage in directed mental simulation",
+    "constructs": "imagination genre-effects psychological-constraints mental-modeling",
+    "claim": "People systematically resist certain types of prompted imagining, with genre classification influencing engagement.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1093/analys/63.3.190",
+    "phenomenon": "attribution of intentionality to behavior",
+    "constructs": "intentionality linguistic-usage ordinary-language folk-psychology",
+    "claim": "Folk judgments of whether behavior counts as intentional follow systematic linguistic patterns.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1093/esr/jcs057",
+    "phenomenon": "sex-typed task allocation in partnership labor",
+    "constructs": "gender-norms task-hierarchy role-conformity social-convention",
+    "claim": "Husbands' participation in female-typed domestic work follows a universal ordering principle that masks underlying patterns in cross-national analysis.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1093/esr/jcw008",
+    "phenomenon": "collective meaning-making toward supranational institution during crisis",
+    "constructs": "economic-shock institutional-framing collective-identity politicization",
+    "claim": "Economic disruption and institutional intervention reshape how citizens frame abstract collective membership across multiple interpretive dimensions.",
+    "narrative": "context-effect",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1093/esr/jcx078",
+    "phenomenon": "transmission of parental advantage to timing of partnership entry",
+    "constructs": "socioeconomic-status life-course timing institutional-context",
+    "claim": "Parental status delays youth union formation across countries, but effect strength tracks modernization level; education partially mediates.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1093/geronb/gbx099",
+    "phenomenon": "age-related shifts in allocation of personal resources",
+    "constructs": "prosocial-choice kinship-preference social-distance contextual-factors",
+    "claim": "Older adults show heightened discrimination based on social proximity, favoring kin over non-kin and allocating differently by resource type.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1093/her/cyl160",
+    "phenomenon": "behavioral change and capability development in chronic self-care",
+    "constructs": "proactive-coping self-regulation intentional-action goal-attainment",
+    "claim": "Structured training in forward-planning and self-regulation increases confidence, goal achievement, and action initiation.",
+    "narrative": "incremental-extension",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1093/jcr/ucaa006",
+    "phenomenon": "unified perception of replicated identical objects",
+    "constructs": "perceptual-unity homogeneity replication efficacy-judgment",
+    "claim": "Viewing identical units grouped together increases perceived goal-coherence and functional effectiveness relative to single-unit perception.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1093/jcr/ucaa019",
+    "phenomenon": "time allocation across activity domains during competing commitment",
+    "constructs": "goal-conflict justification time-allocation work-leisure",
+    "claim": "Unresolved goal tension shifts the person toward easier-to-justify activities and away from harder-to-justify ones, even when unrelated to the conflict.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1093/jcr/ucv007",
+    "phenomenon": "spending preference under resource scarcity",
+    "constructs": "financial-constraint consumption-longevity material-experience utility-persistence",
+    "claim": "Perceived financial limits increase preference for durable goods over temporary experiences due to concern about lasting value.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1093/jcr/ucv023",
+    "phenomenon": "parental investment allocation to offspring by sex",
+    "constructs": "reproductive-value economic-condition parental-investment resource-allocation",
+    "claim": "Poor economic conditions increase allocation to daughters because perceived mate-scarcity reduces boys' reproductive prospects.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1093/jcr/ucv049",
+    "phenomenon": "geometric form influence on product attribute judgment",
+    "constructs": "visual-form symbolic-association working-memory imagery",
+    "claim": "Circular/angular logo shapes activate softness/hardness associations that propagate to product attribute inferences via mental imagery.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1093/jcr/ucv051",
+    "phenomenon": "cognitive flexibility under perceived limitation",
+    "constructs": "scarcity-salience functional-fixedness constraint-mindset creative-solution",
+    "claim": "Salient resource scarcity reduces entrenched thinking about object use and increases novelty in problem-solving.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1093/jcr/ucw008",
+    "phenomenon": "lateral positioning influence on preference and choice",
+    "constructs": "spatial-congruence mental-organization self-control display-design",
+    "claim": "Placing healthy options leftward aligns with mental categories, easing processing and strengthening restraint.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1093/jcr/ucw056",
+    "phenomenon": "activation of competitive threat perception and aggressive physiology",
+    "constructs": "scarcity-cue threat-perception resource-competition aggression",
+    "claim": "Limited-availability marketing activates perception of other people as obstacles, triggering physiological aggression response.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1093/jcr/ucx039",
+    "phenomenon": "color properties influence spatial perception",
+    "constructs": "color-saturation visual-attention perceptual-magnitude arousal",
+    "claim": "Saturated color captures attention and heightens arousal, causing downstream inflation in size judgments and willingness-to-pay.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1093/jcr/ucx067",
+    "phenomenon": "preference for divisive goods as identity markers",
+    "constructs": "polarization self-expression taste-signaling identity-clarity",
+    "claim": "Products with bimodal rating distributions signal distinctiveness and personality, appealing to people seeking individual differentiation.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1093/jcr/ucx109",
+    "phenomenon": "subjective assessment of personal financial security",
+    "constructs": "money-management-stress future-security subjective-well-being life-satisfaction",
+    "claim": "Two separable dimensions of financial well-being (current stress and future security) jointly predict overall life satisfaction and track life domain importance.",
+    "narrative": "incremental-extension",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

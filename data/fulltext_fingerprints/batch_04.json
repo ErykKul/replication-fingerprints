@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0214",
+    "what_manipulated": "age group (younger vs. older adults)",
+    "what_measured": "theory of mind, metacognition, empathy, and compassion performance on social and nonsocial reasoning tasks",
+    "experiment": "Units (55 younger, 52 older adults) watched emotionally neutral and negative video clips and answered multiple-choice questions requiring either theory-of-mind inference or factual reasoning. After each question, participants rated confidence, mood (empathy), and compassion toward the protagonist. Repeated-measures ANOVA tested age group differences on accuracy and reaction times for theory-of-mind vs. factual reasoning; metacognition was measured via receiver operating characteristic curve analysis of confidence accuracy.",
+    "design": "between-subjects",
+    "manipulation": "observational",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0215",
+    "what_manipulated": "observer age",
+    "what_measured": "estimated age of ambiguous figure (young/old woman bistable image)",
+    "experiment": "Units (393 USA participants via Mechanical Turk, ages 18-68) viewed the young/old lady ambiguous figure for 500 ms and estimated the woman's age in years. Median split divided observers into younger (≤30 years) and older (>30 years). Age estimates were compared via independent t-tests and correlation analysis between observer age and estimated age.",
+    "design": "observational or correlational",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0216",
+    "what_manipulated": "eccentricity (distance from fixation: 0°, 2°, 4°) and emotional valence (positive, neutral, negative)",
+    "what_measured": "accuracy and reaction time in categorizing facial emotional valence across parafoveal visual field locations",
+    "experiment": "Units (56 adults, ages 18-37; 51 in block-design, 37 in single-trial) performed two experiments with eye-tracking. In block-design, units judged the dominant valence in blocks of 8 faces presented at one eccentricity (0°, 2°, or 4°). In single-trial, units judged single faces at nine locations. Two-way repeated-measures ANOVAs (eccentricity × valence) tested main effects and interactions on accuracy and response times, with post-hoc Bonferroni-corrected comparisons.",
+    "design": "within-subjects",
+    "manipulation": "observational",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0217",
+    "what_manipulated": "gameplay of misinformation-detection game (Bad News game exposing six fake-news strategies)",
+    "what_measured": "perceived reliability of tweets and headlines using misinformation strategies, rated on 7-point scale before and after gameplay",
+    "experiment": "Units (N≈14,000-15,000 self-selected participants via online link; N=14,266 with complete pre-post data) played a 15-minute browser game teaching six misinformation techniques (impersonation, emotional content, polarization, conspiracy, deflection, trolling). Pre-post paired t-tests (five treatment items plus two control items) compared reliability ratings before and after gameplay. One-way repeated-measures MANOVA followed by univariate tests with Bonferroni correction (α=0.01) tested main effect of gameplay.",
+    "design": "within-subjects",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0218",
+    "what_manipulated": "variation along orthogonal face dimensions (trustworthiness and dominance) generated from computer model",
+    "what_measured": "trait judgments of faces (trustworthiness, dominance, threat); emotional expression categorization (angry/happy); maturity and femininity/masculinity ratings",
+    "experiment": "Units (N=327 in initial trait-rating studies; N=75-84 in subsequent studies) judged 66 standardized faces on 14 trait dimensions, which were submitted to principal components analysis. A 2D model was built using laser-scanned faces, creating 300 computer-generated faces varying orthogonally on trustworthiness and dominance. Separate groups validated the model via judgment tasks and categorization studies. F-tests for linear/quadratic trends examined sensitivity of dimensions to facial cues (expression, maturity, masculinity).",
+    "design": "within-subjects",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0219",
+    "what_manipulated": "syntactic category structure of word sequences (noun-noun-verb vs. verb-noun-noun patterns) and whether patterns matched plausible syntactic templates",
+    "what_measured": "participants' ability to detect and generalize repetition patterns in three-word sequences",
+    "experiment": "Units (160 participants; 20 per experiment except Hungarian speakers) listened to 40 familiarization triplets conforming to a repetition pattern (AAB or ABB) over syntactic categories (nouns/verbs or adjectives) or nonsyntactic categories (animals/clothes). After familiarization, units chose between new test triplets matching or mismatching the learned pattern in forced-choice trials. Binomial tests and t-tests assessed performance against chance (50%); post-hoc within-subject comparisons examined differential performance on trial types.",
+    "design": "within-subjects",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "on-request"
+  }
+]

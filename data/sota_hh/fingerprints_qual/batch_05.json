@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1037/0022-3514.94.4.560",
+    "phenomenon": "alignment of thought and feeling during cognitive tasks",
+    "constructs": "affective-coherence conceptual-experience embodiment cognition",
+    "claim": "coherence between affective concepts and experiential states enhances cognitive performance through epistemic validation of emotional concepts.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.1.60",
+    "phenomenon": "suppression of automatic social biases by egalitarian individuals",
+    "constructs": "conflict-monitoring self-control motivation automaticity",
+    "claim": "neural markers of conflict detection explain variability in racial-bias regulation among low-prejudice people.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.1.1",
+    "phenomenon": "attitudinal change following commitment to decisions",
+    "constructs": "approach-motivation neural-activation decision-commitment attitude-polarization",
+    "claim": "approach-oriented neural processes in left frontal cortex drive attitude change through post-decisional commitment mechanisms.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.4.600",
+    "phenomenon": "strategic communication during negotiation",
+    "constructs": "emotional-display signaling credibility bargaining-structure reciprocity",
+    "claim": "anger's negotiating advantage depends on structural conditions where threats of rejection are credible and deception risk is low.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.95.2.420",
+    "phenomenon": "self-fulfilling cycles of relational doubt and vulnerability expression",
+    "constructs": "expressed-emotion reflected-appraisal authenticity-doubt rejection",
+    "claim": "expressing vulnerability leads partners to seem inauthentic, perpetuating insecurity through perceived rejection and disconfirmation.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.4.647",
+    "phenomenon": "bias in perceiving partner caring when one feels caring",
+    "constructs": "projection empathic-accuracy relationship-promotion felt-responsiveness",
+    "claim": "people project their own communal care onto partners, biasing perception in ways that reinforce relationship investment and continued care.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.1.158",
+    "phenomenon": "emotional complexity triggered by awareness of ending",
+    "constructs": "time-awareness mixed-affect life-transitions temporal-finitude",
+    "claim": "awareness of meaningful endings generates mixed joy-and-sadness because temporal constraints heighten appreciation while intensifying loss awareness.",
+    "narrative": "new-mechanism",
+    "scope": "specific-population",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.1.48",
+    "phenomenon": "effort modulation visible in temporal fluctuation patterns",
+    "constructs": "1f-noise effort-exertion implicit-measures stereotype-inhibition",
+    "claim": "cognitive effort reduces 1/f noise in reaction-time latencies, providing a physiological signature of bias-control attempts.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.4.579",
+    "phenomenon": "assimilation versus contrast in social comparison",
+    "constructs": "processing-scope category-inclusion mental-abstraction judgment-direction",
+    "claim": "global processing encourages category inclusion and assimilation while local processing encourages exclusion and contrast effects.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.3.495",
+    "phenomenon": "willingness to forgive based on self-perceived capacity for transgression",
+    "constructs": "self-recognition transgression-similarity empathy-induction forgiveness",
+    "claim": "seeing oneself as capable of similar wrongdoing increases forgiveness through reduced severity perception and identity overlap with transgressor.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.3.516",
+    "phenomenon": "cross-cultural recognition of nonverbal emotional expression",
+    "constructs": "emotion-recognition nonverbal-display cultural-universals pride",
+    "claim": "pride expression recognition generalizes across isolated and diverse cultures, suggesting a human-universal emotion.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.4.672",
+    "phenomenon": "independence of reasoning fallacies from intelligence",
+    "constructs": "heuristic-biases cognitive-ability rationality decision-making",
+    "claim": "most classic thinking biases show no correlation with cognitive ability except for probability judgment and belief biases.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.2.94.2.196",
+    "phenomenon": "attitude persistence following value-congruent message exposure",
+    "constructs": "value-importance message-processing involvement attitude-strength",
+    "claim": "considering messages in light of important values increases processing depth and resistance through personal involvement rather than value expression.",
+    "narrative": "incremental-extension",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.5.871",
+    "phenomenon": "willingness to publicly express opinions deviating from group norms",
+    "constructs": "normative-deviance opinion-expression pride social-conformity",
+    "claim": "descriptive deviants voice opinions more than prescriptive deviants because superior non-conformity elicits pride and reduces marginality feelings.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.2.183",
+    "phenomenon": "motivation fluctuation based on progress framing",
+    "constructs": "goal-commitment progress-focus temporal-perspective motivation-regulation",
+    "claim": "when commitment is low, emphasizing accomplishments increases motivation; when commitment is high, emphasizing remaining work maintains adherence.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.3.396",
+    "phenomenon": "attitude polarization following planning and commitment",
+    "constructs": "planning-mindset decision-implementation attitude-extremity information-selectivity",
+    "claim": "planning decisions creates stronger attitudes through selective focus on confirming information and reduced ambivalence.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.1.116",
+    "phenomenon": "willingness to reconcile in conflict",
+    "constructs": "threat-perception status-restoration moral-restoration social-exchange",
+    "claim": "victims and perpetrators harbor different psychological threats; reconciliation requires addressing status threats for victims and moral-image threats for perpetrators.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.2.94.2.231",
+    "phenomenon": "preference for decision-consistent versus inconsistent information post-decision",
+    "constructs": "selective-exposure decision-confirmation information-quantity criterion-salience",
+    "claim": "with abundant information, decision-makers seek consistent input; with scarce information they seek inconsistent input due to different salient criteria.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.3.382",
+    "phenomenon": "susceptibility to confirmation bias under cognitive resource depletion",
+    "constructs": "ego-depletion confirmatory-processing commitment-salience information-search",
+    "claim": "depleted self-regulation heightens confirmatory bias through increased commitment motivation rather than reduced cognitive capacity.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.1.91",
+    "phenomenon": "interracial avoidance behavior under identity threat",
+    "constructs": "stereotype-threat spatial-distancing identity-threat interracial-contact",
+    "claim": "threat of appearing racist ironically increases White-Black distancing, a paradox mediated by stereotype activation and threat awareness.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-population",
+    "stance": "bold-claim"
+  }
+]

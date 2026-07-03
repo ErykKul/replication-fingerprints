@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0311",
+    "what_manipulated": "exposure to limited-quantity scarcity promotion (vs. control promotion)",
+    "what_measured": "aggressive behavior (shooting, punching, physical assault, preference for violence)",
+    "experiment": "Participants viewed promotional advertisements manipulating scarcity (limited quantity vs. control/abundance). Aggression was measured via shooting game (bullets fired), boxing game (punches), vending machine assault, or preference for violent video games. Mechanism: perceived competitive threat and testosterone elevation. Design varied by study: video games (labs), real vending machine (physical setting), testosterone via saliva samples, mediation via threat perception.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0312",
+    "what_manipulated": "color saturation of objects (high vs. low saturation, holding hue and value constant)",
+    "what_measured": "perceived size of objects; attention (eye tracking, self-report); arousal (pupil dilation); product evaluation; willingness to pay; quantity served; perceived environment size",
+    "experiment": "Participants viewed objects (cubes, spheres, laptops, suitcases, ottoman) with high vs. low saturation, identical hue and value. Size estimates collected via visual estimation, forced choice, or verbal magnitude assignment. Attention measured via eye tracking (fixation duration, first fixation) or self-report scales. Arousal inferred from pupil dilation and self-reported affect. Downstream effects: evaluations and willingness-to-pay depended on usage goals (large vs. small); quantity serving in cups; room ceiling height perception.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0313",
+    "what_manipulated": "product rating distribution shape (bimodal/polarizing vs. unimodal/non-polarizing; self-expressive attribute vs. neutral attribute); self-concept clarity threat (chronic disposition vs. temporary manipulation); consumption context (self-expressive vs. functional); identity expression level (individual vs. group)",
+    "what_measured": "perceived self-expressiveness of products; product desirability; preference for polarizing products; willingness to pay",
+    "experiment": "Across eight studies, participants evaluated products with different rating distributions (bimodal showing extreme opinions vs. unimodal showing averaged opinions) presented via rating histograms or scenarios. Self-expressiveness measured via rating items. Low self-concept clarity manipulated via threat induction or measured dispositionally. Desirability assessed via preference scales and willingness-to-pay. Mediation via perceived self-expressiveness. Moderation by attribute type (style vs. quality), context (self-expressive vs. functional consumption), and identity level (individual vs. group).",
+    "design": "mixed",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0314",
+    "what_manipulated": "none; observational and correlational design with measurement of perceived financial well-being dimensions and antecedents/consequences",
+    "what_measured": "current money management stress; expected future financial security; overall well-being; job satisfaction; physical health; relationship support; financial behaviors (savings, debt, credit management); financial literacy; financial self-efficacy",
+    "experiment": "Mixed-methods with consumer narratives (qualitative), three large-scale survey studies for scale development, one large correlational survey linking perceived financial well-being dimensions to overall well-being and life domains, and two experiments testing antecedents (financial literacy, self-efficacy) and moderators (income group). Perceived financial well-being operationalized as two latent constructs: stress about current management and confidence in future security. Outcomes measured via established well-being scales (Brief Inventory of Thriving) and life satisfaction across domains.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0315",
+    "what_manipulated": "self-construal (independent vs. interdependent, primed or measured); group size (small vs. large, for whom choice is made); product category (wine, books, movies)",
+    "what_measured": "choice for self and group; incorporation of others' preferences into joint consumption decisions; attention to others (eye tracking in some studies)",
+    "experiment": "Six studies examining unilateral choices made on behalf of the self and multiple others in joint consumption contexts (e.g., selecting wine for the table). Self-construal manipulated via priming or measured dispositionally. Group size varied (e.g., small group of 3-4 vs. large group of 10+). Choices assessed via selection tasks, preference ratings, or allocations. Attention to others measured via visual fixation patterns or mediational analysis. Hypothesis: interdependents balance self and others regardless of group size; independents balance in small groups but prioritize self in large groups, mediated by attention.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0316",
+    "what_manipulated": "self-concept clarity (measured as individual difference in survey; manipulated as threat in experiments); subscription identity relevance (identity-relevant vs. neutral subscriptions); choice type (subscription retention vs. acquisition vs. one-time product purchase)",
+    "what_measured": "likelihood of retaining unused subscriptions; willingness to acquire new subscriptions; self-diagnosticity of choices; number of unused subscriptions owned in natural setting",
+    "experiment": "Six studies combining correlational survey data (1,150 participants reporting unused subscriptions and self-concept clarity) and five experiments with within-subject designs. Low self-concept clarity operationalized as stable trait (dispositional measure) and as state threat (temporary manipulation). Dependent measures: retention/cancellation choice, acquisition choice, monetary willingness-to-pay, self-diagnostic ratings. Boundary conditions: identity-relevance of subscription (health club, language program vs. wholesale club) and choice signal strength (ongoing subscription vs. one-time purchase). Theory: low clarity motivates maintaining identity stability by retaining identity-linked subscriptions but avoiding new ones.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "preregistered-with-power",
+    "transparency": "none"
+  }
+]

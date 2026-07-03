@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+# Script to run using send-command to start the R code on EC2 instance
+
+# THIS SCRIPT SHOULD BE RAN ON THE SERVER NOT LOCALLY
+
+# Download data
+aws s3 sync s3://my-pr-bucket/predicting-replication predicting-replication
+cd predicting-replication/code || exit
+
+Rscript nested_cv.R
+
+# Save logs to S3
+aws s3 cp nested_cv_output.log.txt s3://my-pr-bucket/logs/nested_cv_output.log.txt
+aws s3 cp nested_cv_message.log.txt s3://my-pr-bucket/logs/nested_cv_message.log.txt
+
+# Upload results
+cd ../.. || exit
+aws s3 sync predicting-replication s3://my-pr-bucket/predicting-replication --exclude "*.log.txt"

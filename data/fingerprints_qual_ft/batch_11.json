@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0074",
+    "phenomenon": "diagnosticity-contingent attribution bias",
+    "constructs": "behavioral evidence strength constraint salience situational inference",
+    "claim": "Spontaneous causal reasoning about situational constraints reduces dispositional attribution bias when behavior provides weak evidence of intent.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0075",
+    "phenomenon": "trait-behavior prediction via multiple measures",
+    "constructs": "construct validity method variance behavioral criteria generalization",
+    "claim": "Personality trait measures show convergent validity and replicated behavioral prediction across different assessment formats despite structural differences.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0076",
+    "phenomenon": "inspiration as trait motivational capacity",
+    "constructs": "evocation transcendence motivation approach activation",
+    "claim": "Inspiration is a distinct motivational disposition toward perceiving and pursuing transcendent qualities independent of related constructs like openness or positive affect.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0077",
+    "phenomenon": "cognitive impairment from regulatory depletion",
+    "constructs": "executive control resource limitation task complexity automaticity",
+    "claim": "Higher-order cognition requiring volitional control depends on a limited resource that is consumed by prior self-regulatory acts, while automatic processes remain unaffected.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0078",
+    "phenomenon": "evaluation-mode-dependent utility functions",
+    "constructs": "joint-evaluation separate-evaluation reference-point sensitivity context-dependence",
+    "claim": "The perceived importance of attribute differences varies radically depending on whether alternatives are compared jointly or experienced separately, creating systematic misprediction and mischoice.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0079",
+    "phenomenon": "counterfactual asymmetry in memory and belief",
+    "constructs": "regret affect accessibility action-inaction asymmetry illusory correlation",
+    "claim": "More intense regret from action-turned-wrong than inaction-when-should-act creates greater memory availability for the former, biasing beliefs about strategy effectiveness.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

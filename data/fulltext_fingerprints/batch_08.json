@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0241",
+    "what_manipulated": "belief in free will (weakened via anti-free-will text vs. control)",
+    "what_measured": "correspondence bias in attributing others' behavior to internal vs. external factors",
+    "experiment": "Across six studies, participants read essays or scenarios and rated protagonists' behavior attribution. Studies 1-3 varied free-will belief (measured in correlational studies 1-2, manipulated in 3a-3b via reading passages from Crick's anti-free-will text). Study 4 assessed whether correspondence bias mediated the relationship between free-will belief and prescribed punishment/reward. Participants rated importance of internal vs. external factors on 7-point scales; analysis used correlation, ANOVA, and mediation analysis.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "preregistered-with-power",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0242",
+    "what_manipulated": "evolutionary strategy in repeated theft/punishment game (rigid vs. flexible theft and punishment strategies)",
+    "what_measured": "prevalence and evolutionary stability of rigid punishment vs. flexible theft in agent-based simulations and behavioral experiments",
+    "experiment": "Evolutionary game-theoretic model analyzed two equilibria (familiar: rigid punishment, flexible theft; inverted: rigid theft, flexible punishment) across parameter space. Agent-based Moran simulations tested evolution with 10^3 generations. Reinforcement learning (Q-learning) simulations modeled multiagent learning with parameters varying s, c, p. Behavioral experiment (n=100 from MTurk) had units play steal/punish game against pre-committed rigid opponents; analysis used mixed-effects models on choice sequences.",
+    "design": "mixed",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0243",
+    "what_manipulated": "whether victim is perceived as having human capacities (agency, experience, moral emotions) via vignette descriptions and drone-strike framing (instrumental vs. moral contexts)",
+    "what_measured": "willingness to harm victims and support for violent practices; reverse: humanization of victims when contemplating moral harm",
+    "experiment": "Five studies tested dehumanization (denial of cognitive/emotional capacities) and instrumental vs. moral violence. Exp 1 (n=187): attitude survey on sweatshops/experiments (instrumental) vs. capital punishment/war (moral); dehumanization measured via agency, experience, emotion capacities. Exp 2 (n=101): drone strikes framed as civilian collateral (instrumental) vs. terrorist deaths (moral). Exp 3 (n=363): vignette, units imagine breaking stranger's thumb for money (instrumental) vs. immoral behavior (moral), stranger described humanized vs. dehumanized. Exp 4-5: reverse causality—units imagine harm then rate stranger's humanity. Analysis: correlations, ANOVA, logistic regression.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0244",
+    "what_manipulated": "exposure to information about rising economic inequality vs. neutral control (and in Study 2, follow-up rags-to-riches information vs. neutral control)",
+    "what_measured": "beliefs about opportunity (structural factors like family wealth vs. individual factors like hard work); support for government and business responsibility to reduce inequality",
+    "experiment": "Three studies exposed units to realistic inequality article or control (baseball) article. Study 1 (n=480 MTurk, convenience): units read article, rated opportunity beliefs on 5-point scales (4 items measuring structural/individual factors). Study 2 (n=1305, MTurk): three conditions (inequality alone, inequality + rags-to-riches, control); same opportunity measure. Study 3 (n=1501, nationally representative via TESS): inequality vs. control, plus policy responsibility questions (7-point scales). Analysis: OLS regression on opportunity beliefs and policy support; mediation analysis (bootstrapping, 5000 resamples) tested whether opportunity beliefs mediated treatment effects on policy.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0245",
+    "what_manipulated": "whether digital content is shared temporarily (disappears after 24h) vs. permanently; vignette descriptions of uninhibited vs. discreet selfies",
+    "what_measured": "willingness to take/share selfies; disinhibition in selfies (silly faces, gestures, props, nudity); observer impressions of sharer's judgment; persistence of impressions over time",
+    "experiment": "Nine studies manipulated temporariness and disinhibition, tracked disclosure via field and online experiments. Study 1 (n=296, field): units approached on campus, asked to take selfie on 'Moment Machine' display; temporariness told vs. control. Selfies coded for disinhibition; raters judged sharer's judgment. Study 2 (n=428, MTurk): units took webcam selfie with temporariness or permanent framing; privacy concerns measured pre-selfie; separate raters (n=71) judged sharer. Studies 3-7 tested observer attributions and persistence: units viewed selfies with/without temporariness information and rated sharer's judgment; longitudinal follow-up at 1-2 days (Study 5); friend vs. stranger manipulation (Studies 7A/7B). Analysis: chi-square, t-tests, mixed-effects models, ANOVA.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0246",
+    "what_manipulated": "information search strategy—comparative (compare one attribute across options) vs. integrative (review one option across attributes) via unobtrusive 1000ms delay manipulation",
+    "what_measured": "intertemporal choice: preference for smaller-sooner vs. larger-later rewards; discount rate (implicit); susceptibility to acceleration vs. delay framing",
+    "experiment": "Two experiments tracked information search during intertemporal choice. Exp 1 (n=193, MTurk): units chose between smaller/sooner and larger/later monetary rewards using MouselabWEB (process-tracing; occluded information revealed by mouseover). Trials framed as acceleration or delay decisions. Search coded via transition patterns (Payne index); cluster analysis identified comparative vs. integrative searchers. Analysis: hierarchical logistic regression of choice on framing and strategy. Exp 2 (n=207, MTurk): same task but manipulated search ease—1000ms delay inserted after discouraged transitions (comparative-discouraging or integrative-discouraging conditions); manipulation check verified Payne index differed by condition. Analysis: hierarchical logistic regression; supplementary eye-tracking study validated process-tracing method.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  }
+]

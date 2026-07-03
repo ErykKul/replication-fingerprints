@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0008",
+    "what_manipulated": "cardinal direction (north vs. south) and socioeconomic status (high vs. low) information",
+    "what_measured": "perceived location of individuals in fictional city, living preferences, and valence associations",
+    "experiment": "Participants read descriptions of high- or low-SES individuals and marked estimated living locations on a fictional city map, or indicated their preferred living area. An implicit association task tested vertical direction-valence associations. Income estimation tasks primed awareness of real-world wealth distribution. Between-groups comparisons examined whether cultural demographic knowledge (Hong Kong vs. US) moderated cardinal direction-valence metaphoric associations.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0010",
+    "what_manipulated": "athlete's national identity (shared: Canadian-American vs. non-shared: Belgian-American) and performance outcome (win vs. loss)",
+    "what_measured": "perceived nationality of athlete and perceived similarity to athlete",
+    "experiment": "Participants read brief biography of fictional high-jumper with dual national identities and outcome information (medal win or no medal), then rated which nationality best described the athlete and how similar they felt to him across physical, academic, patriotic, and social dimensions. An archival study coded media references to Ben Johnson's nationality before and after his disqualification, counting Canadian versus Jamaican identity mentions across time periods.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0011",
+    "what_manipulated": "delay exposure (17.5-s delayed reinforcement vs. immediate reinforcement vs. no training control) across 120 training sessions",
+    "what_measured": "preference for smaller-sooner versus larger-later food rewards under increasing delays",
+    "experiment": "Rats in early adulthood were assigned to delay-exposure training (lever press yielding food after 17.5-s delay), immediacy-exposure training (same lever yielding immediate food), or no-training control. Pre- and post-training, all rats completed within-session increasing-delay assessments where lever choices between smaller-sooner and larger-later food options were measured at 0-, 15-, and 30-second delays. Maturation effects were separated from training effects by including no-training controls.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0012",
+    "what_manipulated": "stimulus preference category (five visual stimulus categories: monkeys, street art, sports cars, desk chairs, file cabinets) presented in randomized order",
+    "what_measured": "response force exerted on dynamometer to maintain visual clarity of preferred versus non-preferred stimuli",
+    "experiment": "Participants completed a verbal preference assessment identifying most and least preferred stimulus categories. Thereafter, each stimulus category was presented once in randomized order while participants squeezed a force dynamometer; increasing force maintained image clarity (conjugate schedule). Mean and peak force exerted for each stimulus category were rank-ordered and compared against preference rankings using chi-square tests and visual inspection.",
+    "design": "within-subjects",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0013",
+    "what_manipulated": "age group (younger: 18-42 vs. older: 44-75) as observed grouping and multiple intergenerational workplace climate dimensions (contact, retention, affect, inclusiveness, stereotypes)",
+    "what_measured": "intergenerational climate perceptions via Workplace Intergenerational Climate Scale across five subscales; convergent validity with stereotype measures; discriminant validity with job satisfaction",
+    "experiment": "Study 1: factor analysis on 23-item initial scale across 256 employees to identify subscales. Study 2: confirmatory factor analysis on refined 20-item scale across 573 employees tested five-factor model fit versus alternatives; convergent validity tested via merged versus separate latent variable models comparing WICS to stereotype scales separately for younger and older subgroups; discriminant validity tested against job satisfaction. Study 3: employed diverse occupational sample to validate criterion relationships.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "many-exploratory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0015",
+    "what_manipulated": "five-factor personality model dimensions (neuroticism, extraversion, conscientiousness, openness, agreeableness) and gender as moderator",
+    "what_measured": "body mass index, waist circumference, and waist-to-hip ratio at baseline and ~44 months follow-up",
+    "experiment": "Prospective two-wave design with large employed sample. At T1, participants completed Big Five Mini-Marker personality assessment and underwent staff-assessed body measurements (BMI, WC, WHR). At T2 (~44 months later), same measurements repeated. OLS regression tested cross-sectional associations between personality and body weight at T1, and longitudinal associations with change from T1 to T2, controlling for age, education, and chronic disease. Gender interactions tested separately for younger and older subgroups. No manipulation; personality predisposed to weight outcomes.",
+    "design": "longitudinal",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  }
+]

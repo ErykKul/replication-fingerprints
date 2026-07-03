@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1037/pspi0000121",
+    "phenomenon": "persuasion and ideological resistance",
+    "constructs": "temporal-framing nostalgia ideological-positioning appeal-channel",
+    "claim": "Attaching outgroup ideas to a valued past state reduces resistance compared to a future state appeal, because the resistance stems from preference-style rather than content-disagreement.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/xge0000064",
+    "phenomenon": "self-conception across time",
+    "constructs": "temporal-perspective mind-attribution rationality-emotionality self-judgment",
+    "claim": "People ascribe emotional minds to past selves and rational minds to future selves, treating change as moving from feeling-based to reason-based, with distinct motivational consequences.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/xge0000157",
+    "phenomenon": "replication and evidence evaluation",
+    "constructs": "meta-analysis selection-bias reporting-practices research-reliability",
+    "claim": "Simple vote-counting of replication successes is misleading without meta-analytic tools to detect selection bias and p-hacking distortions.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/xge0000466",
+    "phenomenon": "belief formation under uncertainty",
+    "constructs": "learning-limits selective-attention false-belief environmental-adaptation",
+    "claim": "Selective attention, though typically beneficial for learning, creates stable false beliefs when the selective mechanism repeatedly misses the true pattern.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/xge0000738",
+    "phenomenon": "moral-cynicism emergence and persistence",
+    "constructs": "disrespect cynical-belief feedback-loop moral-judgment",
+    "claim": "Disrespect and cynicism form a bidirectional vicious cycle: experiencing disrespect generates cynicism which elicits further disrespect from others.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1038/nn1979",
+    "phenomenon": "ideological orientation and neural processing",
+    "constructs": "cognitive-style conflict-monitoring neural-response political-orientation",
+    "claim": "Liberalism is associated with greater neural sensitivity to conflict cues, reflecting heightened responsiveness to informational complexity.",
+    "narrative": "incremental-extension",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1038/oby.2005.12",
+    "phenomenon": "consumption regulation via visual feedback",
+    "constructs": "perceptual-cue portion-size intake-estimation self-monitoring",
+    "claim": "People rely on visual portion cues to regulate intake rather than stomach signals; disrupting visual accuracy increases consumption without subjective satiation changes.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1038/s41598-017-10669-4",
+    "phenomenon": "social-cognition aging trajectories",
+    "constructs": "cognitive-aging affective-aging theory-of-mind empathy",
+    "claim": "Socio-cognitive abilities (theory of mind, metacognition) decline with age while socio-affective capacities (empathy, compassion) remain stable or strengthen.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1038/s41598-018-31129-7",
+    "phenomenon": "perceptual interpretation via social identity",
+    "constructs": "age-bias in-group processing subconscious-perception ambiguous-stimulus",
+    "claim": "Social group membership (own-age bias) unconsciously shapes the interpretation of ambiguous perceptual input, revealing high-level effects on early perception.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1038/s41598-022-24919-7",
+    "phenomenon": "emotion-recognition across visual space",
+    "constructs": "eccentricity emotional-valence facial-expression peripheral-vision",
+    "claim": "Positive and negative emotion perception degrade differentially with distance from gaze; negative emotions are more vulnerable to peripheral-vision degradation.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1057/s41599-019-0279-9",
+    "phenomenon": "resistance to misinformation via exposure",
+    "constructs": "psychological-inoculation misinformation-technique digital-literacy intervention",
+    "claim": "Pre-exposure to misinformation production techniques (via gameplay) confers cognitive immunity, reducing susceptibility irrespective of demographics or cognitive style.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1073/pnas.0908963106",
+    "phenomenon": "obligatory perceptual interpretation blocking pattern detection",
+    "constructs": "syntactic-parsing perceptual-dominance pattern-learning automaticity",
+    "claim": "The syntactic parsing system obligatorily imposes linguistic structure on input, preventing detection of simpler statistical patterns that conflict with syntax.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1103343108",
+    "phenomenon": "identity-salience and motivated behavior",
+    "constructs": "self-concept linguistic-framing identity-affirmation behavioral-motivation",
+    "claim": "Subtle linguistic cues reframing behavior as personal identity (versus action) increase motivation and actual behavior (voting) by invoking self-concept management.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1118373109",
+    "phenomenon": "social-status and ethical reasoning",
+    "constructs": "social-class unethical-behavior greed-attitude moral-judgment",
+    "claim": "Higher social class predicts unethical conduct across diverse domains; entitlement-related greed attitudes partially explain this disparity.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1216438110",
+    "phenomenon": "language-comprehension under uncertainty",
+    "constructs": "bayesian-inference noisy-channel semantic-constraint perception-error",
+    "claim": "Humans rationally integrate noisy sensory input with semantic expectations using principles consistent with optimal statistical inference over corrupted signals.",
+    "narrative": "incremental-extension",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1501592112",
+    "phenomenon": "moral-judgment and blame motivation",
+    "constructs": "intentionality harm-magnification moral-motivation cognitive-persistence",
+    "claim": "Perceived intentional harm catalyzes a motivated blaming process (effort, persistence) distinct from merely rating the act as blameworthy.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1505067112",
+    "phenomenon": "third-party intervention in dyadic conflict",
+    "constructs": "conflict-resolution third-party cooperation intervention-incentive self-interest",
+    "claim": "Third parties motivated by self-interest promote cooperation in conflict by transforming the game structure; reduced risk to third parties increases intervention.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1508932113",
+    "phenomenon": "nonverbal signaling and romantic attraction",
+    "constructs": "postural-expansion dominance-display physical-presence mate-selection",
+    "claim": "Postural expansiveness (body-opening in space) predicts romantic attraction because it communicates dominance, influencing rapid attraction judgments.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1511536112",
+    "phenomenon": "resource-distribution and prosocial motivation",
+    "constructs": "economic-inequality income-class entitlement generosity-context",
+    "claim": "Higher-income individuals are less generous only when inequality is high; inequality-driven entitlement suppresses generosity.",
+    "narrative": "context-effect",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1516047113",
+    "phenomenon": "racial-bias in clinical judgment",
+    "constructs": "false-belief biological-essentialism pain-assessment racial-stereotype",
+    "claim": "Endorsement of false biological differences between racial groups predicts lower pain ratings and poorer treatment recommendations for black patients.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  }
+]

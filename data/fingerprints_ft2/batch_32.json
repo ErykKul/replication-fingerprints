@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0237",
+    "what_manipulated": "subjective socioeconomic status (felt social standing via ladder task)",
+    "what_measured": "food preferences, appetite, caloric intake",
+    "experiment": "Participants ranked themselves on a ladder comparing to richer/poorer peers or control, then made meal choices, rated implicit food preferences, consumed snacks ad libitum, or ate a meal to satiation. All compared low vs. high vs. neutral socioeconomic status manipulations.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0238",
+    "what_manipulated": "temporal comparison direction (past vs. future environmental framing)",
+    "what_measured": "environmental attitudes, proenvironmental behaviors, monetary donations",
+    "experiment": "Participants read or viewed environment-related messages or photos comparing present to past (or future), then rated environmental attitudes or allocated donations to charities. A meta-analysis synthesized studies 1-6 for effect sizes across conditions and participant ideologies (conservative vs. liberal).",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "many-exploratory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0239",
+    "what_manipulated": "presence and saliency of thank-you gifts in fundraising solicitations",
+    "what_measured": "donation rates and donation amounts",
+    "experiment": "Field: donors randomly assigned to receive standard solicitation letter with/without colorful gift insert (swag or prosocial meal gift) or control; donation rate by mail recorded. Online: participants rated likelihood of watching science videos paired with low/high visual salience gift images; donation to Red Cross measured.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0240",
+    "what_manipulated": "facial appearance traits (competence, morality, sociability, attractiveness) of scientists",
+    "what_measured": "interest in scientist's work, perception of research quality, selection of science news items",
+    "experiment": "Studies 1-2: Participants rated scientist faces on traits and judged interest/quality. Studies 3-4: Participants chose real science news paired with low/high interest-rated faces. Studies 5-6: Participants read real science news paired with low/high quality-rated faces, rated research quality. Predictors standardized; mixed-effects models estimated trait effects.",
+    "design": "between-subjects",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0241",
+    "what_manipulated": "belief in free will (weakened by reading anti-free-will passage vs. control text)",
+    "what_measured": "correspondence bias (internal vs. external causal attribution), prescribed punishment/reward for others' behavior",
+    "experiment": "Studies 1-2: Participants read essays on controversial issues, rated author's position; measured free will belief. Studies 3a-3b: Participants assigned to anti-free-will or control text, then rated causal attributions for scenario behaviors. Study 4: Measured correspondence bias, locus of control, judgment certainty; tested mediation to prescribed punishment/reward. Correlations and experimental effects reported.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "preregistered-with-power",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0242",
+    "what_manipulated": "learning algorithm vulnerability and cost of punishment in stealing/punishment games",
+    "what_measured": "persistence in rigid punishment vs. flexible theft, evolved intrinsic biases for stealing/punishing",
+    "experiment": "Evolutionary game-theory analysis and simulations: modeled thief and victim with flexible/rigid strategies; Q-learning agents played repeated steal/punish game; Moran process simulated evolution over populations. Behavioral experiment: humans randomly assigned to thief/victim role, played repeated game against fixed opponents; tracked theft and punishment rates by round.",
+    "design": "between-subjects",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  }
+]

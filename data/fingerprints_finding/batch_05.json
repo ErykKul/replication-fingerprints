@@ -1,0 +1,82 @@
+[
+  {
+    "doi": "10.1037/0278-7393.34.1.167",
+    "finding": "Adaptive learning representations depend on the structure of the environment; Bayesian learning processes interfere with task diagnosticity whereas decision-making facilitates it."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.186",
+    "finding": "Two search strategies for information sampling each bias inferences in opposite directions: one strategy yields unbiased inferences for some hypotheses but biased inferences for others."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.219",
+    "finding": "A feature-based model predicts appropriate effect-size distributions and reversal patterns in immediate memory without requiring strategic changes in encoding or storage buffer deployment."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.230",
+    "finding": "Items previously subjected to retrieval-induced forgetting benefit more from relearning than items not previously forgotten."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.237",
+    "finding": "Intermixed exposure to similar stimuli improves discriminability relative to blocked exposure, but this effect is not explained by trial spacing."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.243",
+    "finding": "Phonological similarity between to-be-remembered items and irrelevant sounds disrupts free recall but not serial recall when category-cueing processes determine retrieval."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.249",
+    "finding": "Semantic interference emerges both when responses are produced immediately and when responses are delayed, but frequency effects only appear in immediate responding."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.50",
+    "finding": "Phonological processes used during reading aloud change adaptively across trials in response to predictable changes in stimulus category."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.80",
+    "finding": "Learners acquire the relations they actively attend to regardless of spatial contiguity; joint attentional processing is sufficient for associative learning."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.97",
+    "finding": "Priming dissociates from recognition and occurs without recognition; a single-system model accounts for this and other apparent evidence for multiple systems."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.2.302",
+    "finding": "Bilinguals do not differ from monolinguals in active inhibition but show stronger reactive inhibition and better ability to maintain and use action goals."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.2.343",
+    "finding": "Semantic relations between prime words automatically coordinate with the structure of arithmetic operations: addition facts are obligatorily activated only when primes denote aligned relations."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.2.353",
+    "finding": "Activation spreads continuously from concepts to phonological forms during production; the amount of activation is limited and task-dependent, as shown by asymmetric distractor effects."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.2.369",
+    "finding": "Retrospectively orienting attention to a single item in visual working memory reduces interference from test probes and increases resistance to updating."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.2.399",
+    "finding": "Visual statistical learning operates over objects when feature dimensions covary perfectly, and over features when they are partially decoupled."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.2.408",
+    "finding": "Directed forgetting is stronger for items strengthened via spaced presentations (context-based strengthening) than for items strengthened via processing time or depth (item-based strengthening)."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.2.430",
+    "finding": "Numbers in different notational systems are automatically translated into a common magnitude representation during comparison and same-different judgments."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.3.439",
+    "finding": "Serial position functions for intrusion probes are parallel to those for positive probes, supporting a dual-process model with two retrieval routes."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.3.460",
+    "finding": "Activated stereotypes and expectations at retrieval spontaneously generate illusory recollections consistent with those expectations, reported with subjective remembering."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.3.478",
+    "finding": "Task switching imposes additional working memory costs; this cost scales with the number of switches and is independent of item maintenance load."
+  }
+]

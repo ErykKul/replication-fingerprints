@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0193",
+    "phenomenon": "Contextual shock triggers disposition shift",
+    "constructs": "psychological malleability environmental causation trait change life events",
+    "claim": "Psychological traits treated as fixed actually respond to severe environmental circumstances, challenging nature-focused personality theory.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0194",
+    "phenomenon": "Multi-agent action corepresentation",
+    "constructs": "motor simulation multiagent social cognition action encoding ideomotor",
+    "claim": "Motor system integrates multiple agents' actions into unified motor representations, with identical actions amplifying and conflicting actions canceling effects.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0209",
+    "phenomenon": "Null result explains published effect accumulation",
+    "constructs": "publication bias p-hacking selection bias evidence quality research practices",
+    "claim": "Large body of published supporting evidence for an effect can coexist with true null effect if selection bias and reporting practices systematically exclude contradictory results.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0212",
+    "phenomenon": "none",
+    "constructs": "none",
+    "claim": "none",
+    "narrative": "none",
+    "scope": "none",
+    "stance": "none"
+  },
+  {
+    "paper_id": "p0214",
+    "phenomenon": "Dissociable cognitive-affective aging trajectories",
+    "constructs": "aging theory-of-mind metacognition empathy social selectivity",
+    "claim": "Cognitive social capacities decline with age while affective social capacities remain stable or enhance, reflecting strategic emotional prioritization in older adulthood.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0215",
+    "phenomenon": "Social group membership biases preconscious perception",
+    "constructs": "own-age bias social groups perception holistic processing subconscious",
+    "claim": "High-level age-based group identity influences low-level face perception without awareness, demonstrating top-down social effects penetrate early sensory processing.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

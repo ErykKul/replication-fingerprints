@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0177",
+    "phenomenon": "body-salience and mind redistribution",
+    "constructs": "agency experience dualism objectification",
+    "claim": "Focusing on body does not remove mind but reallocates perceived capacities from rational agency to emotional experience.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0178",
+    "phenomenon": "memory integration and identity continuity",
+    "constructs": "episodic-memory autobiography self-definition satisfaction",
+    "claim": "Experiences define self through autobiographical integration while possessions remain external, explaining superior hedonic value.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0179",
+    "phenomenon": "embodied metaphor of psychological burden",
+    "constructs": "secrecy sensorimotor-simulation metaphor perception-action",
+    "claim": "Important secrets activate physical-burden metaphor, shifting perception and behavior as if person carries actual weight.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0181",
+    "phenomenon": "metacognitive correction of egocentrism",
+    "constructs": "experience-based-judgment theory-based-judgment egocentrism awareness",
+    "claim": "Recognition of contaminated knowledge triggers shift from intuitive to analytic judgment, improving accuracy for others without increasing latency.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0183",
+    "phenomenon": "concept priming and ideology shift",
+    "constructs": "symbol-activation free-market-belief system-justification inequality",
+    "claim": "Money primes shift beliefs toward free-market legitimacy and acceptance of inequality as fair market outcome.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0184",
+    "phenomenon": "overconfidence drives status through behavioral signaling",
+    "constructs": "self-perception confidence behavioral-cues status competence-inference",
+    "claim": "Biased self-confidence produces behavioral displays that lead observers to perceive competence, conferring higher status independent of actual ability.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0164",
+    "phenomenon": "automatic priming of behavior-congruent concepts during media exposure",
+    "constructs": "content-congruence accessibility mediation motivation",
+    "claim": "Stimulus content activates goal-congruent knowledge which subsequently guides behavior independent of reward structure or explicit instruction.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0165",
+    "phenomenon": "socioeconomic-status-mediated achievement divergence across language groups",
+    "constructs": "family-resources opportunity-access linguistic-proficiency growth-heterogeneity",
+    "claim": "Apparent language-group differences in reading growth reflect confounded SES rather than language status when proficiency is held constant.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0166",
+    "phenomenon": "context-modulation of trait-based emotion-memory experiences",
+    "constructs": "autobiographical-salience emotional-intensity personality-moderation temporal-dynamics",
+    "claim": "Trait nostalgia proneness predicts emotion-memory intensity across contexts, but this baseline tendency is moderated by contextual retrieval cues and personality dimensions.",
+    "narrative": "incremental-extension",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0167",
+    "phenomenon": "sequence-dependent cognitive-control reconfiguration following high-demand task states",
+    "constructs": "task-demand memory-load interference-resistance trial-sequence performance-adaptation",
+    "claim": "Preceding high cognitive demands trigger upregulation of control processes that enhance subsequent performance, extending conflict-adaptation findings beyond response-conflict to maintenance and interference domains.",
+    "narrative": "incremental-extension",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0169",
+    "phenomenon": "inverse social-class relationship with prosocial resource allocation",
+    "constructs": "economic-dependence egalitarian-values compassion social-orientation",
+    "claim": "Lower social class individuals act more prosocially because economic dependence fosters egalitarian values and heightened compassion sensitivity.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0170",
+    "phenomenon": "temporal asymmetry in moral judgment consistency",
+    "constructs": "temporal-framing emotional-intensity fairness-judgment moral-judgment-inconsistency",
+    "claim": "Identical actions receive harsher moral judgment when imagined as future rather than past due to stronger anticipatory emotion, revealing systematic temporal inconsistency that disappears under direct comparison.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  }
+]

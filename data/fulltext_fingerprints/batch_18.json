@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0565",
+    "what_manipulated": "attentional orienting toward threatening facial expressions",
+    "what_measured": "reaction time to identify peripheral target letters as a measure of attention engagement and disengagement",
+    "experiment": "Units performed reaction-time tasks identifying letter targets on a screen while centrally presented faces conveyed different emotional expressions (angry, fearful, happy, or neutral). The spatial location of the target relative to the face (above, below, left, or right) tested disengagement from the central face. Experiment 1 used simple reaction times to targets with faces (n=14 GAD patients, 14 matched controls, 14 high trait anxiety). Experiment 2 used peripheral cuing and central gaze-cuing tasks (n=21 GAD patients, 21 controls) with a priori power calculation. Analyses: mixed ANOVAs with post-hoc contrasts compared reaction times across facial expressions and subject groups.",
+    "design": "between-subjects",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0569",
+    "what_manipulated": "provision of augmented feedback, external focus of attention instruction, and/or monetary reward",
+    "what_measured": "countermovement jump height and muscular activity of rectus femoris",
+    "experiment": "Eighteen athletic units performed maximal countermovement jumps under six conditions: neutral control, augmented feedback only, monetary reward only, augmented feedback plus external focus, augmented feedback plus reward, and augmented feedback plus external focus plus reward. Each condition was repeated (control condition 6 times; others 2 times each) in randomized order with 2-minute rest between sets. Feedback displayed achieved jump height on screen. Monetary reward scaled with jump height. External focus instruction directed attention to cord movement. One-way repeated-measures ANOVA compared jump heights across conditions; ground reaction forces, joint angles, and EMG activity analyzed separately.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0571",
+    "what_manipulated": "liability (requirement to provide sufficient quality), verifiability (ability to verify quality provided), reputation building opportunity, and seller competition",
+    "what_measured": "frequency of trade, market efficiency, undertreatment, overtreatment, overcharging, and posted prices",
+    "experiment": "936 units in 12 fixed seller-buyer pairs per session across 16 periods played full 2x2x2x2 factorial design: liability (present/absent), verifiability (present/absent), reputation building (present/absent), and competition (present/absent). In each period, sellers posted prices for two quality levels; buyers chose to trade or not; if trade occurred, nature determined quality needed, seller provided quality and charged a price. Trade volume and efficiency measured as actual profits versus theoretical maxima. Detailed behavioral measurement of treatment decisions and pricing strategies analyzed via Mann-Whitney U tests.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "many-exploratory",
+    "clarity": "clearly-operationalized",
+    "rigor": "preregistered-with-power",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0579",
+    "what_manipulated": "job design discretion (full vs limited), wage level, and screening opportunity (ability to observe employee past effort)",
+    "what_measured": "effort chosen by units, employer profits, job offer clustering (discrete/continuous), and wage-effort relationship",
+    "experiment": "Units as employers and employees (36 per session) interacted in 15-period employment game across three treatments: base (no past performance information), screening (signal of employee's last three periods' effort), and competition (employers compete for employees with good reputation). Each period, employer posted contract specifying wage and requested effort level; employee accepted/rejected and chose effort 1-10 if accepted. Full discretion contracts offered efficiency parameter b=5; limited discretion enforced minimum effort 3 and efficiency b=4. Effort regressions and profit analysis examined wage-effort relationships separately by contract type and reputation level; OLS with individual fixed effects and clustering.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0580",
+    "what_manipulated": "fundamental value process (declining vs constant) and cash-to-asset ratio dynamics (increasing vs constant)",
+    "what_measured": "asset prices, relative absolute deviation from fundamental value, and relative deviation (mispricing and overvaluation)",
+    "experiment": "Ten trading units in each market conducted 10-period continuous double-auction trading across six treatments in 2x2 design plus control variations. Treatments varied whether fundamental value declined monotonically to zero or remained constant, and whether cash-to-asset ratio increased 19-fold or stayed constant at 1. Key treatments: T1 declining FV + increasing C/A ratio (classic Smith, Suchanek, Williams replication); T3 declining FV + constant C/A ratio; T5 identical to T1 but with 'depletable gold mine' framing instead of 'stocks'; T6 T5 repeated twice with second round having higher dividend variance and initial C/A ratio. Price tracking and questionnaire understanding of FV process measured post-experiment via Mann-Whitney U tests.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0581",
+    "what_manipulated": "organ allocation priority rule (priority to registered donors vs standard waiting list), monetary rebate structure, and cost of registering as donor",
+    "what_measured": "decision to register as organ donor (binary choice across 31 rounds) and frequency of donation",
+    "experiment": "Three hundred eighty-four units in groups of 12 made organ donation registration decisions 31 times. Each unit began each round with one 'A unit' (brain) and two 'B units' (kidneys), earning $1 per period while healthy. A unit had 10% failure probability per period (end of round); B units had 20% failure probability. Donation decision made before period outcomes observed. Four conditions: control (standard waiting list), priority (donors get queue priority), rebate (donors receive expected-value-equivalent rebate at end), discount (lower cost for all donors). Four orders of conditions across 15+16 rounds tested. Linear probability models with subject-level clustering estimated effects of condition, second half of experiment, cost status, and receipt history on donation probability.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  }
+]

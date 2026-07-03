@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0041",
+    "phenomenon": "cultural-identity threat shapes political institutional trust",
+    "constructs": "identity-threat institutional-confidence national-community group-boundaries",
+    "claim": "Individuals who perceive newcomers as threatening shared national identity show reduced confidence in political institutions and elites.",
+    "narrative": "context-effect",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0042",
+    "phenomenon": "cross-domain cognitive transfer from language switching",
+    "constructs": "executive-control language-switching stimulus-response-flexibility task-interference",
+    "claim": "Bilingual language switching experience enhances general cognitive flexibility in non-linguistic task switching by improving stimulus-response reconfiguration.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0043",
+    "phenomenon": "representativeness heuristic applied retrospectively to sequence inference",
+    "constructs": "rarity-perception sequence-length sample-size probabilistic-reasoning",
+    "claim": "Rare outcomes are inferred to come from longer sequences because people expect small samples not to contain rare events.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0044",
+    "phenomenon": "regret priming as debiasing mechanism for preference reversals",
+    "constructs": "decision-justification regret-anticipation dominated-alternatives self-scrutiny",
+    "claim": "Making anticipated regret salient induces critical self-examination that eliminates preference for superficially justified but logically weak options.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0045",
+    "phenomenon": "causal-inference persistence despite corrective information",
+    "constructs": "causal-inference misinformation correction alternate-explanations belief-updating",
+    "claim": "Alternative causal explanations displace false causal inferences more effectively than denials or counter-evidence because they prevent the continued influence effect.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0046",
+    "phenomenon": "situational stereotype activation reduces threatened group performance",
+    "constructs": "stereotype-threat gender-stereotypes performance-decrement cognitive-load avoidance-focus",
+    "claim": "Merely activating gender stereotypes during cognitive tests reduces female performance and enhances male performance through mechanisms of anxiety and cognitive interference.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

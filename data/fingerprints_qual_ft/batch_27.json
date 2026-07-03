@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0185",
+    "phenomenon": "independent decay of feature knowledge",
+    "constructs": "binding feature-specific-memory time-dependent-forgetting",
+    "claim": "Object properties are forgotten separately rather than as integrated units over time.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0186",
+    "phenomenon": "asymmetric emotional propagation in reciprocity",
+    "constructs": "affect-valence negative-dominance reciprocal-behavior chain",
+    "claim": "Negative emotional responses drive behavior propagation more than positive ones despite equal initial magnitude.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0187",
+    "phenomenon": "context-dependent testing effect reversal",
+    "constructs": "retrieval-practice relational-processing item-specific task-demands",
+    "claim": "Retrieval practice impairs performance when task structure makes item-level relations diagnostic, reversing the typical positive testing effect.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0189",
+    "phenomenon": "unconscious advantage in complex judgment",
+    "constructs": "cognitive-capacity cue-integration conscious-limitation",
+    "claim": "Unconscious processing outperforms conscious deliberation for complex multi-cue judgments by avoiding attentional bottlenecks and biases.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0191",
+    "phenomenon": "articulation kinematics shapes preference",
+    "constructs": "motor-simulation embodied-metaphor approach-avoidance affect-induction",
+    "claim": "Patterns of consonantal articulation induce affect via simulation of ingestion versus expulsion kinematics, influencing preference for otherwise meaningless stimuli.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0192",
+    "phenomenon": "obligation undermines moral credit",
+    "constructs": "attribution-of-responsibility obligation-system moral-judgment intentionality",
+    "claim": "Acts motivated by communal obligation are perceived as less moral because obligation is inferred as the true goal, making helping seem incidental.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

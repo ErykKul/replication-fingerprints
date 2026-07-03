@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0060",
+    "what_manipulated": "gender stereotype salience and cognitive constraints (stimulus onset asynchrony); intention to apply or counter stereotypes",
+    "what_measured": "reaction time to gender-congruent versus incongruent trait-target pairings; stereotype priming effect magnitude",
+    "experiment": "Participants judge gender of target names preceded by stereotype-related prime words at varying SOA (stimulus onset asynchrony) and varying levels of stereotype-congruence motivation. Baseline conditions (no instruction, high cognitive constraint) reveal automatic stereotype priming via faster responses to gender-matched primes. Counterstereotype intentions reduce or reverse priming; effect depends on interaction of intention and available cognitive resources.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0061",
+    "what_manipulated": "social value orientation (prosocial vs individualistic vs competitive); family size; age group; attachment style as correlate",
+    "what_measured": "decomposed game choices; attachment security; sibling count; social value orientation distribution across adulthood",
+    "experiment": "Across four studies, participants are classified into social value orientations via decomposed game measures. Early studies examine associations with attachment style and sibling demographics. Later studies track orientation prevalence across age groups in population-representative samples. Observational correlational design tests interdependence theory prediction that different interaction histories shape stable social value preferences.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0062",
+    "what_manipulated": "type of self-regulation task (emotional regulation vs thought suppression vs baseline); cognitive load in unrelated task",
+    "what_measured": "subsequent task persistence (handgrip endurance, anagram solving, emotional expression control)",
+    "experiment": "Participants deplete regulatory capacity through initial self-regulation (emotion amplification/suppression or thought suppression), then perform seemingly unrelated tasks requiring self-control. Regulatory exertion produces measurable decrement in subsequent task performance, consistent with limited-resource model. Effect occurs cross-domain, supporting unitary resource hypothesis.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0064",
+    "what_manipulated": "positive mental health pattern (Achievers, Conservers, Seekers, Depleted) based on Environmental Mastery and Personal Growth dimensions",
+    "what_measured": "generativity, competence, ego development, wisdom; emotionality patterns; identity status; self-control change across 31 years",
+    "experiment": "Longitudinal sample classified into four mental health patterns via continuous Environmental Mastery and Personal Growth scores. Patterns predicted to show distinct maturity profiles and distinct personality-identity-outcome pathways over adulthood. Growth-curve models track self-control trajectories from age 21 to 52; mediator models test identity status as link between early personality and adult outcomes.",
+    "design": "longitudinal",
+    "manipulation": "observational",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0065",
+    "what_manipulated": "prior establishment of moral credentials via different-opinion or hiring-decision tasks; audience awareness of credentials",
+    "what_measured": "willingness to express prejudiced attitudes in ambiguous job-suitability scenarios; rating scales for gender/race preference",
+    "experiment": "Participants establish credentials as nonprejudiced by disagreeing with sexist statements or hiring minority candidates. Subsequently faced with job-suitability judgments, credentialed participants express more prejudiced preferences. Credentials operate via self-image (not impression management) to reduce avoidance of prejudiced responses in ambiguous contexts.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0066",
+    "what_manipulated": "interpersonal context (target: friend vs roommate vs stranger); public vs private manifestations of self; relationship closeness",
+    "what_measured": "perceived relative knowledge (self vs other); perceived observability of true self; intrapersonal vs interpersonal insight; open-ended recall of learned information",
+    "experiment": "Across six studies, participants estimate how well they know peers versus how well peers know them, and how well they know themselves versus peers' self-knowledge. Asymmetry illusion emerges: people believe their peers' true selves are more observable in public behavior while their own true selves are hidden in private thoughts. Effect stronger for private domains, negative traits, and distant relationships.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  }
+]

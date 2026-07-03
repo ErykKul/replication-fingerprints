@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1007/s10683-011-9295-3",
+    "phenomenon": "selective application of fairness frameworks",
+    "constructs": "justice-principles self-interest fairness rationalization",
+    "claim": "agents choose fairness frameworks strategically to maximize personal payoff",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1007/s11098-010-9651-8",
+    "phenomenon": "gap between judgment and action",
+    "constructs": "akrasia intention-action misalignment preference-structure",
+    "claim": "ordinary weakness-of-will is a prototype concept shaped by multiple contextual factors, not a unitary phenomenon",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "hedged-claim"
+  },
+  {
+    "doi": "10.1007/s11145-010-9282-7",
+    "phenomenon": "peripheral visual intake during sequential processing",
+    "constructs": "visual-attention perceptual-span processing-load",
+    "claim": "preview benefit from distant elements depends on cognitive load from intervening material",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1007/s13524-011-0026-3",
+    "phenomenon": "resource allocation during public-health crisis",
+    "constructs": "institutional-fragility epidemic-burden service-delivery",
+    "claim": "concentrated epidemic burden causes deterioration of non-targeted health services through resource displacement",
+    "narrative": "context-effect",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1007/s13524-018-0725-0",
+    "phenomenon": "subjective-well-being trajectories through partnership formation and dissolution",
+    "constructs": "intimate-partnership life-satisfaction gender-differences",
+    "claim": "partnership effects on well-being are similar across sexual orientations but modulated by gender and partnership-type",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1016/0022-1031(91)90011-t",
+    "phenomenon": "moral judgment of inaction versus action",
+    "constructs": "causal-responsibility action-inaction outcome-evaluation",
+    "claim": "actors and judges systematically rate harmful inactions as less immoral than equivalent harmful actions because inactions are perceived as non-causal",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1016/j.jcps.2010.06.007",
+    "phenomenon": "visual-quantity inference and behavioral adjustment",
+    "constructs": "anchoring-heuristic perceptual-bias consumption-behavior",
+    "claim": "package visuals showing more units anchor consumption upward regardless of actual quantity through modified quantity judgments",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1016/j.learninstruc.2018.05.004",
+    "phenomenon": "skill acquisition response to structured instruction",
+    "constructs": "literacy-intervention phonetic-training adaptive-learning",
+    "claim": "comprehensive phonetically-grounded instruction with computer support benefits struggling readers; adaptive features add no marginal gain",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1016/j.nlm.2017.09.009",
+    "phenomenon": "neural response to conditioned stimuli paired with self-referent information",
+    "constructs": "conditioning classical-conditioning neural-plasticity",
+    "claim": "neural markers of conditioning emerge under pairing conditions even without conscious stimulus recognition",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "hedged-claim"
+  },
+  {
+    "doi": "10.1016/j.obhdp.2013.10.003",
+    "phenomenon": "performance evaluation based on perceptual cues",
+    "constructs": "visual-dominance judgment-accuracy group-dynamics",
+    "claim": "visual appearance dominates audio quality when evaluating collective performance despite domain-experts ranking sound as primary",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1016/j.worlddev.2016.03.006",
+    "phenomenon": "sustained economic growth under ethnic diversity",
+    "constructs": "institutional-fairness ethnic-tension growth-sustainability",
+    "claim": "government perceived impartiality enables sustained growth regardless of policy content; fairness perception buffers against ethnic-conflict disruption",
+    "narrative": "context-effect",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1016/s0272-6963(97)00033-8",
+    "phenomenon": "manufacturing responsiveness through constraint",
+    "constructs": "process-simplicity discipline operational-flexibility",
+    "claim": "simplicity in manufacturing process combined with procedural discipline achieves responsiveness better than traditional trade-offs",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1017/bec.2013.16",
+    "phenomenon": "memory confidence degradation through stimulus revisiting",
+    "constructs": "metamemory repeated-exposure distrust",
+    "claim": "repeated engagement with an object (checking or use) reduces memory accuracy, confidence, and detail equally, creating distrust cycle",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1017/epi.2013.23",
+    "phenomenon": "attribution of knowledge states in uncertain conditions",
+    "constructs": "folk-epistemology moral-judgment attribution-bias",
+    "claim": "knowledge attribution increases when epistemic targets perform negative or blameworthy actions, revealing moral judgment's influence on folk-knowledge concepts",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1017/s0003055410000262",
+    "phenomenon": "coalition behavior under preference heterogeneity",
+    "constructs": "political-polarization public-spending government-scope",
+    "claim": "higher preference polarization predicts smaller government in democracies; effect absent in autocracies",
+    "narrative": "context-effect",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1017/s0003055412000299",
+    "phenomenon": "civic engagement following traumatic experience",
+    "constructs": "trauma-exposure political-mobilization social-efficacy",
+    "claim": "crime victimization increases political participation dramatically; effect size rivals education but sometimes shifts participation toward authoritarianism",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1017/s0007123411000421",
+    "phenomenon": "norm-driven collective behavior",
+    "constructs": "personal-values value-prevalence collective-efficacy",
+    "claim": "local prevalence of emancipative values amplifies and elevates individuals' own values' effect on protest participation",
+    "narrative": "context-effect",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1017/s0007123421000557",
+    "phenomenon": "transnational political identity and solidarity",
+    "constructs": "racial-identity diaspora-consciousness institutional-trust",
+    "claim": "police violence against diaspora co-ethnics abroad directly undermines local institutional trust; effect concentrated in co-ethnic observers",
+    "narrative": "context-effect",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1017/s0033291713000202",
+    "phenomenon": "substance use and altered-perception risk",
+    "constructs": "psychotic-symptoms substance-association confounding",
+    "claim": "cigarette smoking is as strong a predictor of psychotic-like experiences as cannabis; cannabis association is confounded by smoking",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1017/s0043887112000032",
+    "phenomenon": "institutional trust under perceived demographic threat",
+    "constructs": "immigration-concern national-identity institutional-legitimacy",
+    "claim": "perceived immigration threat reduces political trust independently; effect is mediated by historical immigration experience",
+    "narrative": "context-effect",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

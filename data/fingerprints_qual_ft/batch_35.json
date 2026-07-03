@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0283",
+    "phenomenon": "gestalt-driven quantity miscalibration",
+    "constructs": "cohesion area-salience homogeneity variety-disruption",
+    "claim": "Perceptual grouping into unified wholes creates area-based quantity illusions that persist across product contexts and consumer segments.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0284",
+    "phenomenon": "expectancy-violation persuasion",
+    "constructs": "expertise certainty incongruity involvement elaboration",
+    "claim": "Source characteristic incongruity increases message involvement and argument scrutiny, reversing traditional credibility-persuasion predictions.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0285",
+    "phenomenon": "confidence-conditional system defense",
+    "constructs": "system-threat confidence direct-indirect method-selection",
+    "claim": "Equal motivation for system defense across confidence levels produces distinct behavioral expressions—low confidence adopts ambiguous consumption choices while high confidence demands explicit commitment.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0286",
+    "phenomenon": "embodied motor simulation in visual persuasion",
+    "constructs": "orientation simulation perceptual-resources motor-response purchase-intention",
+    "claim": "Subtle visual cues that facilitate automatic motor simulation of object interaction increase behavioral intentions through grounded cognition mechanisms.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0287",
+    "phenomenon": "spatial-temporal-fluency congruence effect",
+    "constructs": "horizontal-position temporal-mapping processing-fluency culture-dependence",
+    "claim": "Product placement congruent with learned spatial-temporal mental models enhances processing fluency and valuation, with effects reversed in right-to-left reading cultures.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0288",
+    "phenomenon": "construal-level asymmetry in valuation",
+    "constructs": "seller-role buyer-role construal-level desirability-feasibility price-gap",
+    "claim": "Differential construal levels between sellers and buyers (abstract vs. concrete) produce asymmetric weighting of high-level vs. low-level features, explaining seller-buyer price discrepancy.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

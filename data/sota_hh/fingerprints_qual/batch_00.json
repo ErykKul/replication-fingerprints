@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1037/a0029288",
+    "phenomenon": "attitude formation through incidental activation",
+    "constructs": "priming exposure justification system-endorsement",
+    "claim": "Exposure to money cues increases endorsement of social inequality and free-market systems.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.83.1.44",
+    "phenomenon": "identity-stereotype conflict and identification",
+    "constructs": "stereotype identity mathematics self-association",
+    "claim": "Gender stereotypes about math interfere with women's self-math association and attitudes.",
+    "narrative": "new-mechanism",
+    "scope": "specific-population",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/01461672952111004",
+    "phenomenon": "cognitive bias quantification",
+    "constructs": "anchoring bias judgment estimation calibration",
+    "claim": "Anchoring effects can be measured quantitatively using calibration groups and percentile transformation.",
+    "narrative": "incremental-extension",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797611414726",
+    "phenomenon": "environmental symbol priming effects on ideology",
+    "constructs": "priming exposure political-belief durability",
+    "claim": "Brief flag exposure durably shifts political beliefs and voting behavior.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1086/268936",
+    "phenomenon": "response format effects on self-perception",
+    "constructs": "response-scale reference-point behavior-interpretation judgment",
+    "claim": "Response scale ranges serve as comparison standards that shape behavioral reports and evaluations.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1126/science.7455683",
+    "phenomenon": "problem representation effects on choice",
+    "constructs": "framing reference-point decision-making preference",
+    "claim": "How problems are framed produces systematic preference reversals.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1002/ejsp.2013",
+    "phenomenon": "metaphor universality and cultural moderation",
+    "constructs": "metaphor cardinal-direction cultural-difference valence",
+    "claim": "Metaphoric associations between direction and value are culturally contingent.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/a0034462",
+    "phenomenon": "environmental structure perception and motivation",
+    "constructs": "structure-seeking motivation threat goal-directed-action",
+    "claim": "Exposure to structure in unrelated domains increases willingness to pursue goals.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0096-3445.136.4.569",
+    "phenomenon": "processing mode activation through disfluency",
+    "constructs": "metacognitive-experience disfluency system-2 heuristic-override",
+    "claim": "Experiences of processing difficulty trigger analytical reasoning that overrides intuitive judgments.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/a0015141",
+    "phenomenon": "moral judgment differences across political spectrum",
+    "constructs": "moral-foundations political-ideology harm fairness",
+    "claim": "Liberals and conservatives rely on different moral foundations with liberals emphasizing harm and fairness.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797611429579",
+    "phenomenon": "situational activation of materialistic goals",
+    "constructs": "priming materialism well-being social-behavior",
+    "claim": "Consumer cues activate materialistic concerns with negative effects on well-being and prosocial behavior.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.83.5.1239",
+    "phenomenon": "attribution bias and cultural moderation",
+    "constructs": "correspondence-bias cultural-difference disposition inference",
+    "claim": "Correspondence bias occurs cross-culturally but varies when behavior diagnosticity differs.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/a0015960",
+    "phenomenon": "emotion-based attitude formation",
+    "constructs": "disgust sensitivity moral-judgment implicit-attitude",
+    "claim": "Individual differences in disgust sensitivity predict disapproval of gay people.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1002/bdm.586",
+    "phenomenon": "numerical anchoring from incidental contextual information",
+    "constructs": "anchoring incidental-cues environmental-influence estimation",
+    "claim": "Anchoring can occur from environmental numbers peripheral to the judgment task.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.73.4.733",
+    "phenomenon": "dispositional value orientation formation",
+    "constructs": "social-value-orientation attachment childhood-socialization development",
+    "claim": "Prosocial, individualistic, and competitive orientations develop through different socialization patterns.",
+    "narrative": "incremental-extension",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1468-0017.2006.00297.x",
+    "phenomenon": "unconscious principle application in moral judgment",
+    "constructs": "moral-judgment double-effect unconscious-reasoning principle",
+    "claim": "Moral judgments follow principles people cannot consciously articulate or justify.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797611434537",
+    "phenomenon": "status type and subjective well-being",
+    "constructs": "sociometric-status socioeconomic-status well-being power",
+    "claim": "Respect within immediate groups predicts well-being more than economic status.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.95.2.293",
+    "phenomenon": "magical thinking about causality",
+    "constructs": "magical-thinking fate likelihood availability heuristic",
+    "claim": "The intuition that tempting fate causes negative outcomes results from accessibility of negative prospects.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797609359908",
+    "phenomenon": "agency framing and cultural difference",
+    "constructs": "choice agency cultural-models action-interpretation",
+    "claim": "Whether actions are construed as choices depends on cultural models of agency.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1207/s15516709cog2605_4",
+    "phenomenon": "reasoning strategy preference across cultures",
+    "constructs": "reasoning-style cultural-difference formal-logic intuition",
+    "claim": "When formal and intuitive reasoning conflict, European Americans favor formal while East Asians favor intuitive.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0099",
+    "phenomenon": "coherence between affective concepts and embodied reactions",
+    "constructs": "embodiment, fluency, epistemic validation, processing efficiency",
+    "claim": "Alignment between mental affect and bodily state enables smooth information processing by resolving uncertainty about affective appropriateness.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0100",
+    "phenomenon": "processing scope determines categorical inclusion versus exclusion",
+    "constructs": "global-local processing, construal scope, category boundaries, assimilation-contrast",
+    "claim": "Broad attentional scope promotes seeing targets as category members (assimilation), while narrow scope promotes seeing them as distinct (contrast).",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0101",
+    "phenomenon": "emotion communicates limits but structural context determines effect direction",
+    "constructs": "information distribution, power asymmetry, fear of rejection, deception, limit inference",
+    "claim": "Anger's bargaining advantage reverses when opponents can deceive to lower perceived limits or when rejection carries low costs.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0103",
+    "phenomenon": "self-perception projected onto relationship partner",
+    "constructs": "egocentric bias, assumed similarity, relationship confidence, communal motivation",
+    "claim": "Caring individuals assume partners reciprocate care through egocentric projection, enabling relationship investment despite ambiguous behavioral evidence.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0108",
+    "phenomenon": "external system endorsement compensates for lost personal control",
+    "constructs": "personal control, system benevolence, order-seeking motive, secondary control",
+    "claim": "When personal control is threatened, people increase reliance on external controlling systems (God, government) as substitutable means of maintaining perceived order.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0109",
+    "phenomenon": "moral rebel creates implicit reproach threatening onlooker adequacy",
+    "constructs": "imagined rejection, moral self-concept, implicit comparison, self-threat",
+    "claim": "Those who failed to rebel resent rebels because their principled stance implicitly condemns non-rebellion, creating a threat to moral self-worth that defensive rejection mitigates.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  }
+]

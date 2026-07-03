@@ -1,0 +1,26 @@
+[
+  {
+    "paper_id": "p0216",
+    "finding": "Accuracy in identifying behavioral category (positive vs. negative vs. neutral) decreases with distance from central visual field, but the magnitude of degradation differs by category: negative categories show 3x greater accuracy loss than positive categories across parafoveal distances, suggesting dissociable processing mechanisms."
+  },
+  {
+    "paper_id": "p0217",
+    "finding": "Active exposure to deceptive strategy patterns via simulation reduces perceived reliability of messages using those strategies, with effect sizes ~0.3-0.4 (Cohen's d), comparable to prior inoculation studies; effect persists across political ideology, education, and age, larger for initially susceptible participants."
+  },
+  {
+    "paper_id": "p0218",
+    "finding": "Human trait judgments of neutral faces are organized by two orthogonal dimensions: valence (approach-signal features resembling happiness/anger expressions) and dominance (strength-signal features resembling facial maturity/masculinity); both dimensions predict downstream social judgments (threat) via linear combination."
+  },
+  {
+    "paper_id": "p0219",
+    "finding": "Adults fail to extract simple repetition patterns (e.g., AAB sequences) when items belong to syntactic categories (noun/verb), but succeed when items belong to open-ended semantic categories (animal/clothing), even though underlying pattern is identical; failure occurs despite explicit instruction and category priming."
+  },
+  {
+    "paper_id": "p0222",
+    "finding": "Higher socioeconomic rank predicts increased unethical behavior across naturalistic and experimental settings; effect is mediated by more favorable attitudes toward greed; priming greed-values in lower-rank individuals eliminates rank-based differences in unethical choices."
+  },
+  {
+    "paper_id": "p0223",
+    "finding": "Comprehenders integrate semantic plausibility with string-edit distance during sentence interpretation: implausible sentences are reinterpreted toward plausible alternatives when fewer edits separate them (single edit vs. two edits); effect is asymmetric (deletions >insertions) and modulated by perceived noise rate and base-rate of implausible items."
+  }
+]

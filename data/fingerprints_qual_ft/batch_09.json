@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0060",
+    "phenomenon": "automatic association activation and intentional control",
+    "constructs": "automatic process, controlled process, intention, cognitive resources, stereotype",
+    "claim": "Automatic associations influence behavior without awareness but remain susceptible to intentional modulation when sufficient cognitive resources and explicit intention are available.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0061",
+    "phenomenon": "moral licensing through credential establishment",
+    "constructs": "moral credentials, prejudice expression, self-image, behavioral ambiguity",
+    "claim": "Past nonprejudiced acts license expression of ambiguous future behavior by reinterpreting it as consistent with character rather than motivated by prejudice.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0062",
+    "phenomenon": "ego depletion and regulatory resource exhaustion",
+    "constructs": "self-regulation, cognitive resource, depletion, strength, fatigue",
+    "claim": "Self-regulatory exertion consumes a limited resource that requires recovery time, analogous to muscular fatigue rather than knowledge activation or skill learning.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0064",
+    "phenomenon": "divergent pathways in adult personality development",
+    "constructs": "environmental mastery, personal growth, identity, motivation, life goals",
+    "claim": "Adults follow distinct development trajectories aligned with different orientations toward achievement versus personal growth, each conferring domain-specific strengths.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0065",
+    "phenomenon": "none",
+    "constructs": "none",
+    "claim": "none",
+    "narrative": "none",
+    "scope": "none",
+    "stance": "none"
+  },
+  {
+    "paper_id": "p0066",
+    "phenomenon": "asymmetric interpersonal insight and actor-observer bias",
+    "constructs": "attribution asymmetry, private self, public self, knowability, behavioral diagnosticity",
+    "claim": "Perceivers systematically overestimate their own knowledge of peers' dispositions while underestimating peers' knowledge of themselves, driven by asymmetric salience of behavior versus internal states.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0148",
+    "what_manipulated": "feature covariance (color-shape binding) during learning",
+    "what_measured": "statistical learning expression in feature or object dimensions at test",
+    "experiment": "Observers learned sequences of colored shapes with shape-color covariance varying across conditions. At test, stimuli were presented with features present, separated, or recombined. Familiarity judgments compared learned triplets to foil sequences, measuring whether learning transferred when feature bindings changed or were absent.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0149",
+    "what_manipulated": "item strength via spacing (spaced vs. massed repetition) and depth of processing",
+    "what_measured": "directed forgetting of strong vs. weak items in list-method paradigm",
+    "experiment": "Participants encoded two lists with items varying in strength. Strength was manipulated by spacing repetitions or depth of processing. Between lists, forget vs. control instructions were given. Directed forgetting magnitude (List 1 recall reduction) was compared for strong vs. weak items, testing whether context vs. item strength drives forgetting.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0150",
+    "what_manipulated": "numerical notation (Arabic, Indian, mixed) and task requirement (physical comparison vs. numerical comparison)",
+    "what_measured": "size congruency effect and comparative distance effect across notations",
+    "experiment": "Participants compared digit pairs on physical or numerical dimensions. Notation was varied within-subjects; pairs were same-notation or different-notation. Automaticity of notation translation was indexed by congruency effects in physical tasks and distance effects in numerical tasks. Two experiments with different paradigms assessed cross-notation magnitude processing.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0151",
+    "what_manipulated": "probe type (positive, new, intrusion) and retrieval direction in local recognition and modified Sternberg tasks",
+    "what_measured": "serial position curves and reaction times for item recognition vs. relational recognition",
+    "experiment": "Observers studied lists and made recognition decisions about probes presented in different contexts. Serial position effects were analyzed by probe type and context mismatch. Three experiments compared single-process and dual-process model predictions using manipulated item-context bindings to dissociate process contributions via serial position curve shapes.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0152",
+    "what_manipulated": "stereotype information at retrieval (doctor vs. lawyer source assigned to studied sources) and source memory test format (forced-choice vs. with don't-know option)",
+    "what_measured": "source attribution accuracy and illusory recollections (remember vs. know judgments)",
+    "experiment": "Participants studied stereotype-congruent and incongruent statements from two sources. At test, sources were labeled with professions. Source attribution accuracy and phenomenological reports (remember/know judgments) distinguished guessing from illusory recollections. Three experiments manipulated test instructions and response formats to isolate retrieval expectation effects from response bias.",
+    "design": "between-subjects",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "interaction",
+    "focus": "many-exploratory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0153",
+    "what_manipulated": "task switch frequency and memory load (consonant list length) in continuous span tasks",
+    "what_measured": "recall performance and digit processing latency/accuracy under concurrent task switching",
+    "experiment": "Participants maintained letters while performing digit judgments with varying switch demands. Switch cost and memory load were manipulated across four experiments using list-completion, task-cueing, and preload procedures. Recall performance and processing times tested whether task switching consumes working memory resources proportional to attentional time demands.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  }
+]

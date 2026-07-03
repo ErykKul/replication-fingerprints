@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0302",
+    "what_manipulated": "self-reported reasons for activity engagement (eudaimonic, hedonic, external motivation)",
+    "what_measured": "activity-related affect and well-being across the day",
+    "experiment": "Adults aged 50-89 (n=121) reported reasons for activities and emotional benefits in daily life. Motives grouped into three factors via principal analysis. Time spent on each motive type was analyzed as predictor of overall activity-related well-being. Cross-sectional associations examined between motivational categories and daily emotional outcomes.",
+    "design": "observational or correlational",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0303",
+    "what_manipulated": "intervention condition (proactive self-management course vs control brochure) and time (baseline to post-course)",
+    "what_measured": "proactive coping skills, goal attainment, and self-efficacy in diabetes self-management",
+    "experiment": "Newly diagnosed Type 2 diabetes patients (n=180; 78 intervention, 102 control) randomly assigned to 12-week course or control. Outcome measures assessed at baseline (T1) and post-course (T2) using repeated-measures ANOVA with group×time interaction. Three proximal outcomes measured: proactive coping (17-item inventory), goal achievement (1-10 scale), self-efficacy (12-item questionnaire). Group×time interactions tested for significant improvements.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0311",
+    "what_manipulated": "exposure to scarcity promotion advertisement (limited-quantity vs control) and scarcity type (quantity vs time) across studies",
+    "what_measured": "aggressive behavior (bullets fired, punches thrown, physical assaults, preference for violent games) and testosterone levels",
+    "experiment": "Seven studies with varying designs. Study 1: n=140 undergraduates exposed to iPhone promotion (3 vs 3000+ units available), played shooting game (bullets fired recorded). Study 2: n=201 exposed to promotion, engaged in vending-machine interaction with jamming, physical assaults measured via video coding (3 dependent measures). Study 3: n=140 participated in saliva collection for testosterone assay pre/post promotion exposure. Study 4: n=107 exposed to promotion, played Wii boxing game (punches thrown counted). Studies 5-7 manipulated perceived threat via affiliation and tested generalized vs nonaggressive competitive responses. Between-subjects randomization; main analyses used ANOVA/regression with post-hoc tests.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "preregistered-with-power",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0318",
+    "what_manipulated": "determiner type (quantificational every vs definite the) and ellipsis presence (auxiliary was vs lexical verb) in object relative clauses",
+    "what_measured": "reading time (reaction time) at each word position during self-paced reading of sentences with antecedent-contained deletion (ACD)",
+    "experiment": "50 MIT participants completed self-paced reading task with 60 sentence templates in 2×2 within-subjects design (Determiner × Ellipsis). Stimuli presented word-by-word; reading time recorded per word. Residual reading times computed via regression adjustment for word length and individual reading rate. Two focal regions of interest: determiner site and verb/ellipsis site. ANOVA with repeated measures tested for main effects and interactions; Bonferroni correction applied for multiple comparisons at predicted regions (starting from earliest plausible effect point).",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-one"
+  },
+  {
+    "paper_id": "p0321",
+    "what_manipulated": "ordinal rank position in wealth distribution (random assignment to ranks 1-6 or 1-8) and choice context (gamble with probability of rank improvement vs dictator allocation)",
+    "what_measured": "probability of choosing lottery over sure payment and proportion of transfers to lower-ranked player in redistribution game",
+    "experiment": "Multiple experiments. Lottery experiment: n=84 (Groups of 6) and later variant n=42 (accumulating balances). Participants randomly assigned unique dollar amounts; each round presented identical choice: risk-free payment or lottery with equal expected value but rank-change potential. Probit regression with group/round fixed effects tested last-place effect on lottery choice (n=9 rounds). Redistribution experiment: n=42 (6-player) and n=72 (8-player games). Players assigned ranks 1-6 or 1-8, given $2 to allocate to adjacent ranks; random dictator payoff rule. Probit regressions (with rank dummies and controls for linear rank, inequality-aversion terms) tested last-place/low-rank aversion versus median-seeking and other hypotheses.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0322",
+    "what_manipulated": "variance risk premium (implied variance minus realized variance from option prices and high-frequency returns) over time as natural predictor",
+    "what_measured": "quarterly excess stock returns on S&P 500 portfolio",
+    "experiment": "Time series analysis of S&P 500 data from 1990-2005 (quarterly observations). Implied variance from VIX index (model-free, 30-day maturity) and realized variance from summation of five-minute squared returns (22 trading days × 78 five-minute intervals per month). Variance risk premium defined as IVt − RVt. Linear regressions tested predictability of lagged VRP on excess returns with Newey-West robust t-statistics (4 lags). Robustness checks compared model-free vs Black-Scholes implied variances, high-frequency vs daily realized variances, monthly vs quarterly horizons. Cross-sectional tests of 25 Fama-French portfolios examined factor pricing.",
+    "design": "observational or correlational",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "many-exploratory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  }
+]

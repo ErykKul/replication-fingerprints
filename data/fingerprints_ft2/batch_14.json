@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0093",
+    "what_manipulated": "information quantity available (2 vs. 10 pieces of decision-relevant information)",
+    "what_measured": "preference for decision-consistent vs. decision-inconsistent information in information search",
+    "experiment": "Participants made preliminary decisions on cases, then selected 1 piece of information from either 2 or 10 available pieces (half consistent, half inconsistent with their decision). Information preference was measured by choice direction. Information quantity moderated whether participants preferred consistent (10 pieces) or inconsistent (2 pieces) information; underlying mechanism involved salience of selection criteria—quality for larger sets, direction for smaller sets.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0094",
+    "what_manipulated": "self-regulation resource depletion (via attention control, letter-underlining, or white bear suppression tasks)",
+    "what_measured": "confirmatory information processing (biased evaluation and search for decision-consistent vs. inconsistent information)",
+    "experiment": "Participants completed a self-regulation depletion task (or control), then evaluated and searched among 8–12 pieces of political/economic information, half consistent and half inconsistent with a prior decision. Depletion increased both biased evaluation (consistent rated higher quality) and biased search (more consistent pieces selected). Ego threat and cognitive load did not replicate the pattern, and mediational analyses implicated commitment as the mechanism.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0095",
+    "what_manipulated": "mind-set (implemental vs. deliberative vs. neutral control, induced by framing of decision task)",
+    "what_measured": "attitude strength toward unrelated objects (extremity, ambivalence, accessibility, behavior prediction)",
+    "experiment": "Participants induced into implemental (planning) vs. deliberative (deciding) vs. neutral mind-sets, then rated attitudes on unrelated objects via multiple methods: attitude extremity coding, ambivalence ratings, response latency to attitude labels, and behavior prediction over 1 week. Implemental mind-set increased attitude strength via one-sided information processing focus, with effects on unrelated attitudes suggesting carryover of evaluative procedures.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0096",
+    "what_manipulated": "interpersonal risk salience (recall of disappointment by significant other) and goal strength (connectedness vs. self-protection); executive control strength (cognitive load, ego depletion); partner transgression severity",
+    "what_measured": "implicit and explicit goal activation (lexical decision, behavioral intentions, relationship focus); willingness to enter interdependent situations; distance-seeking behavior",
+    "experiment": "Nine experiments (1 correlational, 8 experimental) tested a model wherein risk automatically activates connectedness goals (Path A) but triggers executive control that modulates goal execution differently for high vs. low self-esteem people. High self-esteem persons pursued connectedness; lows suppressed it despite goal activation. Manipulations of risk, goal strength, and executive resources (depletion, load) varied goal activation/execution; implicit and explicit measures showed divergence for lows but convergence for highs.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0097",
+    "what_manipulated": "capability for similar wrongdoing (recalled or manipulated context); similarity of recalled offense to target offense (severity and type)",
+    "what_measured": "forgiveness (TRIM unforgiveness scale); perceived offense severity; empathic understanding; perceived similarity to offender; open-ended statements of what would be said to offender",
+    "experiment": "Seven studies tested whether perceiving oneself as capable of similar wrongdoing predicts forgiveness. Study 1: correlational (recalled forgiven vs. unforgiven offenses showed capability differences). Studies 2–7: experimental manipulations asked participants to recall similar offenses before evaluating target offenses. Multiple mediation tests showed capability predicted forgiveness through reduced severity perception, enhanced empathy, and increased similarity perception. Gender moderated: effect stronger for men. Study 5/6 confirmed similarity in severity/type of recalled offense mattered.",
+    "design": "mixed",
+    "manipulation": "mixed",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0098",
+    "what_manipulated": "target ethnicity and gender (drawn figures systematically varying skin tone, hair, facial features; photographed live subjects from different cultures); perceiver culture (Italy, USA, Burkina Faso)",
+    "what_measured": "emotion recognition accuracy (forced choice with open-ended and 'don't know' options) for pride expression; recognition rates for shame and basic emotions",
+    "experiment": "Four studies tested cross-cultural recognition of pride expression. Study 1: Italian (non-English speakers) recognized pride at US rates. Study 2: Burkinabe preliterate, isolated individuals recognized pride and shame above chance despite no Western media exposure. Studies 3–4: Drawn figure targets (systematically varying ethnicity and gender) and photographed live targets tested whether recognition generalizes across target characteristics. Pride recognized above chance in all targets; minor effects of target gender/ethnicity did not eliminate recognition.",
+    "design": "between-subjects",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-one"
+  }
+]

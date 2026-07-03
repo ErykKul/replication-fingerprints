@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1002/(sici)1099-0771(199806)11:2<107::aid-bdm292>3.0.co;2-y",
+    "phenomenon": "preference reversal between isolated and comparative judgment",
+    "constructs": "evaluability ease-of-evaluation separable-vs-integrative context-dependence",
+    "claim": "isolated evaluations rely on easy-to-evaluate attributes rather than important ones, causing preference reversals when options are compared directly.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1002/(sici)1099-0771(200001/03)13:1<1::aid-bdm333>3.0.co;2-s",
+    "phenomenon": "inverse mapping between perceived risk and perceived benefit",
+    "constructs": "affect-dependency heuristic judgment time-pressure analytic-cognition",
+    "claim": "risk and benefit judgments derive from a common affective reaction rather than independent analysis.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1002/acp.1376",
+    "phenomenon": "memory distortion through social influence in discussion",
+    "constructs": "conformity social-influence memory-accuracy discussion-context",
+    "claim": "discussed information is more likely to be reported as recalled than non-discussed information, driven by perceived accuracy rather than mere compliance.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1002/acp.2874",
+    "phenomenon": "pattern detection bias and belief systems",
+    "constructs": "illusory-perception criterion-bias signal-detection worldview-consistency",
+    "claim": "belief holders adopt more liberal decision criteria when detecting patterns, finding meaning where skeptics do not, without differences in actual perceptual sensitivity.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1002/bdm.492",
+    "phenomenon": "emotional motivation to help in response to victim salience",
+    "constructs": "identified-victim helping-behavior emotional-arousal individualization",
+    "claim": "enhanced helping for identified victims occurs primarily for single victims due to emotional distress, not for groups even when individually identified.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1002/bdm.586",
+    "phenomenon": "numerical estimation biased by incidental environmental cues",
+    "constructs": "anchoring incidental-activation environmental-context numerical-judgment",
+    "claim": "arbitrary numeric values present in the environment unconsciously constrain numerical estimates independently of awareness or expertise.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1002/ejsp.2013",
+    "phenomenon": "metaphoric framing of abstract concepts varies by cultural context",
+    "constructs": "conceptual-metaphor cultural-difference spatial-association valence-mapping",
+    "claim": "the metaphoric association between cardinal direction and social value is culturally contingent rather than universal.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1002/ejsp.2420170402",
+    "phenomenon": "affective enhancement of ownership-linked objects",
+    "constructs": "mere-ownership self-association affective-preference name-identity",
+    "claim": "objects associated with one's own name become more attractive through a mechanism of self-linked affect, independent of exposure frequency.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1002/ejsp.446",
+    "phenomenon": "flexible identity selection based on social comparison outcomes",
+    "constructs": "multiple-identities social-comparison in-group-affiliation strategic-identity",
+    "claim": "people differentially activate and emphasize aspects of others' identities to include or exclude them from the in-group depending on performance outcomes.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1002/jeab.432",
+    "phenomenon": "preference for immediate versus delayed rewards and training-induced reversal",
+    "constructs": "delay-discounting self-control temporal-preference behavioral-plasticity",
+    "claim": "extended exposure to delayed reinforcers reduces preference for immediate rewards, while exposure to immediate reinforcers does not strengthen impulsivity.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1002/jeab.705",
+    "phenomenon": "effort allocation reflects stimulus preference strength",
+    "constructs": "preference-expression behavioral-intensity response-effort stimulus-value",
+    "claim": "response force during engagement with stimuli correlates with verbally-assessed preference, suggesting effort expenditure indexes subjective value.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "hedged-claim"
+  },
+  {
+    "doi": "10.1002/job.2118",
+    "phenomenon": "perceived climate regarding age diversity in organizations",
+    "constructs": "intergenerational-attitudes stereotyping inclusive-climate age-diversity",
+    "claim": "workplace intergenerational climate, measured across contact, retention, affect, inclusiveness, and reduced stereotyping, predicts mentoring and job satisfaction.",
+    "narrative": "incremental-extension",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1002/pam.21702",
+    "phenomenon": "satisfaction judgment as comparison between experienced quality and prior expectations",
+    "constructs": "expectancy-disconfirmation comparison-judgment service-evaluation psychological-contrast",
+    "claim": "citizens evaluate service quality relative to prior expectations, with expectation effects moderated by age and political orientation.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1002/per.1902",
+    "phenomenon": "personality disposition predicts body weight trajectory and gender-specific effects",
+    "constructs": "personality-trait conscientiousness neuroticism longitudinal-prediction gender-moderation",
+    "claim": "conscientiousness predicts lower body weight while neuroticism and extraversion predict weight gain over time, with stronger effects for women in some dimensions.",
+    "narrative": "incremental-extension",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1002/per.2062",
+    "phenomenon": "latent subtypes of narcissism differing in agentic versus antagonistic pathways",
+    "constructs": "grandiose-narcissism heterogeneous-subgroups self-regulatory-pathways adaptation",
+    "claim": "narcissism comprises distinct subgroups with qualitatively different expressions, with agentic-only narcissists showing better adjustment than those combining both pathways.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1002/per.758",
+    "phenomenon": "emotion word memory modulated by personality and incongruent affective priming",
+    "constructs": "emotion-processing emotional-congruence personality-trait memory-encoding",
+    "claim": "difficulty identifying emotions predicts lower memory for emotion words, and incongruent music priming can further reduce memory depending on personality type.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1002/per.803",
+    "phenomenon": "stress reduction through positive illusions about social support availability",
+    "constructs": "optimism social-support positive-illusions stress-buffering dyadic-perception",
+    "claim": "optimism reduces stress via recipients' inflated perception of available support rather than actual increased support from providers.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1002/smj.2585",
+    "phenomenon": "innovation as differentiation strategy in response to unregistered competition",
+    "constructs": "new-product-development competitive-threat institutional-context response-strategy",
+    "claim": "formal firms invest more in new product development when facing informal competition, conditional on availability of alternative responses and competitive context.",
+    "narrative": "context-effect",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1002/soej.12223",
+    "phenomenon": "gender-specific reversal in generosity depending on action frame",
+    "constructs": "prosocial-choice gender-difference action-frame giving-vs-taking",
+    "claim": "the framing of a decision as giving versus taking reverses gender differences in generosity, with effects offsetting when populations are combined.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1007/s10683-011-9281-9",
+    "phenomenon": "coordination and cooperation in asymmetric resource dilemmas with two-level decisions",
+    "constructs": "commons-dilemma collective-action infrastructure-investment resource-extraction communication",
+    "claim": "communication capacity to coordinate both infrastructure investment and resource use depends on managing inherent asymmetries in asymmetric commons situations.",
+    "narrative": "context-effect",
+    "scope": "specific-context",
+    "stance": "hedged-claim"
+  }
+]

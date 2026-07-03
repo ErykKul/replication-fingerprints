@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0028",
+    "what_manipulated": "Number of product units displayed on package image",
+    "what_measured": "Perceived product quantity; actual consumption of snack food",
+    "experiment": "Consumers view package images varying in displayed product unit count while quantity judgments and consumption are measured. The anchor (unit count) is presented visually; outcome is compared across anchor levels using between-subjects conditions.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0029",
+    "what_manipulated": "Type of computer-assisted intervention (adaptive GraphoGame vs. fixed-difficulty On Track ABC); intervention delivery (intervention vs. control)",
+    "what_measured": "Word reading; sentence reading; spelling",
+    "experiment": "Schools randomized to one of two interventions or control condition. At-risk Grade 1 students (N=140 across 13 schools) received 25 weeks of teacher-led instruction with differing computer applications (or standard instruction for controls). Outcomes measured post-intervention and at 1- and 2-year follow-up.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0030",
+    "what_manipulated": "Pairing of harmonic tone (CS+/CS-) with participant's own name vs. different names (UCS); masking of names (visible vs. masked); stimulus-onset asynchrony between CS and UCS",
+    "what_measured": "Event-related brain potential (ERP) amplitudes (P3a, P3b, N1, late time window); time-frequency activity (theta, alpha)",
+    "experiment": "Four experiments using a three-stimulus oddball paradigm with EEG recording. Harmonic tones are paired with participant's own name (CS+) or different names (CS-); test phase presents tones alone. Manipulations include name masking, CS discriminability, and SOA timing. ERPs averaged across stimulus presentations in test phase.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0032",
+    "what_manipulated": "Government impartiality (perceived fair treatment of ethnic group by government)",
+    "what_measured": "Sustained GDP per capita growth (2% or more for 5+ consecutive years)",
+    "experiment": "Cross-national observational study using survey data from Afrobarometer (20 countries, 1999-2009). Impartiality index (share perceiving no unfair ethnic group treatment) predicts binary sustained growth outcome in subsequent years. Regressions control for fractionalization, inequality, democracy, and other covariates.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0033",
+    "what_manipulated": "Manufacturing simplicity (lean management, problem-solving, supplier relations); manufacturing discipline (process documentation, training, quality vision, process capability); their combination",
+    "what_measured": "Manufacturing flexibility across six dimensions (inventory management, warehousing, product cycle time, total cycle time, new product introduction, customer delivery time)",
+    "experiment": "Cross-sectional survey of 485 manufacturing sites across 5 European countries benchmarked on 48 variables. Factor analysis reduces variables to simplicity and discipline dimensions. Regression analyses test whether flexibility outcomes depend on simplicity and discipline factors; models estimated separately for each flexibility outcome.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0034",
+    "what_manipulated": "Repeated checking of stimulus (stove turned on/off and verified off) vs. repeated exposure (stove turned on/off without verification check); stimulus type (experimental stove vs. control light bulb)",
+    "what_measured": "Memory accuracy; memory confidence; memory vividness; memory detail; state anxiety",
+    "experiment": "Undergraduates (N=113) randomly assigned to checking or exposure condition. Participants interact with virtual stove or light bulbs, either repeatedly checking (20 trials) or exposing without checking (30 viewings), then report memory accuracy, confidence, vividness, detail via questionnaire. State anxiety measured at pre, mid, post. Subset (N=59) completes follow-up after delay.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  }
+]

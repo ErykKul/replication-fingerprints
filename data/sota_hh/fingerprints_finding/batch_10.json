@@ -1,0 +1,82 @@
+[
+  {
+    "doi": "10.1111/j.1744-6570.1999.tb00174.x",
+    "finding": "An individual trait (conscientiousness) positively predicts successful outcomes, while another trait (neuroticism) negatively predicts extrinsic outcomes; general cognitive ability also predicts extrinsic success. Both childhood and adulthood trait measures contribute independently to predicting life outcomes."
+  },
+  {
+    "doi": "10.1037/0021-9010.85.5.751",
+    "finding": "Two individual traits (extraversion and agreeableness) positively predict a behavioral outcome; the effect of a third trait (openness) disappears when controlling for other traits. The behavioral outcome predicts multiple effectiveness measures."
+  },
+  {
+    "doi": "10.1037/0022-3514.83.5.1165",
+    "finding": "Childhood traits predict adult emotional characteristics; emotional negativity is broadly linked to maladaptive outcomes across both childhood and adulthood; low behavioral constraint predicts antisocial conduct longitudinally."
+  },
+  {
+    "doi": "10.1037/0022-3514.84.4.871",
+    "finding": "A dispositional trait is conceptualized and operationalized with strong measurement properties, predicts a specific achievement outcome, and when measured as a state predicts daily experiences; the trait has incremental validity beyond existing constructs."
+  },
+  {
+    "doi": "10.1515/humr.14.2.117",
+    "finding": "Individuals attributed higher levels on a positive social attribute are perceived as lower on undesirable personality dimensions and higher on desirable ones; these perception patterns are consistent across different observer assessment methods."
+  },
+  {
+    "doi": "10.1037/0022-3514.82.3.314",
+    "finding": "The effect of a decision type (action vs. inaction) on emotional regret reverses depending on prior outcomes; negative prior outcomes flip the typical pattern, making inaction produce more regret than action."
+  },
+  {
+    "doi": "10.1002/ejsp.2420170402",
+    "finding": "Mere association with an item increases preference for that item across multiple languages; the effect manifests even when comparing identical stimuli and holds cross-culturally."
+  },
+  {
+    "doi": "10.1162/003355397555208",
+    "finding": "People systematically attend to nominal rather than real values in economic judgments; this bias arises from a dual representation process where nominal and real evaluations interact."
+  },
+  {
+    "doi": "10.1037/0096-1523.3.4.544",
+    "finding": "Knowing an outcome increases perceived predictability of that outcome retrospectively; forcing consideration of alternative outcomes reduces this hindsight bias."
+  },
+  {
+    "doi": "10.1037/0022-3514.88.5.725",
+    "finding": "A metacognitive belief (about optimal test strategy) persists despite contradictory empirical evidence; differential memorability of outcomes explains why people maintain this false belief."
+  },
+  {
+    "doi": "10.1073/pnas.1012046108",
+    "finding": "People attribute greater unpredictability, multiple possible futures, and stronger causal control to their own behavior compared to peers' behavior; this bias is consistent across multiple dimensions of agency."
+  },
+  {
+    "doi": "10.1177/0146167202286008",
+    "finding": "Individuals perceive cognitive and motivational biases in others more than in themselves; even explicit awareness of how a bias could apply to oneself does not reduce this asymmetry."
+  },
+  {
+    "doi": "10.1002/(sici)1099-0771(200001/03)13:1<107::aid-bdm349>3.0.co;2-p",
+    "finding": "When testing hypotheses, people maximize the evidential value of confirming outcomes rather than their probability; motivational context enhances this tendency."
+  },
+  {
+    "doi": "10.1016/0022-1031(91)90011-t",
+    "finding": "Inaction is judged as less immoral than action producing identical outcomes; this judgment arises from attributions that inaction does not cause outcomes, and generalizes a useful heuristic beyond its justified domain."
+  },
+  {
+    "doi": "10.1037/0022-3514.39.5.806",
+    "finding": "People estimate their own chances of experiencing positive outcomes as above average and negative outcomes as below average relative to peers; this optimistic bias varies with outcome desirability, perceived controllability, and other factors."
+  },
+  {
+    "doi": "10.1037/0022-3514.86.5.680",
+    "finding": "Preferences for an attribute vary between joint and single evaluation contexts; when people in joint evaluation predict or choose for single evaluation experiences, they overpredict the difference an attribute will make to satisfaction."
+  },
+  {
+    "doi": "10.1126/science.1091721",
+    "finding": "A default option substantially influences choice behavior; simply changing the default can produce large differences in aggregate outcomes."
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2006.01704.x",
+    "finding": "Adjustments from a starting value terminate prematurely; insufficient adjustment occurs unless people actively search for a more accurate estimate."
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02159.x",
+    "finding": "An event occurring in the future is valued more than an identical event in the past; this temporal asymmetry is absent within individuals and is mediated by differential affect."
+  },
+  {
+    "doi": "10.1037/0096-3445.126.1.45",
+    "finding": "People systematically predict others to be more risk-seeking than themselves; this self-other discrepancy disappears when targets of prediction are specific rather than abstract."
+  }
+]

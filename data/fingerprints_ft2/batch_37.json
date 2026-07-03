@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0298",
+    "what_manipulated": "valence of side effect (helping vs. harming environment) in vignette",
+    "what_measured": "judgment whether agent intentionally brought about side effect; blame/praise attribution",
+    "experiment": "Participants read vignettes describing an agent choosing an action with known negative or positive side effect while pursuing unrelated goal. Participants judged intentionality of side effect causation and assigned blame or praise. A second study replicated structure with different scenario (military context). Between-subjects comparison of affect-congruent side effect interpretation.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0299",
+    "what_manipulated": "none; observation of husband's participation patterns in female-typed household tasks across 32 countries",
+    "what_measured": "male participation (yes/no) in five female-typed housework tasks; classification into task-performance typology",
+    "experiment": "Cross-national observational study of married men (18-65 yrs) in 32 countries using Mokken scaling to establish whether female-typed household tasks are hierarchically ordered. Multilevel multinomial models test associations between task-performance types and individual/country characteristics (gender ideology, time availability, housework demand, specialization, country regime type).",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-one"
+  },
+  {
+    "paper_id": "p0300",
+    "what_manipulated": "none; observation of economic conditions (GDP growth, unemployment), EU policies, political discourse across 27 EU countries over 9 years",
+    "what_measured": "four dimensions of EU framing (cosmopolitan, utilitarian, communitarian, libertarian) via multiple-answer survey items",
+    "experiment": "Multilevel regression of pooled Eurobarometer data (2004-2013, N=390,373 individuals across 27 countries, 16 time points). Tests effects of macro (GDP growth, unemployment, fiscal transfer, EU assistance program) and political (party position/salience) variables on four cognitive EU-framing dimensions, with cross-level interactions by education.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-one"
+  },
+  {
+    "paper_id": "p0301",
+    "what_manipulated": "none; comparison of parental SES (education, occupation) and country-level SDT indicators across 25 European countries",
+    "what_measured": "age of entry into first co-residential union (cohabitation vs. marriage); respondent education (time-varying)",
+    "experiment": "Discrete-time event-history analysis of ESS Round 3 data (2006/2007, N=45,147). Country-specific logistic models estimate total and net (education-adjusted) effects of parental SES on union-entry timing and type. Two-step meta-analysis and meta-regression test whether cross-national heterogeneity in SES effects is explained by country SDT indicators (cohabitation prevalence, age-norm norms, religiosity).",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-one"
+  },
+  {
+    "paper_id": "p0302",
+    "what_manipulated": "none; observation of activity engagement reasons and age differences across adult lifespan (50-89 yrs) in daily activities",
+    "what_measured": "self-reported reasons for activities (eudaimonic, hedonic, external); activity-related affect; time spent per activity type",
+    "experiment": "Ecological momentary assessment (cross-sectional report of daily activities in N=121 older adults age 50-89). Participants categorized activity reasons into three motive factors. Descriptive and correlational analyses link motive types to activity participation, emotional benefit, and overall well-being across the day. No manipulated conditions.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "single-hypothesis",
+    "clarity": "partially-specified",
+    "rigor": "minimal",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0303",
+    "what_manipulated": "intervention condition: five-step proactive coping and self-management course vs. control brochure only; randomized to 12-week group course or standard care",
+    "what_measured": "proactive coping skills (17-item inventory); goal attainment (1-10 scale); self-efficacy (12-item questionnaire); course evaluation ratings",
+    "experiment": "Randomized controlled trial (N=180 newly diagnosed Type 2 diabetes patients, 78 intervention, 102 control) with repeated measures at baseline and post-intervention (12 weeks). Intervention group received four 2-h group + two 1-h individual sessions using five-step goal-setting, implementation intention, and mental simulation procedures. Between-groups comparison via ANOVA with Time x Group interaction testing proactive coping skill improvement, goal achievement, and self-efficacy change.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "on-request"
+  }
+]

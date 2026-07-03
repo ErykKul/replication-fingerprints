@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0323",
+    "phenomenon": "brain anatomy anchors dispositions",
+    "constructs": "thickness area folding cortical regions prefrontal",
+    "claim": "Personality traits correlate with distinct patterns of cortical morphometry revealing differential neurodevelopmental pathways.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0324",
+    "phenomenon": "early status shock persists",
+    "constructs": "retention scarring achievement expectations mobility",
+    "claim": "Grade retention operates as a triggering event assigning low academic status whose effects cascade through intermediary mechanisms to reduce terminal educational attainment.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0325",
+    "phenomenon": "time horizon gates goal priorities",
+    "constructs": "age temporal framing motivation goals socioemotional selectivity",
+    "claim": "Age differences in work goal prioritization reflect causal influence of perceived time availability rather than aging per se.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0328",
+    "phenomenon": "online networks map onto brain regions",
+    "constructs": "facebook friends gray-matter density temporal regions entorhinal",
+    "claim": "Online social network size links to focal brain structures supporting social perception and name-face memory distinct from real-world network structures.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0329",
+    "phenomenon": "cooperation overcomes efficiency cost",
+    "constructs": "joint action coordination costs utility preferences prosocial",
+    "claim": "Human adults consistently choose joint action coordination despite measurable efficiency losses, indicating nonpragmatic reward value.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0330",
+    "phenomenon": "perceived readability decouples from comprehension",
+    "constructs": "comments method chains accuracy experience subjective assessment",
+    "claim": "Subjective readability judgments and objective comprehension measures do not correlate, undermining perceived readability as a sole indicator of code quality.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

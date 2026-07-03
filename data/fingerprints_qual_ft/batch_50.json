@@ -1,0 +1,47 @@
+[
+  {
+    "paper_id": "p0612",
+    "phenomenon": "team weak-link motivation paradox",
+    "constructs": "relative-ability-gap social-comparison encouragement-as-cue",
+    "claim": "Perception of partner superiority, not objective encouragement, drives motivational benefit in conjunctive task performance.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0618",
+    "phenomenon": "multi-system genetic predisposition clustering",
+    "constructs": "deleterious-variants pathway-enrichment immune-hormone-metabolic",
+    "claim": "ME/CFS shows convergent genetic disruption across immune, endocrine, and metabolic pathways rather than single-locus etiology.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "hedged-claim"
+  },
+  {
+    "paper_id": "p0619",
+    "phenomenon": "priming boundary via cognitive effort",
+    "constructs": "automatic-vs-controlled resource-allocation replication-failure",
+    "claim": "Priming effects depend critically on whether targets process information unconsciously, resolvable through response-effort modulation.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0620",
+    "phenomenon": "instructional design transfer selectivity",
+    "constructs": "situational-awareness visual-attention domain-specific-training",
+    "claim": "Didactically-structured cognitive training improves decision and timing performance but not general marksmanship, showing narrow transfer.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0621",
+    "phenomenon": "cross-modal interference locus dissociation",
+    "constructs": "perceptual-level response-level modality-dependence",
+    "claim": "Auditory and visual flankers differ in whether interference occurs at perceptual vs post-perceptual stages, indicating processing route interaction.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "paper_id": "p0129",
+    "finding": "When lists are composed of associates of a single unpresented critical word, that word is falsely recalled ~40-55% and falsely recognized ~80% at rates approaching correct recognition of actually studied items, with high confidence and subjective 'remembering'; this emerges from associative priming and fails to decrease even under conditions favoring accurate memory."
+  },
+  {
+    "paper_id": "p0130",
+    "finding": "Timing information influences serial recall through multiple mechanisms: input timing predicts output timing for both order and timing tasks; grouping affects latencies identically in both tasks; temporal isolation effects appear selectively in precued tasks; order and timing share representational substrates with task-contingent weighting rather than relying on a unitary timing signal."
+  },
+  {
+    "paper_id": "p0131",
+    "finding": "Repetition blindness for nonwords depends on participant strategy: when partial orthographic information enables discrimination of repeated from control trials, participants guess repetitions, masking true RB; when guessing is made detectable (via similar-item trials), RB emerges for nonwords; this strategy confounds interpretation of prior null findings."
+  },
+  {
+    "paper_id": "p0132",
+    "finding": "Decision makers adapt their mental model of task structure to match actual stochastic environment (stationary vs. nonstationary), contrary to BART results; however, learning processes that drive belief updating reduce the paradigm's ability to identify drug users compared to well-defined tasks without learning requirements, suggesting learning interferes with individual-difference prediction."
+  },
+  {
+    "paper_id": "p0134",
+    "finding": "Causal judgments reflect accounting-for-occurrences rather than objective contingency: one cause receives higher judgment than another even when the latter has higher conditional contingency, if the former accounts for more outcome occurrences; prevalence of one cause depresses judgment of competing causes regardless of conditional contingency."
+  },
+  {
+    "paper_id": "p0135",
+    "finding": "Variation in phonological similarity and word-length effects across individuals arises from quantitative differences in memory capability (attention parameter) rather than strategy shifts; high-ability participants show larger effects, low-ability show reversals; feature model predicts this distribution without invoking rehearsal or storage-buffer changes."
+  }
+]

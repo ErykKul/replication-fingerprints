@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0571",
+    "what_manipulated": "liability (legal requirement of sufficient quality), verifiability (ability to verify actual quality provided), reputation (seller identifiability), competition (seller choice availability)",
+    "what_measured": "trade frequency, provision quality (undertreatment/overtreatment), overcharging, market efficiency",
+    "experiment": "Bilateral expert-consumer matching over 16 repeated rounds. Consumers decide entry after observing seller prices; sellers provide quality and charge prices. Manipulated: institutional safeguards (liability/verifiability 2x2) and market structure (reputation/competition 2x2), creating 16 conditions. Measure: trade volume, quality efficiency, undertreatment/overcharging rates, and equilibrium pricing patterns.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "many-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0579",
+    "what_manipulated": "job design elements: effort discretion (full vs. limited), wage level, screening for work attitude (past performance signal), labor market competition",
+    "what_measured": "effort choice, employer profit, employee earnings, job clustering (control vs. trust strategy)",
+    "experiment": "Employer-employee matching over 15 periods. Employer offers contract specifying wage and effort discretion; employee accepts/rejects, then chooses effort. Treatments: base (no screening), screening (employer sees 3-period effort history), competition (multiple employers per employee). Measure: effort provision patterns, strategic job design clustering, welfare effects of screening and competition.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0580",
+    "what_manipulated": "fundamental value process (declining vs. constant), cash-to-asset ratio (increasing vs. constant), experimental context (generic stocks vs. depletable gold mine stocks)",
+    "what_measured": "asset prices, mispricing (RAD), overvaluation (RD), subject comprehension of fundamental value",
+    "experiment": "Asset market with 10 subjects trading dividend-paying stock over 10 periods. Factorial design varies fundamental value and cash-to-asset ratio (2x2). Control treatments replace framing with depletable-gold-mine context. Measure: price deviations from fundamental value, overvaluation extent, subject questionnaire responses on FV understanding.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0581",
+    "what_manipulated": "organ allocation policy (standard waiting list vs. priority for registered donors), cost of donation (monetary incentive variations)",
+    "what_measured": "organ donor registration decision, donation rate, expected payoff from priority",
+    "experiment": "31 repeated donation rounds in fixed groups of 12. Each period subjects decide whether to register as organ donor (pay cost for benefit if they later need organ). Manipulated: allocation rule (control/priority/rebate/discount), cost level (low/high). Measure: registration rates under different allocation policies and cost structures, reinforcement learning effects.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0582",
+    "what_manipulated": "punishment option availability and severity (none, standard 1:3 ratio, strong 1:6 ratio), monitoring (perfect vs. 10% error noise)",
+    "what_measured": "public good contributions, punishment assignments, net earnings, cooperation patterns",
+    "experiment": "50-round public good game in groups of 3. Subjects choose binary contribution (all-or-none 20 tokens). 2x3 factorial design: punishment severity (none/standard/strong) × monitoring quality (perfect/noisy 10%). Second stage: optional costly punishment with damage multiplier. Measure: contribution levels, punishment patterns, net payoffs, cooperation evolution.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0585",
+    "what_manipulated": "exchange medium (gift exchange via bilateral matching vs. monetary exchange via trading post), budget constraint design (Lagos-Wright environment with money vs. no-money barter)",
+    "what_measured": "quantity traded, pricing behavior, efficiency of trade, adherence to social norms",
+    "experiment": "Decentralized and centralized market meetings across 15 periods. Agents randomly bilaterally matched in decentralized phase for specialized-good production/consumption; then centralized Walrasian phase. Treatments vary exchange medium: gift-exchange protocol vs. monetary exchange with trading post. Measure: trading volumes, price patterns, ability to sustain equilibrium cooperation through explicit vs. implicit contracts.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  }
+]

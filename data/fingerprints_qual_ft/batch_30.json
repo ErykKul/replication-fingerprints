@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0225",
+    "phenomenon": "harm-intention linkage in blame",
+    "constructs": "intent perception, motivation assignment, behavioral persistence",
+    "claim": "Detecting intent in harmful acts catalyzes goal-directed motivation to blame that manifests in sustained effort to assign punishment, independent of actual harm magnitude.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0226",
+    "phenomenon": "third-party intervention game transformation",
+    "constructs": "payoff structure, cooperation incentive, self-interest rationality",
+    "claim": "Self-interested third parties increase cooperation among disputants by altering payoff structure, yet systematically underestimate their positive impact and fail to intervene despite mutual benefit.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0227",
+    "phenomenon": "nonverbal dominance attraction",
+    "constructs": "postural expansion, perceived dominance, partner selection",
+    "claim": "Expansive body posture signals dominance and openness, increasing romantic attraction in modern rapid-decision dating contexts where kinetic cues are processed faster than personality information.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0228",
+    "phenomenon": "inequality-modulated prosocial behavior",
+    "constructs": "income level, structural inequality, entitlement sense, resource sharing",
+    "claim": "High structural inequality fosters entitlement among higher-income individuals, reducing their generosity, while low inequality allows income to correlate with greater giving capacity and willingness to share.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0229",
+    "phenomenon": "racial bias in pain and treatment",
+    "constructs": "false biological beliefs, pain rating, treatment accuracy, medical training",
+    "claim": "Endorsement of false beliefs about racial biological differences predicts lower pain estimates for black versus white patients and less accurate treatment recommendations among medical trainees.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "hedged-claim"
+  },
+  {
+    "paper_id": "p0230",
+    "phenomenon": "disclosure trust penalty",
+    "constructs": "information withholding, volitional hiding, trustworthiness judgment",
+    "claim": "Choosing not to disclose personal information signals untrustworthiness and leads to harsher judgment than admitting unsavory truth, yet decision-makers focus on damage of revealing rather than trust benefits of disclosing.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  }
+]

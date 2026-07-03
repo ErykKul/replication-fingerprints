@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0002",
+    "phenomenon": "risk-value tradeoff in evidence seeking",
+    "constructs": "evidentiary weight outcome probability confirmation likelihood context sensitivity",
+    "claim": "Confirmation bias reframes as strategic navigation of probability-value tradeoffs, where high-quality evidence is pursued despite low frequency when context supports analytical rigor.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0003",
+    "phenomenon": "affective-dimensional coupling",
+    "constructs": "affect heuristic mental shortcut shared representation judgment confounding",
+    "claim": "Independent judgment dimensions are coupled by shared underlying affective impression, making apparently separate evaluations functionally dependent on emotional tags.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0004",
+    "phenomenon": "memory conformity from discussion",
+    "constructs": "source monitoring social influence information integration false memory",
+    "claim": "Witnessed information discussed with others becomes incorporated into personal memory as genuinely recalled detail rather than strategically adopted, with majority persisting at independent test.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0005",
+    "phenomenon": "belief-congruent pattern detection",
+    "constructs": "response criterion perceptual bias anthropomorphism pattern salience",
+    "claim": "Believers in paranormal or religious phenomena adopt lowered thresholds for accepting ambiguous patterns as human-like, increasing both correct detections and false alarms equally.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0006",
+    "phenomenon": "identifiability-emotion-allocation coupling",
+    "constructs": "vividness perspective-taking empathic distress singularity psychological coherence",
+    "claim": "Individual victims trigger stronger emotional arousal and produce greater helping allocation than groups, driven by perspective-adoption and empathic distress rather than informational assessment.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0007",
+    "phenomenon": "incidental numeric priming",
+    "constructs": "environmental accessibility shallow processing implicit activation numeric bias",
+    "claim": "Numbers incidentally present in judgment context influence numeric estimates via accessibility-driven priming, requiring minimal attention and persisting despite explicit awareness of irrelevance.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  }
+]

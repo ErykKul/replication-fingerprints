@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0298",
+    "phenomenon": "Moral judgment contaminates causal reasoning",
+    "constructs": "intentionality attribution moral-valence blame-asymmetry lay-intuition",
+    "claim": "Ordinary language concepts of intentionality embed evaluative content: people call undesired foreseen outcomes intentional more readily than desired ones, suggesting intentionality tracking is not purely about mental state but about moral responsibility.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0299",
+    "phenomenon": "Gendered task avoidance follows hidden hierarchy",
+    "constructs": "gender-norms task-acceptability selective-participation cultural-variability",
+    "claim": "Men's household labor is not randomly distributed but follows a stable within-country ordering of task acceptability (laundry > cooking > cleaning); conformity to this ordering is stronger in conservative/traditional welfare regimes and weaker in egalitarian/individualized societies.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0300",
+    "phenomenon": "Economic shock reshuffles EU legitimacy by education",
+    "constructs": "macro-economic-context winners-losers educational-stratification identity-legitimacy",
+    "claim": "Economic crisis and austerity policies altered how different social groups frame the EU: pre-crisis beneficiaries (high-educated) shifted away from opportunity-framing; financial-stability conditionality increased sovereignty-threat perception. Political salience partly countered legitimacy erosion.",
+    "narrative": "context-effect",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0301",
+    "phenomenon": "Modernization weakens parental socioeconomic transmission in union-timing",
+    "constructs": "intergenerational-influence family-norms individualization gender-differences",
+    "claim": "Parental SES delays offspring union formation everywhere but effect is weaker in societies that are further along the Second Demographic Transition (high cohabitation, weak age-norms for leaving home). Net effect (controlling education) is homogeneous across countries, suggesting structural factors (education expansion) rather than values explain variation.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0302",
+    "phenomenon": "Aging increases selectivity in activity motivation",
+    "constructs": "socioemotional-selectivity time-horizon life-stage emotional-vs-utilitarian",
+    "claim": "Across a range of activity-choice tasks, older adults show greater preference for emotionally meaningful over utilitarian or external-obligation activities; this age-related selectivity intensifies under constrained time horizons and is reflected in charitable giving patterns (kin-selection rises with age).",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0303",
+    "phenomenon": "Structure and planning bridge intention-behavior gap in chronic disease self-care",
+    "constructs": "proactive-coping implementation-intentions goal-attainment self-efficacy peer-support",
+    "claim": "Newly diagnosed patients with Type 2 diabetes who engage in structured five-step proactive planning (goal-setting, barrier-anticipation, strategy-generation, written implementation-intentions, progress-monitoring) with peer support show improved self-efficacy and goal-achievement, suggesting behavioral intention-action gap is bridgeable via cognitive-behavioral scaffolding.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  }
+]

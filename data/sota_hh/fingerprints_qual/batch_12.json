@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1073/pnas.1103343108",
+    "phenomenon": "linguistic framing effects on civic engagement motivation",
+    "constructs": "identity-salience behavioral-intention language-cues self-concept",
+    "claim": "framing an action as identity-expression rather than mere behavior increases motivation to enact that action.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2007.01983.x",
+    "phenomenon": "religious concept activation and prosocial resource allocation",
+    "constructs": "religious-priming generosity-behavior moral-motivation supernatural-monitoring",
+    "claim": "implicit activation of religious concepts increases anonymous giving through perceived supernatural accountability.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797614563108",
+    "phenomenon": "religious concept priming and risk tolerance modulation",
+    "constructs": "divine-protection-belief risk-taking safety-perception religious-framing",
+    "claim": "reminders of God increase risk-taking in nonmoral domains when perceived as a reliable safety-provider, reversing the typical religiosity-risk relationship.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/a0031337",
+    "phenomenon": "retrieval practice effects on memory as a function of task conditions",
+    "constructs": "retrieval-practice generation-effect memory-performance test-engagement",
+    "claim": "testing produces memory enhancement or impairment depending on retrieval demand and learner factors, unified by a multifactor account.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1221454110",
+    "phenomenon": "visual dominance in expert evaluative judgment",
+    "constructs": "visual-information sensory-dominance expert-judgment performance-prediction nonconscious-processing",
+    "claim": "visual information automatically dominates judgment and prediction of performance quality even when experts consciously prioritize alternative modalities.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.45.3.513",
+    "phenomenon": "affective state influence on well-being self-evaluation",
+    "constructs": "mood-state life-satisfaction judgment affective-context",
+    "claim": "current affective state colors subjective well-being evaluations through mood-congruent judgment.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/h0037031",
+    "phenomenon": "arousal misattribution and sexual attraction formation",
+    "constructs": "physiological-arousal cognitive-misattribution attraction-judgment emotional-state",
+    "claim": "heightened arousal from threat or fear can be misattributed to attraction toward nearby potential partners.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1080/1357650x.2014.912657",
+    "phenomenon": "neural asymmetry and decision-making bias modulation",
+    "constructs": "brain-laterality status-quo-bias belief-updating decision-flexibility",
+    "claim": "right-hemisphere dominance (inconsistent handedness) promotes flexible belief revision and reduced status quo bias relative to consistent right-hand dominance.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/h0023552",
+    "phenomenon": "sequential request compliance and self-commitment escalation",
+    "constructs": "self-commitment behavior-consistency social-influence compliance-escalation",
+    "claim": "agreeing to a small request increases compliance with subsequent larger requests via internalized self-concept alignment.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797611398497",
+    "phenomenon": "gustatory-sensory priming of moral judgment severity",
+    "constructs": "taste-perception physical-disgust moral-cognition political-ideology",
+    "claim": "bitter taste sensations trigger harsher moral judgments through embodied disgust, particularly among politically conservative individuals.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797611408736",
+    "phenomenon": "unconscious scene-object semantic integration",
+    "constructs": "perceptual-suppression semantic-integration object-recognition unconscious-processing",
+    "claim": "visual integration of objects with their contextual scenes and semantic appropriateness occurs outside conscious awareness.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1126/science.1169144",
+    "phenomenon": "chromatic priming and cognitive-task performance differential",
+    "constructs": "color-exposure motivational-orientation detail-focus creativity-performance",
+    "claim": "red enhances detail-oriented performance through avoidance motivation while blue enhances creative performance through approach motivation.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/1948550612447114",
+    "phenomenon": "organic-food exposure and moral identity affirmation effects",
+    "constructs": "food-category moral-identity altruistic-behavior self-perception",
+    "claim": "exposure to organic foods triggers moral self-affirmation that paradoxically reduces subsequent helping behavior.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797612466416",
+    "phenomenon": "ovulatory-cycle modulation of political preferences by relationship status",
+    "constructs": "reproductive-biology political-orientation relationship-status fertility-cues",
+    "claim": "women's fertility cycle shifts political and religious views differentially by relationship status, with ovulation promoting liberalism in single women and conservatism in partnered women.",
+    "narrative": "new-mechanism",
+    "scope": "specific-population",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.95.1.18",
+    "phenomenon": "control-threat coping and system-justification escalation",
+    "constructs": "personal-control system-justification threat-compensation belief-in-god",
+    "claim": "threats to perceived personal control increase belief in powerful external systems (divine and socio-political) as compensatory control mechanisms.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1521/soco.2013.31.3.374",
+    "phenomenon": "vertical spatial representation of social hierarchy",
+    "constructs": "spatial-cognition social-status embodied-metaphor perceptual-field",
+    "claim": "social rank is automatically represented as vertical position, facilitating faster processing and inference of hierarchical relations.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1509/jmkr.48.spl.s91",
+    "phenomenon": "tax-aversion as distinct from rational cost-avoidance",
+    "constructs": "taxation-psychology economic-decision-making cost-perception political-ideology",
+    "claim": "people irrationally prefer to avoid tax-labeled costs more than equivalent or larger non-tax costs, driven by political identity.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797616677313",
+    "phenomenon": "phonemic-shape correspondence prior to visual awareness",
+    "constructs": "sound-symbolism perceptual-suppression cross-modal-binding automatic-processing",
+    "claim": "sound-shape mapping (bouba-kiki effect) operates preconsciously and facilitates breakthrough to awareness of matching visual forms.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1162/089892998563121",
+    "phenomenon": "domain-generality of syntactic structural processing in neural response",
+    "constructs": "syntactic-structure neural-specificity language-music processing-similarity",
+    "claim": "language and music evoke neurally indistinguishable responses to structural incongruity, challenging domain-specific theories of syntax.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/a0020092",
+    "phenomenon": "lower socioeconomic status and elevated prosocial behavior orientation",
+    "constructs": "social-class resource-scarcity egalitarian-values compassion-motivation",
+    "claim": "individuals from lower socioeconomic backgrounds exhibit greater generosity, charity, and trust than upper-class counterparts through egalitarian value commitment.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  }
+]

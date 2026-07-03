@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1126/science.1211180",
+    "phenomenon": "institutional policy effect on performance composition",
+    "constructs": "gender-based-selection opportunity aspirations role-modeling",
+    "claim": "Targeted recruitment policies can maintain efficiency while expanding demographic diversity by attracting high-performing individuals from underrepresented groups.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1126/science.1215647",
+    "phenomenon": "cognitive mode and belief formation",
+    "constructs": "analytical-processing intuitive-override belief-formation causation",
+    "claim": "Deliberate analytical cognition directly causes reduced religious adherence across multiple cognitive tasks.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1126/science.1221936",
+    "phenomenon": "lingering biases in sequential memory decisions",
+    "constructs": "encoding-retrieval pattern-separation pattern-completion memory-bias",
+    "claim": "Recent memory encoding and retrieval operations create persistent biases that influence how subsequent memories are formed and accessed.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1126/science.1222426",
+    "phenomenon": "resource constraint and cognitive allocation",
+    "constructs": "scarcity attention-allocation resource-constraints decision-making",
+    "claim": "Scarcity redirects cognitive focus to immediate problems while neglecting peripheral concerns, mechanistically driving behaviors that reinforce constraint.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1126/science.1224313",
+    "phenomenon": "emotional expression recognition and multimodal integration",
+    "constructs": "emotion-perception body-language facial-expression context-integration",
+    "claim": "Body posture, not facial features, carries the diagnostic information for distinguishing emotional valence, and faces are reinterpreted contextually.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1126/science.1238041",
+    "phenomenon": "resource constraint and mental capacity",
+    "constructs": "poverty scarcity cognitive-load mental-resources decision-making",
+    "claim": "Poverty directly reduces cognitive capacity by consuming mental bandwidth for constraint-related concerns, independent of stress or lifestyle factors.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1126/science.1239918",
+    "phenomenon": "narrative engagement and social understanding",
+    "constructs": "literary-engagement theory-of-mind perspective-taking empathy",
+    "claim": "Engaged reading of literary fiction temporarily enhances capacity to infer others' mental and emotional states.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1126/science.1250830",
+    "phenomenon": "experience of unstructured thought and stimulus deprivation",
+    "constructs": "solitude stimulus-deprivation introspection affect",
+    "claim": "Absence of external stimulation or activity produces aversive mental states, leading individuals to seek distraction or accept discomfort.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1126/science.1253932",
+    "phenomenon": "donor perception of nonprofit resource allocation",
+    "constructs": "overhead-aversion donation-behavior philanthropic-decision information-framing",
+    "claim": "Donors preferentially support charities when administrative costs are transparently covered by third parties, not when cost-sharing is required.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1126/science.283.5398.77",
+    "phenomenon": "abstract grammatical pattern acquisition",
+    "constructs": "infant-cognition rule-extraction algebraic-structure language-acquisition",
+    "claim": "Seven-month-old infants can extract and generalize abstract relational rules beyond simple statistical associations.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1126/science.7455683",
+    "phenomenon": "preference reversal under problem reformulation",
+    "constructs": "decision-framing preference-reversal prospect-theory rationality",
+    "claim": "Functionally equivalent decisions produce opposite preferences depending on how outcomes are framed, violating rational choice principles.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1145/3105726.3106182",
+    "phenomenon": "student programming error patterns and progression",
+    "constructs": "error-detection static-analysis learning-progression code-quality",
+    "claim": "Static-analysis-detectable flaws beyond syntax consistently predict program correctness and distinguish expertise levels across student populations.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1145/3290605.3300469",
+    "phenomenon": "trust inference when AI-generated communication is disclosed",
+    "constructs": "AI-generation trust disclosure mixed-sources signal-interpretation",
+    "claim": "AI-generated content triggers distrust only in contexts where human-generated alternatives are visible, creating a comparative inference artifact.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1152/japplphysiol.91324.2008",
+    "phenomenon": "cognitive state transition to motor task execution",
+    "constructs": "mental-fatigue perceived-effort performance-tolerance intrinsic-motivation",
+    "claim": "Mental fatigue reduces physical endurance by increasing perception of exertion, not by depleting physiological resources.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1162/003355397555208",
+    "phenomenon": "nominal versus real value evaluation in economic decision-making",
+    "constructs": "nominal-representation real-value inflation psychology-of-money",
+    "claim": "People maintain parallel nominal and real valuations that interact competitively, biasing judgment toward nominal framing.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1162/jocn_a_00709",
+    "phenomenon": "decision-making strategy selection across contexts",
+    "constructs": "cognitive-control goal-directed habit model-based reinforcement-learning",
+    "claim": "Individual differences in controlled overriding of habitual responses predict the adoption of deliberate, goal-oriented decision computation.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1162/qjec.122.3.1067",
+    "phenomenon": "gender-differentiated preference for competitive contexts",
+    "constructs": "competition-selection confidence gender-differences preference-heterogeneity",
+    "claim": "Men and women of equivalent ability select into competition asymmetrically due to gender differences in overconfidence and competitive preference, not risk aversion.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1163/156853706776931222",
+    "phenomenon": "conceptual mapping between intention attribution and action morality",
+    "constructs": "intention-concept acting-intentionally moral-status folk-psychology",
+    "claim": "Folk judgments of intentional action are determined partly by moral evaluation of behavior, diverging from judgments about underlying intentions.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1163/156853706776931385",
+    "phenomenon": "contextual switching in responsibility attribution",
+    "constructs": "free-will responsibility agency determinism folk-intuition",
+    "claim": "Folk responsibility judgments exhibit context-dependent switching between indeterminist and determinist reasoning without stable underlying principle.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0001839219840022",
+    "phenomenon": "capability signaling and organizational commitment inference",
+    "constructs": "hiring-decisions capability-signals commitment-inference adverse-selection",
+    "claim": "High capability signals reduce hiring likelihood because they trigger inferences of lower organizational commitment and higher alternative-job availability.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

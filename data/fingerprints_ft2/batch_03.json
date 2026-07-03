@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0022",
+    "what_manipulated": "Justice principle applied by allocator (accountability vs. libertarian vs. egalitarian)",
+    "what_measured": "Distribution of earnings by dictator; choice of justice principle",
+    "experiment": "Allocators earned income via quiz performance (randomly rewarded), were randomly assigned to divide earnings with recipients. Allocation choices revealed which justice principle guided distribution. Compared allocation patterns across conditions where recipients' contribution varied and distribution rules changed. No constraints on how to divide; justice principles inferred from behavior.",
+    "design": "between-subjects",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0023",
+    "what_manipulated": "Presence vs. absence of judgment-violation and resolution-violation in vignettes",
+    "what_measured": "Agreement with attribution of weakness of will (Likert scale rating)",
+    "experiment": "2 x 2 factorial design: vignettes described agents acting against their evaluative judgment and/or against a resolution. Subjects rated agreement that protagonist displayed weakness of will. Manipulated both factors independently while holding intentions, outcomes, and effort constant. Measured whether both, one, or neither factor was necessary for typical attribution of weakness of will.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0024",
+    "what_manipulated": "Word frequency of n+1 position word (high frequency vs. low frequency) and boundary location (after n-1 vs. after n-2)",
+    "what_measured": "Eye movement measures: first fixation duration, gaze duration, single fixation duration, skipping probability on target word",
+    "experiment": "Boundary paradigm contingent on eye movements. Readers fixated on sentences with display changes triggered by eye position. Preview word was either identical or dissimilar to target. Measured whether readers benefit from preview of word n+2 under low-frequency (vs. high-frequency) n+1 conditions. Two-factor within-subjects design with counterbalancing across participants.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-one"
+  },
+  {
+    "paper_id": "p0025",
+    "what_manipulated": "Regional HIV prevalence (naturally varying across regions and time)",
+    "what_measured": "Antenatal care receipt; quality of prenatal procedures (blood/urine tests, blood pressure, weight measurement); clinic delivery; trained birth attendant presence; childhood immunization rates",
+    "experiment": "Observational study using DHS cross-country panel data (1988-2005) across 14 African countries and 119 regions. Examined association between regional HIV prevalence and health service delivery. Imputed historical prevalence by assuming linear increase from 1980. Regression with region fixed effects and birth-year effects to estimate within-region changes in health services as HIV burden increased.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0026",
+    "what_manipulated": "Partnership status transitions (single to married, single to cohabiting, married to single, cohabiting to single)",
+    "what_measured": "Subjective well-being on 0-10 scale (response to 'how happy would you say you are')",
+    "experiment": "Panel data (2008-2013) tracking partnership transitions and well-being. Linear fixed-effects model controlling individual time-invariant characteristics. Estimated causal effect of partnership formation/dissolution on happiness. Tested symmetry of effects: whether transition from single to partnership and reverse transition had equal/opposite magnitudes. Examined age-cohort and sexual-orientation heterogeneity.",
+    "design": "within-subjects",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0027",
+    "what_manipulated": "Omission vs. commission (action vs. inaction) holding intentions and outcomes constant; across five experiments: presence of physical movement, detectability, number of ways to achieve outcome, presence of alternative cause, presence of actor, repeatability, diffusion of responsibility",
+    "what_measured": "Morality judgments on scale (0-100); legal liability judgments; causal role attribution; decision quality ratings; behavior rankings",
+    "experiment": "Within-subjects design comparing paired omission-commission scenarios where intentions, motives, and consequences held constant. Subjects judged morality, causality, responsibility, and quality of decisions. Five experiments: (1) moral judgment of actors + causality questions; (2) explicit intention check; (3) train switching problem; (4) medical decision-making from three perspectives; (5) isolated manipulation of seven theoretically relevant factors. Examined whether omission bias persists when factual differences controlled.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "many-exploratory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "on-request"
+  }
+]

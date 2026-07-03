@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0405",
+    "what_manipulated": "moral valence of side-effect (help vs. harm)",
+    "what_measured": "knowledge attribution to agent about side-effect outcome",
+    "experiment": "Between-subjects design comparing knowledge attributions to a chairman about whether a side-effect (environmental help/harm) will occur. Both conditions presented identical evidence that the side-effect was certain; only moral valence (good/bad) varied. Participants rated agreement on 7-point Likert scale about whether the chairman knew the side-effect would occur.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0406",
+    "what_manipulated": "cultural/social distance of judge (same-culture, other-culture, extraterrestrial)",
+    "what_measured": "agreement that at least one moral judge must be wrong about a transgression",
+    "experiment": "Participants rated agreement on 7-point scale with claim that when two judges from varying cultural distances hold opposite moral views, one must be wrong. Same-culture condition involved classmate; other-culture involved Amazonian tribe; extraterrestrial involved alien beings. Transgressions held constant across conditions.",
+    "design": "between-subjects",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0407",
+    "what_manipulated": "conversational context providing contrast (who vs. what question salience)",
+    "what_measured": "agreement with knowledge ascription under different contrast conditions",
+    "experiment": "Participants evaluated knowledge ascriptions about a detective's knowledge in a jewel theft case. Context was manipulated via question under discussion: either 'Who stole?' (identity contrast) or 'What did they steal?' (object contrast). Same knowledge sentence evaluated under both contexts. Ratings on 7-point agreement scale.",
+    "design": "between-subjects",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0414",
+    "what_manipulated": "description of determinism (via wording emphasizing bypassing vs. causal dependence on mental states)",
+    "what_measured": "judgments of free will, moral responsibility, and perceived bypassing of mental states",
+    "experiment": "Participants randomly assigned to one of four descriptions of determinism: two emphasized modal language suggesting bypassing (Nichols & Knobe style), two emphasized causal chains including mental states (Nahmias et al. style). Both presented in abstract and concrete versions. Participants rated agreement on 6-point scales with statements about moral responsibility, free will, blame, and whether agents' mental states bypass.",
+    "design": "between-subjects",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0416",
+    "what_manipulated": "inhibitory control (measured via retrieval-induced inhibition task)",
+    "what_measured": "accuracy in L2 phonological perception and production of vowel and consonant contrasts",
+    "experiment": "Latent individual differences in inhibitory control (via recognition RT in retrieval-induced inhibition task) were correlated with performance on speeded ABX categorization task for L2 phonological perception and delayed sentence repetition for production. Design controlled for L2 proficiency via vocabulary test. Analysis examined whether participants with higher inhibition scores also showed lower perception error rates and higher consonant production accuracy.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0417",
+    "what_manipulated": "stakes (practical consequences of error) and salience (mention of error possibilities) in knowledge ascription contexts",
+    "what_measured": "agreement with knowledge ascriptions under manipulated stakes and salience conditions; required evidence for knowledge (in evidence-seeking studies)",
+    "experiment": "Series of between-subjects and within-subjects designs varying stakes and error salience in vignettes about knowledge claims (bank cases, typo-counting tasks, etc.). Primary designs asked participants to evaluate knowledge ascriptions directly or to specify evidence required for knowledge. Manipulation checked for whether practical consequences and error salience affected responses, controlling traditional epistemic factors.",
+    "design": "mixed",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  }
+]

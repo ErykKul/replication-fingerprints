@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0185",
+    "what_manipulated": "delay (short vs. long) between encoding and test; object properties tested (color, state, exemplar)",
+    "what_measured": "memory accuracy for object features; conditional probabilities and dependence between properties",
+    "experiment": "Observers encoded colored real-world objects with states/exemplars. In 3 experiments varying delay and list structure, memory for different object properties was tested via forced-choice. The skeleton compares whether properties show independent forgetting patterns or bound memory by examining conditional probabilities and dependence measures across short and long delays.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0186",
+    "what_manipulated": "received treatment (greedy, equal, generous money or labor allocation from prior person)",
+    "what_measured": "resources allocated to next person; amount of good tasks or money given in reciprocal exchange",
+    "experiment": "Participants received unequal or equal resource divisions, then allocated resources to subsequent anonymous recipient. Across 5 experiments (money and labor), reception type was manipulated; allocation measured downstream reciprocity. Design included affect mediation and mood-based moderation to isolate the mechanism driving asymmetric propagation of greed vs. generosity.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0187",
+    "what_manipulated": "encoding condition (retrieval practice vs. restudy) crossed with item organization (blocked by category vs. random)",
+    "what_measured": "free recall or cued recall performance; category clustering in recall output",
+    "experiment": "Observers studied cue-target pairs where targets were category exemplars. In phase 2, pairs were restudied or tested via cued retrieval; items were blocked by category or randomized. Final test was free recall or cued recall. The skeleton tests whether retrieval practice enhances or impairs memory when relational (categorical) structure competes with item-specific encoding.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0189",
+    "what_manipulated": "decision-making mode (conscious deliberation, unconscious thought via distraction, immediate judgment) for veracity judgments",
+    "what_measured": "discrimination ability (d-prime); classification accuracy of true vs. deceptive statements",
+    "experiment": "Observers watched videos of true and deceptive statements. After encoding, veracity judgments were formed under conscious deliberation, unconscious thought (distraction task), or immediate judgment. Across 5 experiments varying stimulus content (internships, attitudes, alibis, crimes), the skeleton compares whether unconscious processing improves detection accuracy above conscious and immediate decision modes.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0191",
+    "what_manipulated": "consonantal stricture direction during articulation (inward front-to-rear vs. outward rear-to-front wandering vs. baseline)",
+    "what_measured": "preference ratings for word targets; choice of interaction partner in social selection task",
+    "experiment": "Observers silently read words with controlled consonantal articulation patterns and rated preference. Across 9 experiments with varied labels (nonsense, names, company names, villain/hero names) and samples (German/English speakers, aphasia patients), the skeleton tests whether articulatory kinematics simulating deglutition/expectoration induce approach/avoidance-related preferences. Boundary condition tested via aphasia patients lacking subvocalization.",
+    "design": "within-subjects",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0192",
+    "what_manipulated": "motivation for good deed (religious, secular, or control) manipulated via explicit or implicit vignette description",
+    "what_measured": "perceived morality; attributions of responsibility and intentionality; moral praise ratings",
+    "experiment": "Observers read vignettes depicting identical good deeds (charity, helping) attributed to religious, secular, or no explicit motivation. Motivation was explicit (explicit belief consideration) or implicit (upbringing context). Six experiments tested whether religious motivation reduces moral judgment via reduced responsibility attributions. Experiment 6 tested mediation of responsibility on morality effect across conditions.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  }
+]

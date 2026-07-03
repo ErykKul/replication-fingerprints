@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0289",
+    "what_manipulated": "category size (number of alternative items grouped with target item)",
+    "what_measured": "probability judgment of target item; wager amount on target item",
+    "experiment": "Participants judged the likelihood that a randomly selected outcome would occur when that outcome was categorized with many versus few alternatives. The categorization was irrelevant to actual probability. Five studies tested whether irrelevant category size biases probability estimates by varying category size while holding constant total outcomes and number of categories, measuring effects on probability judgments, wagers, and behavioral choices across lottery and real-world contexts.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0290",
+    "what_manipulated": "elimination versus preservation of experiential categories (final event in one category chosen, completing that category, versus multiple events from each category remaining)",
+    "what_measured": "choice of which event to experience next; subjective sense of progress; intention to perform preventative behaviors",
+    "experiment": "Participants chose whether to eliminate or preserve categories of events when making consumption decisions. Six studies tested the hypothesis that consumers eliminate negative categories quickly but preserve positive categories to lengthen enjoyment. Design held total events and event valence constant while manipulating whether completing a choice would eliminate one category. Measures included binary choice, progress ratings, behavioral intentions, and field archival data on trilogy reading delays.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0291",
+    "what_manipulated": "roundedness of price number (e.g., $200.00 versus $198.76) and consumption goal (hedonic versus utilitarian) or processing resources (constrained versus unconstrained)",
+    "what_measured": "purchase intention; anticipated satisfaction; perceived product performance; feeling right; purchase intention in unrelated product",
+    "experiment": "Participants evaluated products or made purchase decisions when product price was presented as a rounded versus nonrounded number. Five studies manipulated price roundedness and contextual factors (consumption goal, processing resources, product message) to test whether rounded prices intensify evaluations when decisions are feeling-driven and nonrounded prices intensify evaluations when decisions are cognition-driven. Mediation analysis examined feeling right as mechanism.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0292",
+    "what_manipulated": "magnitude of financial constraint (unexpected bill of $100, $500, or $1,000) and availability of time budget (320, 260, or 200 minutes in virtual mall) and prior budgeting (budget versus control condition)",
+    "what_measured": "type of coping plan generated (efficiency versus priority); response time to generate plans; time allocation across shopping phases; shopping efficiency; dysfunctional behaviors (overspending, impulsive shopping)",
+    "experiment": "Participants coped with resource constraints using efficiency plans (stretching resources) or priority plans (sacrificing less important goals). Multiple studies tested how constraint shifted the planning mix toward prioritization, how budgeting prior to consumption increased priority planning, and how insufficient prioritization led to dysfunctional behavior. Designs held total resources constant while varying perceived constraint and planning opportunities.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0294",
+    "what_manipulated": "median age of country (population parameter r capturing aging versus young workforce) and age group of individual entrepreneur",
+    "what_measured": "rate of new business formation; entrepreneurship rate; proportion starting businesses with growth expectations",
+    "experiment": "Cross-country and within-country comparisons tested whether demographic structure affects entrepreneurship through rank effects (younger workers delay skill acquisition in aging societies). Theory predicted inverted-u-shaped age-entrepreneurship relation and lower entrepreneurship at every age in older societies. Empirical tests used Global Entrepreneurship Monitor data across 82 countries and 1.3 million individuals, comparing entrepreneurship rates by age and demographic structure.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0297",
+    "what_manipulated": "genre classification (Greek myth versus police procedural) and participant genre competence (measured versus manipulated)",
+    "what_measured": "imaginability of morally deviant proposition; acceptance of morally deviant proposition as fictional; genre competence; evaluative attitude",
+    "experiment": "Two studies investigated whether genre constraints imaginative resistance to morally deviant propositions. Study 1 correlated genre competence with imaginability and fictionality judgments for a mythologically-styled story. Study 2 presented identical plot in two genres (myth versus procedural) and measured acceptance of same morally deviant proposition. Manipulated genre expectations through framing and measured effects on judgments independent of character beliefs.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  }
+]

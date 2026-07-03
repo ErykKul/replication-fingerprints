@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0586",
+    "phenomenon": "substitution toward cheap alternatives under price constraints",
+    "constructs": "price elasticity age-based risk acquired-immunity demand",
+    "claim": "When cost increases, agents select lower-cost substitutes; young populations show inelastic demand (access priority), older populations show elastic demand (price-sensitive).",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0587",
+    "phenomenon": "self-presentation suppression under cross-gender observability",
+    "constructs": "audience-composition observability identity-signaling labor-market-preference",
+    "claim": "Single women suppress signals of career ambition when male (especially unmarried male) peers will observe their stated preferences, despite identical private preferences.",
+    "narrative": "context-effect",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0588",
+    "phenomenon": "political norm diffusion via diaspora contact",
+    "constructs": "exposure-to-institutions information-transmission social-network democratic-norms",
+    "claim": "Exposure to democratic institutions through migrant networks increases preference for democracy at home; effect depends on destination-country institutional quality, not on migrant selection.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0592",
+    "phenomenon": "sequential anchoring in numerical estimation",
+    "constructs": "reference-point adjustment loss-coding contrast-salience",
+    "claim": "Estimates of quantities are coded as gains or losses relative to a reference, not averaged across items; order of presentation dramatically biases final estimates.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0593",
+    "phenomenon": "heterogeneous pragmatic reasoning depths in population",
+    "constructs": "theory-of-mind reasoning-complexity individual-differences population-heterogeneity",
+    "claim": "Population-level aggregate behavior masks individual differences in Theory-of-Mind depth; most speakers use level-1 reasoning but most listeners use level-1 exhaustive interpretation rather than level-2 pragmatic reasoning.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0604",
+    "phenomenon": "synergistic resource-scarcity effects on financial decision-making",
+    "constructs": "liquidity criticality loss-framing lending-options tunnel-attention cognitive-bandwidth",
+    "claim": "Multiple scarcity dimensions (cash-poor, critical need, loss-avoidance, no alternatives) compound attention tunneling and increase overborrowing beyond additive predictions; effect is strongest for repeat borrowers already in debt.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

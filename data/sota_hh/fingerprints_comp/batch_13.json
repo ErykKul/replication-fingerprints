@@ -1,0 +1,62 @@
+[
+  {
+    "doi": "10.1073/pnas.0805664105",
+    "mechanism": "Perform principal components analysis on trait judgments of images to extract orthogonal dimensions. Construct a regression model from image features to continuous trait scores. Validate model predictions against held-out judgments. Decompose trait evaluations into two latent factors by regressing judgment outcomes on extracted feature spaces. Identify feature importance for each factor by examining correlations between image attributes and model outputs.",
+    "domain": "face perception and social cognition",
+    "structure": "dense linear algebra",
+    "data_object": "dense matrix or tensor",
+    "inference": "frequentist point estimate",
+    "problem_form": "estimation",
+    "distribution": "continuous",
+    "complexity": "polynomial iterative",
+    "data_availability": "none",
+    "code_availability": "none",
+    "preregistration": "none",
+    "evidence_basis": "empirical-with-private-data"
+  },
+  {
+    "doi": "10.1177/0146167210386238",
+    "mechanism": "none",
+    "domain": "psychology and language comprehension",
+    "structure": "none",
+    "data_object": "none",
+    "inference": "none",
+    "problem_form": "none",
+    "distribution": "none",
+    "complexity": "none",
+    "data_availability": "none",
+    "code_availability": "none",
+    "preregistration": "none",
+    "evidence_basis": "empirical-with-private-data"
+  },
+  {
+    "doi": "10.1126/science.1157627",
+    "mechanism": "none",
+    "domain": "political psychology and physiology",
+    "structure": "none",
+    "data_object": "none",
+    "inference": "none",
+    "problem_form": "none",
+    "distribution": "none",
+    "complexity": "none",
+    "data_availability": "none",
+    "code_availability": "none",
+    "preregistration": "none",
+    "evidence_basis": "empirical-with-private-data"
+  },
+  {
+    "doi": "10.1177/0956797612443835",
+    "mechanism": "none",
+    "domain": "behavioral economics and moral psychology",
+    "structure": "none",
+    "data_object": "none",
+    "inference": "none",
+    "problem_form": "none",
+    "distribution": "none",
+    "complexity": "none",
+    "data_availability": "none",
+    "code_availability": "none",
+    "preregistration": "none",
+    "evidence_basis": "empirical-with-private-data"
+  }
+]

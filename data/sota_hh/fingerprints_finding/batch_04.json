@@ -1,0 +1,82 @@
+[
+  {
+    "doi": "10.1037/0278-7393.34.3.514",
+    "finding": "An individual difference in contingency learning (predictive association between stimulus and response) explains item-specific effects on a cognitive task more completely than attentional modulation."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.186",
+    "finding": "Sampling strategies that are optimal for one inferential task create systematic biases for others, creating a fundamental tension between unbiased sample design and valid inference."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.3.439",
+    "finding": "Parallel retrieval performance across condition types supports a dual-process account of recognition where recollection uses multiple independent retrieval routes."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.2.408",
+    "finding": "Encoding strength via context information improves directed forgetting of strong items, but strength via item-specific processing does not."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.2.302",
+    "finding": "Bilingual individuals do not exceed monolinguals in active inhibitory control but show stronger maintenance of goal representations, which can indirectly increase reactive inhibition."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.2.343",
+    "finding": "Automatic activation of a learned relation (addition facts) depends on whether semantic relations in preceding stimuli align with the structure of that learned relation."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.3.524",
+    "finding": "Implicit learning in repeated sequences involves both learning correct responses and learning the errors that were previously produced, with both following the same repetition-frequency gradient."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.3.495",
+    "finding": "Two stimulus factors show additive effects in means but opposite interactive effects in response-time distributions, revealing distinct underlying processing architectures depending on task demands."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.249",
+    "finding": "Semantic interference persists even when target responses are delayed, but frequency effects disappear, indicating the interference effect operates at a post-lexical processing stage."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.2.399",
+    "finding": "Feature learning in multidimensional sequences is object-based or feature-based depending on the degree of covariation between feature dimensions during encoding."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.204",
+    "finding": "Causal judgments weight the capacity of each cause to account for outcome occurrences over base contingency, predicting overshadowing failures when causes differ in their explanatory power."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.128",
+    "finding": "Memory for temporal order and timing information share mechanisms; temporal patterns in input are reproduced in output across different recall objectives."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.80",
+    "finding": "Attention directed to element pairs is sufficient for learning their relation regardless of spatial contiguity, reframing contiguity effects as a byproduct of attentional distribution."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.2.369",
+    "finding": "Retrospective attention to a single item in working memory reduces interference from new incoming information, demonstrating that memory contents require focused attention to resist updating."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.167",
+    "finding": "Learning and decision-making processes adapt differentially to task structure; Bayesian learning interferes with risk assessment while decision-making increases its validity."
+  },
+  {
+    "doi": "10.1037/0022-3514.95.1.76",
+    "finding": "Individuals who commit to socially disapproved behavior resent moral dissenters, but uninvolved observers prefer them; resentment is mediated by threatened self-image."
+  },
+  {
+    "doi": "10.1037/0022-3514.94.1.16",
+    "finding": "Weak correlations between implicit and explicit attitude measures reflect differences in task structure rather than independence of underlying cognition; structural alignment increases correlations."
+  },
+  {
+    "doi": "10.1037/0022-3514.94.4.718",
+    "finding": "Self-report reliability improves with age but different personality domains show divergent trajectories; some gain coherence while others gain differentiation."
+  },
+  {
+    "doi": "10.1037/0022-3514.94.4.696",
+    "finding": "Mortality salience triggers reliance on parental attachment for security, but the target of this reliance (parent vs. romantic partner) depends on attachment style."
+  },
+  {
+    "doi": "10.1037/a0012833",
+    "finding": "General goal primes (action vs. inaction) increase or decrease behavioral output uniformly across diverse motor and cognitive domains; effects vanish once the goal state is achieved."
+  }
+]

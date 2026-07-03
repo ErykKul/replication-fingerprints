@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1111/j.1467-9280.2008.02043.x",
+    "phenomenon": "episodic recollection and imaginative projection across lifespan",
+    "constructs": "age decline specificity constructive-simulation relational-memory",
+    "claim": "systems supporting flexible detail-recombination for past events weaken identically for imagined futures with age.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02044.x",
+    "phenomenon": "visual selection and eye movement allocation during search",
+    "constructs": "dorsal-stream affordance prototypical-view action-template",
+    "claim": "eye movements during target search are modulated by action relevance and object familiarity rooted in dorsal spatial processing.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02045.x",
+    "phenomenon": "moral behavior and choice under belief systems",
+    "constructs": "determinism free-will cheating moral-accountability",
+    "claim": "belief that behavior is predetermined reduces moral constraint and increases unethical choice through weakened agency conviction.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02046.x",
+    "phenomenon": "temporal attention filtering during rapid stimulus sequences",
+    "constructs": "temporal-selection efficacy latency precision",
+    "claim": "attentional blink decompose into three dissociable dimensions: suppression, delay, and diffusion of temporal filtering.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02049.x",
+    "phenomenon": "perceptual depth and figure-ground from surface geometry",
+    "constructs": "extremal-edge convexity depth-cue surface-organization",
+    "claim": "viewpoint-dependent surface boundaries stronger than classical shape cues for assigning relative depth and foreground status.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02050.x",
+    "phenomenon": "change detection in complex auditory stimuli",
+    "constructs": "memory-capacity stimulus-complexity tone-identification",
+    "claim": "auditory change detection relies on mechanisms indifferent to stimulus complexity, unlike visual change detection which depends on capacity.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02051.x",
+    "phenomenon": "language-mediated attention to spatial locations",
+    "constructs": "perceptual-simulation semantic-associations spatial-orienting",
+    "claim": "words denoting spatially-typical objects reactivate perceptual features and direct attention to those object-locations.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02052.x",
+    "phenomenon": "attentional vigilance and threat response to social outgroup",
+    "constructs": "external-motivation prejudice-threat attentional-bias",
+    "claim": "suppressed prejudice motivation creates anxiety-driven attentional shifts: early vigilance, late avoidance of outgroup faces.",
+    "narrative": "new-mechanism",
+    "scope": "specific-population",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02053.x",
+    "phenomenon": "aversion and defensive response to behavioral error",
+    "constructs": "error-detection affective-valence defensive-motivation startle",
+    "claim": "response errors trigger defensive motivational states proportional to neural error signals, making mistakes inherently aversive.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02056.x",
+    "phenomenon": "compensatory social connection with nonhuman agents",
+    "constructs": "loneliness anthropomorphism agent-likeness social-deficit",
+    "claim": "loneliness prompts attribution of human qualities to nonhuman entities and strengthens belief in humanlike agents as substitutes.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02057.x",
+    "phenomenon": "magnitude adjustment in judgment from anchors",
+    "constructs": "anchoring heuristic resolution adjustment-magnitude",
+    "claim": "precise anchors create finer mental-scale resolution, reducing iterative adjustments and producing biased estimates.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02060.x",
+    "phenomenon": "mating partner choice contingent on reproductive timing",
+    "constructs": "genetic-quality pair-bonding fertility investment-strategy",
+    "claim": "women contingently shift partner preference from committed to genetic-quality males as ovulation approaches for extramarital conception.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "single-population",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02061.x",
+    "phenomenon": "motivational modulation of emotional neural response",
+    "constructs": "amygdala valence-processing goals evaluative-context",
+    "claim": "amygdala activation flexibly tracks current evaluative goals; negative information shows less flexible modulation than positive.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02062.x",
+    "phenomenon": "cognitive fluency and abstraction level in interpretation",
+    "constructs": "processing-ease construal-level psychological-distance",
+    "claim": "difficulty processing stimuli triggers abstract construals, as disfluency is interpreted as spatial or psychological distance.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02064.x",
+    "phenomenon": "memory encoding and evolutionary fitness relevance",
+    "constructs": "survival-processing retention adaptive-memory evolution",
+    "claim": "encoding information for survival relevance produces stronger memory than standard deep processing across diverse conditions.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02069.x",
+    "phenomenon": "child word learning and perspective-taking inference",
+    "constructs": "gaze-following pragmatic-context speaker-intent reference",
+    "claim": "children use speaker gaze as referential signal but constrain it by linguistic and pragmatic context, not as automatic heuristic.",
+    "narrative": "confirmation",
+    "scope": "specific-population",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02070.x",
+    "phenomenon": "word-order grammar and phonological activation during speech",
+    "constructs": "word-order adjacency constraints phonological-activation language-production",
+    "claim": "language-specific word-order rules operate online to determine which phonological competitors activate during naming.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02076.x",
+    "phenomenon": "attitude generalization from individual to group member",
+    "constructs": "implicit-association explicit-judgment associative-memory forgetting",
+    "claim": "implicit attitudes immediately generalize by association; explicit attitudes resist generalization until associative knowledge replaces detail.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02077.x",
+    "phenomenon": "metabolic constraint on deliberative reasoning capacity",
+    "constructs": "glucose self-control heuristic-reliance effortful-analysis",
+    "claim": "glucose depletion from self-control reduces capacity for rule-based analysis, shifting choices toward intuitive heuristics.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02078.x",
+    "phenomenon": "implicit learning in novel task environments",
+    "constructs": "implicit-learning nonconscious-goals implicit-priming environment-structure",
+    "claim": "primed implicit goals enhance learning of novel environment structure, showing nonconscious goal-pursuit enables productive learning.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

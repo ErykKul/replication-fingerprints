@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0582",
+    "what_manipulated": "severity of punishment (low/standard/strong) in a repeated public good contribution game",
+    "what_measured": "cooperation in public good contributions and net payoffs after accounting for punishment costs",
+    "experiment": "Groups of 3 participants played a 50-round public good game where each endowment (20 tokens) could be kept (20 points) or contributed to a group account (10 points to each). After contribution, participants received information about others' choices (perfect or with 10% noise) and could assign costly punishment deductions. The analysis varied punishment severity between-subjects (3 levels) and noise condition (2 levels), yielding 6 treatments. Dependent variables were contributions, punishment usage, and net earnings, analyzed with Wilcoxon rank-sum tests comparing treatment groups and Probit regressions modeling individual choice patterns.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0585",
+    "what_manipulated": "type of exchange institution (centralized no-money trade; centralized money-based trade; decentralized gift exchange)",
+    "what_measured": "production and consumption quantities in a trading post environment",
+    "experiment": "This appears to be a theoretical appendix to an experimental economics paper. The paper develops formal game-theoretic models of different exchange institutions using the Lagos-Wright framework, solving for equilibrium quantities and conditions. No empirical methods section describes a primary experiment in the excerpted text. The analysis is entirely mathematical, deriving conditions under which different equilibria exist.",
+    "design": "meta-analysis",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "minimal",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0586",
+    "what_manipulated": "ACT subsidy level (92%, 88%, 80%) and availability of rapid diagnostic tests (RDTs) for malaria diagnosis at drug shops",
+    "what_measured": "ACT access (share of illness episodes treated with ACTs) and targeting (share of ACT-takers who are actually malaria-positive)",
+    "experiment": "Field experiment with 2,789 households in rural Kenya over 4 months. Households were randomly assigned to subsidy levels (92/88/80%) and RDT availability. Outcome variables were measured via drug shop administrative data, endline household surveys recalling illness episodes, and a symptoms database (N=533) used to impute malaria probability. Analysis compared subsidy and RDT treatment arms using OLS regressions with strata fixed effects, clustering by drug shop, controlling for age of household head.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "preregistered-with-power",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0587",
+    "what_manipulated": "career questionnaire observability (public vs. private) and gender composition of peer groups (all-female vs. all-male) in MBA career planning activities",
+    "what_measured": "desired compensation, willingness to travel, willingness to work hours, professional ambition and leadership self-ratings, choice of career-focused jobs",
+    "experiment": "Two field experiments on MBA students. Primary experiment: 98% of first-year cohort completed a career questionnaire; treatment randomly assigned instructions saying answers would be anonymized (private) vs. discussed in class (public). Outcomes (desired salary, travel, hours, ambition, leadership) compared between treatment conditions within relationship status groups using difference-in-differences and permutation tests. Supplementary experiment: students in career class made hypothetical job choices; small groups' gender composition was randomized. Treatment effects on career-focused job selection estimated via regression with section fixed effects and permutation tests.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "preregistered-with-power",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0588",
+    "what_manipulated": "community-level direction of labor emigration (to democratic West vs. non-democratic East) following the 1998 Russian financial crisis",
+    "what_measured": "share of votes cast for the Communist Party in the 2009 parliamentary election (and opposition parties)",
+    "experiment": "Observational study using community-level data from Moldova (N=848 communities). Main predictor variables are share of population that emigrated to the West or East as measured in the 2004 population census. Outcome is Communist vote share in the 2009 election. Analysis controls for pre-migration vote shares (1994, 1998), community demographics, ethnic composition, and nighttime light intensity as a proxy for economic shocks. OLS regressions with district fixed effects, standard errors clustered at district level. Identification strategy exploits the quasi-experimental nature of the 1998 crisis and the variation in destination choice across observably similar communities.",
+    "design": "observational or correlational",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0592",
+    "what_manipulated": "presence and type of reference food (none vs. main alone vs. main with healthy side) shown before calorie estimation task",
+    "what_measured": "estimated calorie content of food combinations and rated healthiness of foods",
+    "experiment": "Three online studies (N=301, 541, 430) where units estimated calories for food images. Study 1: between-subjects comparison of main meals alone vs. with green or red healthy side dishes. Study 2: main meal alone, with small/large healthy side, or with small/large unhealthy side. Study 3: reference food condition (main alone or main + healthy side) followed by test food (main alone or main + healthy side) in a 2x2 design. Participants also rated healthiness on 5-point scales. Analysis used ANOVA on log-transformed calorie estimates, mediation analysis to test whether healthiness ratings mediated calorie estimates, and permutation tests for robustness.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-one"
+  }
+]

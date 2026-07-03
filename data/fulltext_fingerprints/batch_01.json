@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0025",
+    "what_manipulated": "regional HIV prevalence level (observed, not experimentally manipulated)",
+    "what_measured": "health service utilization and quality (antenatal care, birth deliveries, child immunizations)",
+    "experiment": "Multi-country observational study analyzing 41 DHS surveys across 14 sub-Saharan African countries (1988-2006), with 119 regions tracked across birth years. Outcome measures include binary indicators of antenatal care procedures, trained birth attendants, and childhood vaccination status. Analysis uses OLS regression with region fixed effects, birth year effects, and individual covariates (mother education, age, child age/sex, urban status); imputes regional HIV prevalence assuming linear growth from 1980 to survey year. Also estimates semi-parametric models with birth-year-by-prevalence interactions without assuming linearity.",
+    "design": "observational or correlational",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0030",
+    "what_manipulated": "pairing of harmonic tone (CS+) with participant's own name versus pairing with different names (CS-) in classical conditioning",
+    "what_measured": "event-related potential (ERP) components, particularly P3 amplitude and time-frequency theta/alpha activity",
+    "experiment": "Four within-subject ERP experiments in healthy adults (22-42 years old). Experiment 1: 23 participants, 21 CS+/own-name pairings vs 21 CS-/different-name pairings during acquisition, then oddball test with 280 standards and 60 CS+/CS- each. Experiments 2-4 varied masking (masked names), presentation modality (monaural), and stimulus-onset-asynchrony (600 ms). EEG recorded at 1000 Hz from 64 electrodes, filtered 0.1-30 Hz, baselined -200 to 0 ms, analyzed for N1, P3a, P3b, and late time window (LTW) amplitudes using repeated-measures ANOVA.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0035",
+    "what_manipulated": "whether agent performs norm-fulfilling vs norm-violating action; separately, whether belief situation contains Gettier-case epistemic luck",
+    "what_measured": "attributed knowledge (whether protagonist 'really knows' outcome), rated on Likert or agreement scale",
+    "experiment": "Two between-subjects experiments with undergraduate participants. Experiment 1: 376 participants randomly assigned to one of 8 conditions (4 Gettierized Knobe-effect case pairs: WATER, MOVIES, SALES, NAZI) varying valence of side effect. Participants rate knowledge attribution on 7-point Likert scale. Experiment 2: 192-221 participants per case set, 3-4 conditions per set (Gettier case, Knobified Gettier case with harm, unGettiered control), knowledge rated on 5-point scale ('Strongly Disagree' to 'Strongly Agree'). Four case sets used (MATCH, MAIL, POLITICIAN, CLOCK). Analysis: one-way ANOVA within case sets, t-tests vs neutral midpoint.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0036",
+    "what_manipulated": "regional political polarization (measured via standard deviation of survey responses on 1-10 economic policy scales)",
+    "what_measured": "government consumption as fraction of total consumption; also transfers and subsidies as fraction of GDP",
+    "experiment": "Cross-national observational regression study of 74 countries using World Values Survey (2000 wave, some 1995). Polarization calculated as standard deviation of responses to 4 economic policy questions (equality, private ownership, government responsibility, competition). OLS regression of government consumption on polarization measure, controlling for mean response, region dummies, colonial origin, and optionally GDP per capita, trade openness, federal structure, OECD membership, demographic variables (population share 15-64, 65+), and additional controls (fractionalization measures, trust, institutional variables). Sample divided by democracy index (Polity IV) into 'strong' and 'weak' democracies.",
+    "design": "observational or correlational",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0040",
+    "what_manipulated": "cannabis use (monthly or heavy weekly) and cigarette smoking (daily for past year) as predictors (observational)",
+    "what_measured": "psychotic-like experiences (PLE) frequency and associated distress, measured by Community Assessment of Psychic Experiences (CAPE)",
+    "experiment": "Cross-sectional internet-based survey of 1929 Dutch young adults (18-30 years). Cannabis users defined as monthly or greater lifetime use; smokers as daily smokers in past year. CAPE measures lifetime PLE frequency (range 1-4) and distress (range 1-4) on separate scales. Linear regression: outcome = cannabis use + other confounders (age, gender, ethnicity, education, alcohol, other illicit drugs, parental psychiatric history), then repeated with smoking added. Interactions between cannabis and smoking examined. Post-hoc analyses with CAPE subscales (Positive, Negative, Depressive frequency).",
+    "design": "observational or correlational",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0042",
+    "what_manipulated": "language status (monolingual vs bilingual); task (color vs shape of stimulus, cued to switch or repeat)",
+    "what_measured": "reaction time (median and mean) for switch and non-switch trials",
+    "experiment": "Between-subjects design, 68 young adults (44 female, M=19.1 years; 37 monolinguals, 31 bilinguals). Bilinguals spoke English ~48% daily, varied L2 partners (18 language pairs). Task-switching paradigm: 2 non-switch blocks (shape, color, 22 trials each) + 2 switch blocks (50% probability task change per trial, ~50 switch and 50 non-switch trials per block). Stimuli: colored pictures of cows/horses; 100% response incompatible (each stimulus maps to different response by task). Median RTs analyzed with 2×2 ANOVA (block type × language status for GSC; switch status × language status for LSC). Background measures: KBIT-2 matrices, PPVT-III, box completion (processing speed), choice RT.",
+    "design": "between-subjects",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  }
+]

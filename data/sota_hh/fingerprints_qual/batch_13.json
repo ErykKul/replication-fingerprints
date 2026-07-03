@@ -1,0 +1,38 @@
+[
+  {
+    "doi": "10.1073/pnas.0805664105",
+    "phenomenon": "rapid social inference from facial appearance",
+    "constructs": "valence trustworthiness dominance threat-perception",
+    "claim": "Face evaluation reduces to two orthogonal dimensions (valence/dominance) that overgeneralize adaptive threat-inference mechanisms.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0146167210386238",
+    "phenomenon": "subjective perception of truthfulness from language presentation",
+    "constructs": "linguistic-concreteness vividness construal-level perceived-truth",
+    "claim": "Concrete language increases perceived truth through heightened vividness, especially when aligned with the observer's cognitive construal level.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1126/science.1157627",
+    "phenomenon": "political belief formation and ideology",
+    "constructs": "physiological-threat-sensitivity political-attitudes policy-preference protective-orientation",
+    "claim": "Political ideology correlates with physiological responsiveness to threat, suggesting biological grounding for policy preferences toward structural protection.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797612443835",
+    "phenomenon": "self-serving dishonesty and ethical restraint",
+    "constructs": "self-control time-pressure cognitive-justification cheating-behavior",
+    "claim": "Dishonest behavior stems from automatic self-interest; ethical restraint requires both ample deliberation time and absence of available justifications.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

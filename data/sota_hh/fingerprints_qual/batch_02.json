@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1509/jmkr.45.6.633",
+    "phenomenon": "self-concept management under moral-behavioral tension",
+    "constructs": "self-image integrity profit-motive attentional-bias",
+    "claim": "People engage in bounded dishonesty just enough to benefit materially while maintaining a positive self-image through inattention and category-flexibility.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1126/science.1189993",
+    "phenomenon": "tactile-to-social inference transfer",
+    "constructs": "sensorimotor-grounding embodied-metaphor judgment-formation",
+    "claim": "Physical tactile properties (weight, roughness, hardness) nonconsciously activate metaphorically-linked dimensions that shape evaluations of unrelated social targets.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1126/science.1224313",
+    "phenomenon": "body-face integration in emotion perception",
+    "constructs": "context-dependence emotion-expression multisensory-integration",
+    "claim": "Body cues, not facial expressions, carry diagnostic information for differentiating intense positive from negative affect; faces become congruent with body context through mimicry and perception.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1126/science.1221936",
+    "phenomenon": "post-decisional persistence of encoding-retrieval biases",
+    "constructs": "pattern-separation pattern-completion memory-systems lingering-effects",
+    "claim": "Recent episodes of encoding or retrieval induce lasting biases that carry forward to shape how subsequent mnemonic decisions are made.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1126/science.1215647",
+    "phenomenon": "cognitive-processing mode and belief-formation",
+    "constructs": "analytic-processing intuitive-override religious-belief",
+    "claim": "Analytic reasoning, when engaged either chronically or through priming, promotes skepticism toward religious belief compared to intuitive processing.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1126/science.1183532",
+    "phenomenon": "costly-punishment effectiveness in resource-governance",
+    "constructs": "punishment-mechanism communication-coordination resource-dynamics",
+    "claim": "Costly punishment alone does not improve collective resource outcomes; its effectiveness depends critically on simultaneous communication to enable coordination.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1126/science.1239918",
+    "phenomenon": "narrative-engagement and social-cognitive capacity",
+    "constructs": "theory-of-mind literary-engagement narrative-complexity",
+    "claim": "Reading literary fiction temporarily enhances the ability to infer others' mental states more than reading popular fiction or expository text.",
+    "narrative": "incremental-extension",
+    "scope": "specific-population",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1126/science.1190792",
+    "phenomenon": "automatic other-agent belief representation",
+    "constructs": "theory-of-mind automatic-encoding behavioral-influence",
+    "claim": "Agents automatically and continuously represent others' beliefs in real time, and these representations guide behavior even when the other agent is absent and their beliefs are task-irrelevant.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1126/science.1186799",
+    "phenomenon": "physical-cleansing and decisional-closure",
+    "constructs": "postdecisional-dissonance purification-metaphor physical-sensation",
+    "claim": "Physical cleansing (hand-washing) eliminates postdecisional dissonance by inducing a metaphorical 'clean slate' that allows people to disengage from prior choice justifications.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1126/science.1195701",
+    "phenomenon": "habituation through imagination",
+    "constructs": "mental-simulation habituation consumption-motivation",
+    "claim": "Repeated mental simulation of consuming a stimulus induces the same habituation effect (reduced desire) as actual consumption, demonstrating that mental representation alone suffices.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1126/science.1191465",
+    "phenomenon": "retrieval-practice enhancement of memory",
+    "constructs": "retrieval-success mediator-generation encoding-strategy",
+    "claim": "Testing improves long-term retention because test conditions generate mediators (linking information) that are both more retrievable and more likely to elicit correct responses.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1126/science.1199427",
+    "phenomenon": "anxiety-expression and exam-performance",
+    "constructs": "test-anxiety expressive-writing cognitive-load reduction",
+    "claim": "Brief expressive writing about upcoming exam worries reduces cognitive interference from anxiety and improves exam performance, especially for chronically test-anxious students.",
+    "narrative": "new-mechanism",
+    "scope": "specific-population",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1126/science.1222426",
+    "phenomenon": "scarcity-induced attentional narrowing",
+    "constructs": "resource-scarcity attention-allocation self-regulation",
+    "claim": "Having less (financial, temporal, or other resources) causes a shift in attention allocation that deepens focus on immediate problems while neglecting broader consequences.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1126/science.1207745",
+    "phenomenon": "externalized memory through information-access technology",
+    "constructs": "transactive-memory information-access cognitive-offloading",
+    "claim": "When future access to information is assured, people encode location-of-information rather than the information itself, treating external systems as distributed memory.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1126/science.1250830",
+    "phenomenon": "aversion to mental-solitude",
+    "constructs": "mind-wandering stimulus-deprivation affective-state",
+    "claim": "Being alone with one's thoughts without external stimulation produces an aversive experience that many people find more unpleasant than mild physical discomfort.",
+    "narrative": "confirmation",
+    "scope": "specific-population",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/a0023527",
+    "phenomenon": "physical-social-warmth substitution in self-regulation",
+    "constructs": "embodied-metaphor loneliness self-regulation implicit-cognition",
+    "claim": "People unconsciously substitute physical warmth for social warmth as a self-regulatory response to loneliness, without explicit awareness of this substitution mechanism.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.81.6.1014",
+    "phenomenon": "nonconscious goal-activation and behavioral-guidance",
+    "constructs": "goal-priming implicit-activation self-regulation",
+    "claim": "Goals activated outside awareness effectively guide behavior with the same adaptive properties as conscious goal-pursuit, including adaptation to situational demands.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/a0021524",
+    "phenomenon": "retroactive influence of future events on present response",
+    "constructs": "precognition temporal-anomaly anomalous-causality",
+    "claim": "Future events exert anomalous retroactive influence on present cognitive and affective responses, with effects larger for individuals high in stimulus-seeking.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797610383437",
+    "phenomenon": "postural-embodiment of power and its physiological-behavioral consequences",
+    "constructs": "embodied-cognition power-posturing hormonal-response risk-tolerance",
+    "claim": "Adopting high-power body postures causally induces elevated testosterone, reduced cortisol, and increased risk-taking and feelings of efficacy.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02112.x",
+    "phenomenon": "affect-motivation regulation of attentional-scope",
+    "constructs": "approach-motivation positive-affect attentional-breadth",
+    "claim": "Positive affect that is high in approach motivation narrows attentional focus, whereas low-approach positive affect broadens it; approach motivation modulates the breadth effect.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

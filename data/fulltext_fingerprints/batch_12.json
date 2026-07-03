@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0323",
+    "what_manipulated": "none; five-factor personality trait scores (neuroticism, extraversion, openness, agreeableness, conscientiousness)",
+    "what_measured": "regional gray-matter density and cortical morphometry (thickness, surface area, folding) in prefrontal and temporal cortices",
+    "experiment": "507 units from the Human Connectome Project completed personality inventories and underwent high-resolution structural MRI. Vertex-wise correlations were tested between personality scores and four surface-based morphometry metrics (cortical thickness, surface area, cortical volume, local gyrification index) in each hemisphere using multivariate general linear models, covarying for age, total intracranial volume, and sex. Multiple comparisons were controlled via cluster-level Monte Carlo simulation (p < 0.05).",
+    "design": "observational or correlational",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0325",
+    "what_manipulated": "time horizon framing: no instruction (unspecified), expanded (company wants longer tenure), or limited (contract expiring soon)",
+    "what_measured": "choice among three work activities: helping a colleague, career advancement, or exploring new direction",
+    "experiment": "555 employed units were randomly assigned to one of three conditions manipulating occupational time horizons. After reading a scenario prompt, each chose one of three work activities. A separate validation sample (n=99) confirmed the manipulation changed perceived time horizons and activities corresponded to intended goal types. Primary analysis used logistic regression testing the effect of age and experimental condition on likelihood of choosing helping versus future-oriented options; secondary multinomial regression examined helping over each alternative separately.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "preregistered-with-power",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0328",
+    "what_manipulated": "none; online social network size (Facebook friend count) as measured variable",
+    "what_measured": "regional gray-matter density in right superior temporal sulcus, left middle temporal gyrus, and right entorhinal cortex",
+    "experiment": "Experiment 1 (n=125): voxel-based morphometry on T1-weighted MRI scans tested correlation between Facebook friend count and gray-matter density across whole brain, covarying age, gender, and total gray-matter volume (p < 0.05 family-wise error corrected). Experiment 2 (n=40 independent sample) replicated findings at the three identified loci and bilateral amygdala. Experiment 3 (n=80) correlated online with real-world social network sizes via questionnaire. Experiment 4 (n=65) examined partial correlations between online network size and brain regions while regressing out real-world network size.",
+    "design": "observational or correlational",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0330",
+    "what_manipulated": "method chains (present vs. removed) and code comment quality (good strategic comments, bad non-informative comments, no comments)",
+    "what_measured": "perceived readability (1-5 scale), reading time, answer time, cloze-test accuracy, reading speed, answering speed",
+    "experiment": "104 computer science students (first and second year) read 5 code snippets in 6 variant combinations (2 method chain levels × 3 comment levels) using a 2×3 factorial design with blocked randomization. For each snippet, units rated readability, read through code, then completed a cloze test with blanked sections. Chi-square tests assessed differences in perceived readability by variant; ANOVA tested accuracy differences. Analysis stratified by programming experience level (low/medium/high).",
+    "design": "within-subjects",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0340",
+    "what_manipulated": "race/ethnicity of email sender: white (Brett/Emily Smith), Black (Tyrone/Shanice Johnson), or Hispanic (Santiago/Gabriela Martinez)",
+    "what_measured": "responsiveness (binary: reply yes/no), response speed (within 24 hours), response completeness (inclusion of wait-list information), and tone (named salutation in greeting)",
+    "experiment": "Randomized field experiment: 1,017 housing authorities received emails (each randomly assigned to one of six sender identities, stratified by name gender) requesting information about public housing application. Logistic regression models tested effects of race/ethnicity and experimental condition on responsiveness, speed, completeness, and tone, covarying community demographics (percent Black, percent Hispanic, poverty rate, population). Separate analyses examined interactions with community racial composition (1/3 splits and categorical composites).",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "preregistered-with-power",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0341",
+    "what_manipulated": "none; body mass index of stimulus bodies varied from 11.5 to 41.1",
+    "what_measured": "estimated body weight (Experiment 1) and just-noticeable difference (JND) threshold for discriminating body weight (Experiment 2)",
+    "experiment": "Experiment 1 (n=29): units estimated weight of 120 body images varying in BMI. Ordinary least squares regression tested whether estimated weight on actual weight showed slope significantly less than 1 (contraction bias). Experiment 2a (n=28, CGI stimuli): units performed 2-alternative forced choice discrimination at 8 BMI levels; probit analysis fitted psychometric functions with JND defined at 75% correct threshold. Mixed model ANOVA tested BMI effect on JND. Experiment 2b (n=28, natural images): repeated procedure at 4 BMI levels.",
+    "design": "between-subjects",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  }
+]

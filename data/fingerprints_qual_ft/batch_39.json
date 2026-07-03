@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0311",
+    "phenomenon": "scarcity cues trigger aggression",
+    "constructs": "competitive threat perception physiological arousal behavioral aggression",
+    "claim": "Marketing-induced scarcity cues activate both psychological threat perception and physiological preparation for aggression, leading to behavioral violence even in resource-rich contexts.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0312",
+    "phenomenon": "color saturation effects size perception",
+    "constructs": "visual attention arousal perception",
+    "claim": "Saturated color captures attention through arousal induction, causing objects with high saturation to appear larger than equivalent low-saturation objects.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0313",
+    "phenomenon": "polarized opinions signal identity",
+    "constructs": "rating distribution self-expression identity signaling polarization",
+    "claim": "Bimodal rating distributions are perceived as stronger signals of self-expressiveness than unimodal distributions, making polarizing products more desirable for identity-threatened consumers.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0314",
+    "phenomenon": "financial stress affects life satisfaction",
+    "constructs": "money management stress future financial security well-being income",
+    "claim": "Current financial stress and future financial security are distinct dimensions of perceived financial well-being with comparable predictive power to health and job satisfaction for overall well-being.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0315",
+    "phenomenon": "self-construal moderates preference balancing",
+    "constructs": "self-construal group size attention to others preference integration",
+    "claim": "Interdependent consumers balance self and others' preferences consistently across group sizes, while independent consumers only balance preferences for small groups due to differential attention.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0316",
+    "phenomenon": "identity clarity protects against change aversion",
+    "constructs": "self-concept clarity identity signaling subscription retention stability motivation",
+    "claim": "Consumers with unclear self-concepts retain unused identity-relevant subscriptions to avoid signaling identity change, but avoid acquiring new subscriptions; effects are specific to identity-relevant choices.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

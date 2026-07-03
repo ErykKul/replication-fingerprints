@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0086",
+    "phenomenon": "structural confounding masks underlying correlations",
+    "constructs": "implicit cognition explicit cognition measurement format task structure",
+    "claim": "Differences in test structure rather than cognitive process generate apparent divergence; equating format reveals much stronger concordance.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0088",
+    "phenomenon": "layered attitude representations",
+    "constructs": "implicit attitude explicit attitude introspection unconscious layers",
+    "claim": "Implicit and explicit measures diverge because they access distinct attitude representations formed at different developmental periods.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0089",
+    "phenomenon": "frame-dependent motivation dynamics",
+    "constructs": "commitment certainty progress framing motivation inference",
+    "claim": "Same progress magnitude framed as completed or remaining has opposite motivational effects, with direction determined by whether commitment or progress is psychologically salient.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0090",
+    "phenomenon": "dissociation between stated and revealed preferences",
+    "constructs": "introspection preference self-report live interaction mate choice",
+    "claim": "Stated preferences reflect normative theories about what should matter in partner selection, not introspective insight into what actually determines attraction.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0091",
+    "phenomenon": "value-driven elaboration without value-expression",
+    "constructs": "value importance elaboration resistance attitude strength core values",
+    "claim": "Linking messages to important values increases resistance through enhanced processing, regardless of whether resulting attitudes express the values themselves.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0092",
+    "phenomenon": "commitment-contingent frame sensitivity",
+    "constructs": "commitment certainty progress frame motivation goal adherence inference",
+    "claim": "Information about accumulated vs. remaining progress shifts from signaling goal importance (uncertain commitment) to signaling goal deficit (certain commitment).",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

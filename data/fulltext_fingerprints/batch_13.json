@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0347",
+    "what_manipulated": "moral valence of an outcome a person brings about but doesn't intend (harm vs. help framing)",
+    "what_measured": "people's judgment of whether an action was performed intentionally",
+    "experiment": "Units (N=77-63 participants in Manhattan) were randomly assigned to conditions and rated or judged sentences about an agent's behavior. In the main experiment, participants rated whether \"the chairman harmed [or helped] the environment in order to increase profits\" sounded right, on a scale from -3 to +3. A between-subjects comparison showed that participants in the harm condition rated sentences more favorably (M=+0.6) than those in the help condition (M=-1.0), t(77)=2.65, p=.01. In a second experiment, participants judged both whether behavior was performed intentionally and whether the agent had an intention, revealing dissociation between these judgments.",
+    "design": "between-subjects",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0350",
+    "what_manipulated": "three-dimensional orientation of simple convex objects versus alternative spatial relation configurations",
+    "what_measured": "reaction time to detect a target item in a visual search display",
+    "experiment": "Units (5-10 observers per experiment) performed visual search, detecting a target among 1, 6, or 12 items in a display. Reaction time and accuracy were measured. Simple regression lines were fit to response time data for each observer; slope and intercept parameters were submitted to analyses of variance. In Experiment 1, items with three-dimensional block structure showed very rapid search (6-14 ms/item slopes) compared to items without such structure (26-47 ms/item). Experiment 3 directly compared image-based and scene-based orientation using multiple regression models; both contributed significantly to search efficiency, with scene-based features at least as useful as image-based ones.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0354",
+    "what_manipulated": "pairing of subliminal primes (positive vs. negative valence) and supraliminally presented behavioral information (positive vs. negative valence) about a person, where valence could be congruent or incongruent across information types",
+    "what_measured": "implicit attitudes (via Implicit Association Test) and explicit attitudes (likeability and semantic differential scales) toward a person",
+    "experiment": "Units (N=50 undergraduates) learned about a person \"Bob\" over 200 trials in which subliminal primes (25 ms) preceded a picture of Bob, followed by supraliminally presented behavioral information. Participants received feedback confirming whether behavior was characteristic of Bob. Implicit and explicit attitudes were assessed at two time points. A 2×2×2 mixed ANOVA (condition × time × attitude type) yielded a significant three-way interaction, F(1,48)=102.60, p<.001, ηp²=.68. Explicit attitudes tracked the valence of behavioral information; implicit attitudes tracked the valence of subliminal primes, with the two attitude types changing in opposite directions when prime and behavioral valence diverged.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0357",
+    "what_manipulated": "presence of a false belief by an actor (two experimental conditions testing whether object was moved before or after actor's attention turned away)",
+    "what_measured": "anticipatory eye-gaze direction of infants to one of two windows where an actor might search",
+    "experiment": "Units (N=20 two-year-olds, mean age 25.4 months; 16 excluded for not meeting inclusion criteria) were shown familiarization trials teaching them to anticipate an actor's action upon seeing a light cue. During test trials, infants watched an actor witness an object being hidden, then the actor's attention diverted while the object was moved or removed, eliminating the possibility of relying on last-seen location. Gaze was tracked using an integrated eye-tracker. A two-choice binomial test showed 17/20 infants gazed toward the correct window (where actor falsely believed object was), p=.003. A repeated-measures ANOVA confirmed infants looked significantly longer at correct vs. incorrect window, F(1,18)=5.21, p=.035, ηp²=.22.",
+    "design": "between-subjects",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-one"
+  },
+  {
+    "paper_id": "p0365",
+    "what_manipulated": "stimulus onset asynchrony (SOA) between two sequentially presented target items in a rapid serial visual presentation (RSVP) stream (varied from 83-833 ms across 10 levels)",
+    "what_measured": "serial position of reported letters, from which efficacy (suppression), latency (delay), and precision (diffusion) of temporal selection were estimated",
+    "experiment": "Units (N=12 observers, ages 18-35) performed RSVP task viewing 26 letters presented at 12 items/s. Two targets were cued with annuli; subjects reported target identities. T1-T2 SOA was manipulated over 10 levels (1-10 items). Reaction time was not the primary measure; instead, the distribution of serial positions of reported letters was analyzed via regression and ANOVA. Three dimensions of selection were measured: efficacy (probability of reporting items within 7-item window around target), latency (center of mass of reports), and precision (variance around center of mass). A three-way ANOVA (SOA × measure × target) yielded F(18,660)=16.31, p<.00001. Post-hoc contrasts showed diffusion recovered by ~400 ms, suppression by ~500 ms, and delay persisted beyond 833 ms, with pair-wise comparisons confirming different time courses.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0393",
+    "what_manipulated": "allocation of focal attention (via multiple object tracking task) such that attention was differentially distributed to target vs. distractor items; attention allocation difficulty varied across experiments via feature similarity (Exp 1: identical targets/distractors; Exp 2: color difference; Exp 3: spatial separation)",
+    "what_measured": "localization accuracy (error in degrees) of either individual missing items or the centroid (center of mass) of missing items",
+    "experiment": "Units (N=8 per experiment, ages 18-35) performed a multiple object tracking task (primary task: count target touches to red lines) while tracking 4 target and 4 distractor items moving in a display. At random points, some items disappeared; secondary task was to localize either one missing item (individual test) or the centroid of four missing items (centroid test). Across experiments, individual test error was significantly lower for targets than distractors; however, centroid localization was not significantly different between targets and distractors or was only slightly different. Exp 1: individual error t(7)=3.69, p=.008; centroid error showed no target-distractor difference, t(7)=1.07, p=.321. Exp 2: individual error at chance for distractors but centroid well above chance, t(7)=7.47, p<.001. Exp 3: similar pattern despite spatial separation. Monte Carlo simulations confirmed that pooling all noisy individual estimates was necessary to achieve observed centroid accuracy.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  }
+]

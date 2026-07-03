@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0229",
+    "what_manipulated": "endorsement of false biological beliefs about racial groups (measured continuously); medical case with patient race (black vs. white target)",
+    "what_measured": "pain ratings for patient; accuracy of treatment recommendations (medication prescription)",
+    "experiment": "Two studies compared pain perception and treatment recommendation accuracy as a function of units' endorsement of false biological beliefs about two racial groups. Study 1 recruited 92 lay participants via online panel; units rated pain of black or white targets across 18 scenarios while endorsing biological difference beliefs on 15-item scale. Study 2 recruited 222 medical students and residents who read two mock medical cases (black and white patient) and rated patient pain (0-10 scale) and made medication recommendations (dummy coded accurate/inaccurate). Both studies used regression with target race, false beliefs, and interaction as predictors, controlling for age, gender, and cohort. Study 2 mediation tested whether pain bias mediated treatment recommendation bias.",
+    "design": "between-subjects in Study 1 (race assignment); within-subjects in Study 2 (both races presented)",
+    "manipulation": "observational",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0230",
+    "what_manipulated": "information disclosure: whether a unit withholds (chooses not to answer) versus reveals responses to personal questions",
+    "what_measured": "liking/preference for the unit; trustworthiness perception; hiring/dating choice; money transferred in trust game",
+    "experiment": "Seven experiments examined how disclosure decisions affect observer judgments. Experiments 1-2 used dating preference paradigm: observers chose between two profiles, one revealing all answers and one withholding on some items (between-subjects on revealer's behavior frequency, within on unit comparison). Experiments 3A-3B tested mechanism: 3A used trust game (money transfer); 3B used hiring scenario with trustworthiness mediator. Experiments 4A-4B tested whether actors predict consequences: 4A employees chose to reveal or hide drug use and were rated by employers; 4B manipulated focus on trust versus damage to test whether goal framing reduces hiding. Analysis used chi-square, t-tests, mediation via Sobel test and logistic regression.",
+    "design": "between-subjects and within-subjects mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0231",
+    "what_manipulated": "political ideology (measured continuously); certainty motivation (experimentally heightened in Study 5); stereotypicality of target (aligned vs. misaligned with stereotype); future task requirement (categorization vs. age estimation)",
+    "what_measured": "evaluation of target (0-100 positivity scale); money allocation to targets (dollar amount)",
+    "experiment": "Seven studies tested whether conservatives negatively evaluate counterstereotypical people to maintain certainty. Studies 1-3 used photo evaluation: units viewed 30 faces and rated positivity (0-100 scale) while political ideology and target stereotypicality varied. Study 1 manipulated sexual orientation and gender typicality; Study 2 introduced novel stereotype (moles/Jewish); Study 3 used fictional groups (Niffites/Luupites) with fabricated moles-stereotype. Study 4 manipulated future task to test functionality hypothesis. Study 5 manipulated uncertainty salience via writing prompts to test mechanism. Studies 6-7 used allocation task: units distributed $30 among four targets varying in stereotypicality. Analyses used multilevel regression (MIXED procedure, exchangeable covariance) and generalized estimating equations.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0232",
+    "what_manipulated": "ecology characterization (desperate vs. hopeful) and race information (black vs. white); independently manipulated in Study 5",
+    "what_measured": "stereotype ratings on life-history strategy traits (impulsivity, opportunistic behavior, education investment, child investment, sexual unrestrictedness)",
+    "experiment": "Five studies tested whether ecology stereotypes override race stereotypes. Study 1 (n=51) units imagined individual from desperate/hopeful ecology and rated traits on 6-point likelihood scale (grouped into five life-history domains). Study 2 (n=48) used photograph-based ecology cues instead of descriptions. Study 3 (n=291) orthogonally manipulated wealth and ecology to test for independence. Study 4 (n=106) included filler traits unrelated to life history to test specificity. Study 5 (n=302) orthogonally manipulated race and ecology information and tested whether ecology information overshadowed race in predictions. Analyses used t-tests, ANOVA with between-subjects factors, and composite scoring of trait domains.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0233",
+    "what_manipulated": "whether units engage in unethical behavior (cheating) versus ethical behavior; timing of memory assessment (immediate vs. 4 days later in Study 4)",
+    "what_measured": "clarity and vividness of memory (MCQ scale: dim to sharp/clear); thoughts and feelings recall; objective memory accuracy (recognition of story details)",
+    "experiment": "Nine studies tested unethical amnesia hypothesis. Studies 1a-1b used autobiographical recall: units wrote about past ethical/unethical/positive/negative/neutral experience and rated memory on MCQ (4 clarity items, 2 thoughts-feelings items, 7-point scales; α=0.86-0.89). Study 2 (two-part lab, n=70): units played coin-toss cheating task; 2 weeks later rated memory of task and dinner (control event) on MCQ and AMQ (8-item autobiography memory questionnaire). Study 3 (n=194) randomly assigned units to read cheating/honest story (first-person or third-person) and rated memory 4 days later. Study 4 (n=257) varied story valence (moral vs. neutral) and delay (30 min vs. 4 days). Study 5 (n=88) used objective recognition test. Studies 6-7 tested mediation by dissonance and cheating consequences. Analyses used MANOVA, univariate ANOVA, regression with continuous predictors, and mediation via bootstrapping (10,000 resamples).",
+    "design": "mixed (between-subjects and within-subjects elements across studies)",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "preregistered-with-power",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0234",
+    "what_manipulated": "mindset intervention: empathic discipline (understanding students' experiences, sustaining relationships) versus punitive discipline (punishment-focused) versus control; implemented online for teachers",
+    "what_measured": "teacher discipline responses (coded punitive vs. empathic themes); student respect for teacher (6 items); motivation to behave well (2 items); year-long school suspension rates (official records)",
+    "experiment": "Three experiments tested effects of empathic discipline mindset. Experiment 1 (n=39 teachers): units randomized to read article emphasizing relationship-building or punishment; reviewed three misbehavior incidents and described responses (coded for punitive themes: detention, threats, administrator involvement; empathic themes: classroom rearrangement, student discussion). Experiment 2 (n=302 college units): imagined middle-school infraction and empathic or punitive teacher response; rated respect (6 items, α=0.85) and behavior motivation (2 items, α=0.83) on 1-7 scales. Mediation tested respect→behavior motivation pathway. Experiment 3 (RCT, n=31 teachers, n=1,682 students across 5 schools): teachers randomized to two 45-min and 25-min online modules (empathic vs. control); primary outcome was suspension rate over school year (mixed-effect logistic regression, students nested within schools/teachers). Attrition analysis provided.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "preregistered-with-power",
+    "transparency": "open-data-and-materials"
+  }
+]

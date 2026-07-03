@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0110",
+    "what_manipulated": "availability of self-handicap (lack of study effort); direction of counterfactual thinking (upward vs. downward vs. none)",
+    "what_measured": "self-esteem; future study intentions; upward counterfactual thoughts",
+    "experiment": "Participants received failure feedback on an academic task. In Study 1, counterfactual thoughts were generated without instruction. In Study 2, presence/absence of a self-handicap (practice effort) was experimentally varied. In Study 3, direction of counterfactual thinking was manipulated (upward vs. downward vs. control), and subsequent preparation effort was recorded. Outcome measures assessed self-esteem and motivation to improve.",
+    "design": "mixed",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "moderation-or-mediation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0111",
+    "what_manipulated": "whether protagonist tempted fate (presumptuousness or caution); subliminal prime presence and type",
+    "what_measured": "perceived likelihood of negative outcome; reaction time to outcome accessibility; subjective likelihood judgments",
+    "experiment": "Studies 1-2 assessed likelihood judgments following actions that tempt fate vs. cautious actions using scenario methods. Study 3 measured accessibility via response latencies to story endings. Study 4 measured both accessibility and likelihood judgments. Study 5 manipulated accessibility via subliminal priming (negative outcome prime vs. control) while varying fate-tempting behavior. Study 6 used cognitive load to test System 1 involvement. Outcome was perceived likelihood of negative consequences.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0112",
+    "what_manipulated": "expressions of vulnerability (measured); reflected appraisals of vulnerability (manipulated in Study 5)",
+    "what_measured": "authenticity doubts; perceived rejection; partner derogation",
+    "experiment": "Study 1 assessed prototypes about vulnerable individuals and expected inauthentic responding via open-ended and rating measures. Studies 2A-2B tested whether expressed vulnerabilities predict reflected appraisals of vulnerability, which in turn predict authenticity doubts. Study 3 tested link between authenticity doubts and perceived rejection. Study 4 used longitudinal data to test the full mediation model. Study 5 experimentally manipulated reflected appraisals of vulnerability in a new interaction context. Mediation pathways were tested statistically.",
+    "design": "mixed",
+    "manipulation": "observational",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0113",
+    "what_manipulated": "color of background or clothing (red vs. white, gray, green, blue)",
+    "what_measured": "perceived attractiveness; sexual desire; sexual behavior intentions; dating intentions; spending intentions",
+    "experiment": "Experiment 1: participants viewed female photo on red vs. white background and rated attractiveness. Experiment 2: added female participants to test sex specificity. Experiments 3-5: varied color contrasts (red vs. gray/green/blue), extended measures to sexual attraction and behavioral intentions, tested specificity to attractiveness/attraction (not likeability/intelligence/kindness). Response times and awareness probes assessed unconscious processing. All experiments used between-subjects designs with random assignment to color condition.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0114",
+    "what_manipulated": "not applicable (meta-analysis of existing studies)",
+    "what_measured": "marital satisfaction/quality; marital stability/dissolution",
+    "experiment": "Comprehensive meta-analytic review of 115 longitudinal studies representing over 45,000 marriages. Studies varied in design, duration, measures, and predictors. No experimental manipulation; review evaluated how marriages change over time and which baseline variables predict quality and stability trajectories. Theory and method integration examined.",
+    "design": "meta-analysis",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "many-exploratory",
+    "clarity": "partially-specified",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0115",
+    "what_manipulated": "not applicable (meta-analysis of existing studies)",
+    "what_measured": "subjective well-being (life satisfaction, happiness, positive affect, negative affect); personality trait correlations",
+    "experiment": "Meta-analytic synthesis of 148 studies yielding 1,538 correlations relating 137 distinct personality variables to subjective well-being. Examined whether personality traits differentially predict different SWB conceptualizations. Clustering of traits into Big Five factors examined. No experimental manipulation; correlational literature synthesized. Methodological moderators tested (sample characteristics, measurement delay, scale properties).",
+    "design": "meta-analysis",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "many-exploratory",
+    "clarity": "partially-specified",
+    "rigor": "standard",
+    "transparency": "none"
+  }
+]

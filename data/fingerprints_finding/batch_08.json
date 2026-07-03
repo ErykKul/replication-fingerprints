@@ -1,0 +1,82 @@
+[
+  {
+    "doi": "10.1037/pspi0000121",
+    "finding": "A framing manipulation (past-focused vs. future-focused) reduced disagreement with ideas, with effect mediated by nostalgia; the effect required peripheral processing and did not reverse for opposite groups."
+  },
+  {
+    "doi": "10.1037/xge0000064",
+    "finding": "Temporal perspective affected self-perception of rationality and emotionality asymmetrically: imagined future selves appeared more rational but less emotional than recalled past selves, with consequent differences in information-seeking behavior and task performance."
+  },
+  {
+    "doi": "10.1037/xge0000157",
+    "finding": "No finding of effect magnitude or replication: meta-analytic evidence indicates selection bias and reporting bias distorted a literature, reducing reliability of claimed effects."
+  },
+  {
+    "doi": "10.1037/xge0000466",
+    "finding": "Selective attention, typically beneficial for learning, can paradoxically create stable false beliefs when learners repeatedly encounter environments containing this attentional bias."
+  },
+  {
+    "doi": "10.1037/xge0000738",
+    "finding": "A bidirectional causal cycle emerged: experiencing disrespect heightened cynicism, and cynicism elicited disrespectful treatment from others, reinforcing the initial belief."
+  },
+  {
+    "doi": "10.1038/nn1979",
+    "finding": "A dispositional attribute (political orientation) correlated with a neural marker of response conflict-sensitivity, with greater conflict activity in the more receptive group."
+  },
+  {
+    "doi": "10.1038/oby.2005.12",
+    "finding": "A visual cue (portion size visibility) increased intake volume, but did not affect perceived satiation or estimated intake; individuals relied on visual cues over internal signals."
+  },
+  {
+    "doi": "10.1038/s41598-017-10669-4",
+    "finding": "A temporal attribute (age) produced divergent effects across social-cognitive and social-affective capacities: theory-of-mind declined but empathy remained stable or improved with aging."
+  },
+  {
+    "doi": "10.1038/s41598-018-31129-7",
+    "finding": "An individual attribute (own age) subconsciously biased perception of an ambiguous figure toward age-congruent interpretations, despite participants' lack of awareness."
+  },
+  {
+    "doi": "10.1038/s41598-022-24919-7",
+    "finding": "Visual eccentricity affected perception of emotional valence differently by emotion type: negative emotions showed greater degradation with distance from fixation than positive emotions."
+  },
+  {
+    "doi": "10.1057/s41599-019-0279-9",
+    "finding": "An intervention (gameplay exposure to misinformation techniques) improved participants' ability to identify and resist misinformation, with effects independent of education, age, ideology, and cognitive style."
+  },
+  {
+    "doi": "10.1073/pnas.0908963106",
+    "finding": "A syntactic constraint on language processing prevented detection of a simple perceptual pattern that non-syntactic alternatives revealed; syntax obligatorily dominated attention."
+  },
+  {
+    "doi": "10.1073/pnas.1103343108",
+    "finding": "A framing manipulation (identity framing vs. behavior framing) of a survey item increased a downstream behavior (voting), with effects verified in official records."
+  },
+  {
+    "doi": "10.1073/pnas.1118373109",
+    "finding": "An individual attribute (social class) predicted increased unethical behavior across multiple domains; attitudes toward greed partially mediated this effect."
+  },
+  {
+    "doi": "10.1073/pnas.1216438110",
+    "finding": "Language comprehenders integrated semantic expectations and noisy sensory input according to Bayesian principles, with asymmetric treatment of insertion vs. deletion errors and sensitivity to noise rate."
+  },
+  {
+    "doi": "10.1073/pnas.1501592112",
+    "finding": "Perceived intent motivated blame-related behavior even when controlling for blameworthiness judgments; motivation was evidenced by increased persistence and preference for blame over alternative tasks."
+  },
+  {
+    "doi": "10.1073/pnas.1505067112",
+    "finding": "The possibility of third-party intervention in conflict increased cooperation regardless of third-party motivation; reducing third-party risk further increased intervention rates and cooperation."
+  },
+  {
+    "doi": "10.1073/pnas.1508932113",
+    "finding": "A nonverbal display (postural expansiveness) increased attraction in zero-acquaintance contexts; the effect was mediated by perceptions of dominance."
+  },
+  {
+    "doi": "10.1073/pnas.1511536112",
+    "finding": "An environmental attribute (economic inequality) moderated the relationship between income and generosity: higher-income individuals were less generous only under high inequality."
+  },
+  {
+    "doi": "10.1073/pnas.1516047113",
+    "finding": "False beliefs about group-level biological differences predicted lower pain ratings for an outgroup target; these beliefs were partially endorsed by medical professionals and affected treatment recommendations."
+  }
+]

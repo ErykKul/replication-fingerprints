@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0067",
+    "phenomenon": "automatic behavioral guidance",
+    "constructs": "goal activation, consciousness, behavior control, persistence",
+    "claim": "Mental goal representations activated outside awareness operate as effectively as conscious goals to guide behavior.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0068",
+    "phenomenon": "regret reversal under contextual change",
+    "constructs": "normality, prior outcomes, responsibility, emotion",
+    "claim": "The action-regret relationship flips when prior negative outcomes make action the norm rather than exception.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0069",
+    "phenomenon": "motivated psychological time distortion",
+    "constructs": "self-esteem, valence, temporal distance, motivation",
+    "claim": "High self-esteem individuals subjectively distance themselves from failure and keep success psychologically close independent of actual time.",
+    "narrative": "context-effect",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0070",
+    "phenomenon": "commitment-driven forgiveness",
+    "constructs": "commitment, motivation, betrayal, reconciliation",
+    "claim": "Relationship commitment transforms vengeful impulses into pro-relationship motivation enabling forgiveness of betrayal.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0072",
+    "phenomenon": "stereotype-mediated identity conflict",
+    "constructs": "implicit stereotypes, self-identity, group membership, consistency",
+    "claim": "Implicit math-male stereotypes create self-math associations that are constrained for women but enhanced for men through cognitive consistency.",
+    "narrative": "context-effect",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0073",
+    "phenomenon": "adaptive failure and negative emotionality escalation",
+    "constructs": "childhood adaptation, personality continuity, negative emotion, development",
+    "claim": "Poor childhood achievement and conduct problems predict increasing negative emotionality by adulthood beyond trait continuity.",
+    "narrative": "incremental-extension",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

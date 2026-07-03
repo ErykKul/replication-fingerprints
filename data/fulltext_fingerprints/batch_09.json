@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0248",
+    "what_manipulated": "cognitive strategy for interpreting food (positive framing, negative framing, or neutral look control)",
+    "what_measured": "food choice between healthy and unhealthy options; food craving; willingness to pay for foods; caloric consumption",
+    "experiment": "Units (participants, N=1,528 across 6 studies) were randomized to cognitive regulation strategies or controls. In Studies 1-2, participants rated craving and willingness-to-pay for food images after receiving strategy instruction (POSITIVE, NEGATIVE, or LOOK). In Studies 3-4, participants completed food choices before and after training in cognitive strategies. In Study 5, actual food consumption was measured by weight. Statistical analysis: within-subjects and between-subjects ANOVA and mixed models with Time x Condition interactions as primary tests.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "preregistered-with-power",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0249",
+    "what_manipulated": "salience of partisanship via network cues (no cues, party logos, political identity markers revealed) and network composition (bipartisan vs. homogeneous)",
+    "what_measured": "accuracy of trend prediction about climate data; shift from baseline interpretation to final interpretation",
+    "experiment": "Units (N=2,400 across 12 trials, 1,156 respondents) were randomized to control (isolated), bipartisan network without partisan cues, bipartisan network with party logos, or bipartisan network with political identity revealed. Participants made three rounds of Arctic Sea ice predictions. Measurements at trial-level and individual-level. Primary outcome: trend accuracy (correct vs. incorrect trend prediction). Statistical tests: Wilcoxon rank-sum and signed-rank tests comparing conditions across rounds.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0251",
+    "what_manipulated": "prediction vs. experience condition: participants either experienced stimulus piece-by-piece (experiencer) or predicted how many pieces needed before forming judgment (predictor)",
+    "what_measured": "number of pieces of information consumed before judgment-formation (tipping point); accuracy of predictions vs. actual stopping point",
+    "experiment": "Units (N>2,000 across 7 studies) randomly assigned to experiencer or predictor role across diverse judgment domains (art preferences, taste preferences, social judgments, romantic timing, product trials, electoral perception, job application essays). In each study, all participants pre-experienced the stimulus. Experiencers stopped when judgment formed; predictors estimated stopping point. Primary statistical test: t-tests comparing predicted vs. actual number of pieces, with effect sizes (d) reported.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-one"
+  },
+  {
+    "paper_id": "p0252",
+    "what_manipulated": "tone of video news content (positive vs. neutral vs. negative) presented identically across 17 countries",
+    "what_measured": "psychophysiological arousal: normalized skin conductance level (nSCL) and heart rate variability (RMSSD); magnitude of physiological response to negative vs. positive content",
+    "experiment": "Units (N=1,156 across 17 countries and 6 continents) watched 7 BBC World News videos while wearing physiological sensors. Video tone was coded by experts as interval-level measure. Analysis at respondent-story level for heart rate variability and time-series panel level (1-second intervals) for skin conductance. Primary tests: regression models with video tone predicting physiological measures; within-country individual-level regressions to examine variation.",
+    "design": "observational or correlational",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0255",
+    "what_manipulated": "coalitional affiliation cues (verbal only vs. verbal plus shared appearance via shirt color) and dimension of categorization tested (race, sex, or coalition) while holding visual race composition constant across conditions",
+    "what_measured": "memory confusion errors revealing social categorization: within-category vs. between-category errors in sentence-to-speaker attribution task",
+    "experiment": "Units (N=55-57 per experiment, 6 experiments total) were presented photographs paired with sentences revealing coalitional membership via verbal cues alone (Experiments 1, 3, 5) or verbal plus visual shirt-color cues (Experiments 2, 4, 6). Recall task required attributing sentences to speakers. Effect size r indexed categorization strength based on error patterns. Statistical tests: t-tests on within-minus-between-category errors and comparisons of effect sizes across conditions.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0267",
+    "what_manipulated": "scenario describing determinism (Laplacean supercomputer prediction vs. genes-and-environment causation) and action valence (blameworthy, praiseworthy, neutral) to test folk intuitions about free will",
+    "what_measured": "binary judgment: does agent act of own free will (yes/no); is agent morally responsible (yes/no); can agent do otherwise (yes/no)",
+    "experiment": "Units (undergraduates, N varies per study, ~200-400 total across studies) read deterministic scenarios and answered yes/no questions. Study 1 (Jeremy cases): 5 scenarios with variations on action type. Study 2 (Fred/Barney cases): identical-twins scenario with genetic-and-environmental causation. Participants instructed to suspend disbelief and answer conditionally. Statistical test: binomial tests (chi-square goodness-of-fit) comparing proportion answering yes vs. no; consistency tested via separate samples to rule out response coherence effects.",
+    "design": "between-subjects",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "partially-specified",
+    "rigor": "standard",
+    "transparency": "on-request"
+  }
+]

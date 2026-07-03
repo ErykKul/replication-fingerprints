@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0171",
+    "phenomenon": "temporal inversion of stimulus-response causality",
+    "constructs": "precognition retroactive-influence information-access temporal-direction",
+    "claim": "Individuals display above-chance accuracy in selecting stimulus locations before the stimulus is deterministically selected, consistent with anomalous retroactive influence.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0172",
+    "phenomenon": "hierarchical weighting of face vs body cues in social threat assessment",
+    "constructs": "facial-dominance body-expression threat-perception integration-asymmetry",
+    "claim": "Facial emotional expressions drive approachability judgments much more strongly than body expressions, but this dominance is attenuated when bodies signal direct threat.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0173",
+    "phenomenon": "implicit substitution of physical warmth for social warmth",
+    "constructs": "embodied-regulation physical-temperature social-connectedness self-therapy",
+    "claim": "People unconsciously seek physical warmth to compensate for loneliness, and brief physical warmth experiences reduce the affiliation needs triggered by rejection.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0174",
+    "phenomenon": "gendering of abstract numerical concepts",
+    "constructs": "metaphorical-scaffolding abstract-to-concrete gender-connotation implicit-association",
+    "claim": "Odd and even numbers carry implicit gender associations (masculine and feminine respectively) that automatically influence judgments despite conscious unawareness of the effect.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0175",
+    "phenomenon": "mood enhancement through conceptual progression",
+    "constructs": "associative-breadth mental-progression affect-regulation processing-fluency",
+    "claim": "Thinking that advances across conceptual domains produces better mood than thinking restricted to a single domain, independent of information variety.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0176",
+    "phenomenon": "fluency-driven preference for hierarchical organization",
+    "constructs": "processing-fluency hierarchy-detection asymmetry-learning preference-formation",
+    "claim": "Hierarchical social structures are easier to process and learn than egalitarian structures, and this ease of processing leads to greater liking and positive evaluation.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0008",
+    "phenomenon": "geographical bias in locating social status",
+    "constructs": "metaphor stability cultural-knowledge environmental-embeddedness spatial-representation",
+    "claim": "Abstract spatial mappings are cross-culturally invariant at the vertical level, but higher-order spatial instantiations (cardinal directions) are flexible and determined by real-world distribution knowledge.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0010",
+    "phenomenon": "identity attribution shifts with performance outcomes",
+    "constructs": "dual-identities motivated-inclusion motivated-exclusion identity-fluidity",
+    "claim": "In-group observers dynamically reassign which social identity a dual-identity target exemplifies, strategically aligning identity choice with outcome valence for group image management.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0011",
+    "phenomenon": "developmental plasticity in reward-delay preference",
+    "constructs": "training-effects maturational-change self-control behavioral-stability",
+    "claim": "Systematic exposure to delayed reinforcement during development produces robust, lasting increases in self-controlled choice that surpass the magnitude of natural age-related maturation.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0012",
+    "phenomenon": "behavioral force-exertion tracks stimulus preference",
+    "constructs": "conjugate-reinforcement response-force preference-measurement rapid-assessment",
+    "claim": "Physical effort (grip force) during conjugate stimulus access provides a brief, rapid measure of preference that corresponds to verbal preference rankings, offering an alternative to traditional assessment methods.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0013",
+    "phenomenon": "multidimensional organizational age-attitudes",
+    "constructs": "stereotyping contact inclusiveness retention-pressure positive-affect",
+    "claim": "Organizational intergenerational climate is a multifaceted psychological climate reflecting employee perceptions of age-based attitudes, distinct from global job satisfaction, with implications for mentoring and prejudice.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0015",
+    "phenomenon": "personality-driven weight-gain trajectories",
+    "constructs": "neuroticism extraversion conscientiousness openness gender-effects",
+    "claim": "Personality dimensions longitudinally predict body-weight changes through distinct mechanisms, with neuroticism and extraversion increasing weight more strongly in women, and conscientiousness protective at baseline only.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

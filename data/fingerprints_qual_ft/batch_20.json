@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0136",
+    "phenomenon": "adaptiveness of forgetting",
+    "constructs": "retrieval strength storage strength inhibition learning",
+    "claim": "Temporary suppression of accessibility during memory competition creates conditions for accelerated relearning by reducing initial state and expanding potential gains.",
+    "narrative": "reversal-of-common-sense",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0137",
+    "phenomenon": "stimulus differentiation through comparison",
+    "constructs": "intermixing blocking attention salience habituation",
+    "claim": "Opportunity for direct feature comparison during learning strengthens encoding of distinctive features independent of temporal spacing effects.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0138",
+    "phenomenon": "task-dependent distraction selectivity",
+    "constructs": "category-cueing temporal-order phonological-content interference",
+    "claim": "Irrelevant sound disrupts retrieval processes that depend on semantic or category structure but not those driven by serial-order coding.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0139",
+    "phenomenon": "postlexical response control",
+    "constructs": "lexical-selection output-buffer semantic-filtering bottleneck",
+    "claim": "Semantic interference arises from filtering nontarget responses in peripheral output buffer rather than from competitive activation during word retrieval.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0140",
+    "phenomenon": "stimulus-driven pathway allocation",
+    "constructs": "lexical-route nonlexical-route context-sensitivity exogenous-control",
+    "claim": "Skilled readers adjust reliance on phonological pathways based on stimulus category when context makes pathway adequacy predictable.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0141",
+    "phenomenon": "distance-dependent neighborhood effects",
+    "constructs": "attractor-dynamics near-neighbors distant-neighbors semantic-space",
+    "claim": "Semantic neighbors exert both inhibitory and facilitative effects simultaneously depending on feature-space distance, unified by attractor settling dynamics.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  }
+]

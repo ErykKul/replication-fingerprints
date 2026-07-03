@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0122",
+    "phenomenon": "scope insensitivity under affect-dominant valuation",
+    "constructs": "affective intensity attention allocation quantity-sensitivity preference-construction",
+    "claim": "Value functions reshape from linear to step-like when preference construction switches from quantitative calculation to affective cue-reading.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0124",
+    "phenomenon": "resource depletion following executive exertion",
+    "constructs": "executive-capacity cognitive-load self-regulation temporary-impairment inhibition-updating dissociation",
+    "claim": "Executive control draws on a limited pool of cognitive resources that depletes transiently; subsequent control attempts fail unless the resource replenishes, and different control types share selectively.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0125",
+    "phenomenon": "enhanced emotional intensity during anticipation versus retrospection",
+    "constructs": "temporal-perspective mental-simulation emotional-arousal episodic-thinking",
+    "claim": "Anticipation of future events produces more intense current emotion than retrospection about past events due to more extensive mental simulation, independent of objective uncertainty.",
+    "narrative": "context-effect",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0126",
+    "phenomenon": "disfluency-triggered analytic reasoning",
+    "constructs": "metacognitive-difficulty processing-fluency system-2-activation heuristic-override",
+    "claim": "Subjective difficulty during information processing serves as a metacognitive alarm that triggers shift from intuitive to deliberate reasoning.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0127",
+    "phenomenon": "frequency-selective repetition priming",
+    "constructs": "masked-priming episodic-contamination lexical-activation response-requirement",
+    "claim": "Repetition effects decompose into a frequency-insensitive lexical component and a frequency-attenuated episodic component; frequency attenuation depends entirely on episodic involvement, not lexical dynamics.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0128",
+    "phenomenon": "task-dependent spacing effects",
+    "constructs": "rehearsal-strategy study-phase-retrieval intentionality-dependence cued-recall free-recall",
+    "claim": "Spacing effects in cued-memory tasks arise from differential rehearsal and vanish under incidental learning; spacing effects in free recall persist across learning conditions via automatic temporal-context encoding.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

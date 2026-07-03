@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1037/0278-7393.34.3.495",
+    "phenomenon": "effect of input signal clarity on recognition speed",
+    "constructs": "stimulus-quality processing-stage familiarity recognition-speed",
+    "claim": "stimulus quality and word familiarity produce additive effects on recognition when familiarity is a usable dimension, but opposing interactive effects emerge in the underlying distribution when familiarity is suppressed.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.3.514",
+    "phenomenon": "modulation of response interference by learned stimulus-response associations",
+    "constructs": "learned-contingency attention-allocation response-interference stimulus-identity",
+    "claim": "participants learn to predict required responses from stimulus identity rather than modulating attention by word identity.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.3.524",
+    "phenomenon": "implicit learning of sequences through repeated exposure",
+    "constructs": "sequential-learning error-consolidation response-probability implicit-learning",
+    "claim": "the Hebb repetition effect reflects learning of both correct and incorrect responses, where probability of repeating a response increases with prior occurrences.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.3.546",
+    "phenomenon": "domain-specific knowledge retrieval with flexible operational switching",
+    "constructs": "operational-flexibility memory-specialization transfer-interference retrieval-structure",
+    "claim": "bidirectional facilitation occurs when both operations are practiced, but practicing one operation specializes memory representation and produces interference.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/a0012833",
+    "phenomenon": "cross-domain activation of behavioral output levels",
+    "constructs": "action-readiness behavioral-output goal-priming general-activation",
+    "claim": "general action and inaction goals influence both motor and cognitive output regardless of behavior type, through a common motivational system.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/a0015960",
+    "phenomenon": "emotion-driven implicit moral judgment",
+    "constructs": "disgust-sensitivity moral-judgment implicit-association automatic-evaluation",
+    "claim": "individual differences in disgust sensitivity predict intuitive disapproval of outgroup behavior through automatic affective associations.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/a0016795",
+    "phenomenon": "how visual distance shapes interpretation of goal-directed behavior",
+    "constructs": "visual-perspective action-abstraction goal-interpretation imagery-perspective",
+    "claim": "third-person visual perspective causally leads to more abstract action interpretation, with bidirectional links between viewpoint and interpretive level.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/a0018983",
+    "phenomenon": "how language background and socioeconomic factors shape literacy development",
+    "constructs": "linguistic-background socioeconomic-status achievement-trajectories skill-acquisition",
+    "claim": "reading trajectories differ by language background, but socioeconomic status accounts for most of the achievement gap in spanish-speaking learners.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/a0019006",
+    "phenomenon": "how past associations and individual emotional tendencies shape retrospective emotional response",
+    "constructs": "autobiographical-memory emotional-arousal personality-disposition affective-complexity",
+    "claim": "music-evoked nostalgia depends on autobiographical salience and emotional complexity, mediated by individual differences in nostalgia proneness.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/a0019337",
+    "phenomenon": "dynamic reconfiguration of mental resource allocation during task performance",
+    "constructs": "working-memory-load cognitive-control online-adjustment demand-sensitivity",
+    "claim": "cognitive control adapts dynamically to working memory demands, not just to response conflict.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/a0019689",
+    "phenomenon": "how color cues trigger status-based mate attraction",
+    "constructs": "color-signaling status-perception romantic-attraction nonconscious-influence",
+    "claim": "women perceive men as more attractive and desirable when displayed in red due to status associations, with effects specific to romantic attraction.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/a0020092",
+    "phenomenon": "how resource scarcity shapes orientation to others' welfare",
+    "constructs": "socioeconomic-circumstances compassion-commitment egalitarian-values collective-adaptation",
+    "claim": "lower social class individuals engage in more prosocial behavior because they develop stronger commitment to egalitarian values and compassion.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/a0020757",
+    "phenomenon": "how temporal distance shapes evaluation of transgressions",
+    "constructs": "temporal-distance emotional-intensity moral-permissibility future-bias",
+    "claim": "future bad deeds are judged more harshly and future good deeds more favorably than equivalent past behavior due to stronger emotional reactions to future events.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/a0021524",
+    "phenomenon": "influence of future events on current cognitive and affective responses",
+    "constructs": "temporal-reversal information-transfer affective-premonition stimulus-seeking",
+    "claim": "responses show anomalous retroactive influences from future events, with effect sizes correlating with individual stimulus-seeking disposition.",
+    "narrative": "bold-claim",
+    "scope": "specific-context",
+    "stance": "hedged-claim"
+  },
+  {
+    "doi": "10.1037/a0023527",
+    "phenomenon": "self-regulation of social disconnection through physical temperature manipulation",
+    "constructs": "physical-sensation social-belonging unconscious-substitution self-regulation",
+    "claim": "people unconsciously compensate for social coldness through increased use of physical warmth without explicit awareness of the connection.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/a0025035",
+    "phenomenon": "how associative thinking patterns affect emotional state",
+    "constructs": "associative-progression conceptual-advancement processing-scope mood-regulation",
+    "claim": "mood improves when thinking involves associative progression across topics rather than remaining focused on a single topic.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/a0025345",
+    "phenomenon": "preference for hierarchical social structure driven by cognitive fluency",
+    "constructs": "processing-fluency social-hierarchy preference-formation cognitive-ease",
+    "claim": "people like hierarchical social arrangements more because hierarchical relationships are easier to learn and remember.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/a0025883",
+    "phenomenon": "how physical focus shifts attribution of mental capacities",
+    "constructs": "agency-perception body-focus mind-attribution moral-responsibility",
+    "claim": "focusing on physical characteristics does not erase mental attribution but redistributes it, reducing perceived agency while increasing perceived emotional sensitivity.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/a0027407",
+    "phenomenon": "integration of life experiences into self-concept versus possessions",
+    "constructs": "self-identity autobiographical-integration memory-centrality purchase-type",
+    "claim": "experiential purchases are more central to self-concept than material purchases because they are more closely associated with personal identity.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/a0027598",
+    "phenomenon": "how psychological concealment is experienced as physical weight",
+    "constructs": "mental-burden physical-perception action-capacity secret-preoccupation",
+    "claim": "people harboring important secrets perceive physical effort as greater and perceive steeper slopes, with effects proportional to secret burden and preoccupation.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

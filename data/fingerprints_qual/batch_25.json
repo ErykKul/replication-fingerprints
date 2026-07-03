@@ -1,0 +1,164 @@
+[
+  {
+    "doi": "10.1509/jppm.16.157",
+    "phenomenon": "cognitive narrowing during resource constraint",
+    "constructs": "scarcity perception decision-making borrowing",
+    "claim": "perceived financial scarcity triggers attentional focus on cost that degrades loan decisions for high-risk consumers",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1515/ling.2011.016",
+    "phenomenon": "semantic interpretation of gradable concepts",
+    "constructs": "reference-points prototypicality real-time-processing",
+    "claim": "people default to normative midpoints for interpreting relative terms, computing them dynamically from context",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1521/soco.2018.36.1.4",
+    "phenomenon": "intrusive economic cognition in low-income experience",
+    "constructs": "scarcity mental-content associative-activation suppression-failure",
+    "claim": "resource scarcity changes the conceptual structure of everyday perception by making economic framings salient and unavoidable",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1523/jneurosci.3427-13.2014",
+    "phenomenon": "neural encoding of learned threat and its suppression",
+    "constructs": "oscillatory-activity conditioning extinction threat-learning",
+    "claim": "fear expression relies on midcingulate theta oscillations while successful threat extinction involves prefrontal gamma modulation",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.2196/jmir.2551",
+    "phenomenon": "effort mobilization in virtual collaborative performance",
+    "constructs": "capability-differences group-success social-comparison encouragement",
+    "claim": "exercising with a more-capable partner increases effort, but explicit encouragement from that partner paradoxically reduces it",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.2501/jar-40-1-2-29-34",
+    "phenomenon": "environmental simplicity effects on ad reception",
+    "constructs": "visual-complexity attitude-formation brand-perception attention",
+    "claim": "simpler webpage backgrounds enhance favorable attitudes toward advertisements, brands, and websites",
+    "narrative": "incremental-extension",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.3102/0002831208323278",
+    "phenomenon": "cross-group interaction effects in educational development",
+    "constructs": "diversity-engagement institutional-context peer-exposure learning",
+    "claim": "institutional climates where students engage more with racial diversity enhance learning for all students, independent of individual engagement",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.3102/0002831209350493",
+    "phenomenon": "group-composition effects on self-evaluation",
+    "constructs": "peer-ability self-concept social-comparison academic-standing",
+    "claim": "attending high-ability schools suppresses academic self-concept regardless of individual characteristics",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.3102/0002831210374874",
+    "phenomenon": "observer bias in ability assessment",
+    "constructs": "subjective-perception accuracy classroom-context sociodemographic-bias",
+    "claim": "teachers systematically underestimate students in lower-status contexts beyond actual ability differences, driven by environmental factors not personal background",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.3102/0002831211419490",
+    "phenomenon": "convergence in skill development across proficiency groups",
+    "constructs": "initial-proficiency growth-trajectory peer-comparison socioeconomic-status",
+    "claim": "English learners with initial proficiency gap show reading growth that converges with socioeconomic peers despite remaining below national average",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.3389/fped.2019.00206",
+    "phenomenon": "genetic architecture of multisystem dysfunction",
+    "constructs": "SNP-variants immune-system metabolic-pathways genetic-predisposition",
+    "claim": "elevated frequency of genetic variants in immune, metabolic, and hormone pathways suggests heritable predisposition to multisystem dysfunction",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "hedged-claim"
+  },
+  {
+    "doi": "10.3389/fpsyg.2014.01276",
+    "phenomenon": "automatic concept activation in evaluative reasoning",
+    "constructs": "priming-effects response-effort non-conscious-activation moral-judgment",
+    "claim": "unconscious activation of purity concepts lowers severity of moral judgment only when cognitive attention is low",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.3389/fpsyg.2024.1335892",
+    "phenomenon": "perceptual skill transfer in high-stakes tactical performance",
+    "constructs": "situational-awareness gaze-control visual-attention decision-speed",
+    "claim": "targeted training in visual attention and gaze control improves response times and accuracy in shoot/don't-shoot decisions even for experienced officers",
+    "narrative": "incremental-extension",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.3758/s13414-020-02150-8",
+    "phenomenon": "cross-modal interference in selective attention",
+    "constructs": "task-irrelevance response-competition letter-identity modality-separation",
+    "claim": "flanker interference extends to cross-modal contexts but depends on shared conceptual identity rather than shared response mapping",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.4324/9781032633275-7",
+    "phenomenon": "fundamental categorization mechanism in cognition",
+    "constructs": "stimulus-categorization psychological-distance typicality similarity-judgment",
+    "claim": "similarity is the foundational cognitive capacity enabling recognition, learning, and judgment across all domains",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.5465/amj.2016.0086",
+    "phenomenon": "non-work context effects on occupational engagement",
+    "constructs": "family-structure cognitive-load anticipatory-planning work-absorption",
+    "claim": "single childless workers have lower work engagement because anticipated domestic obligations after work reinforce the work mindset more than having dependents",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.5840/jphil20091061128",
+    "phenomenon": "norm-guided causal attribution",
+    "constructs": "actual-causation norm-violation explanatory-relevance causal-judgment",
+    "claim": "causal judgments are fundamentally shaped by normative expectations about how the world should function",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.5840/jphil20111081238",
+    "phenomenon": "evaluative judgment of responsibility",
+    "constructs": "causal-reasoning norm-violation accountability agent-control",
+    "claim": "human evaluation of causation and responsibility fundamentally depends on assessing norm violations and agent control",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

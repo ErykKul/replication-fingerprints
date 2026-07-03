@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1177/0956797610377341",
+    "phenomenon": "perceptual binding of object features",
+    "constructs": "attention feature-selection sampling binding-error",
+    "claim": "Objects are perceived as bound when independently sampled features align; errors occur when sampling precision is poor.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.1990.tb00227.x",
+    "phenomenon": "visual search based on three-dimensional scene properties",
+    "constructs": "visual-search scene-structure depth preattentive-processing",
+    "claim": "Early visual processing represents 3D object orientation and scene structure, not just 2D image features.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1118373109",
+    "phenomenon": "unethical behavior correlated with socioeconomic status",
+    "constructs": "social-class ethics greed attitudes",
+    "claim": "Upper-class individuals behave more unethically because they hold more favorable attitudes toward greed.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797610393745",
+    "phenomenon": "attraction under uncertainty in reciprocal liking",
+    "constructs": "reciprocity uncertainty attraction cognitive-engagement",
+    "claim": "Uncertainty about another's liking increases attraction more than confirmed strong liking by triggering greater cognitive engagement.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0146167210383440",
+    "phenomenon": "misattribution of emotional causes",
+    "constructs": "affect-misattribution source-confusion implicit-measurement",
+    "claim": "Misattributions involve three independent processes: affective response to true cause, affective response to apparent cause, and source confusion.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/a0016997",
+    "phenomenon": "behavioral change from exposure to prosocial video game content",
+    "constructs": "prosocial-content accessibility helping-behavior activation",
+    "claim": "Playing prosocial games increases helping behavior by activating prosocial thought accessibility.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797611434748",
+    "phenomenon": "perception of sexually objectified bodies",
+    "constructs": "sexual-objectification perceptual-processing gender face-inversion",
+    "claim": "Sexually objectified women are perceived analytically like objects, not configurally like persons, eliminating the inversion effect.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1348/000709909x466479",
+    "phenomenon": "nonconscious priming effects of evaluative letters on achievement performance",
+    "constructs": "implicit-priming motivation achievement-task nonconscious-processes",
+    "claim": "Letter A priming enhances and letter F priming impairs cognitive task performance via implicit approach-avoidance motivation outside conscious awareness.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797612447820",
+    "phenomenon": "political ideology as basis for prejudice",
+    "constructs": "political-ideology prejudice value-conflict intergroup-attitudes",
+    "claim": "Prejudice is symmetrical across political spectrum and stems from perceived ideological dissimilarity, not from inherent group characteristics.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/a0022571",
+    "phenomenon": "approachability judgments from emotional facial and body expressions",
+    "constructs": "emotional-expression face-body-integration approach-avoid perception",
+    "claim": "Facial expressions dominate approachability judgments and modulate interpretation of accompanying body expressions.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797611418837",
+    "phenomenon": "interference between numerical magnitude and time reproduction",
+    "constructs": "magnitude-representation temporal-processing number-interference abstract-cognition",
+    "claim": "Task-irrelevant numerical magnitude automatically biases temporal duration estimates, suggesting shared or linked magnitude representations.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1086/676126",
+    "phenomenon": "probability judgment biased by category size regardless of objective probability",
+    "constructs": "probability-estimation categorization category-size heuristics",
+    "claim": "Outcomes grouped with many alternatives are perceived as more likely, independent of actual probability or logical category relevance.",
+    "narrative": "incremental-extension",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0146167208318952",
+    "phenomenon": "recursive transfer of interpersonal attitudes to their source",
+    "constructs": "attitude-transfer liking disliking cognitive-balance",
+    "claim": "People who like others acquire positive valence and people who dislike others acquire negative valence via higher-order propositional inference.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797613503853",
+    "phenomenon": "reduction in sunk-cost bias through mindfulness meditation",
+    "constructs": "mindfulness temporal-focus decision-bias negative-affect",
+    "claim": "Mindfulness meditation reduces sunk-cost bias by shifting temporal focus away from past and future and reducing negative affect.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1086/677893",
+    "phenomenon": "hedonic maximization through categorization of experiential variety",
+    "constructs": "experience-categorization subjective-progress hedonic-evaluation",
+    "claim": "Consumers track experiences in categories and prefer to diversify across categories for positive experiences but consolidate for negative ones.",
+    "narrative": "incremental-extension",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797611410985",
+    "phenomenon": "fertility-linked intergroup bias dependent on formidability cues",
+    "constructs": "fertility menstrual-cycle intergroup-bias physical-formidability",
+    "claim": "Women show greater bias against outgroup men when conception risk is high if they associate that group with physical formidability.",
+    "narrative": "boundary-condition",
+    "scope": "specific-population",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/a0024875",
+    "phenomenon": "gender connotations of numerical concepts",
+    "constructs": "number-gender gender-metaphor conceptual-scaffolding abstract-cognition",
+    "claim": "Odd numbers are associated with masculinity and even numbers with femininity, shaping gender judgments of unrelated stimuli.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/a0025345",
+    "phenomenon": "preference for hierarchical social structures driven by processing fluency",
+    "constructs": "social-hierarchy fluency preference learning",
+    "claim": "Social hierarchies are processed more easily and liked better than equal relationships because easier processing increases liking.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1515/cog-2013-0030",
+    "phenomenon": "resolution of temporal ambiguity shaped by personality and lifestyle",
+    "constructs": "temporal-metaphor personality procrastination individual-differences",
+    "claim": "Individual differences in lifestyle and personality (conscientiousness, procrastination, extroversion) influence how people resolve temporal metaphor ambiguity.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2009.02434.x",
+    "phenomenon": "temperature's influence on social proximity perception and language use",
+    "constructs": "temperature grounded-cognition social-proximity language-concreteness",
+    "claim": "Ambient or tactile warmth increases perceived social closeness and triggers more concrete language and relational focus.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

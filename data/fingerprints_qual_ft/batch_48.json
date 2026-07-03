@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0571",
+    "phenomenon": "Information asymmetry enabling deception despite institutional safeguards",
+    "constructs": "liability verifiability reputation competition efficiency",
+    "claim": "Legal restrictions on service quality prevent fraud more effectively than transparency mechanisms even though both should theoretically work equally well.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0579",
+    "phenomenon": "Job design clustering despite continuous strategy space",
+    "constructs": "screening reputation compensation discretion",
+    "claim": "Employers segregate into two distinct strategies (high-control or high-trust) only when they can observe worker reputation signals and competition forces selection on past performance.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0580",
+    "phenomenon": "Persistent bubble formation despite transparent fundamentals",
+    "constructs": "confusion context framing fundamental-value",
+    "claim": "Subject misunderstanding of declining value process rather than excess liquidity drives market bubbles; context reframing reduces confusion and mispricing without reducing liquidity.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0581",
+    "phenomenon": "Incentive design that transforms public good into club good",
+    "constructs": "allocation-rule reciprocity information feedback",
+    "claim": "Giving donors priority for receiving organs increases registration when allocation system provides timely feedback about other donors' decisions, not merely from cost reduction.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0582",
+    "phenomenon": "Punishment ineffectiveness under imperfect monitoring",
+    "constructs": "monitoring noise punishment-severity fairness-perception",
+    "claim": "Moderate punishment reduces welfare in noisy environments because mistaken punishments of cooperators reduce subsequent cooperation and create defection spirals.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0585",
+    "phenomenon": "Gift-exchange equilibrium without explicit incentives",
+    "constructs": "social-norms patience reputation-threat",
+    "claim": "Agents sustain efficient allocation through decentralized gift-exchange if discount factor exceeds threshold that depends on group size, with reciprocal behavior enforced by autarky threat.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

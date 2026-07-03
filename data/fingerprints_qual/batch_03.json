@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1037/0022-3514.84.4.871",
+    "phenomenon": "elevated motivation by transcendent encounter",
+    "constructs": "evocation motivation transcendence aspiration",
+    "claim": "a stable individual tendency toward transcendent motivation predicts sustained engagement across domains.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.90.4.543",
+    "phenomenon": "mapping intentions from action patterns",
+    "constructs": "action-identification mental-states intentionality affect",
+    "claim": "inferring abstract intentions from behavior correlates with attributing mind and consciousness to the actor.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.1.1",
+    "phenomenon": "aligning attitudes post-commitment via neural drive",
+    "constructs": "decisional-commitment approach-motivation attitude-change implementation",
+    "claim": "reduced approach-oriented neural activation decreases post-decision attitude alignment, demonstrating neural basis for dissonance resolution.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.1.116",
+    "phenomenon": "restoring damaged relationships through threat-reduction",
+    "constructs": "status-restoration moral-image power reconciliation",
+    "claim": "victims and perpetrators reconcile when exchanges address their distinct threats: power for victims, moral identity for perpetrators.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.1.158",
+    "phenomenon": "mixed affect at meaningful endings",
+    "constructs": "temporal-awareness positive-emotion negative-emotion endpoints",
+    "claim": "awareness of final occurrences at meaningful moments generates simultaneous happiness and sadness.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.1.16",
+    "phenomenon": "test-format alignment and implicit-explicit consistency",
+    "constructs": "task-structure measurement-format attitude-consistency methodology",
+    "claim": "implicit and explicit attitude measures correlate strongly when task demands and structural format align, not due to cognitive independence.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.1.48",
+    "phenomenon": "temporal variability in biased responding under effort",
+    "constructs": "effort bias-suppression noise-pattern task-complexity",
+    "claim": "effort to reduce bias manifests as reduced temporal randomness in response patterns.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "hedged-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.1.91",
+    "phenomenon": "threat-driven avoidance despite low prejudice",
+    "constructs": "identity-threat stereotype-threat social-distance prejudice",
+    "claim": "concern about being perceived as racist can paradoxically increase avoidance of outgroup members independent of actual prejudice.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.2.245",
+    "phenomenon": "discrepancy between stated and revealed partner preferences",
+    "constructs": "preference-introspection behavior-prediction mate-selection attractiveness",
+    "claim": "people's self-reported ideal partner preferences diverge from what actually predicts attraction to real candidates.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.2.94.2.196",
+    "phenomenon": "value-dependent persuasion processing and resistance",
+    "constructs": "personal-relevance message-processing attitude-strength involvement",
+    "claim": "framing persuasion through important values increases cognitive engagement, yielding stronger and more resistant attitudes.",
+    "narrative": "incremental-extension",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.3.382",
+    "phenomenon": "depleted self-regulation and selective information seeking",
+    "constructs": "ego-depletion confirmation-bias information-search motivation",
+    "claim": "when self-regulatory resources are depleted, people seek standpoint-consistent information more vigorously due to stronger commitment.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.3.396",
+    "phenomenon": "action-planning and attitude crystallization",
+    "constructs": "implementation-planning attitude-strength ambivalence decision-commitment",
+    "claim": "planning how to execute a decision hardens attitudes toward unrelated objects by biasing attention toward supporting information.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.3.429",
+    "phenomenon": "balancing trust and self-protection in intimate bonds",
+    "constructs": "self-esteem goal-conflict risk risk-regulation dependence",
+    "claim": "self-esteem determines whether interpersonal risk triggers approach toward intimacy or retreat toward protection.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.3.495",
+    "phenomenon": "recognizing one's own wrongdoing capacity and granting forgiveness",
+    "constructs": "moral-awareness empathy transgression-severity similarity",
+    "claim": "acknowledging one's own capacity for similar wrongdoing increases forgiveness by reducing perceived severity and increasing empathy.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.3.516",
+    "phenomenon": "cross-cultural recognition of emotional expression",
+    "constructs": "nonverbal-expression universal-emotion pride emotion-recognition culture",
+    "claim": "the nonverbal expression of pride is recognized across diverse cultures, suggesting it may be a human universal.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.4.560",
+    "phenomenon": "cognitive cost of conflicting affective signals",
+    "constructs": "concept-experience coherence cognition affect-congruence",
+    "claim": "misalignment between conceptual and experiential affect impairs memory and cognitive performance.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.4.579",
+    "phenomenon": "processing scope and categorical judgment direction",
+    "constructs": "processing-style global-local inclusion-exclusion category-comparison",
+    "claim": "global processing promotes categorical inclusion and assimilation, while local processing promotes exclusion and contrast.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.4.600",
+    "phenomenon": "emotional signaling and negotiation outcomes under structural constraints",
+    "constructs": "emotion-communication anger expectation negotiation bargaining",
+    "claim": "communicated anger improves bargaining outcomes by signaling resolve, but backfires when opponents can deceive or walk away.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.4.615",
+    "phenomenon": "minority-status sensitivity to institutional inclusivity cues",
+    "constructs": "social-identity institutional-signal diversity-philosophy threat-perception",
+    "claim": "people vulnerable to stereotype are attuned to signals of diversity and representation, which shape trust and threat perception.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.4.647",
+    "phenomenon": "projecting one's care onto relationship partners",
+    "constructs": "projection communal-responsiveness relationship-quality trust reciprocity",
+    "claim": "people who feel caring toward partners misperceive them as equally caring back, and this bias guides relationship investment.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

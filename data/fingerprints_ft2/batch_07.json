@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0047",
+    "what_manipulated": "activation of communal vs. agentic personality trait concepts",
+    "what_measured": "perceived ambient temperature, self-reported trait applicability, person perception warmth",
+    "experiment": "Participants completed trait-focus tasks (vignette reading or self-rating trait lists) emphasizing communal or agentic qualities, then estimated room or object temperature. Within-studies manipulated trait type (communal/agentic) and valence/subdimension (positive/negative; sociability/morality). Design tested whether semantic/conceptual activation of communion distinctly influences temperature perception independent of global evaluation or target-person perception.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0048",
+    "what_manipulated": "comorbid psychopathy status (none/comorbid) within ASPD diagnosis",
+    "what_measured": "criminal versatility, violent/nonviolent offense counts, affective facilitation in lexical decision",
+    "experiment": "Incarcerated men stratified by diagnostic status (ASPD+psychopathy, ASPD-only, controls) from DSM-IV interview and PCL-R assessment. Criminal behavior extracted from records; emotional processing measured via lexical decision task (affective vs. neutral words, right-hand responses). Analysis examined whether groups differed in criminal indices and whether emotional processing deficits correlated differently with crime across groups.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0049",
+    "what_manipulated": "deescalation procedure (threat reduction, goal-setting, accountability-for-process, etc. vs. baseline)",
+    "what_measured": "resource allocation to failing initial investment choice",
+    "experiment": "Business students made funding allocation decision on a company case; received negative feedback on initial choice; then allocated new budget. Six deescalation conditions manipulated factors theorized to reduce escalation (reducing self-justification needs, increasing decision vigilance, modifying accountability frame). Outcome: amount allocated to original (failing) choice from new $10M budget. Lower allocation indicates successful deescalation.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0050",
+    "what_manipulated": "none (personality traits measured, not manipulated)",
+    "what_measured": "transformational leadership behaviors, leader effectiveness (supervisor ratings, subordinate satisfaction/commitment/motivation)",
+    "experiment": "Multi-sample correlational design: 14 community leadership programs, 169 leader participants; personality assessed via NEO-PI-R (Big Five), leadership behaviors rated by subordinates on MLQ (idealized influence, inspirational motivation, intellectual stimulation, individualized consideration), outcomes assessed via supervisor and subordinate surveys. Regressions examined whether personality traits predict transformational leadership independent of other traits.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0051",
+    "what_manipulated": "eating disorder status (bulimic, obese, or normal) - pre-existing groups",
+    "what_measured": "psychopathology (MMPI, SCL-90, BDI scales), body image perception (current and ideal size discrepancy)",
+    "experiment": "45 matched women (15 per group) completed standardized personality and symptom inventories and body image task (selecting figure cards for perceived current body size and ideal desired size). Groups matched on age, height; bulimic/normal additionally matched on weight. Design compared psychopathology profiles and body image discrepancy across groups using MANOVA and univariate ANOVAs.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0052",
+    "what_manipulated": "exposure to others' event-influencing factor lists (Study 2 only); event characteristics assessed correlatively (Study 1)",
+    "what_measured": "comparative judgment of own chances vs. average classmate chances; event characteristics (desirability, probability, controllability, personal experience, stereotype salience)",
+    "experiment": "Study 1: College students rated 42 life events (18 positive, 24 negative) estimating percentage difference between own likelihood and classmate average; event characteristics rated by separate group. Correlations tested whether event attributes (desirability, controllability, stereotype salience) predicted magnitude of optimistic bias. Study 2 (experimental): subjects listed factors influencing 8 events; half received others' lists before re-rating same events; logic tested whether information about others' factors reduced bias.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "many-exploratory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  }
+]

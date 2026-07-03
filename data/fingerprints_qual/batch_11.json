@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1080/09515089.2014.894431",
+    "phenomenon": "folk attribution of moral understanding absent motivation",
+    "constructs": "moral judgment internalism motivation attribution folk intuitions",
+    "claim": "people predominantly attribute moral understanding to agents lacking motivation, but this attribution is more lax than moral belief attribution, suggesting partial endorsement of internalist conceptions.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1080/10503307.2012.731088",
+    "phenomenon": "therapist behaviors that establish relational bonds in clinical dyads",
+    "constructs": "therapeutic alliance relationship quality monitoring goal-setting feedback",
+    "claim": "therapist behaviors including relationship monitoring, goal clarification, and feedback-seeking are the operational mechanisms through which clinical relationships strengthen and predict session outcomes.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1080/10584609.1994.9963030",
+    "phenomenon": "cross-media influence and agenda convergence during campaigns",
+    "constructs": "intermedia influence advertising agenda news coverage issue selection",
+    "claim": "political advertising and news media reciprocally shape each other's issue agendas, with both sources influencing the news agenda through distinct causal pathways.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1080/135062899395000",
+    "phenomenon": "holistic perceptual integration of object parts into unified representations",
+    "constructs": "holistic representation perceptual integration feature integration complete-over-part",
+    "claim": "both faces and houses are represented as integrated wholes where recognition benefits from seeing complete objects rather than parts, and this holistic processing is mandatory and probe-delay invariant.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1080/13869790600641905",
+    "phenomenon": "moral evaluation bias in legal attribution of intentionality and culpability",
+    "constructs": "intentional action blame attribution mens rea moral valence judgment bias",
+    "claim": "immoral actions bias folk attributions of intentionality toward guilt, which undermines jurors' ability to determine guilt objectively, collapsing legal and moral judgment.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1080/23273798.2020.1810292",
+    "phenomenon": "morphological structure effects on parallel word processing in attention",
+    "constructs": "morphological structure word recognition lexical processing parallel processing flankers",
+    "claim": "transparent morphological relations between words facilitate processing in parallel attention tasks beyond orthographic overlap, showing that morphological structure modulates attention allocation.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1086/268936",
+    "phenomenon": "scale range influence on perception of quantity and self-assessment",
+    "constructs": "response scale category range anchoring comparative judgment self-report",
+    "claim": "respondents use response category ranges as implicit reference points, inferring population averages from scale bounds and then using those inferences to evaluate their own behavior.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1086/269239",
+    "phenomenon": "conversational context effects on how questions relate in survey responses",
+    "constructs": "assimilation contrast question sequencing conversational logic context interpretation",
+    "claim": "whether part and whole questions are perceived as belonging together determines whether respondents reuse information (assimilation) or interpret the second question as non-redundant (contrast), mediated by conversational norms.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1086/597030",
+    "phenomenon": "adaptation habituation disruption in experience quality during sustained exposure",
+    "constructs": "adaptation hedonic decline interruption experience quality enjoyment decay",
+    "claim": "temporal adaptation diminishes enjoyment of sustained experiences, and strategic interruptions restore hedonic intensity by breaking the habituation process.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1086/597176",
+    "phenomenon": "economic structural shifts in employment patterns across advanced economies",
+    "constructs": "deindustrialization employment trade affluence productivity sectoral change",
+    "claim": "rising consumer affluence, sectoral productivity differentials, and global trade simultaneously drive employment shifts away from manufacturing, with affluence being the dominant factor.",
+    "narrative": "incremental-extension",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1086/597428",
+    "phenomenon": "organizational hierarchy effects on wage compensation and responsibility",
+    "constructs": "firm size wage gaps hierarchy job responsibility managerial span subordinates",
+    "claim": "wage premiums from firm size increase with job responsibility, reflecting that hierarchical matching amplifies the marginal productivity premium for talent when managing larger subordinate populations.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1086/598971",
+    "phenomenon": "visual variety effect on perceptual quantity assessment and portion allocation",
+    "constructs": "perceptual quantity variety Gestalt visual integration quantity estimation portion",
+    "claim": "variety in a visual array reduces perceived quantity because identical items consolidate into unified Gestalt wholes that appear larger, affecting both judgment and motor behavior like pouring.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1086/648381",
+    "phenomenon": "expectancy mismatch between source expertise and message certainty in persuasion",
+    "constructs": "source certainty expertise expectancy violation involvement persuasion incongruity",
+    "claim": "source persuasiveness depends on expectancy matching: low-expertise sources persuade through certainty while high-expertise sources persuade through uncertainty, by violating audience expectations.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1086/658469",
+    "phenomenon": "system defense motivation manifested through consumption choice strategies",
+    "constructs": "system justification system threat consumption defense confidence legitimacy",
+    "claim": "when systems are threatened, all individuals are equally motivated to defend them, but those less confident use indirect subtle defense while the confident use direct explicit defense.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1086/661531",
+    "phenomenon": "embodied simulation induced by visual product orientation in advertisement",
+    "constructs": "embodied mental simulation motor response visual depiction product orientation purchase intent",
+    "claim": "visual depictions that facilitate embodied simulation of product interaction increase purchase intentions by engaging motor system resources, and this effect reverses for negatively valenced products.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1086/669476",
+    "phenomenon": "spatial representation of time influencing temporal product perception and attitude",
+    "constructs": "time cognition spatial location left-right processing fluency temporal products",
+    "claim": "consumers with left-to-right reading have congruent attitudes toward products when positioned right (future-aligned), mediated by improved processing fluency, with the effect reversing for right-to-left readers.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1086/670020",
+    "phenomenon": "construal level differences between sellers and buyers affecting price discrepancy",
+    "constructs": "construal level seller-buyer price discrepancy high-level low-level features desirability feasibility",
+    "claim": "sellers adopt higher-level construals than buyers, causing them to weight primary features more heavily, so selling exceeds buying price when primary features are superior but secondary inferior.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1086/679118",
+    "phenomenon": "coping strategies when resources are perceived as limited or insufficient",
+    "constructs": "resource constraint coping efficiency prioritization goal sacrifice trade-offs",
+    "claim": "resource scarcity triggers two coping strategies: efficiency (stretching) and prioritization (sacrificing goals), with prioritization increasing under greater constraint despite feeling more costly and often proving insufficient.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1086/691462",
+    "phenomenon": "cognitive resource depletion from mere presence of salient owned devices",
+    "constructs": "smartphone presence cognitive capacity attention resources working memory brain drain",
+    "claim": "the mere presence of one's own smartphone occupies cognitive capacity independent of actual use, reducing available resources for other tasks and impairing performance, especially for dependent users.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1086/698750",
+    "phenomenon": "age structure effects on entrepreneurial behavior and firm formation rates",
+    "constructs": "age median demographics entrepreneurship skill acquisition younger older workers positioning",
+    "claim": "younger societies have higher entrepreneurship rates because older workers in key positions block skill acquisition by younger workers and reduce aggregate entrepreneurial capacity.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

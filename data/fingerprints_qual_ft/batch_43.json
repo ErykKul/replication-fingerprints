@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0354",
+    "phenomenon": "dissociation between evaluative pathways",
+    "constructs": "implicit evaluation, explicit evaluation, information type, temporal learning, symbolic reasoning",
+    "claim": "Implicit and explicit evaluations of the same object form and change independently because they depend on different information modalities and processing systems.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0357",
+    "phenomenon": "early false-belief attribution in action prediction",
+    "constructs": "mental state attribution, false belief, action anticipation, theory of mind, competence vs performance",
+    "claim": "Infants at 25 months attribute false beliefs to others and use those attributions to predict behavior, challenging the conceptual-deficit account of false-belief failures.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0365",
+    "phenomenon": "multidimensional degradation of temporal selection",
+    "constructs": "attention, temporal selection, efficacy, latency, precision, dissociation",
+    "claim": "The attentional blink reflects not a unitary bottleneck but three independent mechanisms affecting selection amplitude, timing, and spread with distinct recovery dynamics.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0393",
+    "phenomenon": "robust ensemble representation outside focal attention",
+    "constructs": "attention focus, local features, summary statistics, ensemble pooling, representational hierarchy",
+    "claim": "Unattended items maintain degraded local representations but support accurate statistical summaries through pooling, indicating multiple representational levels.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0396",
+    "phenomenon": "internal probabilistic sampling in judgment",
+    "constructs": "probabilistic representation, repeated estimation, error independence, internal distribution, anchoring",
+    "claim": "Human knowledge is sampled from internal probability distributions rather than deterministically accessed, evidenced by mutual error reduction when averaging successive self-estimates.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0402",
+    "phenomenon": "thermal embodiment of social cognition",
+    "constructs": "temperature, social proximity, embodied cognition, language abstraction, perceptual focus, metaphorical grounding",
+    "claim": "Temperature is bidirectionally linked to social distance through embodied metaphor, shaping language, perception, and proximity judgments.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

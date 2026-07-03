@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0237",
+    "phenomenon": "subjective deprivation amplifies resource acquisition",
+    "constructs": "relative standing perception adaptive reallocation environment-mismatch maladaptation",
+    "claim": "psychological representation of social rank independently triggers energy-acquisition behavior via domain-general deprivation detection mechanism.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0238",
+    "phenomenon": "temporal framing reconciles ideological polarization",
+    "constructs": "temporal orientation schema-alignment worldview-congruence ideological divergence",
+    "claim": "evidence framing compatibility with recipient temporal focus, not evidence strength, determines belief-update trajectory across ideological groups.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0239",
+    "phenomenon": "salient extrinsic cue crowds out intrinsic motivation",
+    "constructs": "attention reallocation mindset-shift intrinsic-motivation cost-benefit reasoning",
+    "claim": "extrinsic incentive effects operate via attentional redirection and calculative-mindset induction rather than self-signal mechanisms.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0240",
+    "phenomenon": "facial appearance biases science engagement and credibility judgments",
+    "constructs": "competence morality attractiveness implicit-perception selective-attention epistemic-bias",
+    "claim": "automatic trait inference from facial appearance influences both selection and evaluation of scientific communication via distinct psychological channels.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0241",
+    "phenomenon": "free-will belief amplifies internal-attribution bias",
+    "constructs": "free-will belief correspondence-bias intention-attribution causal-inference",
+    "claim": "stronger belief in free will increases perceived internal causation and reduced situational-factor weight in behavior interpretation.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0242",
+    "phenomenon": "learning dynamics asymmetry drives evolved behavioral rigidity",
+    "constructs": "reward-learning vulnerability costly-behavior commitment flexibility-cost evolutionary-selection",
+    "claim": "roles asymmetrically vulnerable to learning suboptimal behavior in competitive multiagent contexts evolve rigid preferences to compensate.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

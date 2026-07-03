@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0225",
+    "what_manipulated": "perceived intent (intentional vs. unintentional harm)",
+    "what_measured": "motivation to blame: task choice frequency, effort in clicking task, persistence across escalating demands",
+    "experiment": "Participants read vignettes describing harm (nursing home medication errors) framed as intentional or unintentional, then freely chose between blaming/condemning the harm-doer or alternative tasks (Exp. 1) or completed a reinforcement game where clicking earned signatures on a petition to investigate the harm-doer, with escalating response requirements (Exp. 2). Motivation indexed by choice propensity and clicking effort/persistence.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-one"
+  },
+  {
+    "paper_id": "p0226",
+    "what_manipulated": "third-party intervention possibility and risk; incentive structure for third parties",
+    "what_measured": "cooperation rate among disputants; third-party intervention rate; earnings",
+    "experiment": "Multi-party game paradigm (Peacemaker Game) where two disputants choose cooperation or competition and third parties choose whether to intervene by introducing side payments. In Experiments 1-3, varied whether third-party intervention is possible/probable. In Experiment 4, varied consequence structure for third parties (loss-only, gain-only, gain-or-loss, fixed-payoff). Experiments 5-6 used recall tasks rating perceived costs/benefits of past intervention decisions.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-one"
+  },
+  {
+    "paper_id": "p0227",
+    "what_manipulated": "postural expansiveness (expanded vs. contracted body position in photographs/interactions)",
+    "what_measured": "romantic attraction; odds of receiving 'yes' response in speed dating; mediation path through perceived dominance/openness",
+    "experiment": "Study 1: coded naturally occurring posture in 4-minute speed-dating interactions; measured whether partner wanted to see person again. Study 2a: manipulated posture in online dating profiles (expanded vs. contracted photographs) across 3,000 swipes, counted 'yes' matches. Study 2b: rated manipulated photographs for perceived dominance and openness, tested mediation. No stimulus timing, sample size, or effect magnitude reported in skeleton.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-one"
+  },
+  {
+    "paper_id": "p0228",
+    "what_manipulated": "economic inequality level (state-level Gini coefficient in survey; high vs. low inequality in experiment)",
+    "what_measured": "generosity (donations in dictator game)",
+    "experiment": "Survey: participants from 1,498 respondents across US states completed dictator game task (allocating raffle tickets) while residing in areas with measured income inequality. Experiment: 704 MTurk participants viewed pie chart portraying state wealth distribution as high or low inequality, then participated in dictator game. Key test: income × inequality interaction predicting generosity across both designs.",
+    "design": "mixed",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0229",
+    "what_manipulated": "target race (black vs. white patient/person) and participant false belief endorsement about biological differences",
+    "what_measured": "pain perception ratings; treatment recommendation accuracy; false belief endorsement",
+    "experiment": "Study 1: 92 white laypersons rated pain across 18 scenarios for self, then randomly assigned to rate pain for matched-gender black or white target; completed false belief measure. Study 2: 222 white medical students/residents read mock medical cases (black and white patient) with identical presentations, rated pain and made treatment recommendations, completed false belief measure. Interaction tested: target race × false belief endorsement predicting pain and treatment accuracy.",
+    "design": "mixed",
+    "manipulation": "observational",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0230",
+    "what_manipulated": "volitional information hiding (choose-not-to-answer vs. full disclosure vs. inadvertent nondisclosure)",
+    "what_measured": "preference/hiring choice; trust levels (money sent in trust game); trustworthiness perception; predicted grade",
+    "experiment": "Experiments 1-2: participants viewed dating profiles with incomplete responses (hider: selected 'choose not to answer'; revealer: answered all questions; inadvertent nondiscloser: system prevented display) and rated dating interest. Experiment 3a: trust game where senders allocated money to receivers who had revealed or hidden personal information. Experiment 3b: evaluated job candidates' revealed vs. hidden grades, rated trustworthiness, selected hire. Experiments 4a-4b: prospective employees decided to reveal or hide drug use; employers rated candidates; focal test of actor-observer discrepancy.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-one"
+  }
+]

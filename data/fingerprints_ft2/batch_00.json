@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0002",
+    "what_manipulated": "test strategy: high-risk/high-value vs. low-risk/high-probability confirmation",
+    "what_measured": "preference ratings for hypothesis tests",
+    "experiment": "Participants rated suitability of two test types (varying in confirmation probability vs. evidential value) for evaluating hypotheses. Between-subjects belief manipulation (induced via prior exposure to theory-supporting text) crossed with within-subjects evaluation of two theories and two test types. Outcome: preference for tests was operationalized as rating scale responses indicating test adequacy.",
+    "design": "mixed",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0003",
+    "what_manipulated": "Study 1: time pressure during judgment; Study 2: information about risk or benefit",
+    "what_measured": "risk and benefit judgments on rating scales",
+    "experiment": "Study 1: Participants rated risk and benefit of 23 hazards under time pressure (5.2-second limit) vs. unlimited time, with within-subjects order counterbalancing. Study 2: Participants provided baseline risk/benefit ratings, read vignettes increasing/decreasing perceived risk or benefit for three technologies, then re-rated. Outcome: correlation between risk and benefit judgments measured pre/post manipulation.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0004",
+    "what_manipulated": "discussion of conflicting details between two observers of same event",
+    "what_measured": "proportion correct on recognition memory test; confidence ratings",
+    "experiment": "Pairs watched two versions of a video (via polarized glasses technique) showing same event with eight critical differences. One version per person, both believing they saw identical event. In discussion phase, guided questions directed pairs to discuss four of eight critical items (exposure to partner's conflicting version); four items not discussed served as controls. Recognition test compared memory accuracy for discussed vs. non-discussed critical details. Outcome: accuracy proportion and confidence measured on each detail.",
+    "design": "within-subjects",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0005",
+    "what_manipulated": "paranormal and religious belief status (pre-existing group)",
+    "what_measured": "detection hits and false alarms; d' sensitivity and criterion C; face-likeness and emotionality ratings",
+    "experiment": "Participants (recruited from belief extremes) completed detection task: identify face-like areas in 98 artifact face and 87 non-face pictures via mouse click, with 1-second presentation and 4-second response window. Later rating task: evaluate face-likeness and emotionality of artifact faces on visual analog scales. Signal detection analysis separated sensitivity from response bias. Outcome: hit rates, false alarm rates, d', criterion, and rating values compared across believer groups.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0006",
+    "what_manipulated": "Study 1: victim singularity (single vs. group of 8) × identification level (none, age, age+name, age+name+picture); Study 2,3: victim singularity × identification (present vs. absent)",
+    "what_measured": "willingness to contribute in currency; distress and empathic concern ratings",
+    "experiment": "Study 1: Participants read scenario of sick child or eight children requiring expensive treatment; randomly assigned to singularity and identification level conditions, then indicated donation willingness on scale. Study 2: Same scenario, with random assignment to singularity and identification; post-reading emotion ratings on 7-point scales. Study 3: Participants donated real money (from experimental payment) after viewing identified single or identified group scenario. Outcome: WTC (log-transformed), emotion ratings, actual donations analyzed for main effects and interactions.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0007",
+    "what_manipulated": "Study 1: incidental jersey number (54 vs. 94); Study 2: model number (P17 vs. P97); Study 3: restaurant name with number (Studio 17 vs. Studio 97)",
+    "what_measured": "numerical estimates (probability percentage, sales percentage, willingness-to-pay in dollars)",
+    "experiment": "Study 1: Participants viewed photo of footballer with jersey number (randomly assigned) and estimated probability of sack in next game. Study 2: Saw smartphone with model number (randomly assigned) and estimated percentage of sales in U.S. vs. Europe during launch. Study 3: Viewed restaurant photo named Studio 17 or 97 (randomly assigned); some had anchor highlighted via distraction task, others made judgment then recalled restaurant name; all estimated willingness-to-pay for meal. Outcome: numerical judgments regressed on anchor value and moderators (expertise, anchor recall).",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  }
+]

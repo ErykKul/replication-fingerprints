@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0041",
+    "what_manipulated": "immigration concern and country-level immigration history",
+    "what_measured": "political trust in institutions and politicians",
+    "experiment": "Multilevel hierarchical linear modeling tested whether individual-level concern about immigration and country-level contextual factors (long-term postwar immigration history, far-right party popularity) predict political distrust across European nations. Three indicators of trust (parliament, politicians, legal system) measured on 0-10 scales. Analysis incorporated four waves of European Social Survey with individual-level, country-round-level, and country-level factors; controlled for economic perceptions, social capital, governance, welfare spending, and electoral outcomes.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0042",
+    "what_manipulated": "language status (monolingual vs. bilingual)",
+    "what_measured": "task switching costs: global switch cost and local switch cost (reaction time)",
+    "experiment": "Young adults performed a computerized task-switching paradigm classifying colored animal pictures by either color or shape per trial cue. All trials were response-incompatible (100% remapping required). Global switch cost calculated as reaction time difference between non-switch trials in mixed-task vs. single-task blocks. Local switch cost calculated as reaction time difference between switch vs. non-switch trials within mixed-task blocks. Median reaction times of correct, correctly-preceded trials analyzed via ANOVA.",
+    "design": "between-subjects",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0043",
+    "what_manipulated": "perceived rarity of observed event outcome",
+    "what_measured": "estimated number of prior trials preceding observed event",
+    "experiment": "Participants observed a single rare or common event and estimated in open-ended format how many trials preceded it. Study 1: coin flips all heads vs. mixed heads/tails. Study 2: die rolls three 6's vs. two 6's vs. mixed (between-subjects) and within-subject replication. Study 3: 15 real-world scenarios (e.g., lottery win, becoming pregnant) presented with rare or common outcome. Log-transformed estimates analyzed via mixed-effect models. Perceived likelihood of outcome measured post-hoc as mediator.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0044",
+    "what_manipulated": "regret salience manipulation and external accountability demand",
+    "what_measured": "choice of target vs. non-target option; decision regret and justifiability ratings",
+    "experiment": "Participants chose from three-option sets (job or candidate) containing decoy dominated by target but not non-target. Between-subjects conditions: control (no manipulation), regret-salient (paragraph emphasizing regret possibility), accountability (told will write and be evaluated on explanation). Primary dependent variable: binary choice of target vs. non-target. Decoy effect operationalized as proportion choosing target > 50%. Secondary measures: imagined regret and justifiability (1-7 scales) if outcome unsatisfactory. Written decision accounts coded for option mentions and arguments.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0045",
+    "what_manipulated": "type of information correction to political innuendo",
+    "what_measured": "favorability toward politician; belief in bribery allegation; belief in investigation rumor",
+    "experiment": "Participants read sequential news dispatches (9-11 per condition) about fictional Alaskan state senator Don Swensen's sudden resignation. Block-randomized conditions: control (resignation only), innuendo (linked to corruption investigation), denial (innuendo + prosecutor letter stating no investigation), causal correction (denial + alternate explanation: university presidency appointment). Outcomes measured on Likert scales post-distraction: six-point favorability, five-point bribery belief, four-point investigation likelihood. Analysis: OLS with inverse probability weights and survey weights.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-one"
+  },
+  {
+    "paper_id": "p0046",
+    "what_manipulated": "activation of gender stereotype via subtlety and explicitness",
+    "what_measured": "political knowledge test score; don't-know response rate; items attempted",
+    "experiment": "Study 2: Students took a 20-item timed political knowledge test (20 seconds per item, five-point response scale including don't-know option). Between-subjects stereotype activation: none (control, neutral instructions), subtle (asked to indicate gender before test), explicit (instructions stated test shows gender differences in past). Design: 2 (gender) × 2 (field of study: psychology vs. politics) × 3 (stereotype condition) ANCOVA with political interest as covariate. Primary outcome: test score (0-20). Secondary: count of don't-know responses and items attempted.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "paper_id": "p0612",
+    "what_manipulated": "presence of Internet partner and verbal encouragement during exercise",
+    "what_measured": "exercise duration (plank hold time)",
+    "experiment": "Participants performed abdominal plank exercises in an initial block, then were randomized to three conditions: individual, partnered without encouragement, or partnered with encouragement. In partner conditions, feedback indicated the partner was 1.4x superior. Participants performed a second block of exercises, and change in duration (Block 2 minus Block 1) was measured to compare across conditions.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0618",
+    "what_manipulated": "presence of genetic risk variants in specific pathways (genes variant frequencies)",
+    "what_measured": "frequency of single-nucleotide polymorphisms (SNPs) in immune, hormone, and metabolic pathways",
+    "experiment": "DNA samples from 383 ME/CFS participants were genotyped and compared to a reference database. SNPs were filtered for non-synonymous and nonsense variants in coding regions and near splice sites. SNP frequencies in the ME/CFS cohort were compared to reference database frequencies; functional pathways were annotated and deleteriousness scored using the CADD algorithm.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "many-exploratory",
+    "clarity": "clearly-operationalized",
+    "rigor": "minimal",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0619",
+    "what_manipulated": "response effort during priming task (low vs. high effort instructions)",
+    "what_measured": "moral judgment severity (ratings of six moral vignettes on 0-9 scale)",
+    "experiment": "Participants were randomly assigned to cleanliness or neutral priming conditions via a sentence unscrambling task and instructed to exert either low effort (work quickly without accuracy focus) or high effort (perform to best ability). After priming, participants rated six moral scenarios. Change in moral judgment severity from low to high effort within each priming condition was assessed; effect size comparisons across conditions tested the interaction.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0620",
+    "what_manipulated": "firearms training type (intervention training targeting situational awareness and tactical gaze vs. active control traditional marksmanship training)",
+    "what_measured": "shoot/don't shoot decision accuracy and response time in video scenarios",
+    "experiment": "Senior police officers were randomly assigned to intervention training (grounded in 4C/ID model, focusing on situational awareness and visual attention) or control training (traditional marksmanship). Both groups watched an educational video then performed practical exercises. In pre- and post-tests, participants engaged in realistic video scenarios requiring correct shoot/don't shoot decisions. Dependent variables included decision accuracy, response time, first hit time, muzzle position, and eye-closure duration before shooting.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "preregistered-with-power",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0621",
+    "what_manipulated": "modality of flanker letters (visual target with auditory flankers vs. visual target with visual flankers) and stimulus onset asynchrony (0, 250, or 500 ms)",
+    "what_measured": "reaction time and accuracy in congruent vs. incongruent letter identification trials",
+    "experiment": "Participants discriminated between visual target letters (H or S) while ignoring irrelevant letters presented either as auditory stimuli (Experiment 1) or visual stimuli (standard task). Flankers were presented at varying stimulus onset asynchronies relative to targets. Response times and accuracy were measured for congruent (flanker matches target) versus incongruent (flanker mismatches target) conditions. In Experiment 2, response-congruent (same response mapping but different letter) conditions were added to test whether flanker effects operated at perceptual or response stages.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  }
+]

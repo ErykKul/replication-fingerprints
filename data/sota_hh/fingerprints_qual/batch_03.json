@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1037/0022-3514.92.2.325",
+    "phenomenon": "depletion of capacity after effortful control",
+    "constructs": "self-control glucose metabolism resource-depletion",
+    "claim": "Self-control operates via glucose as a limited metabolic resource, and exertion depletes this resource thereby impairing subsequent control attempts.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2007.02004.x",
+    "phenomenon": "neural basis of control failure after regulation",
+    "constructs": "self-control neural-depletion anterior-cingulate error-monitoring",
+    "claim": "Emotional regulation depletes anterior cingulate conflict-monitoring resources, thereby impairing subsequent attentional control.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.74.3.774",
+    "phenomenon": "cross-domain impairment following regulatory effort",
+    "constructs": "self-regulation fatigue strength-model regulatory-capacity",
+    "claim": "Self-regulation operates as a limited strength resource; depleting it through one task impairs performance across different regulatory domains.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/0096-3445.136.2.241",
+    "phenomenon": "executive-control impairment after prior control demands",
+    "constructs": "executive-control working-memory resource-sharing task-switching",
+    "claim": "Controlling attention, inhibiting responses, or managing memory temporarily depletes a shared executive resource, impairing subsequent control-dependent performance.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.85.1.33",
+    "phenomenon": "self-depletion effects on complex versus simple cognition",
+    "constructs": "ego-depletion complex-thinking regulatory-resources self-guidance",
+    "claim": "Resource depletion impairs complex thinking requiring self-guidance but spares simpler, automatic cognitive tasks.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/a0027598",
+    "phenomenon": "secrets burden action and perception through suppression",
+    "constructs": "secrets suppression physical-burden perception action-capacity",
+    "claim": "Harboring important secrets constitutes a representational burden that metaphorically manifests as physical weight, impairing perception and action.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1126/science.1132491",
+    "phenomenon": "money cues shift motivation toward independence",
+    "constructs": "money-priming self-sufficiency social-behavior help-seeking",
+    "claim": "Reminders of money trigger a self-sufficient orientation, reducing both requests for help and willingness to help others.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797609358096",
+    "phenomenon": "blood glucose levels regulate temporal choice preferences",
+    "constructs": "glucose metabolism future-discounting temporal-preference energy-budget",
+    "claim": "Blood glucose fluctuations regulate the rate at which people discount future rewards, functioning as a metabolic signal of energy availability.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.2.353",
+    "phenomenon": "continuous activation flow during word planning and naming",
+    "constructs": "word-production activation-flow phonological-form attention-capacity",
+    "claim": "Activation spreads continuously from concepts to phonology during word production, with activation amount constrained by task demands.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.146",
+    "phenomenon": "participant strategy drives repetition-blindness reversal",
+    "constructs": "repetition-blindness guessing-strategy orthographic-information task-demands",
+    "claim": "Apparent absence of repetition blindness for nonwords reflects participants' use of partial orthographic information, not a genuine difference in perceptual mechanism.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.3.478",
+    "phenomenon": "task-switching burden on working-memory capacity",
+    "constructs": "task-switching working-memory executive-control resource-cost",
+    "claim": "Task switching imposes a direct cost on working memory capacity independent of item-maintenance demands.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.230",
+    "phenomenon": "prior forgetting facilitates later relearning",
+    "constructs": "retrieval-induced-forgetting relearning memory-dynamics forgetting-benefit",
+    "claim": "Items subjected to retrieval-induced forgetting benefit more from subsequent relearning than items never forgotten, indicating forgetting enables learning.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.237",
+    "phenomenon": "intermixed stimulus presentation improves discrimination",
+    "constructs": "perceptual-learning stimulus-intermixing spacing discrimination",
+    "claim": "Intermixing similar stimuli produces better discrimination than blocking them, via spacing-independent comparison processes not trial spacing.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.97",
+    "phenomenon": "unified mechanisms underlie priming, recognition, and fluency",
+    "constructs": "priming recognition fluency single-system memory-model",
+    "claim": "Priming, recognition, and fluency effects derive from a single unitary memory system, contradicting prior multiple-systems interpretations.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.219",
+    "phenomenon": "model prediction of effect-size distributions without strategy change",
+    "constructs": "feature-model immediate-memory effect-distribution phonological-confusion word-length",
+    "claim": "Standard memory models predict effect-size distributions without invoking strategy shifts, explaining individual reversals through item variance.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.3.460",
+    "phenomenon": "stereotypes generate illusory source recollections at retrieval",
+    "constructs": "stereotypes source-memory retrieval-expectations illusory-recollection",
+    "claim": "When stereotypes are activated during retrieval, they cause false but phenomenologically vivid recollections consistent with stereotype content.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.2.430",
+    "phenomenon": "numerical magnitude automatically processed across notational systems",
+    "constructs": "cross-notation numerical-processing automatic-activation magnitude-representation",
+    "claim": "Numbers in different notations are automatically translated to a common magnitude code, enabling cross-notational automatic effects.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.65",
+    "phenomenon": "semantic neighborhood density produces bidirectional effects via attractor dynamics",
+    "constructs": "semantic-neighborhood density attractor-dynamics activation-competition",
+    "claim": "Near semantic neighbors slow word processing through inhibitory competition, while distant neighbors speed it through facilitation, via attractor dynamics.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.243",
+    "phenomenon": "phonological similarity between stimulus sequences disrupts free but not serial recall",
+    "constructs": "phonological-similarity irrelevant-sound disruption category-cueing recall-strategy",
+    "claim": "Between-sequence phonological similarity disrupts free recall when category-cueing becomes a retrieval strategy, but does not affect serial recall.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.3.546",
+    "phenomenon": "bidirectional transfer and interference in arithmetic memory",
+    "constructs": "multiplication-memory bidirectional-transfer operational-specialization memory-flexibility",
+    "claim": "Practicing both multiplication and factoring enables bidirectional transfer, but practicing one operation alone causes interference through representational specialization.",
+    "narrative": "context-effect",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

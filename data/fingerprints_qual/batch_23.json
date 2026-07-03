@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1177/1948550614555029",
+    "phenomenon": "motivation to expand self-concept",
+    "constructs": "self-clarity expansion relationships well-being",
+    "claim": "Lack of clarity about oneself dampens the desire to incorporate new content and experiences into one's self-definition.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/1948550617720269",
+    "phenomenon": "digital emotional expression substituting for physical cues",
+    "constructs": "expression warmth competence appropriateness context",
+    "claim": "Text-based digital signals do not map onto face-to-face emotional expressions and can invert their social consequences.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/1948550617751583",
+    "phenomenon": "perception of systemic injustice and group-protective motivated reasoning",
+    "constructs": "historical-knowledge group-esteem denial perspective-taking",
+    "claim": "Differential exposure to and engagement with historical knowledge explains protective denial of ongoing systemic structures.",
+    "narrative": "new-mechanism",
+    "scope": "specific-population",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/1948550619843931",
+    "phenomenon": "continuity of self across time and its consequences for life satisfaction",
+    "constructs": "temporal-continuity future-orientation patience life-satisfaction",
+    "claim": "Feeling connected to one's future self predicts better long-term well-being, supporting delayed-gratification models over hedonic-depletion models.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/2167702614545216",
+    "phenomenon": "selective attention to threat in clinical anxiety",
+    "constructs": "attention-engagement disengagement threat-processing diagnosis",
+    "claim": "Attentional responses to threat differ systematically between subclinical and clinically-diagnosed anxiety groups, indicating that subclinical models may not generalize.",
+    "narrative": "boundary-condition",
+    "scope": "specific-population",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1207/s15324834basp2504_5",
+    "phenomenon": "how cognitive engagement shapes affective reaction to expectation-reality discrepancy",
+    "constructs": "cognitive-effort expectations affect assimilation-contrast noticing",
+    "claim": "Individual differences in cognitive engagement determine whether discrepancies between expectation and reality are noticed and how they emotionally impact outcomes.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1207/s15327795jra0303_2",
+    "phenomenon": "identity maturity as structure of personality traits",
+    "constructs": "identity-status development neuroticism conscientiousness openness",
+    "claim": "Different identity developmental statuses co-vary reliably with distinct personality trait profiles.",
+    "narrative": "confirmation",
+    "scope": "specific-population",
+    "stance": "hedged-claim"
+  },
+  {
+    "doi": "10.1249/mss.0000000000000818",
+    "phenomenon": "interaction of performance enhancement mechanisms in motor control",
+    "constructs": "feedback attention-focus incentive efficiency effort",
+    "claim": "Combining external attention focus with feedback generates superior performance through increased movement efficiency, while incentives operate on a separate motivational dimension.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1257/aer.101.2.470",
+    "phenomenon": "how expectations shape effort provision and earnings",
+    "constructs": "expectations reference-point effort provision earnings",
+    "claim": "Effort and earnings respond to manipulated expectations consistent with reference-dependent preference models where expectations anchor the reference point.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1257/aer.101.2.526",
+    "phenomenon": "market efficiency under asymmetric information and seller accountability",
+    "constructs": "liability verifiability reputation competition information-asymmetry",
+    "claim": "Seller accountability for harm is necessary for market efficiency in contexts of asymmetric information; verifiability and reputation alone are insufficient.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1257/aer.101.2.819",
+    "phenomenon": "worker effort response to deferred wage promises across commitment structures",
+    "constructs": "commitment reciprocity trust effort deferred-compensation",
+    "claim": "Workers supply effort to honor deferred wage contracts whether through formal commitment, reputation, or social reciprocity, though the mechanisms differ.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1257/aer.101.2.927",
+    "phenomenon": "how pre-play financial markets influence equilibrium selection in coordination games",
+    "constructs": "market-prices coordination efficiency equilibrium price-forecasting",
+    "claim": "Financial markets reduce coordination efficiency even when they do not directly distort game incentives, functioning as a parallel information channel.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1257/aer.101.4.1211",
+    "phenomenon": "honesty and information disclosure under hidden-information constraints",
+    "constructs": "communication participation honesty truth-telling blame-guilt",
+    "claim": "Effective communication requires that low-ability agents can participate in mutually beneficial outcomes; without this, information revelation fails.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1257/aer.101.6.2562",
+    "phenomenon": "ingroup identity as selection mechanism for efficient coordination",
+    "constructs": "group-identity coordination equilibrium-selection learning efficiency",
+    "claim": "Salient group identity changes which equilibrium emerges through coordination learning toward the efficient outcome when coordination ingroup-contingent.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1257/aer.101.7.3109",
+    "phenomenon": "positive emotional state and intertemporal choice",
+    "constructs": "affect time-preference present-bias future-discounting emotion",
+    "claim": "Positive affect reduces present-bias, making people more willing to wait for delayed rewards.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1257/aer.102.1.337",
+    "phenomenon": "cooperation maintenance in continuous-time interaction",
+    "constructs": "cooperation continuous-time response-capacity rapid-adjustment defection",
+    "claim": "The capacity for rapid response stabilizes cooperation by enabling swift retaliation, making defection untenable.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1257/aer.102.2.720",
+    "phenomenon": "cooperation under uncertainty and imperfect information",
+    "constructs": "cooperation noise forgiveness leniency strategy-diversity learning",
+    "claim": "Successful cooperation under noise requires lenient strategies that tolerate first-order defection and forgiving strategies that seek return to cooperation.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1257/aer.102.2.834",
+    "phenomenon": "organizational job design and its institutional prerequisites",
+    "constructs": "job-discretion rent-sharing screening labor-market-competition wages",
+    "claim": "High-discretion high-wage job designs emerge only when employers can screen for reliability and labor markets reward their adoption.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1257/aer.102.2.865",
+    "phenomenon": "confusion about fundamental processes and its effect on market mispricing",
+    "constructs": "confusion expectations fundamental-value misunderstanding context",
+    "claim": "Asset market bubbles arise from confusion about declining fundamentals; recontextualizing the situation reduces confusion and mispricing.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1257/aer.102.5.2018",
+    "phenomenon": "incentive structures shaping altruistic commitment and prosocial behavior",
+    "constructs": "incentive-structure reciprocal-altruism priority registration commitment",
+    "claim": "Policies that reward prior prosocial commitment increase future willingness to make prosocial contributions.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

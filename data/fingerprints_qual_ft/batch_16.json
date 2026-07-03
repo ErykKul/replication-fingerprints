@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0110",
+    "phenomenon": "goal-contingent reframing of failure",
+    "constructs": "counterfactual thinking, self-esteem protection, motivation reversal, excuse-generating attribution",
+    "claim": "The same upward counterfactual thought generates opposite affective and behavioral outcomes depending on whether the individual prioritizes self-protection or performance improvement.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0111",
+    "phenomenon": "automatic likelihood overestimation via accessibility",
+    "constructs": "cognitive accessibility, aversive imagination, heuristic judgment, dual-process cognition",
+    "claim": "Spontaneous mental accessibility of risky outcomes drives inflated likelihood estimates as a byproduct of negativity bias and imagination fluency, not because outcomes are objectively more probable.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0112",
+    "phenomenon": "perpetuation of insecurity through expressed vulnerability",
+    "constructs": "vulnerability expression, reflected appraisals, authenticity doubts, egocentric bias, interpersonal cycles",
+    "claim": "Expressing relational insecurity initiates a cognitive feedback loop in which perceived vulnerability triggers doubts about partner authenticity, which then verify the insecurity that prompted the expression.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0113",
+    "phenomenon": "automatic attraction-enhancement via color semantics",
+    "constructs": "color perception, sexual signaling, implicit bias, automatic evaluation, biological priming",
+    "claim": "Red color carries evolved sexual meaning that automatically amplifies attractiveness and sexual desire in men via semantic activation, bypassing conscious awareness.",
+    "narrative": "new-mechanism",
+    "scope": "specific-population",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0114",
+    "phenomenon": "dynamic equilibrium in marital trajectories",
+    "constructs": "attractions-barriers-alternatives, contextual stress, adaptation capacity, feedback loops, equilibrium dynamics",
+    "claim": "Marital outcome trajectories reflect ongoing dynamic equilibrium between competing forces; couples with identical initial dissatisfaction may follow divergent paths based on timing and magnitude of stressors relative to adaptive capacity.",
+    "narrative": "incremental-extension",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0115",
+    "phenomenon": "personality-mediated affect regulation and life satisfaction",
+    "constructs": "temperamental traits, instrumental trait-enactment, domain satisfaction aggregation, emotional baseline stability",
+    "claim": "Personality traits generate well-being through distinct pathways: stable temperamental dispositions set emotional baseline, while behavioral traits shape the frequency of rewarding life experiences that feed longer-term satisfaction.",
+    "narrative": "incremental-extension",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

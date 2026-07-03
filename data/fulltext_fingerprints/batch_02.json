@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0043",
+    "what_manipulated": "appearance of event rarity vs. commonality in a sequence",
+    "what_measured": "estimated number of prior trials in the sequence",
+    "experiment": "Units observed a sequence of outcomes (coin flips, die rolls, or real-world scenarios) that were primed to appear rare or common. In Studies 1-2, between-subjects factorial designs manipulated observed rarity (all heads vs. mixed) and measured estimates of prior sequence length via open-ended responses. Study 3 applied this across 15 real-world scenarios with matched participants, assessing log-transformed estimates and mediating role of perceived likelihood via post-decision ratings. Analysis used mixed-effect models with random intercepts for items and participants.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0044",
+    "what_manipulated": "salience of anticipated regret (internal justification) vs. external accountability demands",
+    "what_measured": "choice of target option (decoy effect magnitude) and concern with self-justification vs. other-justification",
+    "experiment": "Experiment 1: N=62, between-subjects 2x2 (regret-salient vs. control × choice set) in job choice task; measured choice frequency and imagined regret/justifiability if outcome was unsatisfactory. Experiment 2: N=242, 3x2x2 between-subjects (regret-salient vs. accountability vs. control × task [job vs. candidate] × choice set); measured target choices, post-decision justification concerns, written decision accounts (coded for dominance argument use), and effort. Chi-square tests for choice proportions; logistic regression and bootstrap mediation for justification mechanisms.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0095",
+    "what_manipulated": "mind-set phase (implemental planning vs. deliberative deciding vs. neutral control)",
+    "what_measured": "attitude strength: extremity, ambivalence, accessibility (response latency), attitude-behavior correspondence over 1 week",
+    "experiment": "Five studies with between-subjects mind-set induction: Study 1 (N=36) measured thought-listing extremity (openended coded as one-sided vs. two-sided); Study 2 (N=123) measured ambivalence across 30 objects via 6-point self-report; Study 3 (N=96) measured response latency to good/bad evaluations of 90 objects using reaction-time paradigm; Study 4 (N=116) measured attitude-behavior correspondence via within-person correlation across 1-week interval; Study 5 (N=46) manipulated information focus (pros-only vs. pros-and-cons) in implemental condition. Analyses included ANOVA, t-tests, logistic regression, and mixed-model approaches.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0099",
+    "what_manipulated": "coherence between primed affective concepts (happy vs. sad) and embodied reactions (approach-avoidance actions, induced mood, facial expressions)",
+    "what_measured": "free recall of story events; reported mood and feelings; response latencies to evaluations",
+    "experiment": "Five studies examining affective coherence-incoherence via crossed priming and embodied reactions: Studies 1-2 (N=56, 75) primed happy/sad/neutral concepts via scrambled sentences, paired with arm flexion (approach) or extension (avoidance), measured story recall (coded by raters blind to condition) and mood; Study 3 (N=58) induced happy or sad mood via music after priming, measured recall; Studies 4-5 (N=132, N=not fully specified) used subliminal priming with happy/sad facial muscle contractions during story reading, measured recall. All included filler tasks between manipulation and measures. Analyses used mixed ANOVA, log-transformation of skewed variables, contrast testing.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0101",
+    "what_manipulated": "communicated emotion (anger vs. happiness) of opponent; information structure (symmetric vs. asymmetric); power/rejection consequences (high vs. low delta)",
+    "what_measured": "number of chips offered to opponent in ultimatum bargaining; perceived opponent limits; information sent; deception frequency",
+    "experiment": "Three ultimatum bargaining experiments: Exp 1 (N=114) between-subjects 2x2 (emotion × information symmetry); participants offered chips, rated opponent emotion and limits via scales; mediation analysis tested whether perceived limits mediated emotion effects on offers. Exp 2 (N=106) added opportunity for deception (correct/incorrect information about chip value); measured information sent, offers, and fear-of-rejection motive. Exp 3 (N=103) varied consequences of rejection (delta=0 high consequences, delta=0.1 low consequences); measured offers and acceptance likelihood. ANOVA on offers, chi-square for information sent, regression-based mediation.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0110",
+    "what_manipulated": "availability of self-handicap (effort level, practice opportunity); direction of counterfactual thinking (upward vs. downward vs. control)",
+    "what_measured": "self-esteem following failure; upward counterfactual thoughts generated; future preparation intentions; preparation behavior (practice time and items completed)",
+    "experiment": "Five studies examining counterfactual thinking and self-handicapping: Study 1 (N=125) observational/correlational in natural exam setting; measured effort, counterfactual thoughts (open-ended, coded by raters), self-esteem via scales; regression analyses. Study 2 (N=125) between-subjects manipulation of practice (practiced 10 min vs. not practiced as handicap); received failure feedback, generated counterfactuals, completed self-esteem measure; ANCOVA controlling for baseline self-esteem. Study 3 (N=66) between-subjects counterfactual direction (upward, downward, control) crossed with surprise opportunity to practice; measured self-esteem and actual practice time/items. All used regression with interactions and simple-slope probing at ±1 SD from mean.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  }
+]

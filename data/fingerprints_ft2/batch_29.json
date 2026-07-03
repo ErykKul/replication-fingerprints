@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0216",
+    "what_manipulated": "visual eccentricity and facial emotional valence",
+    "what_measured": "categorization accuracy and response time for facial valence perception",
+    "experiment": "Two experiments (block-design and single-trial) where participants judged emotional valence (positive, neutral, negative) of faces presented at three eccentricities (0°, 2°, 4°) while maintaining fixation, with accuracy and reaction time recorded across conditions.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0217",
+    "what_manipulated": "gameplay of fake news game exposing six misinformation strategies",
+    "what_measured": "perceived reliability of fake news tweets and headlines",
+    "experiment": "Pre-post within-subjects design where participants played a 15-minute browser game learning misinformation tactics, then rated reliability of news items embedding those tactics (impersonation, emotional language, polarization, conspiracy, deflection, trolling) before and after gameplay.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0218",
+    "what_manipulated": "facial features on two orthogonal dimensions (trustworthiness and dominance)",
+    "what_measured": "trait judgments on trustworthiness, dominance, threat, and related evaluations",
+    "experiment": "Multiple experiments using computer-generated faces varying systematically on trustworthiness and dominance dimensions derived from principal components analysis, with participants rating faces on various trait dimensions and emotion categories to identify facial cues and model face evaluation structure.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0219",
+    "what_manipulated": "syntactic category (noun vs verb) and repetition pattern (AAB vs ABB) in three-word sequences",
+    "what_measured": "accuracy in learning and detecting repetition patterns",
+    "experiment": "Familiarization-test paradigm where participants heard 40 triplets conforming to a repetition pattern over syntactic or nonsyntactic categories, then selected matching patterns from test pairs, with pattern learnability measured by above-chance discrimination.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0222",
+    "what_manipulated": "social class (upper vs lower) via vehicle status coding, self-report, experimental priming, and manipulation",
+    "what_measured": "unethical behavior and decision-making across naturalistic and laboratory settings",
+    "experiment": "Seven studies combining observational methods (coding vehicle behavior at intersections), correlational surveys (MacArthur SES scale), experimental manipulations (rank priming, social-class framing), and behavioral tasks (candy-taking, cheating, deception) to measure unethical tendencies, with mediation analyses testing greed attitudes as mechanism.",
+    "design": "mixed",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0223",
+    "what_manipulated": "semantic plausibility, noise rate (filler syntax errors), and base rate of implausible sentences",
+    "what_measured": "proportion of literal vs non-literal interpretations of implausible sentences",
+    "experiment": "Three experiments where participants read semantically implausible sentences varying in edit distance to plausible alternatives, with comprehension questions assessing literal vs inferred interpretation, while manipulating perceived noise and prior probability of implausible content.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "on-request"
+  }
+]

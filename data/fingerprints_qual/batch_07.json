@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1037/a0028216",
+    "phenomenon": "decision-making about delayed rewards over time",
+    "constructs": "delay patience accumulated-outcomes tradeoff",
+    "claim": "Choices between reward sequences involve weighing total accumulated value against how delays adjust that value.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/a0028964",
+    "phenomenon": "body image development during adolescence",
+    "constructs": "sexual-orientation muscularity concern development",
+    "claim": "Sexual orientation modulates how adolescent males' body-image concerns unfold over time.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/a0029288",
+    "phenomenon": "implicit influence of economic concepts on system beliefs",
+    "constructs": "priming system-legitimization inequality deserving",
+    "claim": "Subconscious exposure to money primes acceptance of hierarchical social arrangements.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/a0029395",
+    "phenomenon": "overconfident self-perception in social contexts",
+    "constructs": "overconfidence status social-signaling competence",
+    "claim": "People overestimate their abilities because it raises their perceived social standing.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/a0029649",
+    "phenomenon": "how distinct features of objects are retained and forgotten",
+    "constructs": "memory-binding feature-independence object-representation decay",
+    "claim": "Object features are forgotten independently rather than as a unified whole.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/a0031047",
+    "phenomenon": "how people propagate received treatment to uninvolved others",
+    "constructs": "reciprocity generalization affect negative-emotion contagion",
+    "claim": "Negative treatment spreads more readily than positive treatment because negative affect persists.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/a0032108",
+    "phenomenon": "learning mode effects on information acquisition and inference",
+    "constructs": "selection reception active-learning bias hypothesis-testing",
+    "claim": "Collecting own data introduces sampling bias that paradoxically facilitates learning over passive exposure.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/a0034352",
+    "phenomenon": "cognitive processing modes and deception detection accuracy",
+    "constructs": "consciousness incubation integration lie-detection",
+    "claim": "Unconscious deliberation outperforms conscious analysis in detecting deception.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/a0034462",
+    "phenomenon": "exposure to perceived order and its effects on action readiness",
+    "constructs": "structure-perception threat goal-pursuit motivation",
+    "claim": "Encountering order primes willingness to engage in goal-directed action.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/a0036477",
+    "phenomenon": "motor action and affective response formation",
+    "constructs": "embodied-cognition motor-simulation articulation phonemic",
+    "claim": "Inward mouth movements during speech articulation trigger approach affect and preference.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/a0038647",
+    "phenomenon": "life disruption and trait-level psychological change",
+    "constructs": "unemployment personality-change agreeableness context-dependence",
+    "claim": "Unexpected job loss produces measurable shifts in personality structure, reversible upon reemployment.",
+    "narrative": "context-effect",
+    "scope": "specific-population",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/a0039737",
+    "phenomenon": "imitation and action representation in multi-agent contexts",
+    "constructs": "motor-simulation imitation multiple-agents ideomotor",
+    "claim": "Observers simultaneously represent actions of multiple agents in their motor system.",
+    "narrative": "incremental-extension",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/apl0000082",
+    "phenomenon": "suboptimal prioritization when managing multiple goals",
+    "constructs": "goal-pursuit risk-aversion prioritization decision-making",
+    "claim": "People systematically prioritize favorable goals over optimal sequencing due to risk attitudes.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/ebs0000028",
+    "phenomenon": "disease threat and social categorization biases",
+    "constructs": "pathogen-avoidance intergroup-bias evolution threat",
+    "claim": "Disease concerns activate biases that categorize unfamiliar others as outsiders.",
+    "narrative": "context-effect",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/h0076284",
+    "phenomenon": "compliance with requests through initial rejection",
+    "constructs": "reciprocity concessions compliance request-sequence",
+    "claim": "Refusing an extreme request first increases compliance with a smaller subsequent request.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/h0091247",
+    "phenomenon": "moral judgment and attribution of intentionality",
+    "constructs": "moral-blameworthiness intentionality judgment attribution",
+    "claim": "Perceived moral badness of outcomes biases judgment about whether actions were intentional.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/pspa0000032",
+    "phenomenon": "linguistic framing effects on judgment and persuasion",
+    "constructs": "framing cognitive-fluency comparison persuasion",
+    "claim": "Statements framed as more than are more persuasive and fluent than logically equivalent less than phrasings.",
+    "narrative": "incremental-extension",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/pspa0000093",
+    "phenomenon": "folk beliefs about profit-seeking and harm",
+    "constructs": "profit zero-sum thinking benefit-neglect stereotype",
+    "claim": "People stereotype profit-seeking as harmful because they underestimate its incentive to benefit others.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/pspi0000081",
+    "phenomenon": "strategic use of truth to mislead in negotiation",
+    "constructs": "deception honesty negotiation impression-management",
+    "claim": "Truthful statements can deceive when they exploit perspective differences between speaker and listener.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/pspi0000109",
+    "phenomenon": "emotional experience and self-perception adjustment",
+    "constructs": "awe vastness self-diminishment humility",
+    "claim": "Experiencing awe reduces self-regard and promotes acknowledgment of external contributions.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

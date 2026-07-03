@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0463",
+    "phenomenon": "personal networks as mobilization vectors",
+    "constructs": "source-recipient relationship trust cognitive effort credibility",
+    "claim": "relational closeness channels influence through increased cognitive processing when credible, driving collective participation",
+    "narrative": "incremental-extension",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0466",
+    "phenomenon": "affect-as-information in moral reasoning",
+    "constructs": "bodily sensation affective state judgment severity embodied cognition",
+    "claim": "incidental bodily feelings informationally guide moral evaluations independent of judgment content when individual is attuned to bodily cues",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0501",
+    "phenomenon": "dual-system determination of honesty",
+    "constructs": "time pressure automatic tendency deliberation self-justification dishonesty",
+    "claim": "honesty requires both time for deliberation and absence of self-serving rationales to override automatic dishonest impulse",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0517",
+    "phenomenon": "inhibitory control deficit in trauma",
+    "constructs": "memory suppression inhibition prefrontal function intrusive memory",
+    "claim": "deficient retrieval suppression in PTSD reflects compromised prefrontal inhibitory control underlying persistent intrusions",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0524",
+    "phenomenon": "bottom-up holistic perception",
+    "constructs": "gestalt information perceptual grouping expertise bottom-up processing",
+    "claim": "holistic processing results from salient structural information that groups parts into wholes, not requiring expertise or domain-specificity",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0528",
+    "phenomenon": "parental beliefs transmitted through visible behavior",
+    "constructs": "parent goal-frame behavioral response child perception intelligence mindset",
+    "claim": "parental failure beliefs shape child motivation through visible reactions to setbacks that children internalize as models of learning potential",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

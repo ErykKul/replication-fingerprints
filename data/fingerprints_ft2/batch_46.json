@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0463",
+    "what_manipulated": "message source (personal vs. impersonal/organizational)",
+    "what_measured": "willingness to participate in connective-collective action on social media",
+    "experiment": "Participants received identical messages about a campus environmental issue from either a close personal contact or an organization. They reported likelihood of engaging in activities (liking, following, commenting, sharing, uploading). Cognitive elaboration and perceived source credibility were measured as mediators and moderators of the source's influence on behavioral intention.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0466",
+    "what_manipulated": "extraneous physical disgust (via odor, dirty room, video, or recall)",
+    "what_measured": "severity of moral judgments of various scenarios",
+    "experiment": "Four experiments induced physical disgust through different methods while participants rated moral scenarios on permissibility/wrongness scales. Manipulation crossed with participant sensitivity to bodily sensations (Private Body Consciousness). Moral judgment severity was compared between disgust and control conditions.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "moderation-or-mediation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0501",
+    "what_manipulated": "time pressure to report die outcome (20 seconds vs. no limit; 8 seconds vs. no limit)",
+    "what_measured": "degree of lying/cheating detected via distribution of reported die rolls",
+    "experiment": "Participants rolled a die privately under a cup and reported the outcome for payment. Time pressure was manipulated (high vs. low). In Experiment 1, multiple rolls allowed justification for lying; in Experiment 2, single roll prevented justification. Lying was inferred by comparing observed outcome distribution to uniform expectation.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0517",
+    "what_manipulated": "instruction to suppress vs. recall memories of aversive scenes when cued",
+    "what_measured": "memory performance (identification, gist, details) for aversive scenes at final test",
+    "experiment": "Participants learned object-scene pairs with negative images. During think/no-think phase, cues directed them to recall (green frame) or suppress (red frame) associated scenes. Memory for suppressed vs. baseline items was tested. PTSD and trauma-exposed control groups were compared on suppression-induced forgetting.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0524",
+    "what_manipulated": "object stimulus type and Gestalt information salience (faces, line patterns with salient Gestalt, dot patterns with weak Gestalt)",
+    "what_measured": "holistic processing indexed by response sensitivity in composite task (congruency effect modulated by alignment)",
+    "experiment": "Participants performed composite tasks comparing tops of face or pattern pairs while ignoring task-irrelevant bottoms. Holistic processing was indexed by larger congruency effects (same vs. different bottoms) in aligned vs. misaligned conditions. Stimulus types varied in Gestalt salience (connectedness, closure, continuity).",
+    "design": "within-subjects",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0528",
+    "what_manipulated": "parental failure mind-set (failure-is-enhancing vs. failure-is-debilitating) via questionnaire priming",
+    "what_measured": "parental response type to child failure scenario (performance-oriented vs. learning-oriented coded responses)",
+    "experiment": "Parents completed a biased questionnaire priming one of two failure mind-sets, then read a scenario of their child failing and wrote responses. Open-ended responses were coded for performance-focused (ability judgments, pity, comfort for lack of ability) vs. learning-focused (effort, strategies, help-seeking, mastery goals) content by blind raters.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-one"
+  }
+]

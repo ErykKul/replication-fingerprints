@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0122",
+    "what_manipulated": "processing mode (feeling vs. calculation) induced via priming, target type (affect-rich vs. affect-poor), presentation format (pictorial vs. abstract)",
+    "what_measured": "willingness-to-pay, working hours, donation amounts, prison sentence recommendations",
+    "experiment": "Participants made valuation judgments after manipulations targeting processing style. Each study varied scope (quantity) of a stimulus while manipulating whether participants would rely on affective or calculational processes. Outcome measures tracked how scope changes influenced subjective value, comparing sensitivity to scope changes across processing conditions.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0124",
+    "what_manipulated": "executive control demands in initial task (attention control, response inhibition, memory updating, emotion regulation)",
+    "what_measured": "performance on subsequent executive tasks (working memory span, digit span, reverse digit span, emotional inhibition)",
+    "experiment": "Initial executive control tasks of varying types (attention, inhibition, memory updating, emotion exaggeration) were performed, followed by unrelated executive-control tests. The design measured whether prior executive effort temporarily reduced capacity for subsequent executive functions. Participants attempted executive control and then performed different executive-demand tasks.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0125",
+    "what_manipulated": "temporal perspective (anticipation of future vs. retrospection about past events); event type (positive, negative, routine, hypothetical)",
+    "what_measured": "reported emotional intensity, expected emotional extremity, extent of mental simulation",
+    "experiment": "Participants contemplated either upcoming or past emotional events and reported current emotional reactions. Study varied event types (real and hypothetical) while measuring emotional intensity, predictions/memories of emotions, and mental simulation extent. Five experiments tested whether temporal perspective independently influenced emotion arousal intensity.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0126",
+    "what_manipulated": "processing fluency (degraded vs. normal font, furrowed vs. relaxed facial expression, brief exposure to disfluent vs. fluent presentation)",
+    "what_measured": "accuracy on Cognitive Reflection Test, reliance on systematic vs. heuristic cues in persuasion, representativeness heuristic use, syllogistic reasoning accuracy",
+    "experiment": "Incidental manipulations of processing difficulty (via disfluent formatting or embodied actions) preceded reasoning tasks. Participants encountered fluent or disfluent conditions, then completed judgment or reasoning tasks. The design tested whether metacognitive cues of difficulty trigger System 2 analytical processing and reduce reliance on System 1 intuitions and heuristics.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0127",
+    "what_manipulated": "prime presentation (masked vs. unmasked, adjacent vs. non-adjacent to target), word frequency (high vs. low), stimulus similarity (identical vs. similar vs. dissimilar primes)",
+    "what_measured": "lexical decision reaction time, accuracy in word/nonword classification",
+    "experiment": "Participants performed lexical decisions on targets preceded by masked or visible primes, with primes manipulated for visibility, timing, and similarity to targets. Five experiments examined whether repetition priming effects vary by word frequency and whether episodic or lexical mechanisms drive priming. Prime-target intervals and response requirements were systematically varied.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0128",
+    "what_manipulated": "spacing of item repetitions (massed vs. spaced across multiple lag intervals), intentionality of learning (intentional vs. incidental encoding), task type (free recall, recognition, frequency judgment)",
+    "what_measured": "recall accuracy, recognition hit rates, frequency discrimination accuracy, frequency estimation errors",
+    "experiment": "Participants learned lists of words under intentional or incidental conditions, with repeated items presented at varying spacings. Tests measured memory across free-recall and cued-memory tasks. The design examined dissociations: whether spacing benefits depend on task type and learning intention, testing rehearsal versus study-phase retrieval mechanisms.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  }
+]

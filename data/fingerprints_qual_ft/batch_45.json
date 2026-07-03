@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0426",
+    "phenomenon": "failed neural compensation to chronic challenge",
+    "constructs": "anaplasticity loss-of-plasticity environmental-contingency control",
+    "claim": "Addiction arises not from pathological gain-of-function adaptation but from inability to restore normal plasticity after drug-induced impairment.",
+    "narrative": "reversal",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0430",
+    "phenomenon": "physical sensation anchors abstract judgment",
+    "constructs": "embodied-cognition scaffolding metaphor tactile-priming",
+    "claim": "Incidental touch properties cue associated concepts and apply them predictably to unrelated social and decisional targets through metaphorically grounded conceptual links.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0448",
+    "phenomenon": "domain-general parsing of hierarchical structure",
+    "constructs": "structural-integration P600 syntax-like-rules domain-generality",
+    "claim": "Neural responses to syntactic violations in language and harmonic violations in music are indistinguishable, suggesting a shared mechanism for processing rule-based sequential structure independent of domain.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0454",
+    "phenomenon": "capability-commitment paradox in hiring",
+    "constructs": "signaling inference commitment-concerns flight-risk",
+    "claim": "Managers penalize high-capability signals in hiring because they infer lower organizational commitment and higher employee mobility, creating a ceiling effect where capability above sufficiency becomes disadvantageous.",
+    "narrative": "reversal",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0455",
+    "phenomenon": "coexistence of scientific and religious worldviews",
+    "constructs": "epistemology boundary-work legitimacy-of-science post-secularism",
+    "claim": "Roughly one-fifth of the U.S. public integrates favorable views of both science and religion by narrowing conflict to specific origin-of-life questions while accepting scientific knowledge on other topics, suggesting epistemological rather than ideological boundaries.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0461",
+    "phenomenon": "perceptual vs. conceptual price processing modes",
+    "constructs": "left-digit-bias stimulus-vs-memory representation-type rounding",
+    "claim": "Left-digit pricing biases emerge from stimulus-based perceptual digit-by-digit comparison and dissipate under memory-based evaluation relying on conceptual magnitude rounding, with stronger effects when reference prices are salient or category knowledge is limited.",
+    "narrative": "incremental-extension",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

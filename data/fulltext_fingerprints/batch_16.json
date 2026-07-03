@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0455",
+    "what_manipulated": "dimensional structure of religio-scientific perspectives (favoring science vs. religion, or both, or neither)",
+    "what_measured": "willingness to engage in political behavior and personal attitudes on issues where science and religious authority overlap",
+    "experiment": "Analysis of nationally representative GSS survey data from 2006, 2008, 2010 (N=2,901, subsample n=2,331 with complete demographics). Latent class analysis identified clusters based on attitudes toward science (four items on affect/benefits) and religion (three items on biblical interpretation and affiliation strength). Multinomial logistic regression examined sociodemographic predictors of class membership. Ordinal/binary logistic regression tested whether religio-scientific perspectives predict attitudes on abortion, stem cell research, GM food, fuel economy, and nuclear energy, controlling for education, income, occupation, political ideology, religiosity, race, gender, age. LMR and BIC fit statistics indicated three-class solution (traditional, modern, post-secular).",
+    "design": "observational or correlational",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0461",
+    "what_manipulated": "evaluation context (prices presented side-by-side vs. retrieved from memory) and left-digit difference between reference and focal price",
+    "what_measured": "magnitude judgment of price and perceived size of discount",
+    "experiment": "Six studies (five experiments: N=145, 120, 99, 150, 201; one scanner panel: N=2,000 households). Studies 1-3: between/mixed factorial designs, participants rated prices on 7- or 11-point scales under stimulus-based (both prices visible) or memory-based (prices shown sequentially with blank screen before response) conditions. Study 4: response-time task with magnitude judgments (correct response selected from four options); measured reaction time to test numbers. Studies 5-6: manipulated reference price salience (stimulus-based present vs. absent) and category usage (light vs. heavy users). All experiments manipulated left-digit difference (e.g., $4.00 vs $2.99 vs $4.01 vs $3.00) within subjects or between subjects. ANOVA and mixed linear models tested hypotheses. Study 6 used real purchase data from supermarket scanner panel.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0463",
+    "what_manipulated": "message source personalness (close personal source: friend/family vs. impersonal source: organization) and participants' perceived credibility of source",
+    "what_measured": "willingness to participate in connective-collective activities on social media (eight activities: liking, following, commenting, posting, uploading, etc.)",
+    "experiment": "Online experiment (N=208 undergraduates, 66% female, mean age 19.2). Two-group design: participants received message from fictional environmental group either from close personal source (participant-named) or organizational source. Message was <140 characters plus mock news website. Two questionnaires 7 days apart: pretest measured personal issue involvement, attitude toward activism, perceived efficacy; post-test measured cognitive elaboration (two items on careful reading plus four on systematic processing, α=.91) and perceived credibility (five items on believability/trustworthiness, α=.96). Dependent variable: eight 7-point Likert items on likelihood of different collective acts, α=.93. Hierarchical regression, MANCOVA, PROCESS macro for mediation and moderated mediation tested hypotheses. Control variables blocked: issue involvement, attitude toward activism, perceived internal/external efficacy.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0466",
+    "what_manipulated": "induced emotional state (disgust, sadness, neutral) and private bodily consciousness (high vs. low sensitivity to own bodily sensations, via median split on PBC scale)",
+    "what_measured": "severity of moral judgment of vignettes",
+    "experiment": "Four experiments using within/between-subjects designs. Experiments 1-3 used different disgust inductions (fart spray, disgusting room, recall of disgusting memory; n=127, 43, 69). Experiment 4 (N=133) used film clips (Trainspotting toilet, The Champ death, Planet Earth neutral). All had vignettes (6 moral scenarios: Dog, Plane Crash, Kitten, Wallet, Resume, Trolley) rated on 0-9 or 1-7 scales. Experiment 2 included PBC scale (five items, Private Body Consciousness subscale); Experiments 3-4 also used PBC (median split high vs. low). Two- or three-way ANOVAs tested condition × PBC interactions on moral judgment severity. Meta-analysis combining Experiments 2-4 confirmed interaction pattern. Post-hoc mood ratings collected (via visual analogue scales) as manipulation checks.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0501",
+    "what_manipulated": "time pressure on reporting decision (20 seconds or 8 seconds vs. no time limit) and availability of private justifications (multiple die rolls providing justifications vs. single roll preventing justification)",
+    "what_measured": "amount of lying/cheating (reported die roll outcome vs. actual distribution)",
+    "experiment": "Two experiments (Exp 1: N=76; Exp 2: N=74 undergraduates). Both used die-under-cup task: participants privately rolled die under paper cup with hole, observed outcome, then reported the roll to earn money (1=$10NIS, 2=$20NIS, etc.). Experiment 1: participants rolled three times, reported first roll's outcome (providing two non-relevant rolls as potential justifications). Experiment 2: participants rolled once only (no justification opportunity). Within each experiment, time pressure manipulated (high: 20 sec [Exp1] or 8 sec [Exp2] limit; low: no limit). Lying detected by comparing reported distribution to expected uniform distribution (chi-square test). Mann-Whitney U-tests compared reported values across conditions. Mood measured post-task (nine negative items, seven positive items).",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0517",
+    "what_manipulated": "retrieval suppression instruction (think vs. no-think cued by colored frame) confronted with powerful environmental reminders (object-scene pairs)",
+    "what_measured": "voluntary memory suppression of aversive scenes (measured by three dependent variables: identification accuracy, gist recall, detail count)",
+    "experiment": "Between-groups design (PTSD, n=18 vs. trauma-exposed control, n=18; mean age ~35). Three-phase think/no-think (TNT) task: (1) Study phase: 60 object-scene pairs (48 critical, 12 fillers); negative IAPS images with neutral cue objects embedded as incidental details; (2) TNT phase: 32 critical pairs presented 10 times each (red frame = suppress, green frame = recall), 16 baseline pairs not shown; participants instructed to suppress unwanted memories or recall with detail; (3) Final test: free recall descriptions of all scenes (15 sec each), recorded for transcription. Coding: identification (scene uniquely identified), details (meaningful information segments), gist (central story elements). Two independent raters blind to condition (inter-rater r's = .99, .95, .93). Mixed ANOVA with condition (baseline/suppress/recall) within-subjects, group (PTSD/control) between-subjects, set assignment between-subjects. Suppression-induced forgetting assessed (suppress vs. baseline); correlation with TCAQ and PDS scores.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "preregistered-with-power",
+    "transparency": "open-data-and-materials"
+  }
+]

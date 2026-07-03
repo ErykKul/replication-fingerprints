@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0022",
+    "phenomenon": "Fairness principle selection under budget constraints",
+    "constructs": "accountability libertarian egalitarian bias allocation",
+    "claim": "Dictators apply different weights to justice principles depending on whether they earned resources and what reciprocity signals the recipient offers.",
+    "narrative": "context-effect",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0023",
+    "phenomenon": "Ordinary concept of weakness of will",
+    "constructs": "judgment-violation resolution-violation moral valence prototype",
+    "claim": "Weakness of will is best understood as a prototype concept with multiple overlapping features, not a logically defined category with necessary and sufficient conditions.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "hedged-claim"
+  },
+  {
+    "paper_id": "p0024",
+    "phenomenon": "Parafoveal processing and word-frequency load in reading",
+    "constructs": "preview benefit foveal load perceptual span frequency",
+    "claim": "The size of the parafoveal processing window and the amount of preview benefit from distant words depend on the cognitive load imposed by intervening words.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0025",
+    "phenomenon": "AIDS pandemic effects on non-AIDS health services",
+    "constructs": "health-system capacity resource allocation disease burden",
+    "claim": "Regions bearing heavy AIDS burdens experienced deterioration in antenatal care, trained delivery attendance, and child immunizations, starting in the mid-1990s.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0026",
+    "phenomenon": "Partnership dynamics and subjective well-being",
+    "constructs": "marriage cohabitation same-sex transitions well-being",
+    "claim": "Partnership has symmetric effects on well-being for both formation and dissolution, with similar magnitudes across same-sex and different-sex couples, but gender-specific patterns emerge for same-sex partnerships.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0027",
+    "phenomenon": "Moral judgment of omissions versus commissions",
+    "constructs": "omission commission causality responsibility intention",
+    "claim": "When intentions and outcomes are equivalent, people judge harmful commissions as more immoral than harmful omissions, partially because they attribute greater causal role to commissions.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

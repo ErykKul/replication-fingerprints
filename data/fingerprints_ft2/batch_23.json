@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0155",
+    "what_manipulated": "word-response contingency (proportion of congruent vs. incongruent color word pairings)",
+    "what_measured": "response latency and error rates to Stroop color-naming task",
+    "experiment": "Participants completed color-naming trials where individual words appeared most often in congruent or incongruent colors (high, medium, or low contingency). Congruent and incongruent trials were interleaved. Response latencies and error percentages were compared across contingency levels controlling for Stroop trial type (congruent vs. incongruent), testing whether contingency effects interact with congruency effects.",
+    "design": "within-subjects",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0158",
+    "what_manipulated": "priming for action vs. inaction goals (word completion task with action or inaction words)",
+    "what_measured": "motor and cognitive output across multiple tasks (doodling vs. resting, eating, behavior segmentation, text recall, problem solving)",
+    "experiment": "Participants completed word-completion priming with action or inaction words, then engaged in various tasks measuring motor or cognitive output. Dependent measures varied: choice between active and inactive tasks, amount eaten, space-bar presses while watching video, text recall accuracy, number of problems solved. Each task assessed whether priming increased activity level regardless of task type.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "many-exploratory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0159",
+    "what_manipulated": "moral agency and moral patiency (target characteristics: age, mental ability, blame/praise, vulnerability to harm)",
+    "what_measured": "perceived moral agency (responsibility, intentionality, blameworthiness, praiseworthiness) and moral patiency (pain sensitivity, pleasure sensitivity, vulnerability)",
+    "experiment": "Participants judged targets on moral agency and patiency dimensions across multiple scenarios: age-varied targets in harm scenarios, mentally challenged vs. able adults performing good/bad actions, targets with varied reputation on pain/vulnerability scales, and experimentally manipulated targets differing on agency or patiency. Correlations and causal effects between agency and patiency judgments were assessed.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0160",
+    "what_manipulated": "political ideology (self-reported liberal to conservative on 7-point scale)",
+    "what_measured": "endorsement of five moral foundations (Harm/care, Fairness/reciprocity, Ingroup/loyalty, Authority/respect, Purity/sanctity) via relevance ratings, moral judgments, taboo trade-offs, and word analysis",
+    "experiment": "Across four studies, participants rated moral relevance of foundation-related concerns (Study 1), made moral judgments of scenarios (Study 2), indicated unwillingness to violate taboo trade-offs for money (Study 3), or texts from liberal and conservative churches were analyzed for foundation-related word use (Study 4). Political identity predicted differential foundation endorsement consistently across methods.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0161",
+    "what_manipulated": "disgust sensitivity (dispositional proneness to disgust, measured via scale; also context of viewing behavior in Study 1)",
+    "what_measured": "intuitive moral disapproval of gay people (intentionality judgments in Study 1; implicit associations via IAT in Study 2)",
+    "experiment": "Study 1: Participants read a vignette of a video director whose work had the side-effect of encouraging gay men to kiss publicly (or heterosexual couples as control) and rated intentionality of this effect and explicit wrongness. Disgust sensitivity was measured. Study 2: Participants completed an Implicit Association Test pairing gay/straight categories with pleasant/unpleasant words. Correlations between disgust sensitivity and implicit or intuitive measures were computed.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0162",
+    "what_manipulated": "visual perspective in action imagery (first-person vs. third-person perspective in mental imagery or photographs)",
+    "what_measured": "action identification level (abstract vs. concrete descriptions of actions; how vs. why dimensions)",
+    "experiment": "Across seven experiments, visual perspective was manipulated or measured in mental imagery of own actions or photographs of others' actions. Participants either viewed actions from specified perspective and chose action descriptions, or read action descriptions and chose/reported perspective. Action identification level was measured via paired concrete-abstract descriptions or how-versus-why ratings. Bidirectional causal effects were tested via logistic or linear regression controlling for prior experience.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  }
+]

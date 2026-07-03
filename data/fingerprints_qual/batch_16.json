@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1111/j.1467-9280.2008.02080.x",
+    "phenomenon": "perceptual inference from static representation",
+    "constructs": "representation equivalence neural-reuse adaptation-transfer",
+    "claim": "inferring motion from static depiction engages the same perceptual circuits as observing real motion.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02081.x",
+    "phenomenon": "attentional priority for threat-relevant stimuli",
+    "constructs": "threat-detection visual-attention evolutionary-relevance developmental-continuity",
+    "claim": "young children share enhanced detection of evolutionarily salient threat stimuli with adults, revealing early-emerging adaptive attention mechanisms.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02084.x",
+    "phenomenon": "influence of spatial configuration on judgment and affect",
+    "constructs": "physical-distance embodiment judgment-formation emotional-response",
+    "claim": "perceptual and motor experience of spatial distance influences thoughts and feelings independently of self-reference, expanding distance effects beyond self-centered construal.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02085.x",
+    "phenomenon": "validity of cross-national personality assessment",
+    "constructs": "self-report peer-report cultural-stereotype measurement-validity",
+    "claim": "self- and peer-report measures of national personality differences are invalid due to reference-group effects that contaminate aggregated scores.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02088.x",
+    "phenomenon": "goal-driven emotion regulation and experience",
+    "constructs": "emotion-regulation instrumental-goals hedonic-goals functional-emotion",
+    "claim": "individuals regulate emotions to serve instrumental goals, choosing potentially aversive states when functionally adaptive despite immediate hedonic costs.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02089.x",
+    "phenomenon": "valuation of prediction accuracy versus optimistic bias",
+    "constructs": "optimistic-bias personal-prediction value-alignment rationality",
+    "claim": "optimistic bias in personal predictions reflects alignment with people's values rather than irrationality, if they believe unrealism has instrumental worth.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "hedged-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02091.x",
+    "phenomenon": "hedonic valuation of fair interpersonal exchange",
+    "constructs": "fairness monetary-outcome hedonic-reward emotion-regulation",
+    "claim": "fairness independently generates hedonic reward beyond monetary payoff; rejecting unfair proposals engages emotion suppression mechanisms.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02092.x",
+    "phenomenon": "gender differences in decoding ambiguous nonverbal intent",
+    "constructs": "perceptual-sensitivity decision-bias nonverbal-communication gender-difference",
+    "claim": "gender differences in misinterpreting nonverbal cues reflect male perceptual insensitivity to interpersonal nuance rather than lenient decision thresholds.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-population",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02093.x",
+    "phenomenon": "mapping personality traits to spatial attention priorities",
+    "constructs": "personality-trait dominance spatial-metaphor attention-allocation cognitive-processing",
+    "claim": "dominant individuals preferentially attend to the vertical dimension of space, reflecting metaphoric representation of hierarchy in online cognition.",
+    "narrative": "new-mechanism",
+    "scope": "specific-population",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02095.x",
+    "phenomenon": "constituents of hedonic well-being",
+    "constructs": "possession-gratification desire-satisfaction maximization well-being",
+    "claim": "happiness requires both wanting what one possesses and possessing what one desires, with both pathways accounting for unique variance.",
+    "narrative": "incremental-extension",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02098.x",
+    "phenomenon": "representation precision and information pooling under attention withdrawal",
+    "constructs": "attention-allocation summary-statistics noise-reduction precision",
+    "claim": "withdrawn attention degrades local feature representation but preserves abstract statistical summaries through feature pooling mechanisms.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02100.x",
+    "phenomenon": "motivational bases of self-sacrificial intergroup behavior",
+    "constructs": "intergroup-cooperation in-group-loyalty out-group-competition altruism-versus-harm",
+    "claim": "cooperative intergroup behavior is primarily motivated by altruistic commitment to in-group welfare rather than aggressive harming of out-groups.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02136.x",
+    "phenomenon": "internal averaging capacity and collective judgment",
+    "constructs": "wisdom-of-crowds self-averaging independent-error individual-forecasting",
+    "claim": "individuals can partially replicate wisdom-of-crowds accuracy improvements by internally averaging their own beliefs across different generating processes.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "hedged-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02157.x",
+    "phenomenon": "differential memory consolidation for emotional scene components",
+    "constructs": "emotional-memory sleep-consolidation memory-trade-off forgetting-patterns",
+    "claim": "sleep selectively preserves emotionally salient focal objects while allowing background details to fade, whereas wake produces uniform decay across all components.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02159.x",
+    "phenomenon": "asymmetric valuation of future versus past equivalent events",
+    "constructs": "temporal-discounting value-function future-bias affective-response",
+    "claim": "identical future events are valued more highly than past events, a temporal value asymmetry driven by greater affective engagement with future possibilities.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02227.x",
+    "phenomenon": "influence of physical purity salience on moral judgment severity",
+    "constructs": "moral-judgment purity-metaphor intuitive-processing conceptual-activation",
+    "claim": "activation of physical cleanliness concepts reduces severity of moral judgments, revealing moral cognition's dependence on embodied purity intuitions.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2009.02426.x",
+    "phenomenon": "grounding abstract concepts in bodily sensation",
+    "constructs": "embodied-cognition physical-weight cognitive-effort abstract-concept",
+    "claim": "experience of physical weight grounds the abstract concept of importance, causing heavier objects to increase perceived value and cognitive elaboration.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2009.02447.x",
+    "phenomenon": "neural asymmetry and conscious body size perception",
+    "constructs": "body-map hemispheric-dominance motor-expertise conscious-perception",
+    "claim": "rightward asymmetries in cortical body representation for right-handed individuals correlate with perceived elongation of the dominant arm and hand.",
+    "narrative": "new-mechanism",
+    "scope": "specific-population",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1468-0017.2006.00297.x",
+    "phenomenon": "unconscious operation of moral principles in judgment formation",
+    "constructs": "moral-judgment conscious-reasoning principle-of-double-effect implicit-cognition",
+    "claim": "the principle of double effect guides moral judgments consistently across diverse populations despite participants' inability to articulate this reasoning.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1468-0017.2010.01398.x",
+    "phenomenon": "side-effect valence influencing knowledge attribution",
+    "constructs": "intentionality-attribution knowledge-ascription action-valence moral-side-effect",
+    "claim": "agents are judged to know less about morally positive side-effects than negative ones, extending valence effects from intentionality to epistemic attribution.",
+    "narrative": "incremental-extension",
+    "scope": "specific-context",
+    "stance": "hedged-claim"
+  }
+]

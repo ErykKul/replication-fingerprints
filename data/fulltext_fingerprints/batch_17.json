@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0524",
+    "what_manipulated": "presence vs. absence of salient Gestalt information (connectedness, closure, continuity) in visual patterns",
+    "what_measured": "holistic processing as measured by response sensitivity and congruency effects in composite-pattern recognition",
+    "experiment": "Participants performed a composite-task with faces (Exp1a/1b) and line patterns (Exp1a/1b) or dot patterns (Exp2), judging whether top halves were identical while bottom halves were manipulated. Response sensitivity (d-prime) calculated from hit and false-alarm rates. Two alignment conditions (aligned vs. misaligned) and two congruency conditions (congruent vs. incongruent bottom halves) created a 2x2x2 design per stimulus type. Analysis used repeated-measures ANOVA with post-hoc t-tests and Cohen's d reported. Sample sizes: 22 (Exp1a), 20 (Exp1b), 22 (Exp2).",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-one"
+  },
+  {
+    "paper_id": "p0528",
+    "what_manipulated": "parents' failure mind-set (failure-is-enhancing vs. failure-is-debilitating) measured via self-report and manipulated via biased questionnaire",
+    "what_measured": "children's intelligence mind-set (fixed vs. growth) and parental performance vs. learning orientation",
+    "experiment": "Study 1: 73 parent-child dyads completed surveys assessing parents' failure mind-sets (6-item scale, α=.88), intelligence mind-sets (4-item, α=.90), and perceptions of child competence; children reported intelligence mind-sets and parents' orientations. Mediation analysis tested whether parents' performance orientation mediated the relationship between parental failure mind-sets and child intelligence mind-sets using bootstrapping (5000 samples). Study 2: 160 parents rated likelihood of performance/learning-oriented reactions to hypothetical child failure scenario (12 items, α=.79/.78). Study 4: 132 parents randomly assigned to two conditions using biased questionnaires to induce failure-is-enhancing vs. debilitating mind-sets, then rated responses to child-failure scenario and wrote open-ended responses coded by blind raters. Regression analyses, correlations, and t-tests reported.",
+    "design": "mixed",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0539",
+    "what_manipulated": "presence vs. absence of visible infection cues (facial rashes) on in-group members in memory confusion paradigm",
+    "what_measured": "memory confusion errors in 'who said what' task, specifically between-group vs. within-group attribution errors",
+    "experiment": "Three studies using 'who said what' memory paradigm. Presentation phase: 8 individuals (4 in-group, 4 out-group) each paired with neutral statements, participants attended. Distractor task. Recall phase: statements re-presented with 8 photos, participants indicated speaker. Study 1 (N=594 crowdsourced) and Study 2 (N=607 nationally representative) used identical between-subjects design: control (all healthy) vs. treatment (in-group members shown with photoshopped facial rashes). Dependent measures: correct recalls, within-group errors, between-group errors (each 0-8 range). Analysis: unstandardized regression coefficients, 95% CIs reported. Study 3 (N=600): control condition with blurred in-group faces to test alternative explanation. Pathogen Disgust Scale collected for individual differences.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "preregistered-with-power",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0545",
+    "what_manipulated": "profession (doctor vs. butcher/firefighter/construction worker) and gender of behavioral actor, plus base-rate salience (implicit vs. explicit percentages)",
+    "what_measured": "judgments of professional likelihood and moral/intellectual evaluation of a third party making Bayesian vs. egalitarian judgments",
+    "experiment": "Study 1 (N=199): participants learned two individuals performed same action, indicated own judgment (egalitarian vs. Bayesian), then evaluated person X's Bayesian statement on fairness/justice/accuracy/intelligence (7-point scales, α=.92). Studies 2-3 extended to multiple professions and included economic game with real money transfers. Study 4 (N=896): participants provided priors (prior probability each person is doctor), observed data (person performed surgery), provided posteriors; estimated likelihoods separately. Model posterior computed from Bayes rule using participants' reported priors/likelihoods, compared to reported posterior via t-tests. Study 5 (N=348): within-subjects design, same participants made probability judgments (pilot scenario) and evaluated person X's judgment (doctor scenario) on separate tasks separated by filler. Logistic regression, generalized linear mixed models (glmmTMB), effect sizes reported.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0549",
+    "what_manipulated": "age group (4-year-olds vs. 6-year-olds vs. young adults) and task procedure (child task with narrative/two blocks vs. adult task without narrative/single block)",
+    "what_measured": "retrieval dependency indicating holistic episodic recollection in multi-element events",
+    "experiment": "Experiment 1: three age groups learned 24 multi-element events (scene+person+object), each presented 12s with voice-recorded narrative. Cued four-alternative forced-choice recognition tested all 6 possible cue-test pairwise combinations per event (144 trials total). Contingency tables constructed for each participant; proportion of joint retrieval (both associations correct or both incorrect) calculated and compared to independent model baseline. Dependency = data proportion minus independent model proportion. One-sample t-tests tested whether dependency exceeded zero per age group; one-way ANOVA tested age effects. Experiment 2: separate group of 6-year-olds (N=30) performed adult task version (no narrative, single block). Verbal intelligence (KBIT-2 for children, AMNART for adults) controlled. Bayesian statistics used for null-hypothesis tests.",
+    "design": "mixed",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0550",
+    "what_manipulated": "arousal level of pseudowords (high vs. medium vs. low) determined by acoustic features and subjective ratings",
+    "what_measured": "matching preference between spiky and rounded shapes in bouba-kiki paradigm",
+    "experiment": "Experiment 1: two groups rated arousal of shapes (N=28) and words (N=24) separately on 5-point scale (calming to exciting). Selected 29 shape pairs and 45 word pairs from 8 prior studies. t-tests compared spiky vs. rounded and kiki-like vs. bouba-like words. Experiment 2: N=70 rated 940 pseudowords for arousal; acoustic features extracted (14 features: f0, intensity, formants, spectral centroid). Linear regression models predicted arousal from acoustics (R²=.24 for Group 1, .23 for Group 2, both p<.0001). Models applied to previous bouba-kiki words. Binomial tests examined consistency of kiki>bouba pattern across 8 studies. Experiment 3 (preregistered): N=64 performed two-alternative forced-choice matching task with 168 pseudowords (divided into high/medium/low arousal) and 28 spiky-rounded shape pairs. Logistic generalized linear mixed model fitted response (spiky=1, rounded=0) as function of arousal category with subject/word as random effects.",
+    "design": "between-subjects",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "preregistered-with-power",
+    "transparency": "open-data-and-materials"
+  }
+]

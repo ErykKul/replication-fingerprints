@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0251",
+    "phenomenon": "Judgment velocity mismatch",
+    "constructs": "evidence integration rate, prediction error, opinion formation speed, information consumption",
+    "claim": "People form conclusive impressions faster than they realize they will, leading to systematic overestimation of information needed for decisions.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0252",
+    "phenomenon": "Cross-cultural negativity response",
+    "constructs": "physiological arousal, valence bias, individual variation, cultural invariance",
+    "claim": "Humans show consistent physiological sensitivity to negative information across cultures, but individual differences explain more variance than cultural or contextual factors.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0255",
+    "phenomenon": "Coalition-driven category reweighting",
+    "constructs": "coalitional computation, social category salience, appearance cues, behavioral markers",
+    "claim": "Social perception prioritizes coalitional alignment over surface features like race when group boundaries are redrawn, overwriting years of accumulated associative learning in minutes.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0267",
+    "phenomenon": "Folk compatibilism bias",
+    "constructs": "free will intuition, determinism, moral responsibility, philosophical alignment",
+    "claim": "Lay people attribute free will and responsibility in deterministic scenarios, contradicting incompatibilist claims about universal folk intuitions.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0271",
+    "phenomenon": "Conditional internalism in moral judgment attribution",
+    "constructs": "moral belief, moral motivation, explanation structures, context sensitivity",
+    "claim": "Folk apply stronger motivational constraints to moral belief than understanding, and relax constraints when lack of motivation has identifiable causes.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0280",
+    "phenomenon": "Adaptation reversal via disruption",
+    "constructs": "hedonic adaptation, interruption timing, experience continuity, enjoyment trajectory",
+    "claim": "Strategic interruption of positive experiences paradoxically increases overall enjoyment by disrupting diminishing sensitivity, contradicting everyday preferences for uninterrupted consumption.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "boundary-condition",
+    "stance": "bold-claim"
+  }
+]

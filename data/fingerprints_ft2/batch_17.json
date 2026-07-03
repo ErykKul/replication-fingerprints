@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0116",
+    "what_manipulated": "trait and state positive/negative affect (observed, not manipulated—meta-analysis)",
+    "what_measured": "job satisfaction, organizational commitment, turnover intentions, emotional exhaustion, depersonalization, personal accomplishment",
+    "experiment": "Meta-analytic synthesis (k=205 studies) quantifying correlations between affect measures and job-attitude outcomes across samples, using random-effects models to estimate population effect sizes and explore moderators including affect type (trait vs. state) and attitude valence.",
+    "design": "meta-analysis",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "many-exploratory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0117",
+    "what_manipulated": "number of training examples (one vs. three) and taxonomic level of examples (subordinate, basic, superordinate)",
+    "what_measured": "probability of generalizing novel word to test objects at each taxonomic level; similarity judgments (second phase)",
+    "experiment": "Participants learn meanings of novel words from 1–3 labeled examples, then generalize to unlabeled test objects arranged in taxonomic hierarchy. Similarity judgments on separate test objects yield cluster tree representing hypothesis space. Bayesian model predicts generalization by combining size principle (likelihood) with prior over tree clusters.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0118",
+    "what_manipulated": "scenario features (exception vs. routine, ideal vs. non-ideal, cause vs. effect, focal vs. background actors) via vignette descriptions",
+    "what_measured": "surprise, emotional intensity, counterfactual reasoning (how an event would be undone), norm elements (retrieved or constructed memories/alternatives)",
+    "experiment": "Participants read vignettes describing events or scenarios and completed judgments or free-response tasks about surprise, emotions, or counterfactual alternatives. Manipulation examined mutability—which attributes people mentally alter when constructing norms (comparison points). Analysis focused on qualitative patterns in reasoning and affect, not statistical tests on large samples.",
+    "design": "observational-or-correlational",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "main-effect",
+    "focus": "many-exploratory",
+    "clarity": "partially-specified",
+    "rigor": "minimal",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0119",
+    "what_manipulated": "information condition: foresight (subjects predict future outcome) vs. hindsight (subjects told past outcome)",
+    "what_measured": "surprise of outcome, perceived replicability (probability outcome occurs on future trials), perceived predictability",
+    "experiment": "Subjects read brief study descriptions with two possible outcomes. Foresight group estimated probability of each outcome and predicted replication rates; hindsight group learned one outcome and estimated its replication probability. Primary test: whether hindsight subjects overestimate inevitability. Experiment 2 manipulated whether hindsight subjects considered alternative outcomes. Experiment 3 used longer manuscript-format descriptions.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0120",
+    "what_manipulated": "question format (open-ended, one-alternative, two-alternative half-range, two-alternative full-range); response scale (probability .00–1.00 vs. odds); instruction intensity (minimal vs. extensive); item domain (causes of death vs. general knowledge)",
+    "what_measured": "confidence expressed (probability or odds), correctness (hit rate for extreme confidence), willingness to gamble on confidence judgments",
+    "experiment": "Subjects answered general-knowledge or causes-of-death questions and assigned confidence (probability/odds) that their answer was correct. Multiple formats and instructions manipulated. Primary measure: calibration—whether stated confidence matched actual accuracy, especially for extreme responses (P=1.00, odds>>1:1). Experiment 5 had real monetary stakes.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0121",
+    "what_manipulated": "target of prediction (self vs. abstract others vs. vivid/concrete next person) and domain (gains vs. losses)",
+    "what_measured": "risk preference index (derived from choice pattern across gambles: sure vs. risky with varied stakes)",
+    "experiment": "Participants choose between risky and sure options on multiple questions in gain/loss domains, then predict other people's choices under parallel conditions. Risk preference indexed by switching point. Study 2 manipulated concreteness of target (U.S. students, campus students, visible neighbor). Study 3 added monetary incentive for accuracy. Hypothesis: participants regress others' preferences toward risk neutrality when target is abstract.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  }
+]

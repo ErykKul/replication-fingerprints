@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0035",
+    "phenomenon": "folk epistemic judgment",
+    "constructs": "action valence moral norm externality luck",
+    "claim": "Morally salient features of an agent's action shift knowledge attribution beyond what justified-belief theory predicts.",
+    "narrative": "new-mechanism",
+    "scope": "single-population",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0036",
+    "phenomenon": "government size",
+    "constructs": "preference dispersion democracy institutions median voter",
+    "claim": "Electorate disagreement reduces public spending capacity via coordination failure among decision-makers.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0037",
+    "phenomenon": "civic engagement after harm",
+    "constructs": "victimization anger solidarity identity survival agency",
+    "claim": "Negative shock mobilizes collective action and political voice via emotional expression and identity reconstruction.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0038",
+    "phenomenon": "value climate contagion",
+    "constructs": "prevalence norm social contagion amplification interaction",
+    "claim": "Majority value adoption elevates others' participation via both social exposure and amplification of individual commitment.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0039",
+    "phenomenon": "transnational racial solidarity",
+    "constructs": "diasporic identity state violence linked-fate proximity",
+    "claim": "Racialized state violence in one nation erodes institutional trust among coethnic diaspora in another.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0040",
+    "phenomenon": "confounding in substance-symptom association",
+    "constructs": "cannabis smoking confounding reverse-causality psychosis-proneness",
+    "claim": "Cigarette smoking explains the association between moderate cannabis use and distress from psychotic-like symptoms.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

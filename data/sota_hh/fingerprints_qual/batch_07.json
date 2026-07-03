@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1111/j.1467-9280.2008.02064.x",
+    "phenomenon": "selective memory strengthening through encoding orientation",
+    "constructs": "survival-relevance encoding memory-retention deep-processing",
+    "claim": "Processing information for survival relevance produces superior retention compared to other encoding strategies including imagery, pleasantness, self-reference, and intentional learning.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02095.x",
+    "phenomenon": "sources of subjective well-being in material possession",
+    "constructs": "desire satisfaction possession gratification maximization",
+    "claim": "Happiness is jointly determined by both having desired items and desiring possessed items, with each pathway uniquely mediated by different psychological antecedents.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02045.x",
+    "phenomenon": "belief in agency and ethical behavior regulation",
+    "constructs": "free-will determinism moral-behavior cheating agency",
+    "claim": "Belief in free will is causally necessary for moral behavior; exposure to deterministic messaging reduces adherence to ethical norms.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02050.x",
+    "phenomenon": "perceptual memory constraints for auditory versus visual input",
+    "constructs": "change-detection stimulus-complexity memory-limits modality-differences",
+    "claim": "Auditory change detection operates via different mechanisms than visual change detection, showing memory effects independent of stimulus complexity rather than complexity-dependent.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "hedged-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02084.x",
+    "phenomenon": "physical distance priming and affective/cognitive judgment shifts",
+    "constructs": "spatial-distance physical-priming judgment-alteration emotional-response",
+    "claim": "Perceptual and motor representations of spatial distance directly influence emotional and evaluative judgments independent of self-referential distance construal.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02088.x",
+    "phenomenon": "functional trade-offs in emotion regulation goal-pursuit",
+    "constructs": "emotion-regulation instrumental-motives hedonic-goals affect-management",
+    "claim": "People regulate emotions not only for hedonic pleasure but also instrumentally, selecting unpleasant emotions when situationally useful despite short-term affective costs.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02056.x",
+    "phenomenon": "social disconnection compensation through humanization",
+    "constructs": "loneliness anthropomorphism social-connection belief-formation",
+    "claim": "Lonely individuals increase humanization of nonhuman agents and belief in anthropomorphized entities as a direct compensatory response to social deficit.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02100.x",
+    "phenomenon": "group-level cooperation versus intergroup competition motivation",
+    "constructs": "cooperation intergroup-conflict in-group-altruism out-group-harm",
+    "claim": "Individual self-sacrifice in intergroup conflict is predominantly motivated by altruistic in-group cooperation rather than aggressive out-group harm.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02070.x",
+    "phenomenon": "linguistic word-order constraints on real-time phonological activation",
+    "constructs": "word-order language-production phonological-activation linguistic-rules",
+    "claim": "Language-specific word-order rules operate on-line to modulate which phonological representations become active during speech production.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02060.x",
+    "phenomenon": "female mate-preference modulation by fertility status and genetic quality trade-off",
+    "constructs": "female-choice genetic-quality investment fertility-cycle parental-investment",
+    "claim": "Women's preference for attached versus single male partners reverses across the menstrual cycle, balancing paternal investment at low fertility against genetic quality access at peak conception risk.",
+    "narrative": "boundary-condition",
+    "scope": "single-population",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02044.x",
+    "phenomenon": "visual affordance and action semantics in spatial search guidance",
+    "constructs": "visual-search object-affordance action-semantics spatial-attention",
+    "claim": "Dorsal-stream action-based representations of object affordance and prototypicality guide visual search attention, with stronger effects in the lower visual field.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02227.x",
+    "phenomenon": "moral judgment modulation via physical purity associations",
+    "constructs": "moral-judgment purity-concept intuitive-processing physical-cleansing",
+    "claim": "Activating or inducing physical cleanliness reduces moral severity through intuitive processes, reversing disgust-driven moral harshness via embodied purity-morality associations.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02049.x",
+    "phenomenon": "edge geometry cues for depth and figure-ground perception",
+    "constructs": "extremal-edges depth-perception figure-ground visual-organization",
+    "claim": "Extremal edges (viewpoint-specific self-occlusion horizons) operate as potent depth and figure-ground cues, stronger than classical proximity and convexity cues.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02085.x",
+    "phenomenon": "methodological artifacts in cross-national personality trait measurement",
+    "constructs": "cross-cultural-comparison personality-assessment reference-group-effect measurement-validity",
+    "claim": "Self-reported and peer-reported national personality averages fail to capture between-nation personality differences due to reference-group effects; only perceptions of national character correlate with behavioral predictors.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02093.x",
+    "phenomenon": "personality dominance and spatial-attentional metaphor processing",
+    "constructs": "personality-dominance vertical-space conceptual-metaphor spatial-attention",
+    "claim": "Dominant individuals preferentially allocate spatial attention to the vertical dimension due to metaphoric conceptualization of dominance as vertical hierarchy.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02042.x",
+    "phenomenon": "goal-shielding under response conflict during multitask management",
+    "constructs": "response-conflict goal-shielding cognitive-control interference-inhibition",
+    "claim": "Response conflicts trigger immediate goal-shielding that reduces susceptibility to interference and distraction on the conflict trial itself.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02081.x",
+    "phenomenon": "rapid threat detection of evolutionarily relevant stimuli in early development",
+    "constructs": "threat-detection visual-search evolutionary-relevance attentional-bias",
+    "claim": "Young children exhibit enhanced rapid detection of snakes over other stimuli, paralleling adult patterns and suggesting innate attentional bias to ancestral threats.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02051.x",
+    "phenomenon": "semantic spatial associations and perceptual simulation in attention",
+    "constructs": "semantic-priming perceptual-simulation spatial-location object-associations",
+    "claim": "Object words activate perceptual simulations of objects' typical spatial locations, orienting attention to those locations and interfering with target identification there.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.56.2.161",
+    "phenomenon": "causal attribution through counterfactual mental simulation",
+    "constructs": "causal-judgment counterfactual-reasoning mental-simulation default-mutation",
+    "claim": "People assess causality by simulating counterfactual alternatives; events are judged more causal when their absence undoes the outcome.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/a0016797",
+    "phenomenon": "working memory compression via learned statistical regularities",
+    "constructs": "working-memory information-compression statistical-learning encoding-efficiency",
+    "claim": "Working memory capacity remains constant but remembered items increase when learners discover and exploit statistical redundancies in input to create compressed representations.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

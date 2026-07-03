@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0231",
+    "phenomenon": "category-mismatched individuals trigger defensive evaluation",
+    "constructs": "need-for-certainty motivation categorization efficiency social structure",
+    "claim": "Desire to categorize people efficiently and maintain psychological certainty, not prejudice, drives negative evaluation of stereotype-violating individuals.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0232",
+    "phenomenon": "environmental cues override categorical cues in stereotype formation",
+    "constructs": "life-history strategy affordance-management categorical-heuristics ecological-inference",
+    "claim": "Stereotypes primarily reflect inferred behavioral ecology rather than race; when environment information is available, perceivers weight it more heavily than categorical identity.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0233",
+    "phenomenon": "memory of moral transgressions fades preferentially",
+    "constructs": "motivated-forgetting moral-self-concept psychological-dissonance memory-clarity",
+    "claim": "Memories of unethical actions are obfuscated over time because they threaten moral self-image; this motivated forgetting enables repeated dishonesty.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0234",
+    "phenomenon": "mindset intervention reduces formal discipline rates",
+    "constructs": "teacher-mindset empathy relationship-quality intervention-scalability",
+    "claim": "Shifting teachers from punitive to empathic-understanding mindsets via brief online intervention halves suspension rates by improving teacher-student relationships.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0235",
+    "phenomenon": "uncalculating helping signals trustworthiness",
+    "constructs": "reputation-concern signal-validity decision-process transparency",
+    "claim": "Uncalculating cooperation, especially when observable, serves as an honest signal of future trustworthiness beyond efficiency gains.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0236",
+    "phenomenon": "fairness salience differs pre and post allocation",
+    "constructs": "perspective-taking temporal-framing salience affective-forecasting",
+    "claim": "Allocators mispredict receiver satisfaction because they inhabit a pre-choice perspective where procedure differences loom large, while receivers inhabit a post-choice perspective where outcome magnitude dominates.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

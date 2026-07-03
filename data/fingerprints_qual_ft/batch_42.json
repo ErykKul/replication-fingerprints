@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0333",
+    "phenomenon": "moral filtering of behavioral classification",
+    "constructs": "moral valence side-effect attribution intentionality pragmatic-effect",
+    "claim": "Moral considerations reshape how agents' actions are semantically classified, independent of the causal structure or pragmatic communication context.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0340",
+    "phenomenon": "contextual modulation of bureaucratic bias",
+    "constructs": "racial-identity responsiveness tone community-demography bureaucratic-autonomy",
+    "claim": "Discrimination by street-level bureaucrats depends on both individual bias and institutional/community context; some minority groups face bias in tone but not access, and contextual diversity dampens but does not eliminate disparities.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0341",
+    "phenomenon": "perceptual compression of extreme magnitudes",
+    "constructs": "contraction-bias reference-adaptation weber-law perceptual-threshold",
+    "claim": "Naturally occurring visual perceptual biases—contraction bias and Weber's law—systematically reduce ability to detect obesity and weight gain, especially in heavier individuals.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0347",
+    "phenomenon": "belief-driven achievement divergence during transition",
+    "constructs": "implicit-theory learning-goals effort-beliefs attribution coping-strategy",
+    "claim": "Implicit theories of intelligence shape achievement trajectories by organizing a coherent framework of goals, effort attribution, and coping strategies that matter most when external support declines.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0348",
+    "phenomenon": "belief intervention reverses motivational decline",
+    "constructs": "malleable-mindset learning-goals effort motivation achievement",
+    "claim": "Teaching students that intelligence is malleable can interrupt downward achievement trajectories by increasing classroom effort and learning motivation, even within a single semester.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0350",
+    "phenomenon": "volumetric scene structure detected preattentively",
+    "constructs": "3d-orientation preattentive-processing spatial-relations visual-search scene-based",
+    "claim": "Early visual system extracts three-dimensional orientation of simple convex objects preattentively and in parallel, suggesting cognitive processing of volumetric structure occurs before focused attention.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  }
+]

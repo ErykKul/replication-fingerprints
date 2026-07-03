@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0405",
+    "phenomenon": "moral valence effects on epistemic attribution",
+    "constructs": "intentionality blame normativity knowledge",
+    "claim": "Non-epistemic factors like moral status of consequences influence knowledge attribution contrary to epistemological purism.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0406",
+    "phenomenon": "context-dependent moral objectivism",
+    "constructs": "perspective-taking cultural distance moral truth relativism",
+    "claim": "Folk moral intuitions are not stably objectivist but vary systematically with degree of cultural difference considered.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0407",
+    "phenomenon": "contrast sensitivity in knowledge ascription",
+    "constructs": "contrast alternatives salience conversational context",
+    "claim": "Knowledge ascriptions encode a triadic relation to alternatives rather than a dyadic subject-proposition relation.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0414",
+    "phenomenon": "bypassing confusion in free will intuitions",
+    "constructs": "determinism mental causation bypassing modal scope",
+    "claim": "Apparent incompatibilism reflects misinterpretation of determinism as entailing mental-state irrelevance rather than genuine conceptual incompatibility.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0416",
+    "phenomenon": "inhibition-mediated phonological learning",
+    "constructs": "inhibitory control L1-interference category formation perception production",
+    "claim": "Ability to suppress L1 phonological activation enhances L2 segment perception more than production accuracy.",
+    "narrative": "context-effect",
+    "scope": "specific-context",
+    "stance": "hedged-claim"
+  },
+  {
+    "paper_id": "p0417",
+    "phenomenon": "modal sensitivity masquerading as stakes sensitivity",
+    "constructs": "stakes deontic modality knowledge ascription normative reasoning",
+    "claim": "Apparent effects of practical stakes on knowledge attributions arise from deontic modal interpretation rather than knowledge truth conditions.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  }
+]

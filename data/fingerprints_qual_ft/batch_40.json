@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0317",
+    "phenomenon": "Unified entity perception alters comparison strategy",
+    "constructs": "anthropomorphism integration attribute-decomposition",
+    "claim": "Humanized appearance triggers integrated rather than dimensional processing in choice.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0318",
+    "phenomenon": "Quantifier-ellipsis processing interdependence",
+    "constructs": "quantification syntactic-movement anaphora integration",
+    "claim": "Quantifier movement and ellipsis resolution recruit shared structural operation.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0319",
+    "phenomenon": "Intentional survey response bias",
+    "constructs": "partisan-identity factual-reporting political-engagement",
+    "claim": "Politically engaged supporters deliberately misreport objective facts to express allegiance.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0320",
+    "phenomenon": "Expectations determine reference frames",
+    "constructs": "expectation reference-point valuation loss-aversion",
+    "claim": "Anticipated outcomes establish reference points that govern value assessment independent of current possession.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0321",
+    "phenomenon": "Last-place aversion drives risk acceptance",
+    "constructs": "rank-position status-concern risk-preference relative-position",
+    "claim": "Individuals near distribution bottom accept risk disproportionately to escape lowest status.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0322",
+    "phenomenon": "Variance premium predicts returns",
+    "constructs": "implied-variance realized-variance risk-aversion market-expectations",
+    "claim": "Gap between expected and actual volatility captures time-varying risk aversion driving returns.",
+    "narrative": "incremental-extension",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

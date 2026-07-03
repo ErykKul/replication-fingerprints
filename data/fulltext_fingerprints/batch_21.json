@@ -1,0 +1,15 @@
+[
+  {
+    "paper_id": "p0621",
+    "what_manipulated": "whether flanker and target letters match in identity vs. response mapping across modalities",
+    "what_measured": "reaction time and response accuracy on conflict task",
+    "experiment": "Two experiments with 36 participants each tested the classical Eriksen flanker effect in a bimodal setting: visual target letters (H or S) with auditory distractor letters. Experiment 1 varied stimulus-onset-asynchrony (0, 250, 500 ms) and measured reaction time and accuracy via ANOVA. Experiment 2 added response-congruent conditions (same response but different letter) to dissociate perceptual from response-level effects. Vincentized RT distributions and conditional accuracy functions analyzed the effect time-course.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0067",
+    "what_manipulated": "nonconscious goal activation via priming",
+    "what_measured": "task performance, behavioral persistence, cognitive interpretations",
+    "experiment": "Participants primed with goal-relevant words (vs. neutral) performed intellectual/motor tasks or resource-management games. Priming manipulated covertly without participants' awareness; performance on objective tasks served as outcome measure. Tests whether nonconsciously activated goals guide behavior as effectively as consciously chosen ones.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0068",
+    "what_manipulated": "prior outcome valence (positive, negative, absent) and action vs. inaction decision",
+    "what_measured": "regret attributions and responsibility perceptions",
+    "experiment": "Participants read scenarios where soccer coaches made action or inaction decisions following prior wins, losses, or no prior outcome; they judged who felt more regret. Design manipulated prior outcome context and decision type between-subjects; measured regret via dichotomous choice and continuous scales, with responsibility as hypothesized mediator.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0069",
+    "what_manipulated": "valence of past experience (successful vs. unsuccessful social, academic, or embarrassing) and self-esteem level",
+    "what_measured": "subjective temporal distance from past event",
+    "experiment": "Participants reported subjective closeness to past selves or events with favorable or unfavorable implications for self-regard, while actual calendar time was controlled. Tested interaction between outcome valence and self-esteem on subjective distance judgments in three studies using different domains (social success, course grades, personal incidents).",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0070",
+    "what_manipulated": "commitment level via priming and betrayal type (12 hypothetical norm violations)",
+    "what_measured": "forgiveness-related responses (exit, voice, loyalty, neglect), cognitive interpretations, emotional reactions",
+    "experiment": "Study 1: participants primed with dependence or independence thoughts, then rated reactions to betrayal scenarios. Studies 2–3: cross-sectional and diary methods measured commitment-forgiveness associations with both behavioral and mental-event mediators. Tests whether commitment motivates forgiveness via reduced destructive impulses and increased prorelationship cognition/emotion.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0072",
+    "what_manipulated": "implicit associations (via Implicit Association Test) between math/science vs. arts/language, math vs. male/female, self vs. male/female",
+    "what_measured": "response latencies in timed categorization tasks; explicit attitudes, stereotypes, and identity via self-report; SAT performance",
+    "experiment": "Study 1: response speed to pairing math with pleasant/unpleasant vs. arts, and math/arts with self/other. Study 2: added math-gender stereotype and gender identity measurements. Examined whether implicit associations and explicit measures predict math attitudes, identity, and performance separately and in interaction.",
+    "design": "between-subjects",
+    "manipulation": "observational",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0073",
+    "what_manipulated": "none (longitudinal follow-up); childhood personality and competence predict adult personality",
+    "what_measured": "adult personality via self-report (PEM, NEM, CON); childhood/concurrent adaptive competence in academic, conduct, social, job, and romantic domains",
+    "experiment": "Community sample followed from age 10 to age 20; childhood personality derived from parent/teacher/child reports; adult personality measured by self-report questionnaire. Examined rank-order continuity of traits and relationships between childhood adaptation and adult personality, controlling for childhood personality stability.",
+    "design": "longitudinal",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  }
+]

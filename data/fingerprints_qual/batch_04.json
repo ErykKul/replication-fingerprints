@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1037/0022-3514.94.4.672",
+    "phenomenon": "independence between judgment quality and reasoning skill",
+    "constructs": "cognitive-ability reasoning-bias heuristics rational-performance",
+    "claim": "Most classic reasoning biases operate independent of cognitive ability, though some specific biases (denominator neglect, belief bias) do correlate with reasoning skill.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.4.696",
+    "phenomenon": "reliance on parental attachment as psychological protection against existential threat",
+    "constructs": "attachment mortality-salience threat-response security-style",
+    "claim": "Parental attachment reduces anxiety about existential threat, but its function is mediated by attachment security: insecure individuals seek parental reassurance while secure individuals turn to adult romantic partners.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.4.718",
+    "phenomenon": "developmental maturation of personality self-perception from childhood to adulthood",
+    "constructs": "personality-coherence self-report-validity trait-differentiation developmental-change",
+    "claim": "Self-report personality becomes more internally consistent and differentiated across domains with age, but different personality dimensions mature on distinct timelines.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.5.871",
+    "phenomenon": "public expression of nonconformity as a function of conformity direction",
+    "constructs": "group-deviance norm-direction self-presentation conformity-motive",
+    "claim": "Individuals more readily express opinions that deviate upward from group norms (\"better-than-average\" deviance) than opinions that deviate downward, because upward deviance affirms rather than threatens identity.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.95.1.76",
+    "phenomenon": "interpersonal rejection of moral actors who refuse wrongdoing",
+    "constructs": "moral-behavior group-conformity self-image-threat social-rejection",
+    "claim": "Individuals who commit acts that violate their principles reject moral rebels who refuse those same acts, because the rebel's refusal implicitly threatens the actor's self-concept.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.95.2.274",
+    "phenomenon": "paradoxical effects of counterfactual thinking on motivation and self-regard",
+    "constructs": "counterfactual-thought self-esteem motivation performance excuse-making",
+    "claim": "Upward counterfactual thoughts reduce future motivation by functioning as excuses when they are tied to external impediments, despite normally enhancing motivation.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.95.2.293",
+    "phenomenon": "intuitive belief that actions can magically alter probability of negative outcomes",
+    "constructs": "magical-thinking probability-judgment affect-availability cognitive-heuristic",
+    "claim": "People intuitively believe that actions tempting fate increase negative-outcome likelihood, due to automatic heightened accessibility of negative possibilities following those actions.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.95.2.420",
+    "phenomenon": "cyclical perpetuation of relationship insecurity through disclosure and misinterpretation",
+    "constructs": "vulnerability-disclosure partner-perception authenticity-doubt attachment-security",
+    "claim": "Expressing emotional vulnerability leads insecure individuals to believe their partner views them as weak, causing doubt about the partner's sincerity and reinforcing insecurity.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0033-2909.118.1.3",
+    "phenomenon": "temporal change in dyadic partnership quality and stability",
+    "constructs": "relationship-development longitudinal-change partnership-quality stability-dynamics",
+    "claim": "Marriage quality and stability evolve over time in patterns that current theories partially explain; longitudinal data reveal distinct trajectories that cross-sectional methods cannot capture.",
+    "narrative": "incremental-extension",
+    "scope": "broad-generalization",
+    "stance": "hedged-claim"
+  },
+  {
+    "doi": "10.1037/0033-2909.124.2.197",
+    "phenomenon": "personality trait profiles associated with subjective wellbeing",
+    "constructs": "personality trait wellbeing life-satisfaction affect emotional-stability",
+    "claim": "Neuroticism is the strongest single personality predictor of wellbeing dimensions, though different traits predict different facets of wellbeing (life satisfaction vs. positive emotion vs. negative emotion).",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0033-2909.129.6.914",
+    "phenomenon": "affective state and trait as predictors of workplace attitudes",
+    "constructs": "positive-affect negative-affect job-satisfaction organizational-commitment burnout",
+    "claim": "Emotional states and traits substantially predict job satisfaction, commitment, and burnout, with negative affect particularly predictive of emotional exhaustion.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0033-295x.93.2.136",
+    "phenomenon": "comparative judgment and emotion constructed ad-hoc by recruiting contextual alternatives",
+    "constructs": "norm-generation exemplar-retrieval counterfactual-comparison emotional-response",
+    "claim": "Normalcy is evaluated by comparing stimuli to context-specific norms constructed on-the-fly from retrieved examples and counterfactual alternatives, rather than consulting pre-computed expectations.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/0096-1523.3.4.544",
+    "phenomenon": "hindsight bias in evaluation of scientific discovery and information value",
+    "constructs": "hindsight-bias outcome-knowledge predictability scientific-reasoning",
+    "claim": "People retrospectively perceive scientific results as more predictable than they were, diminishing perceived informativeness; this effect is reduced by generating counterfactual outcomes.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0096-3445.133.1.23",
+    "phenomenon": "discontinuous valuation of quantity when affect rather than analysis guides preference",
+    "constructs": "value-construction feeling-based-valuation calculation-based-valuation scope-sensitivity",
+    "claim": "When emotional reaction drives value judgments, preferences show step-function sensitivity to quantity (insensitive to further increases beyond presence), whereas calculation-based valuation shows linear sensitivity.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0096-3445.135.4.641",
+    "phenomenon": "mental abstraction increases as perceived probability of event decreases",
+    "constructs": "psychological-distance probability construal-level abstract-thinking event-representation",
+    "claim": "Low-probability events are mentally represented at higher levels of abstraction (general, categorical, gist-based) rather than specific, detailed representation.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0096-3445.136.2.241",
+    "phenomenon": "ego depletion of executive control capacity following initial control effort",
+    "constructs": "executive-function resource-limitation self-control capacity-constraint",
+    "claim": "Initial exertion of self-control (attention focus, impulse inhibition, emotional regulation) temporarily depletes capacity for subsequent executive control tasks.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0096-3445.136.2.289",
+    "phenomenon": "emotional intensity is greater during prospective than retrospective emotional engagement",
+    "constructs": "emotional-intensity temporal-perspective mental-simulation affect-intensity",
+    "claim": "People experience more intense emotional reactions when anticipating events than when remembering them, mediated by greater mental simulation of future scenarios.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0096-3445.136.4.569",
+    "phenomenon": "activation of careful deliberative reasoning triggered by perceptual or metacognitive difficulty",
+    "constructs": "cognitive-processing fluency metacognitive-difficulty analytical-reasoning heuristic-override",
+    "claim": "Experiences of difficulty or disfluency (degraded fonts, furrowed brows) activate deliberate analytical reasoning that overrides quick intuitive judgments.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.128",
+    "phenomenon": "temporal information and its role in short-term sequential memory",
+    "constructs": "temporal-memory item-order short-term-memory timing-information",
+    "claim": "Memory for order in short-term retention is not driven solely by a timing signal; temporal information plays a distinct role in representing individual item durations.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.146",
+    "phenomenon": "perceptual suppression of repeated items depends on task context and strategic guess-avoidance",
+    "constructs": "repetition-blindness perceptual-attention task-strategy guessing-behavior",
+    "claim": "Repetition blindness for written items is not automatic but depends on strategic use of partial information; when guessing is discouraged, repetition blindness occurs for both familiar and unfamiliar items.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

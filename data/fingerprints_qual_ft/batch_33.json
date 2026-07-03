@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0243",
+    "phenomenon": "psychologically distinct violence types",
+    "constructs": "dehumanization humanity perception instrumental-vs-moral motivation",
+    "claim": "Violence motivated by moral principles requires victims to be perceived as fully human deserving of punishment, whereas violence for utilitarian gain is enabled by dehumanization; these are distinct psychological processes.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0244",
+    "phenomenon": "reversed causality in ideology-inequality relationship",
+    "constructs": "inequality-exposure opportunity-belief system-justification american-dream",
+    "claim": "Rising inequality information shifts causal attribution from individual to structural factors, undermining American Dream ideology rather than reinforcing it, thus increasing demand for inequality reduction.",
+    "narrative": "reversal",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0245",
+    "phenomenon": "self-presentation paradox in ephemeral media",
+    "constructs": "platform-affordance disclosure-disinhibition impression-formation attribution-bias",
+    "claim": "Technologies designed to reduce permanence and alleviate privacy concerns instead increase risky disclosure while leaving social judgments unaffected by the affordance, creating unintended negative impression costs.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0246",
+    "phenomenon": "heterogeneity in decision processes masks homogeneity in aggregates",
+    "constructs": "search-strategy individual-differences information-acquisition temporal-discounting",
+    "claim": "Different psychological processes for evaluating temporal tradeoffs produce different discount rates and framing effects; averaging across these strategies confounds distinct decision mechanisms.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0248",
+    "phenomenon": "value retraining without effortful control",
+    "constructs": "cognitive-reappraisal craving-regulation food-valuation internal-architecture",
+    "claim": "Brief training in cognitive strategies revalues healthy and unhealthy foods through implicit mechanisms, improving food choices without requiring conscious effort or self-control during choice itself.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0249",
+    "phenomenon": "partisan identity salience suppresses collective learning",
+    "constructs": "partisan-priming social-learning belief-updating identity-activation",
+    "claim": "Social networks enable Bayesian learning that overcomes partisan bias unless partisan identity is made salient through cues or peer labels, which activates identity-protective reasoning and maintains polarization.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

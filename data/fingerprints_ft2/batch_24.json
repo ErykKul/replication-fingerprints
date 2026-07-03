@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0164",
+    "what_manipulated": "video game content (prosocial vs. neutral vs. aggressive)",
+    "what_measured": "prosocial behavior (helping, donation, intervention, assistance)",
+    "experiment": "Participants played a video game varying in prosocial content, then engaged in one of four behavioral tasks measuring helping: pencil pickup, willingness to assist in future studies, intervention in harassment, or accessibility of prosocial thoughts. Comparisons tested whether prosocial games increased prosocial acts and whether accessibility of prosocial cognitions mediated effects.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0165",
+    "what_manipulated": "primary language group (English, Spanish, Asian language) and socioeconomic status",
+    "what_measured": "reading achievement trajectories across elementary school (overall and subskill levels)",
+    "experiment": "Longitudinal growth modeling tracked reading achievement from kindergarten through fifth grade across three language groups. Multilevel models estimated initial status, growth rate, and deceleration while decomposing effects of family and school SES. Comparisons examined whether achievement gaps reflected ELL status or SES confounds.",
+    "design": "longitudinal",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0166",
+    "what_manipulated": "music exposure (15-second clips) and individual differences (personality, mood, nostalgia proneness)",
+    "what_measured": "intensity of music-evoked nostalgia; emotional profile (positive, negative, mixed emotions)",
+    "experiment": "Participants rated nostalgia intensity for 30 randomly selected popular music excerpts in relation to autobiographical salience, familiarity, arousal, and experienced emotions. Mixed-effects multilevel models examined how context-level (song attributes) and person-level (personality, mood) constructs predicted nostalgia and whether they interacted. Emotional profiles of nostalgic versus non-nostalgic experiences were compared.",
+    "design": "within-subjects",
+    "manipulation": "observational",
+    "effect_structure": "interaction",
+    "focus": "many-exploratory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0167",
+    "what_manipulated": "working memory load (1 vs. 2 items) and distractor interference (confusable vs. non-confusable)",
+    "what_measured": "accuracy and response time on delayed-recognition task",
+    "experiment": "Participants performed a delayed-recognition working memory task with factorial manipulations of mnemonic load and distractor interference. Current trial performance was examined as a function of previous trial demand levels. Main effects and interaction patterns tested whether WM demands trigger dynamic control adjustments comparable to conflict adaptation.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0169",
+    "what_manipulated": "social class status (subjective and objective measures of SES)",
+    "what_measured": "prosocial behavior (generosity, charitable donations, trust, helping)",
+    "experiment": "Four studies examined whether lower social class predicts increased prosocial behavior using dictator games, experimental manipulations of relative rank, trust games, and helping tasks. Mediation analyses tested whether egalitarian values and compassion explain class-based differences. Moderation analyses examined whether induced compassion alters class effects.",
+    "design": "observational-or-correlational",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0170",
+    "what_manipulated": "temporal frame of transgression (past vs. future) and temporal distance (near vs. far)",
+    "what_measured": "judgments of fairness, morality, acceptability; emotional reactions; willingness to punish or sacrifice",
+    "experiment": "Across seven studies, participants evaluated identical unethical or fair actions positioned in the past or future. Scenarios varied in domain (pricing practices, moral transgressions, donations) and temporal distance. Mediation analyses tested whether stronger emotional reactions to future events explained harsher moral judgments and greater willingness to punish or sacrifice for fairness.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  }
+]

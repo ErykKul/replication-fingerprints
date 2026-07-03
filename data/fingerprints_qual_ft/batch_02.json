@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0016",
+    "phenomenon": "qualitative heterogeneity within continuous trait",
+    "constructs": "agentic-self-enhancement antagonistic-self-protection grandiosity vulnerability",
+    "claim": "Continuous narcissism trait masks discrete subgroups differing in motivational pathways and adjustment profiles.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0017",
+    "phenomenon": "emotional processing deficit rescued by matching context",
+    "constructs": "encoding-depth emotional-valence congruency-effect emotional-regulation",
+    "claim": "Contextual emotional cues modulate expression of underlying emotional processing deficit.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0018",
+    "phenomenon": "perception shapes outcome more than reality",
+    "constructs": "outlook-disposition perceived-support actual-support stress-buffering",
+    "claim": "Optimistic perception of relational resources mediates stress-buffering effect more than actual resource provision.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0019",
+    "phenomenon": "unregistered competition drives product innovation",
+    "constructs": "informal-competition formal-competition institutional-context managerial-attention",
+    "claim": "Informal competitive pressure directs formal firms toward differentiation innovation when formal rivals and informal-adaptation alternatives are scarce.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0020",
+    "phenomenon": "framing flips behavioral type distribution by gender",
+    "constructs": "frame-valence gender social-preferences allocation-type",
+    "claim": "Taking frame makes males selfish and females egalitarian; giving frame inverts pattern, nullifying aggregate effect.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0021",
+    "phenomenon": "asymmetry in access creates fairness-contingent investment cycle",
+    "constructs": "public-provision asymmetric-extraction fairness-perception reciprocal-punishment",
+    "claim": "Downstream participants condition future infrastructure investment on fair resource distribution, creating feedback loop that prevents under-provision despite sequential access disadvantage.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

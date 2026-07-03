@@ -1,0 +1,26 @@
+[
+  {
+    "paper_id": "p0086",
+    "finding": "Test structure differences independently of implicit/explicit distinction. When measurement formats become more similar across two conditions, correlations increase dramatically, suggesting that apparent independence is partly an artifact of structural confounds rather than genuine dissociation of underlying processes."
+  },
+  {
+    "paper_id": "p0088",
+    "finding": "Implicit measures reveal attitudes orthogonal to explicit self-report; dual processes may reflect separate attitude representations layered during development, with older implicit attitudes and newer explicit attitudes accessible through different retrieval routes."
+  },
+  {
+    "paper_id": "p0089",
+    "finding": "Frame manipulation of identical progress (completed vs. remaining) has opposite effects on motivation depending on commitment certainty: to-date increases motivation when commitment is uncertain (highlights importance), while to-go increases motivation when commitment is certain (highlights deficit)."
+  },
+  {
+    "paper_id": "p0090",
+    "finding": "Sex differences in stated mate preferences (men value attractiveness, women value earning potential) replicate robustly in hypothetical contexts but vanish in live dating interactions, suggesting stated preferences reflect a priori theories rather than introspective awareness of actual attraction determinants."
+  },
+  {
+    "paper_id": "p0091",
+    "finding": "Linking persuasive messages to important (vs. unimportant) values increases elaboration of message content and thus resistance to later counterattack, independent of whether the resulting attitude is perceived as expressing the value; value importance affects resistance through processing depth, not through value-expression."
+  },
+  {
+    "paper_id": "p0092",
+    "finding": "To-date framing increases first-time donations when commitment is uncertain; to-go framing increases repeat donations when commitment is certain. Information about others' accumulation signals goal value and importance; information about remaining work signals insufficient progress."
+  }
+]

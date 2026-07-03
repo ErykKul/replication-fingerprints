@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0283",
+    "what_manipulated": "Presence of variety in items (homogeneous vs. heterogeneous)",
+    "what_measured": "Perceived quantity estimates; purchase intentions for food",
+    "experiment": "Participants viewed patterns of colored dots or geometric shapes varying in homogeneity (1 vs. 2-5 different types) and estimated quantity as percentage filled. In separate studies, participants poured food into bowls to match sample quantities. Manipulated variety in both target items and reference samples in a full factorial within-subjects or between-subjects design.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0284",
+    "what_manipulated": "Source expertise (high vs. low) and source certainty (high vs. low expressed in recommendation)",
+    "what_measured": "Persuasion (attitudes, intentions); involvement; thought favorability",
+    "experiment": "Participants read restaurant reviews from sources varying in stated expertise and certainty. Expertise manipulated via author credentials (food critic vs. network administrator). Certainty manipulated via language (confident vs. tentative phrasing). Between-subjects design with argument quality varied in one experiment. Measured attitudes toward product, felt involvement, and cognitive responses.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0285",
+    "what_manipulated": "System threat (attack on national legitimacy vs. control); system confidence (measured continuous variable); nature of defense opportunity (indirect consumption choices vs. direct derogation vs. explicit endorsement)",
+    "what_measured": "Product choice (national vs. international brands); speaker derogation ratings; consumption preference",
+    "experiment": "Participants read critiques of their country (or control articles) and subsequently chose between national and international brands in product pairs, rated system critics, or evaluated products with indirect vs. direct patriotic messaging. System confidence measured as individual difference. Multiple between-subjects experiments with some within-subjects factors for product choice. Threat × confidence interactions tested.",
+    "design": "mixed",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0286",
+    "what_manipulated": "Product orientation (toward dominant hand vs. away) and perceptual resources (none, nondominant hand holding clamp, dominant hand, both hands); valence of product (positive vs. negative); stimulus type (yogurt, hamburger, cake, mug)",
+    "what_measured": "Purchase intentions; embodied mental simulation (imagery ratings); attitudes toward product",
+    "experiment": "Participants viewed product images oriented toward or away from their dominant hand and rated purchase likelihood. In separate studies, occupied participants' hands with a spring clamp during ad viewing. Manipulated product valence and measured mental simulation via imagery scales. Within-subjects or between-subjects orientation factors, between-subjects hand-occupation conditions.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0287",
+    "what_manipulated": "Horizontal position of product image (left vs. right); time-related product attribute (antique vs. modern vs. control); need for structure (measured continuous); reading direction (left-to-right English speakers vs. right-to-left Hebrew speakers)",
+    "what_measured": "Attitudes toward product; processing fluency (ease/clarity ratings)",
+    "experiment": "Participants evaluated advertisements positioning images on left or right side. In some studies, products described as antique-style or modern-style; in others, before-after images positioned congruently or incongruently with past-left, future-right spatial representation. Measured product attitude and processing fluency. Within-subjects time conceptualization priming (horizontal vs. vertical temporal flow) in one study. Between-subjects or within-subjects position factors.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0288",
+    "what_manipulated": "Role (seller vs. buyer vs. owner/chooser); product description features (high-level desirability aspects superior vs. low-level feasibility aspects superior); focus instruction (desirability vs. feasibility); mind-set prime (why vs. how)",
+    "what_measured": "Selling and buying prices; construal level (action identification, why-vs-how ratings); impact ratings of feature types",
+    "experiment": "Participants assigned to seller, buyer, or owner roles evaluated products (cameras, websites, mugs, tickets) varying in high-level (desirability) and low-level (feasibility) feature superiority. Some experiments explicitly instructed focus on desirability or feasibility aspects. Mind-set primes (why/how questions) manipulated in others. Measured minimum selling and maximum buying prices plus construal level measures. Between-subjects role and feature factors.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  }
+]

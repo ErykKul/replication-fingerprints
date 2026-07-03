@@ -1,0 +1,55 @@
+#!/usr/bin/env bash
+
+# Run this script locally to start the Nested CV on AWS
+
+# Sync files to S3 bucket (overwrite and delete old RData files)
+aws s3 sync . s3://my-pr-bucket/predicting-replication/code --exclude ".DS_Store" --exclude "logs/*"
+aws s3 rm s3://my-pr-bucket/predicting-replication/data/ --recursive --exclude "*.csv" --exclude "*.rds"
+aws s3 sync ../data s3://my-pr-bucket/predicting-replication/data --exclude ".DS_Store" --exclude "*.RData"
+
+# Remove old log files
+aws s3 rm s3://my-pr-bucket/logs/ --recursive
+
+# Launch EC2 instance, run code (automatic shutdown)
+IID="i-0821f48e44e679430"
+PDNS=$(aws ec2 describe-instances --instance-ids "$IID" | jq -r '.Reservations[0].Instances[0].PublicDnsName')
+KEYPAIR="$HOME/.ssh/aws_ec2_keypair.pem"
+# ssh -i $KEYPAIR ec2-user@$PDNS
+scp -i "$KEYPAIR" nested_cv_aws_script "ec2-user@$PDNS:~/nested_cv_aws_script"
+
+aws ssm send-command \
+    --instance-ids $IID \
+    --comment "Run Rscript" \
+    --document-name "AWS-RunShellScript" \
+    --parameters '{
+        "commands":["./nested_cv_aws_script", "shutdown -h now"],
+        "executionTimeout":["28800"],
+        "workingDirectory":["/home/ec2-user/"]
+    }' \
+    --timeout-seconds 72000 \
+    --service-role-arn "arn:aws:iam::255650585038:role/SNS-role" \
+    --output-s3-bucket-name "my-pr-bucket" \
+    --output-s3-key-prefix "logs" \
+    --notification-config '{
+        "NotificationArn":"arn:aws:sns:us-east-1:255650585038:R-script-status",
+        "NotificationEvents":["All"],
+        "NotificationType":"Command"
+    }'
+
+# Optional checks
+
+# To check status of the command we can run
+# CID=661419e5-f253-40fc-b020-0e31dc268561
+# aws ssm list-command-invocations --command-id $CID --details
+
+# To cancel command:
+# aws ssm cancel-command --command-id $CID
+
+# Log into ssh and read progress while running
+#sleep 10
+# ssh -i $KEYPAIR -t ec2-user@$PDNS "less +F ~/predicting-replication/code/nested_cv_output.log.txt"
+# ssh -i $KEYPAIR -t ec2-user@$PDNS "less +F ~/predicting-replication/code/nested_cv_message.log.txt"
+
+# When finished, download the new data
+# aws s3 sync s3://my-pr-bucket/predicting-replication/data ../data --exclude "*.csv" --exclude "*.rds"
+# aws s3 sync s3://my-pr-bucket/logs ../local/logs

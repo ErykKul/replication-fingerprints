@@ -1,0 +1,54 @@
+[
+  {
+    "doi": "10.1073/pnas.0805664105",
+    "what_manipulated": "face morphology and trait presentation (valence and dominance features)",
+    "what_measured": "trait judgment ratings on two dimensions (trustworthiness and dominance)",
+    "experiment": "Participants viewed emotionally neutral faces and rated them on trait dimensions. Principal components analysis identified two orthogonal dimensions (valence and dominance) from trait judgments. Statistical models for face representation were built using data-driven approach. Models were validated to predict trustworthiness and dominance judgments from facial features. Social judgment outcomes (threat perception) were reproduced as a function of the two dimensions.",
+    "design": "between-subjects",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "doi": "10.1177/0146167210386238",
+    "what_manipulated": "linguistic concreteness of statements (concrete vs abstract language) and context mind-set and spatial proximity",
+    "what_measured": "subjective truth judgment rating and perceived vividness",
+    "experiment": "Four experiments examined the effect of language concreteness on truth judgments. In Experiments 1 and 2, participants judged the truth of identical content presented in concrete or abstract language. Experiment 2 tested vividness as a mediator. Experiment 3 manipulated mind-set (concrete vs abstract priming) as a moderator. Experiment 4 tested spatial proximity (near vs far) as a moderator. Truth advantage of concrete language was conditional on context.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "doi": "10.1126/science.1157627",
+    "what_manipulated": "physiological sensitivity to threat (naturally occurring variation measured: startle response and threat image reactivity)",
+    "what_measured": "political policy preferences and attitude endorsement (foreign aid, immigration, defense spending, punishment, patriotism)",
+    "experiment": "Forty-six adults with strong political beliefs underwent measurement of physiological reactivity to sudden loud noises and threatening images. Physical sensitivity levels were correlated with self-reported political attitudes across multiple policy domains. Units with lower physiological reactivity favored liberal policies; units with higher reactivity favored conservative policies protecting existing social order.",
+    "design": "observational or correlational",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "single-hypothesis",
+    "clarity": "partially-specified",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "doi": "10.1177/0956797612443835",
+    "what_manipulated": "time available for decision-making (short vs ample time pressure) and justification availability for self-serving behavior",
+    "what_measured": "dishonest reporting behavior (cheating tendency in outcome reporting)",
+    "experiment": "Two experiments used an anonymous die-roll task where participants privately rolled a die and reported the outcome for pay. Time to report outcome was manipulated between short and ample conditions. Cheating was measured as discrepancy between reported and actual outcome. Anonymous setting eliminated external monitoring. Results tested whether adequate time and lack of available self-justifications reduce dishonest behavior.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  }
+]

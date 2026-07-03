@@ -1,0 +1,26 @@
+[
+  {
+    "paper_id": "p0148",
+    "finding": "When features covary perfectly during learning, response requires both features; when covariance is disrupted, response improves for individually presented features. Feature binding operates as a function of feature correlation, not dimension diagnosticity."
+  },
+  {
+    "paper_id": "p0149",
+    "finding": "Directed forgetting magnitude increases for strong items only when strength is established through context-multiplying operations (spacing); item-strength increases (depth, time) alone produce equivalent forgetting across strength levels. Forgetting depends on context binding, not item accessibility."
+  },
+  {
+    "paper_id": "p0150",
+    "finding": "Numerical information in different notations is automatically translated to common magnitude representation, evidenced by congruency effects in physical (non-numerical) comparison tasks and interference during physical matching judgments."
+  },
+  {
+    "paper_id": "p0151",
+    "finding": "Serial position curves for intrusion probes parallel those for positive probes rather than show opposite curvature, supporting dual-process theory with bidirectional recollection routes. Intrusion errors reflect strength-dependent recollection, not familiarity-based false acceptance."
+  },
+  {
+    "paper_id": "p0152",
+    "finding": "Stereotype-consistent errors are accompanied by illusory remember responses even when dont-know option is available and participants are warned against guessing. False memories for source arise from constructive recollection, not from biased guessing."
+  },
+  {
+    "paper_id": "p0153",
+    "finding": "Recall decreases as function of task-switch count; concurrent memory load does not modulate switch cost magnitude. Switch-induced attention occupation impairs maintenance via time-based resource sharing, with effect proportional to switching duration regardless of parallel maintenance demands."
+  }
+]

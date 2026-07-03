@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0354",
+    "what_manipulated": "valence of subliminal primes vs. conscious behavioral information",
+    "what_measured": "implicit attitudes (IAT) and explicit attitudes (likability ratings, semantic differentials)",
+    "experiment": "Participants learned about a target across 200 trials. Each trial presented a subliminal prime (positive or negative) paired with the target, followed by supraliminally presented behavioral descriptions, with feedback. Prime valence and behavioral valence were manipulated to be congruent (first 100 trials) or incongruent (second 100 trials). Both implicit and explicit attitudes were measured at two time points.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0357",
+    "what_manipulated": "presence vs. absence of false belief about object location; actor's attentional state",
+    "what_measured": "anticipatory eye gaze direction (first saccade following light cue; dwell time on target window)",
+    "experiment": "Two-year-olds watched a puppet hide an object, then the object was moved while an actor looked away. In test trials, infants' eye gaze was recorded when the actor turned back toward boxes and lights illuminated. The test measured whether gaze predicted the location the actor would search based on her false belief about where the object remained.",
+    "design": "within-subjects",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0365",
+    "what_manipulated": "stimulus onset asynchrony (SOA) between two sequentially presented targets in a rapid visual stream",
+    "what_measured": "serial position of reported letters (distractor intrusions) across multiple SOAs",
+    "experiment": "Participants viewed rapid serial visual presentations of letters and reported two cued targets. Analysis examined where distractors appeared in reports as a function of T1-T2 timing. Three independent selection dimensions were estimated: efficacy (proportion of items reported from target region), latency (center of mass of reported positions), and precision (variance of report positions).",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0393",
+    "what_manipulated": "attentional allocation to targets vs. distractors in a multiple object tracking task; selectivity facilitation (identical vs. color-coded vs. spatially separated items)",
+    "what_measured": "localization error for single missing items (individual test) and centroid of missing items (centroid test)",
+    "experiment": "Participants tracked four targets while ignoring four distractors in a moving-object display, counting touches to a boundary. At random points, items disappeared and participants localized either a single missing item or the centroid of four missing items. Three experiments manipulated attentional selectivity. Analysis compared error for attended vs. unattended items at both local and summary feature levels.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0396",
+    "what_manipulated": "instruction to make second guess (immediate vs. 3-week delayed) on factual questions",
+    "what_measured": "mean squared error of individual estimates and their average",
+    "experiment": "Participants answered eight factual knowledge questions online, then were unexpectedly asked to make a second guess either immediately or 3 weeks later without prior knowledge of the retest. Mean squared error was computed for first guess, second guess, and their average. Within-person averaging was compared to across-person averaging via interpolation.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0402",
+    "what_manipulated": "ambient temperature (warm vs. cold); temperature source (beverage vs. room environment)",
+    "what_measured": "social proximity (IOS scale overlap rating); language abstraction (linguistic category model); perceptual focus (relational vs. property categorization)",
+    "experiment": "Three experiments manipulated temperature via warm/cold beverages or room conditions. Participants rated social proximity to another person, described film clips coded for linguistic abstraction level, and performed perceptual categorization tasks. Mediation analysis tested whether language use mediated temperature effects on perceptual focus.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  }
+]

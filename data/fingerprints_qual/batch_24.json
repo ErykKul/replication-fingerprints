@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1257/aer.102.7.3317",
+    "phenomenon": "how agents enforce cooperation when monitoring is incomplete",
+    "constructs": "punishment deterrence incomplete-information efficiency",
+    "claim": "severe punishment can restore cooperation when monitoring is imperfect, but the efficiency cost depends nonlinearly on enforcement severity.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1257/aer.103.4.1325",
+    "phenomenon": "motivational appeal of control independent of material gain",
+    "constructs": "authority autonomy motivation delegation",
+    "claim": "control over others carries intrinsic utility that shapes behavior regardless of financial incentives, creating inefficient retention of authority.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1257/aer.104.11.3434",
+    "phenomenon": "how selection procedures shape bilateral outcomes when parties can veto",
+    "constructs": "mechanism-design implementation veto sequential",
+    "claim": "sequential shortlisting outperforms simultaneous veto procedures by reducing manipulation and improving allocative fairness.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1257/aer.104.6.1735",
+    "phenomenon": "coordination on monetary versus reciprocal exchange under conditions allowing both",
+    "constructs": "money coordination equilibrium selection",
+    "claim": "agents coordinate on money as a coordination device even when non-monetary equilibria offer higher welfare.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1257/aer.20130267",
+    "phenomenon": "optimizing public health subsidy policy under competing risks of under- and over-treatment",
+    "constructs": "subsidy targeting trade-off information",
+    "claim": "aggressive subsidies increase access but dramatically increase wastage through treatment of non-affected populations; diagnostic information improves targeting.",
+    "narrative": "context-effect",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1257/aer.20170029",
+    "phenomenon": "how marriage market concerns suppress career investments in women",
+    "constructs": "signaling career-investment observability mate-selection",
+    "claim": "unmarried women reduce visible career ambition and effort when peers are aware, to avoid signaling undesirable traits to potential partners.",
+    "narrative": "new-mechanism",
+    "scope": "specific-population",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1257/app.20150517",
+    "phenomenon": "transmission of political attitudes through international migration networks",
+    "constructs": "cultural-diffusion information-flow migration institutional-change",
+    "claim": "exposure to democratic norms through migration to democratic countries facilitates political preferences shifting toward democracy.",
+    "narrative": "context-effect",
+    "scope": "specific-context",
+    "stance": "hedged-claim"
+  },
+  {
+    "doi": "10.1287/mnsc.2019.3362",
+    "phenomenon": "capacity to engage fairly with ideologically opposing views",
+    "constructs": "political-polarization perspective-taking cognitive-openness",
+    "claim": "individual differences in receptiveness predict selective exposure to opposing views and more impartial evaluation of opposing arguments.",
+    "narrative": "incremental-extension",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1287/orsc.1080.0377",
+    "phenomenon": "organizational adaptation by emerging-market firms to institutional disruption",
+    "constructs": "internationalization institutional-change resource-access competitiveness",
+    "claim": "access to international resources enables market internationalization, which is conditioned by temporal context and group affiliation to improve performance.",
+    "narrative": "context-effect",
+    "scope": "specific-population",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1371/journal.pone.0071475",
+    "phenomenon": "systematic bias in estimating energy content when products are presented in combination",
+    "constructs": "anchoring-heuristic comparison assessment-error",
+    "claim": "presence of a reference item anchors judgments; the negative calorie illusion reflects contrast-based adjustment rather than averaging of product attributes.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1371/journal.pone.0154854",
+    "phenomenon": "heterogeneity in depth of recursive social reasoning during language interpretation",
+    "constructs": "theory-of-mind pragmatics individual-differences inference",
+    "claim": "populations show heterogeneous depths of pragmatic reasoning, and population-level models mask important individual variation in inference capability.",
+    "narrative": "new-mechanism",
+    "scope": "specific-population",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1509/jmkr.45.6.633",
+    "phenomenon": "self-deception maintaining positive self-regard despite engaging in unethical behavior",
+    "constructs": "moral-disengagement self-concept integrity psychological-defense",
+    "claim": "agents maintain honest self-concepts while benefiting from dishonesty through inattention to standards and cognitive flexibility in categorizing actions.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1509/jmkr.46.1.37",
+    "phenomenon": "how environmental cues interact with self-conception to shape evaluation patterns",
+    "constructs": "context-effect cognition-style interdependence assimilation-contrast",
+    "claim": "independent self-concepts trigger contrast effects while interdependent self-concepts trigger assimilation to contextual cues.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1509/jmkr.46.2.247",
+    "phenomenon": "appeal of counterfeit luxury goods depending on underlying social motivation",
+    "constructs": "social-identity function-matching counterfeit consumption",
+    "claim": "preference for counterfeits is driven by the social function of luxury attitudes; moral concerns only reduce counterfeit preference when value-expression motives dominate.",
+    "narrative": "context-effect",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1509/jmkr.47.2.348",
+    "phenomenon": "how brand association shifts the psychological function attitudes serve",
+    "constructs": "branding attitude-function persuasion symbolic-utilitarian",
+    "claim": "branding reverses the primary function of product category attitudes, reducing the persuasive advantage of function-matched appeals at the brand level.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1509/jmkr.48.2.403",
+    "phenomenon": "self-regulatory depletion from delegating decisions to agents despite lower cognitive effort",
+    "constructs": "self-control autonomy delegation threat-to-agency",
+    "claim": "relinquishing decision authority depletes self-regulatory resources more than independent decision-making because it threatens perceived agency and free will.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1509/jmr.12.0430",
+    "phenomenon": "how semantic framing of a risky prospect affects buyer versus seller valuation asymmetrically",
+    "constructs": "framing willingness-to-pay willingness-to-accept anchoring",
+    "claim": "risk-associated frames reduce willingness to pay but not willingness to accept, due to buyers' heightened attention to risk and lowest outcomes.",
+    "narrative": "context-effect",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1509/jmr.13.0023",
+    "phenomenon": "perception of motion in static visual symbols affecting brand engagement",
+    "constructs": "visual-design dynamic-imagery engagement attitude",
+    "claim": "static logos evoking perceived movement enhance consumer engagement and brand attitudes, especially when motion cues align with brand identity.",
+    "narrative": "incremental-extension",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1509/jmr.13.0451",
+    "phenomenon": "resource scarcity sharpening preference differentiation in choice sets",
+    "constructs": "scarcity arousal preference-polarization choice",
+    "claim": "salience of scarcity increases arousal, which polarizes preference between favorite and non-favorite items, concentrating choice share on the preferred option.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1509/jmr.14.0130",
+    "phenomenon": "subjective time pressure arising from perceived conflict among multiple goals",
+    "constructs": "goal-conflict time-perception time-pressure stress",
+    "claim": "perceived conflict between goals independently of their number creates subjective time pressure mediated by stress and anxiety, affecting time valuation and allocation.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

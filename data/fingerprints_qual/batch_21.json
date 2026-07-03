@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1177/0956797614563958",
+    "phenomenon": "how contextual constraints reshape value perception",
+    "constructs": "constraint framing preference-stability contextual-influence",
+    "claim": "when people recognize resource limitation, they shift from context-susceptible to trade-off-focused judgment.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797615569889",
+    "phenomenon": "voluntary suppression of distressing episodic memory",
+    "constructs": "inhibitory-control memory-suppression neural-mechanism",
+    "claim": "impaired prefrontal inhibitory mechanisms prevent people from suppressing unwanted episodic retrieval.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797615573516",
+    "phenomenon": "misalignment between self-perception and audience perception in self-promotion",
+    "constructs": "perspective-projection emotional-misforecast social-backfire",
+    "claim": "people overestimate audience appreciation of self-promotion because they project their own positive feelings onto recipients.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797615581491",
+    "phenomenon": "psychological stability and health vulnerability in later life",
+    "constructs": "affective-variability mean-affect health-outcomes",
+    "claim": "instability in affective state compounds health risk independent of average affective level.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "hedged-claim"
+  },
+  {
+    "doi": "10.1177/0956797615588195",
+    "phenomenon": "claiming knowledge of nonexistent entities",
+    "constructs": "expertise-perception overconfidence knowledge-claim",
+    "claim": "people's false assertions about impossible knowledge are driven by favorable self-perception of their expertise.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797615598739",
+    "phenomenon": "gendered attribution of creative capacity",
+    "constructs": "stereotype-association agency-attribution evaluative-bias",
+    "claim": "people associate creative thinking with independence traits stereotyped masculine, causing identical work to receive unequal creativity attribution.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797615608267",
+    "phenomenon": "how salience of foregone alternatives shapes preference-change after choice",
+    "constructs": "opportunity-cost salience preference-shift contrast-effect",
+    "claim": "explicit acknowledgment of foregone alternatives weakens the post-choice preference divergence between chosen and rejected options.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797615612202",
+    "phenomenon": "inferring group membership from linguistic patterns",
+    "constructs": "linguistic-abstraction intergroup-bias identity-inference",
+    "claim": "listeners reverse-infer a speaker's group membership from the abstractness-pattern the speaker uses to describe others.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797615617779",
+    "phenomenon": "integral perception of visual parts as unified wholes",
+    "constructs": "gestalt-organization perceptual-unity visual-information",
+    "claim": "salient structural relationships among components trigger holistic perception independent of expertise or familiarity.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797615624492",
+    "phenomenon": "automatic threat-association across age groups within a stereotyped social category",
+    "constructs": "implicit-bias automatic-cognition stereotype-generalization",
+    "claim": "automatic cognitive biases linking a social group with threat generalize uniformly across age, even to children.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797615625640",
+    "phenomenon": "economic uncertainty translating into physical bodily pain",
+    "constructs": "control-loss economic-stress somatic-symptom",
+    "claim": "subjective lack of control during economic uncertainty manifests as increased physical pain and reduced pain tolerance.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797616639727",
+    "phenomenon": "intergenerational transmission of implicit beliefs about adaptation",
+    "constructs": "failure-attitude parenting-behavior child-belief",
+    "claim": "children acquire their implicit theories about cognitive capacity by observing parents' emotional and behavioral responses to failure.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797616640705",
+    "phenomenon": "substitution satisfaction driven by similarity paradox",
+    "constructs": "substitution-similarity contrast-effect goal-satisfaction",
+    "claim": "more similar substitutes paradoxically reduce satisfaction because similarity heightens perception of deprivation.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797616650875",
+    "phenomenon": "naturalization of social regularities into normative assumptions",
+    "constructs": "explanation-bias normativity value-inference",
+    "claim": "people systematically misexplain regularities through inherent-property attribution, leading them to treat observed patterns as normatively prescribed.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797616651973",
+    "phenomenon": "memory-based judgment anchored to initial relative context",
+    "constructs": "ordinal-encoding relative-standing context-invariance",
+    "claim": "people retain an option's relative rank from initial encoding and do not update it for later distributional changes.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797616662271",
+    "phenomenon": "assimilation of personal understanding with expert understanding",
+    "constructs": "knowledge-boundary expert-access understanding-inflation",
+    "claim": "people incorrectly elevate their own comprehension when they have access to expert explanations, conflating exposure with understanding.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797616667459",
+    "phenomenon": "stereotype and task-framing effects on spatial reasoning performance",
+    "constructs": "stereotype-threat task-context performance-gap",
+    "claim": "sex differences in spatial reasoning reflect social-expectancy and representational context rather than intrinsic capacity differences.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797616669947",
+    "phenomenon": "how decision-strength amplification paradoxically suppresses action",
+    "constructs": "power-amplification ambivalence action-inhibition",
+    "claim": "feeling empowered strengthens conflicting reactions, paradoxically reducing action tendency when initial reactions are mixed.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797616674999",
+    "phenomenon": "group stereotype activation through category-prototyping",
+    "constructs": "mental-prototype stereotype-content policy-attitude",
+    "claim": "mental representations of a social category automatically activate group stereotypes, biasing evaluation of category members.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797616685771",
+    "phenomenon": "moral reputation damage through false signaling of ethical conduct",
+    "constructs": "moral-signal deception reputation-judgment",
+    "claim": "people condemn those whose stated values contradict their actions precisely because the stated values falsely signal moral trustworthiness.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  }
+]

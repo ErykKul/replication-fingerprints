@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1177/0003122414558919",
+    "phenomenon": "epistemological pluralism in belief systems",
+    "constructs": "worldview integration domain-switching selective-credibility",
+    "claim": "people compartmentalize different knowledge systems and may favor one while selectively accepting the other on specific questions, creating cultural and political divisions.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0010414013516928",
+    "phenomenon": "heuristic judgment in evaluating candidates",
+    "constructs": "policy-distance asymmetric-weighting reference-point perception",
+    "claim": "judgments of candidate quality are distorted by the perceiver's own political position, with systematic bias against ideologically distant candidates.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0010414017740603",
+    "phenomenon": "electoral accountability under institutional variation",
+    "constructs": "performance-voting clientelism subnational-regime-type representation",
+    "claim": "the strength of performance-based electoral accountability depends on local institutional structure; dominant-party contexts suppress performance voting by strengthening patron-client bonds.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0022243718813544",
+    "phenomenon": "spatial perspective and risk assessment",
+    "constructs": "vantage-point illusory-control psychological-distance",
+    "claim": "elevated visual perspective induces a false sense of dominion over the environment, leading to increased risk tolerance.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0022243720904758",
+    "phenomenon": "mental simulation in persuasion",
+    "constructs": "process-imagery credibility goal-alignment temporal-focus",
+    "claim": "vividly simulating the steps of change increases persuasion by boosting perceived feasibility, but backfires when speed is prioritized over deliberate process.",
+    "narrative": "context-effect",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0022243720932532",
+    "phenomenon": "numerical perception in price evaluation",
+    "constructs": "perceptual-vs-conceptual-processing anchoring left-digit salience",
+    "claim": "the left-digit bias in price comparison is driven by perceptual processing; memory-based evaluation reduces the bias by triggering rounding.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0093650215609676",
+    "phenomenon": "information processing and participation in distributed action",
+    "constructs": "source-type cognitive-elaboration personal-connection collective-efficacy",
+    "claim": "personalized sources increase engagement in social-media collective action through deeper cognitive processing and credibility perception.",
+    "narrative": "incremental-extension",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0146167202286008",
+    "phenomenon": "self-perception bias in rationality assessment",
+    "constructs": "asymmetric-self-other comparison naive-realism metacognitive-illusion",
+    "claim": "people believe they are more rational and less biased than others, and this asymmetry persists even when informed of the bias itself.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0146167207309195",
+    "phenomenon": "competitive threat and stereotype expression",
+    "constructs": "intergroup-threat stereotyping emotion affect",
+    "claim": "when outgroups are perceived as competitively threatening, even positive stereotypes trigger negative emotional and attitudinal responses.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0146167210386238",
+    "phenomenon": "language form and epistemological conviction",
+    "constructs": "linguistic-concreteness perceptual-fluency cognitive-consonance",
+    "claim": "statements expressed in concrete language feel more true; this effect is strengthened by cognitive alignment between language abstraction and perceptual framing.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0146167212475225",
+    "phenomenon": "post-hoc narrative construction of intention",
+    "constructs": "confabulation retrospective-reporting implicit-influence",
+    "claim": "people unconsciously influence their behavior but then construct false narratives about intentionality; measurement via retrospection is unreliable.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0146167214524992",
+    "phenomenon": "cultural models of self and parental influence",
+    "constructs": "interdependence autonomy parental-pressure filial-motivation",
+    "claim": "parental pressure and control are experienced as distinct phenomena across cultures; interdependent frameworks convert pressure into motivation without relationship strain.",
+    "narrative": "context-effect",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0146167215580776",
+    "phenomenon": "acceptance of diagnostic negative information",
+    "constructs": "psychological-distance temporal-framing domain-malleability",
+    "claim": "high-level abstract thinking promotes self-improvement over self-protection in response to negative feedback, contingent on perceived changeability.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0146167215610520",
+    "phenomenon": "causal reasoning in moral judgment",
+    "constructs": "genetic-determinism agentic-responsibility culpability",
+    "claim": "attributing crime to genetic causes reduces perceived personal control while increasing dispositional causality and recidivism expectation, creating opposing sentencing pressures.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/01461672211025423",
+    "phenomenon": "metacognitive knowledge of approach-avoidance effectiveness",
+    "constructs": "task-type motivational-fit goal-orientation cultural-context",
+    "claim": "both cultures recognize that approach versus avoidance motivation should match task demands, but only interdependent cultures extend this insight to communal goals.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/01461672952111004",
+    "phenomenon": "numerical anchoring in estimation",
+    "constructs": "anchoring initial-judgment subjective-confidence",
+    "claim": "initial comparison to an anchor value biases subsequent quantity estimates, with the effect's magnitude measurable via calibration against group baselines.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0261927x01020004004",
+    "phenomenon": "grammatical gender and memory accessibility",
+    "constructs": "linguistic-form gender-marking exemplar-retrieval",
+    "claim": "masculine generics in language affect which gender exemplars are cognitively available, demonstrating linguistic structure shapes thought accessibility.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0267658310386439",
+    "phenomenon": "syntactic transfer in multilingual acquisition",
+    "constructs": "typological-proximity transfer-selectivity language-hierarchy",
+    "claim": "third-language learners selectively transfer syntax from typologically closest languages, with primacy shaped by relative similarity rather than acquisition order.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797609358096",
+    "phenomenon": "metabolic regulation of temporal choice",
+    "constructs": "resource-availability energetic-constraint time-preference",
+    "claim": "short-term energy availability physiologically regulates preference for immediate versus delayed rewards, linking metabolism to choice behavior.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797610372631",
+    "phenomenon": "ritual belief and performance enhancement",
+    "constructs": "superstitious-cognition self-efficacy persistence goal-attainment",
+    "claim": "superstitious rituals boost task performance by increasing perceived competence, which sustains effort and persistence through challenging tasks.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

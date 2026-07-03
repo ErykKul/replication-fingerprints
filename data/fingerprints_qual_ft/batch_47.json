@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0539",
+    "phenomenon": "deviation-as-infection categorization",
+    "constructs": "hypervigilance threat-detection shared-category pathogen-cue",
+    "claim": "Perceiving out-group members as pathogenic arises from a general error-minimizing system that tags any unfamiliar appearance as infection, not from a dedicated between-group risk mechanism.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0545",
+    "phenomenon": "moral-statistical inconsistency",
+    "constructs": "bayesian-reasoning fairness-norm base-rate base-rate-attendedness",
+    "claim": "People accurately compute group-adjusted probabilities from statistics yet condemn others for the same computation, suggesting different base rates attend their own judgment versus their social evaluation.",
+    "narrative": "context-effect",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0549",
+    "phenomenon": "holistic-memory-scaffolding",
+    "constructs": "pattern-completion binding coherence retrieval-dependency developmental-trajectory",
+    "claim": "Multi-element episodes are encoded as integrated networks from early childhood, with retrieval contingency strengthening progressively through adulthood as within-event binding refines.",
+    "narrative": "incremental-extension",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0550",
+    "phenomenon": "arousal-mediated-cross-modality",
+    "constructs": "affective-iconicity acoustic-features visual-geometry emotional-congruence",
+    "claim": "Abstract sound-shape associations are grounded in shared arousal levels across modalities, where acoustic intensity and formant structure induce the same emotional state as shape angularity.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0565",
+    "phenomenon": "clinical-subclinical-attentional-divergence",
+    "constructs": "spatial-orienting threat-avoidance trait-anxiety clinical-status",
+    "claim": "Clinical anxiety exhibits attentional avoidance of threat, reversing the impaired-disengagement pattern observed in subclinical high-trait anxiety, suggesting mechanisms do not generalize across severity.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0569",
+    "phenomenon": "synergistic-performance-enhancement",
+    "constructs": "intrinsic-motivation movement-efficiency external-focus augmented-feedback",
+    "claim": "Combining motivation-enhancing and efficiency-improving mechanisms produces performance gains exceeding either alone, with reduced muscular effort indicating automatized control.",
+    "narrative": "incremental-extension",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

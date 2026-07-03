@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0053",
+    "phenomenon": "mood state diagnostic value for life evaluation",
+    "constructs": "attribution misattribution diagnostic value emotional state judgment",
+    "claim": "Affective states inform general life satisfaction judgments only when attributed to factors relevant to life quality; attribution to irrelevant sources removes mood's diagnostic function for evaluation.",
+    "narrative": "context-effect",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0054",
+    "phenomenon": "embodied emotion feedback mechanism",
+    "constructs": "facial musculature physiological feedback affective intensity",
+    "claim": "Peripheral physiological activity from facial muscles modulates emotional experience independent of cognitive interpretation or demand characteristics.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0055",
+    "phenomenon": "counterfactual simulation in causality judgment",
+    "constructs": "default event mutation outcome undoing mental simulation",
+    "claim": "Event causality is judged by mental simulation of what might have been; causal strength varies with whether the most salient counterfactual alternative would reverse the outcome.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0056",
+    "phenomenon": "personality effects mediated by coping",
+    "constructs": "individual differences coping strategy social support adjustment",
+    "claim": "Personality predispositions influence stress response and adaptation through their effects on coping approach and social support recruitment rather than direct influence.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0057",
+    "phenomenon": "sex-dimorphic mating psychology preserved in same-sex attraction",
+    "constructs": "sexual selection reproductive strategy sex differences sexual orientation",
+    "claim": "Mating psychology sex differences remain largely intact in homosexual individuals despite different target sex, suggesting biological or developmental basis independent of opposite-sex interaction.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "hedged-claim"
+  },
+  {
+    "paper_id": "p0058",
+    "phenomenon": "temporal reversal of action-inaction regret",
+    "constructs": "action inaction regret temporal distance counterfactual thought",
+    "claim": "Action regrets dominate short-term emotional experience but fade over time; inaction regrets begin weak but intensify as temporal distance increases.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  }
+]

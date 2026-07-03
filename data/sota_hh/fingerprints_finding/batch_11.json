@@ -1,0 +1,82 @@
+[
+  {
+    "doi": "10.1037/0096-1523.3.4.552",
+    "finding": "Individuals maintain unwarranted certainty in their judgments despite being frequently wrong; confidence judgments are systematically overestimated across varied question formats."
+  },
+  {
+    "doi": "10.1037/0022-3514.81.4.639",
+    "finding": "People perceive themselves as more knowledgeable about their peers than their peers are about them; this asymmetry arises from differential weighting of observable behaviors versus private cognitions and extends to group-level perceptions."
+  },
+  {
+    "doi": "10.1037/0022-3514.92.4.585",
+    "finding": "Individuals see themselves as less conforming than their peers; this asymmetry stems from weighting introspective information more heavily when assessing self and behavioral information more heavily when assessing others."
+  },
+  {
+    "doi": "10.1521/soco.1991.9.1.67",
+    "finding": "People rely more heavily on individuating information when it is presented by a human communicator than a non-human source; conversational norms governing assumed relevance influence which information shapes judgment."
+  },
+  {
+    "doi": "10.1111/j.2044-8295.1993.tb02461.x",
+    "finding": "People underestimate personal risk through an illusion of control rather than unrealistic optimism; perceived control over outcomes, not generalized expectancy for positive outcomes, drives risk underestimation."
+  },
+  {
+    "doi": "10.1073/pnas.251541498",
+    "finding": "Encoding by race is reversible when coalitional cues no longer correlate with racial categories; brief exposure to an alternate social environment markedly reduces racial categorization despite lifetime experience."
+  },
+  {
+    "doi": "10.1177/1948550611419266",
+    "finding": "Motor movement direction affects motivational orientation and preference; clockwise rotation increases preference for novelty and openness while counterclockwise rotation increases preference for familiarity."
+  },
+  {
+    "doi": "10.1111/j.1475-6811.1999.tb00215.x",
+    "finding": "Sex differences in jealousy reflect evolved adaptive mechanisms rather than beliefs about conditional probabilities of infidelity types; these differences replicate across cultures."
+  },
+  {
+    "doi": "10.1177/0146167208317771",
+    "finding": "Extraneous disgust increases moral judgment severity; this effect depends on individual sensitivity to bodily sensations and differs from effects of other emotions like sadness."
+  },
+  {
+    "doi": "10.1111/1467-9280.00111",
+    "finding": "Implicit activation of a social identity changes performance on quantitative tasks in the direction predicted by associated stereotypes; identity salience modulates performance via stereotype-consistent direction."
+  },
+  {
+    "doi": "10.1037/0278-7393.10.4.680",
+    "finding": "Repetition priming effects are stronger for low-frequency than high-frequency words; masking the prime eliminates this frequency attenuation, indicating two distinct components: a brief lexical effect and a long-term episodic effect."
+  },
+  {
+    "doi": "10.1037/0278-7393.15.3.371",
+    "finding": "Spacing between repetitions of items affects memory for those items; longer intervals between exposures influence retention differently than massed repetition."
+  },
+  {
+    "doi": "10.1037/0278-7393.21.4.803",
+    "finding": "People produce high rates of false recall and false recognition for non-presented associates of studied items; the act of recall enhances later remembering of both studied and non-studied material."
+  },
+  {
+    "doi": "10.1037/h0045106",
+    "finding": "Free recall of lists exhibits an asymmetric serial position effect characterized by strong primacy in early positions and stronger, extended recency in later positions."
+  },
+  {
+    "doi": "10.1037/h0031564",
+    "finding": "Response latencies for word-pair judgment tasks show dependencies between successive decisions; common association between word pairs facilitates responses to both words."
+  },
+  {
+    "doi": "10.1177/0956797612465878",
+    "finding": "Exposure to objective coherence in patterns increases reported meaning in life relative to exposure to incoherence; this effect occurs independent of changes in affect."
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02061.x",
+    "finding": "Amygdala activation to stimulus valence depends dynamically on evaluative processing goals; negative information shows a smaller effect of goal-based modulation than positive information."
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2006.01811.x",
+    "finding": "Implicit and explicit attitudes form from different information sources; explicit attitudes respond to conscious verbal information while implicit attitudes respond to subliminal primes, creating attitude conflict."
+  },
+  {
+    "doi": "10.1177/0146167299025002007",
+    "finding": "Automatic evaluation of stimuli produces immediate behavioral predispositions; positive evaluations generate approach tendencies and negative evaluations generate avoidance tendencies regardless of task relevance."
+  },
+  {
+    "doi": "10.1177/002224377000700306",
+    "finding": "Subliminal stimulation can increase basic drive arousal but does not reliably form subliminal associations with behavioral consequences."
+  }
+]

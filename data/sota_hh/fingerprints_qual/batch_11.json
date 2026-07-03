@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1037/0096-1523.3.4.552",
+    "phenomenon": "overconfidence in knowledge certainty",
+    "constructs": "confidence calibration metacognitive accuracy knowledge judgment",
+    "claim": "People systematically overestimate how often their confident answers are correct, even when willing to stake money on their confidence.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.81.4.639",
+    "phenomenon": "asymmetric perception of interpersonal knowledge",
+    "constructs": "self-other asymmetry perspective-taking epistemic access",
+    "claim": "People believe they understand others better than others understand them, rooted in differential attention to introspective versus behavioral evidence.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.92.4.585",
+    "phenomenon": "asymmetric perception of conformity susceptibility",
+    "constructs": "self-other bias introspection illusion social influence susceptibility",
+    "claim": "People perceive themselves as less conforming than peers because they overweight introspective evidence of their own resistance while overweighting behavioral evidence for others.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1521/soco.1991.9.1.67",
+    "phenomenon": "base-rate neglect under conversational pressure",
+    "constructs": "pragmatic reasoning cooperative principle diagnostic information salience",
+    "claim": "People neglect base-rate information when individuating data is framed as communicated by a trustworthy source following conversational norms of relevance.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.2044-8295.1993.tb02461.x",
+    "phenomenon": "underestimation of personal risk",
+    "constructs": "illusion of control optimism expectancy self-protective bias",
+    "claim": "People underestimate personal negative outcomes primarily via illusion of control over outcomes rather than unrealistic optimism.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1073/pnas.251541498",
+    "phenomenon": "racial categorization as coalitional tracking",
+    "constructs": "social categorization evolutionary computation coalitional affiliation cognitive reversibility",
+    "claim": "Automatic racial encoding is not inevitable but reflects cognitive machinery designed to detect coalitional alliances that become detached from race with minimal retraining.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/1948550611419266",
+    "phenomenon": "temporal motivation through rotational direction",
+    "constructs": "embodied cognition motor simulation temporal progression preference formation",
+    "claim": "Executing clockwise versus counterclockwise movements induces psychological states of temporal progression versus regression, reversing classic exposure effects.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1475-6811.1999.tb00215.x",
+    "phenomenon": "sex differences in jealousy responses",
+    "constructs": "evolutionary adaptation conditional probability infidelity type sex difference",
+    "claim": "Sex differences in jealousy responses reflect evolved adaptations rather than culturally learned beliefs about probability of infidelity types.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0146167208317771",
+    "phenomenon": "embodied influence on moral judgment",
+    "constructs": "emotion embodiment interoceptive sensitivity moral severity gut feeling",
+    "claim": "Extraneous disgust increases moral judgment severity, and this effect depends on individual sensitivity to bodily sensations.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/1467-9280.00111",
+    "phenomenon": "stereotype threat and boost effects on performance",
+    "constructs": "social identity activation stereotype cultural stereotype performance modulation",
+    "claim": "Implicit activation of social identities facilitates or impedes domain performance according to stereotypes associated with those identities.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.10.4.680",
+    "phenomenon": "frequency-dependent repetition priming asymmetry",
+    "constructs": "repetition priming episodic memory frequency effect lexical access",
+    "claim": "Repetition priming effects vary by word frequency because episodic memory contributions to priming are frequency-sensitive while purely lexical effects are not.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.15.3.371",
+    "phenomenon": "spacing effects in memory retention",
+    "constructs": "spacing interval retention learning intention task performance",
+    "claim": "Increasing intervals between item repetitions enhances memory retention through mechanisms sensitive to learning intentionality.",
+    "narrative": "incremental-extension",
+    "scope": "broad-generalization",
+    "stance": "hedged-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.21.4.803",
+    "phenomenon": "false memory construction from semantic associates",
+    "constructs": "false recall false recognition associative activation memory illusion",
+    "claim": "People reconstruct memories of nonpresented semantic associates with high confidence, demonstrating powerful constructive properties of memory.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/h0045106",
+    "phenomenon": "serial position effects in free recall",
+    "constructs": "primacy recency item position list organization retrieval",
+    "claim": "Free recall exhibits distinct primacy and recency effects with asymmetric shapes reflecting different underlying memory processes.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/h0031564",
+    "phenomenon": "semantic association effects in word recognition",
+    "constructs": "semantic association retrieval dependence decision processes associative strength",
+    "claim": "Recognizing words is faster for semantically associated pairs than unassociated pairs, indicating dependence between successive recognition decisions.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797612465878",
+    "phenomenon": "pattern exposure effects on meaning experience",
+    "constructs": "coherence pattern detection phenomenological meaning life satisfaction adaptation",
+    "claim": "Exposure to objective coherence in visual or linguistic patterns increases subjective experience of meaning in life independent of mood effects.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02061.x",
+    "phenomenon": "contextual modulation of emotional brain response",
+    "constructs": "evaluative goals amygdala activation emotional flexibility motivational relevance",
+    "claim": "Amygdala response to emotional stimuli dynamically shifts according to current evaluative goals, with reduced flexibility for negative information.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2006.01811.x",
+    "phenomenon": "independence of implicit and explicit attitude formation",
+    "constructs": "implicit attitudes explicit attitudes information type attitude dynamics",
+    "claim": "Implicit and explicit attitudes form independently from different information sources and can conflict when subliminal and conscious information diverge.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0146167299025002007",
+    "phenomenon": "automatic evaluation producing approach-avoidance responses",
+    "constructs": "automatic evaluation behavioral predisposition approach avoidance action tendency",
+    "claim": "Automatic evaluation of stimuli as good or bad directly produces corresponding approach or avoidance movement tendencies independent of conscious task demands.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/002224377000700306",
+    "phenomenon": "effects of subliminal stimulation on drives",
+    "constructs": "subliminal exposure drive arousal associative conditioning behavioral response",
+    "claim": "Subliminal stimulation successfully increases basic drive arousal but fails to establish subliminal associations with behavioral outcomes.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "hedged-claim"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0426",
+    "what_manipulated": "Tactile sensations (weight, texture, hardness of objects)",
+    "what_measured": "Impressions of unrelated people/situations and behavioral decisions",
+    "experiment": "Participants were primed with tactile stimuli (heavy vs. light objects, rough vs. smooth textures, hard vs. soft objects) through handling or contact, then evaluated target judgments about unrelated people, social interactions, or made decisions. Conditions held all else constant and measured differences in evaluation scales and choice outcomes.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0430",
+    "what_manipulated": "Study activity type (retrieval practice vs. concept mapping vs. repeated study)",
+    "what_measured": "Long-term retention and meaningful learning of science concepts",
+    "experiment": "Undergraduate students studied science texts under different conditions: study-once, repeated study, elaborative concept mapping, or retrieval practice with matched learning time. All participants returned one week later for a final test assessing retention via short-answer and inference questions, across verbatim and conceptual knowledge domains.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0448",
+    "what_manipulated": "Syntactic incongruity in language and harmonic incongruity in music (congruous, moderately incongruous, highly incongruous)",
+    "what_measured": "Event-related brain potentials (ERPs), particularly P600 and other components",
+    "experiment": "Musically trained adults received language stimuli (sentences varying in syntactic difficulty) and musical stimuli (chord sequences varying in harmonic fit) in separate blocks within a single session. Participants judged acceptability while EEG was recorded. Stimuli were designed to vary structural fit between context and target element.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0454",
+    "what_manipulated": "Job candidate capability level (extremely high vs. moderately high) and commitment-related information across multiple studies",
+    "what_measured": "Hiring managers' likelihood of offering job, perceived candidate commitment, and perceived organizational interest/flight risk",
+    "experiment": "Hiring managers evaluated fictional job candidates with manipulated capability signals across studies. In Studies 1-2, capability was signaled through LinkedIn profiles. In Study 3a, additional information about candidate motives (organization-oriented vs. self-oriented) was provided. In Study 3b, candidate outside options (open vs. rejected) were manipulated. Selection likelihood and commitment perceptions were measured; mediation tested commitment as mechanism.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0455",
+    "what_manipulated": "Perspectives on science and religion as latent variable identified via latent class analysis",
+    "what_measured": "Science knowledge, science attitudes, religious affiliation strength, Bible interpretation preferences",
+    "experiment": "Cross-sectional survey data from General Social Survey (2006, 2008, 2010) was analyzed via latent class analysis to identify distinct worldview clusters based on science knowledge, attitudes, and religious measures. Respondents grouped into latent classes reflecting different science-religion perspectives. Sociodemographic and political attitude associations were examined via regression.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "many-exploratory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0461",
+    "what_manipulated": "Evaluation mode (stimulus-based vs. memory-based) and left-digit differences in prices across experiments; reference price availability and category usage in applied studies",
+    "what_measured": "Price magnitude judgments, discount evaluations, response times, actual purchase choices",
+    "experiment": "Participants evaluated prices under stimulus-based conditions (focal and reference prices presented side-by-side) or memory-based conditions (prices shown sequentially, requiring retrieval). Left-digit differences were manipulated (e.g., $4.00 vs. $2.99 versus $4.01 vs. $3.00). Design held numeric difference constant and measured bias strength via rating scales and response latencies. Study 6 analyzed scanner panel data examining category usage as moderator.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  }
+]

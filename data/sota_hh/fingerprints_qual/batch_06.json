@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1037/0022-3514.94.3.429",
+    "phenomenon": "goal conflict in intimate bonding under threat",
+    "constructs": "connectedness self-protection executive-control goal-activation",
+    "claim": "Trust-seeking and avoidance in bonding arise from differential executive resolution of competing needs under risk, modulated by self-worth.",
+    "narrative": "context-effect",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.95.2.274",
+    "phenomenon": "self-protective reasoning in failure recovery",
+    "constructs": "counterfactual-thinking self-esteem motivation excuse-making",
+    "claim": "Protective narratives about failure preserve immediate self-regard but suppress future effort, reversing the typical motivational boost from failure reflection.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.4.615",
+    "phenomenon": "threat perception and belonging in stigma-conscious settings",
+    "constructs": "social-identity-contingency diversity-signaling trust representation",
+    "claim": "Institutional signals about group membership credibility (representation + philosophy) shape whether devaluation-prone individuals perceive belonging safety or threat.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02062.x",
+    "phenomenon": "abstract vs. concrete meaning-making under cognitive strain",
+    "constructs": "fluency construal-level psychological-distance meaning",
+    "claim": "Difficulty processing information shifts perception toward abstract essence-level interpretations, as if strain signals distance.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02066.x",
+    "phenomenon": "language grounding of spatial-relational memory in childhood",
+    "constructs": "language memory color-location-binding directional-semantics",
+    "claim": "Directional language stabilizes visual memory for spatial conjunctions by providing a more durable relational scaffold than visual attention cues alone.",
+    "narrative": "new-mechanism",
+    "scope": "single-population",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02078.x",
+    "phenomenon": "unconscious goal pursuit in unfamiliar problem spaces",
+    "constructs": "implicit-learning goal-priming automaticity knowledge-acquisition",
+    "claim": "Unconscious goals accelerate learning of novel structure by boosting productive, not just reproductive, processing.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02092.x",
+    "phenomenon": "gender differences in decoding romantic signals from behavior",
+    "constructs": "sexual-intent perception accuracy signal-detection gender",
+    "claim": "Men's higher perception of sexual intent reflects perceptual insensitivity (confusion in both directions) rather than a lenient threshold for labeling ambiguity.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02057.x",
+    "phenomenon": "fine-tuning of mental adjustment from reference points",
+    "constructs": "anchoring-adjustment precision resolution iterative-process",
+    "claim": "Precise anchors create finer representational scales that yield smaller adjustments, revealing that adjustment operates via iterative mental movements in scaled space.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02041.x",
+    "phenomenon": "simultaneous competition during value-based choice",
+    "constructs": "decision-making action-dynamics motor-movement response-conflict",
+    "claim": "Competing evaluations pull on motor execution in parallel rather than concluding before action begins, revealing an integrated cognitive-motor process.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02089.x",
+    "phenomenon": "optimistic bias in personal prediction as value-aligned behavior",
+    "constructs": "optimism prediction accuracy normativity well-being",
+    "claim": "Optimistic bias may reflect what people believe they ought to do rather than error, if they value unrealistic optimism for its benefits.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "hedged-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02043.x",
+    "phenomenon": "age-related decline in episodic detail for imagined futures",
+    "constructs": "aging episodic-memory future-simulation constructive-imagination",
+    "claim": "Older adults' reduced ability to imagine specific future scenarios mirrors their memory loss, reflecting shared relational processing supporting both domains.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02069.x",
+    "phenomenon": "pragmatic reasoning in word learning from signals",
+    "constructs": "word-learning eye-gaze pragmatic-inference intent-attribution",
+    "claim": "Young children use speaker gaze not blindly but strategically, integrating linguistic context and referential possibility to infer intent.",
+    "narrative": "confirmation",
+    "scope": "single-population",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02136.x",
+    "phenomenon": "collective accuracy from aggregating individual estimates",
+    "constructs": "wisdom-of-crowds averaging independence error-reduction",
+    "claim": "Crowds outperform individuals when constituent errors are independent; aggregation amplifies shared signal while canceling uncorrelated noise.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02046.x",
+    "phenomenon": "temporal attention failure in rapid serial presentation",
+    "constructs": "attentional-blink temporal-selection capacity dissociation",
+    "claim": "Attentional blink fragments along three dissociable temporal dimensions: efficacy suppression, latency delay, and precision diffusion.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02077.x",
+    "phenomenon": "metabolic constraints on deliberative reasoning",
+    "constructs": "glucose self-control heuristics decision-making depletion",
+    "claim": "Glucose depletion forces reliance on heuristics after self-control; restoring glucose restores rule-based analysis.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02053.x",
+    "phenomenon": "affective aversiveness of performance errors",
+    "constructs": "error-detection defensive-motivation startle-response affect",
+    "claim": "Errors trigger defensive emotional responses; the neural signature of error detection predicts the magnitude of defensive reactivity.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02091.x",
+    "phenomenon": "positive valuation of fairness independent of personal gain",
+    "constructs": "fairness happiness reward neural-response well-being",
+    "claim": "Fair treatment activates reward circuits and increases happiness separately from monetary value, revealing fairness as intrinsically valued.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02098.x",
+    "phenomenon": "statistical summarization of information outside focal attention",
+    "constructs": "attention ensemble-features pooling summary-statistics precision",
+    "claim": "When attention is withdrawn, the visual system sacrifices local detail but maintains precise aggregate statistics, revealing a compensation mechanism.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02080.x",
+    "phenomenon": "neural representation of implied motion in static depiction",
+    "constructs": "implied-motion motion-aftereffect direction-selectivity neural-transfer",
+    "claim": "Inferring motion from still images activates the same direction-selective neural circuits as viewing real motion, indicating shared representation.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02052.x",
+    "phenomenon": "vigilance and avoidance under interracial regulatory motivation",
+    "constructs": "prejudice-avoidance attentional-bias threat arousal regulation",
+    "claim": "External pressure to avoid prejudice produces anxious threat responses to outgroup faces that manifest as dual-phase attentional patterns: early approach, late avoidance.",
+    "narrative": "context-effect",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

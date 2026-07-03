@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0035",
+    "what_manipulated": "moral or norm valence of protagonist's action",
+    "what_measured": "knowledge attribution to protagonist",
+    "experiment": "Between-subjects design: participants read Gettier-style vignettes where an agent's belief is true but epistemically unlucky; the agent performs either norm-fulfilling or norm-violating actions. Participants rated knowledge attributions on Likert scales, testing whether action valence influences knowledge judgments independent of epistemic factors.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0036",
+    "what_manipulated": "political polarization measured as standard deviation of voter preferences",
+    "what_measured": "government consumption as fraction of total consumption",
+    "experiment": "Cross-national regression analysis on 74 countries using World Values Survey data; polarization measured as dispersion of responses to economic policy questions; government size measured as consumption share. Democracy index divides countries into weak and strong democracies to test causal direction; relationship tested with multiple control variable specifications.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0037",
+    "what_manipulated": "crime victimization in past 12 months",
+    "what_measured": "political participation: protest attendance, meeting attendance, conversations, political interest, persuasion attempts",
+    "experiment": "Cross-sectional survey analysis of 70 countries using regional barometer data; individuals reporting crime victimization in past 12 months compared to non-victims on nine participation outcomes. OLS regressions with country fixed effects and controls for demographics; robustness tested via matching on prior voting behavior and neighborhood location.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0038",
+    "what_manipulated": "emancipative values prevalence at individual and societal levels",
+    "what_measured": "non-violent protest participation frequency",
+    "experiment": "Multi-level regression on World Values Survey rounds 3-5 across 79 societies; individual-level and country-level emancipative values entered separately to test elevator effect (societal prevalence lifts all protest) and amplifier effect (prevalence enhances individual values' impact). Longitudinal models tested dynamic relationship via lagged dependent variable across time periods.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0039",
+    "what_manipulated": "police killing of Eric Garner in United States",
+    "what_measured": "attitudes toward Metropolitan Police: satisfaction, fairness, community engagement, effectiveness",
+    "experiment": "Regression discontinuity design exploiting random survey interview timing around Garner's death (July 17, 2014); respondents interviewed before versus after death compared on police attitudes using local linear approximation. MSE-optimal bandwidths applied; analysis stratified by race and ethnicity; covariate balance tested at cutoff.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0040",
+    "what_manipulated": "cannabis use frequency and cigarette smoking status",
+    "what_measured": "psychotic-like experiences frequency and distress via CAPE scale",
+    "experiment": "Cross-sectional internet survey of 1929 young adults aged 18-30; linear regressions testing cannabis use and cigarette smoking associations with CAPE frequency and distress scores. Models: crude, adjusted for demographic and lifestyle confounders, then with smoking added to test confounding. Post-hoc analyses on CAPE positive, negative, and depressive subscales.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  }
+]

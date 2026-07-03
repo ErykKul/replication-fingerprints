@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0171",
+    "what_manipulated": "future stimulus presence and valence (erotic, negative, or neutral)",
+    "what_measured": "choice accuracy / hit rate in predicting future stimulus location",
+    "experiment": "Participants made binary forced-choice guesses about the location of pictures that would later be randomly selected by computer. Correct prediction rates above 50% chance tested whether precognitive detection or retroactive influence could guide choice toward erotic stimuli and away from negative stimuli, across multiple trials with varied stimulus content.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0172",
+    "what_manipulated": "emotional expression of face and body (angry, happy, neutral)",
+    "what_measured": "approachability judgment rating on Likert scale",
+    "experiment": "Participants rated the approachability of faces and body images displaying emotional expressions in isolation (Experiment 1), then rated composite face-body images with congruent or incongruent expressions (Experiment 2), and finally categorized body expressions while viewing composites with varying facial expressions (Experiment 3). Ratings tested how emotional expression and multi-modal integration affect approach-avoidance social decisions.",
+    "design": "within-subjects",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0173",
+    "what_manipulated": "physical temperature experience (warm pack, cold pack, or control)",
+    "what_measured": "loneliness scale rating and affiliation/emotion-regulation needs",
+    "experiment": "Participants experienced physical warmth or coldness via therapeutic packs in Study 1a/1b (correlational bathing survey), Study 2 (temperature prime before loneliness assessment), and Study 3 (post-rejection intervention). Physical and social warmth manipulations were crossed with rejection recall to test whether physical warmth substitutes for unmet social affiliation needs and reduces loneliness-related emotion regulation seeking.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0174",
+    "what_manipulated": "numerical pairing (odd vs. even numbers, 1 vs. 2) with gender-ambiguous stimuli",
+    "what_measured": "gender rating of names and babies on masculine-to-feminine scale",
+    "experiment": "Names and baby faces paired with odd or even numbers were rated for gender on 7-point scales. Participants provided explicit ratings of numbers themselves. Misattribution principle predicted that associations activated by numbers would bias judgment of arbitrarily paired, ambiguous social stimuli toward the conceptual associations of the number (agency/agentic for odd, communion/communal for even).",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0175",
+    "what_manipulated": "associative breadth of word list processing (progressive vs. stagnant vs. incoherent)",
+    "what_measured": "positive and negative affect on PANAS scale",
+    "experiment": "Participants processed word lists with narrowly constrained associations (stagnant, within single concept) versus progressively spanning concepts (each word associated with neighbors but not other list members). Mood was measured after each block to test whether conceptual progression in thought produces better affect than constrained or incoherent processing, independent of information variability.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0176",
+    "what_manipulated": "hierarchy versus non-hierarchy in social relationships (facial dominance, diagrams, relationship asymmetries, organizational structure, gender of hierarchy members)",
+    "what_measured": "processing speed, memory performance, liking/evaluation, learning trials, identification reaction time, social dominance orientation",
+    "experiment": "Five studies operationalized hierarchy via facial dominance (identification speed), memorization of group diagrams (learning trials), asymmetric power relationships (learning and prediction), organizational charts (task ease and company evaluation), and gender-differentiated hierarchies (memory and ideology). Each tested whether hierarchical stimuli are processed faster, remembered better, and liked more than non-hierarchical or equality alternatives, with liking mediated by processing fluency.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  }
+]

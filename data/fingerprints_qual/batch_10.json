@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1073/pnas.1805284115",
+    "phenomenon": "linguistic encoding and status attribution",
+    "constructs": "formality surname-use eminence prestige",
+    "claim": "more formal linguistic treatment of a social agent increases attributed status and deserving-ness, and this treatment is non-randomly distributed by agent gender.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1805327115",
+    "phenomenon": "decision-making speed and information consumption mismatch",
+    "constructs": "prediction-error information-seeking closure-speed judgment",
+    "claim": "people systematically overestimate the amount of evidence they will examine before reaching conclusions, leading to information waste in contexts where impression matters.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1908369116",
+    "phenomenon": "emotional response asymmetry to information valence",
+    "constructs": "negativity-bias arousal attention news",
+    "claim": "across diverse cultural contexts, people show stronger physiological and attentional responses to negative than positive information, explaining prevalence of negative media.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1073/pnas.2120668119",
+    "phenomenon": "relational variety and subjective well-being",
+    "constructs": "diversity social-structure interaction-types flourishing",
+    "claim": "heterogeneity in the types of relationships one maintains, independent of total interaction volume, predicts higher subjective well-being.",
+    "narrative": "incremental-extension",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1073/pnas.2218961120",
+    "phenomenon": "framework-shifting and delegated decision-making",
+    "constructs": "transcendence human-fallibility authority-seeking delegation",
+    "claim": "activating a transcendent framework increases willingness to defer decisions to non-human agents, mediated by heightened awareness of human error.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1075/arcl.7.07gri",
+    "phenomenon": "mental lexicon storage of morphosyntactic patterns in language learning",
+    "constructs": "construction-grammar stored-patterns production-priming mental-grammar",
+    "claim": "repeated production of syntactic patterns creates chunked mental representations that facilitate subsequent production of the same pattern.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "hedged-claim"
+  },
+  {
+    "doi": "10.1075/jslp.22013.tel",
+    "phenomenon": "context-dependent status devaluation from linguistic markers",
+    "constructs": "accent competence prestige status-cues",
+    "claim": "accent-based status devaluation is context-sensitive and attenuated when the target occupies lower-prestige roles or shows poor performance.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1075/resla.17019.loz",
+    "phenomenon": "staged acquisition of morphosyntactic form-meaning mappings",
+    "constructs": "proficiency-stages morpheme-sequence error-types acquisition",
+    "claim": "the order in which learners accurately produce morphemes is proficiency-dependent and partially reflects the role of form-specific error patterns at each stage.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1080/00224545.2016.1270892",
+    "phenomenon": "material security and existential meaning",
+    "constructs": "financial-stability existential-meaning psychological-health",
+    "claim": "the subjective experience of material security, beyond objective income, is necessary for experiencing purpose and meaning in life.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1080/02699931.2015.1059317",
+    "phenomenon": "emotional salience as retrieval cue effectiveness",
+    "constructs": "emotional-encoding context-memory cue-effectiveness attention",
+    "claim": "emotional salience of a target element enhances memory accessibility for associated neutral contextual information, contradicting narrowed-encoding predictions.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1080/02699931.2016.1273201",
+    "phenomenon": "physiological cues and emotional state attribution",
+    "constructs": "facial-color emotion-inference health-judgment morphology",
+    "claim": "visible physiological markers of flushing have context-dependent effects on anger and health judgments, modulated by facial structure and expression.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1080/02699931.2017.1394817",
+    "phenomenon": "discrete-emotion memory advantages independent of structure",
+    "constructs": "disgust fear attention episodic-memory",
+    "claim": "disgust produces superior memory for stimuli relative to fear through a distinctive, attention-mediated mechanism that is not explained by dimensional emotion models.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1080/026999398379411",
+    "phenomenon": "threat-related attentional bias in anxiety-prone individuals",
+    "constructs": "anxiety threat-detection attention vigilance avoidance",
+    "claim": "people with high trait anxiety show sustained attentional prioritization of threatening facial expressions, but no evidence of subsequent disengagement.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1080/09515080307771",
+    "phenomenon": "moral evaluation and action intentionality attribution",
+    "constructs": "intentionality morality evaluation judgment folk-psychology",
+    "claim": "people's judgments of whether a behavior counts as intentional are influenced by the moral properties of that behavior, not just causal control.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1080/0951508042000202354",
+    "phenomenon": "persistence of moral judgment structure without metaphysical foundation",
+    "constructs": "moral-objectivity moral-conventional-distinction judgment-structure",
+    "claim": "the characteristic structural patterns of moral judgment (e.g., moral vs. conventional distinction) survive rejection of moral objectivity.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1080/09515080500177309",
+    "phenomenon": "moral valence overriding causal-control criteria in intentionality judgment",
+    "constructs": "intentionality morality skill-luck control judgment",
+    "claim": "the moral features of an action can override considerations of skill, luck, and causal control in determining whether people judge it as intentional.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1080/09515080500264180",
+    "phenomenon": "folk attribution of free will in causally determined scenarios",
+    "constructs": "free-will determinism responsibility agency folk-intuition",
+    "claim": "people attribute free will and moral responsibility to agents in fully deterministic scenarios, contrary to philosophical intuitions on both sides of the debate.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1080/09515080801978777",
+    "phenomenon": "egocentric bias in third-person mental-state attribution",
+    "constructs": "mind-reading valuing moral-goodness perspective-bias",
+    "claim": "biases in attributing mental states to others reflect egocentric asymmetries in how we reason about minds, not necessarily differences in the concepts themselves.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "hedged-claim"
+  },
+  {
+    "doi": "10.1080/09515080902802769",
+    "phenomenon": "atypicality and moral valence in causal attribution",
+    "constructs": "causality atypicality morality norm-violation judgment",
+    "claim": "both atypicality of behavior and moral valence influence whether people assign causality to an agent, with both factors playing independent roles.",
+    "narrative": "incremental-extension",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1080/09515080903532290",
+    "phenomenon": "status quo bias in evaluating alternative lives",
+    "constructs": "status-quo-bias life-satisfaction experience continuity",
+    "claim": "reluctance to switch to virtual pleasant experiences reflects loss aversion regarding abandonment of current life continuity, not necessarily valuation of reality over experience.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1177/0956797610395393",
+    "phenomenon": "how linguistic form shapes interpersonal judgment",
+    "constructs": "language-representation mental-simulation intentionality attribution",
+    "claim": "describing ongoing action (vs. completed action) increases inference of intentional agency through richer mental simulation.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797610397956",
+    "phenomenon": "hierarchical abstraction in memory representation",
+    "constructs": "working-memory ensemble-statistics hierarchical-encoding constructive-memory",
+    "claim": "working memory integrates individual items with aggregate summary statistics, biasing individual retrieval toward ensemble properties.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797611398497",
+    "phenomenon": "sensory-to-moral cognition transfer",
+    "constructs": "embodied-cognition taste moral-judgment physical-disgust",
+    "claim": "gustatory perception of bitterness induces moral disgust, with stronger effect in politically conservative individuals.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797611402514",
+    "phenomenon": "bodily purity priming and moral/political judgment",
+    "constructs": "embodied-cognition purity moral-judgment political-attitudes",
+    "claim": "reminders of physical cleanliness shift moral standards toward conservatism and sexual-purity severity.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797611413935",
+    "phenomenon": "cultural divergence in existential-threat response",
+    "constructs": "mortality-salience cultural-self-construal defensive-affirmation",
+    "claim": "death-related thoughts trigger self-defense in independent-self cultures but other-affirmation in interdependent-self cultures.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797611414726",
+    "phenomenon": "incidental environmental cue and durable political preference shift",
+    "constructs": "nonconscious-priming environmental-cue political-ideology durability",
+    "claim": "brief incidental exposure to a national symbol shifts political beliefs and behavior durably, despite awareness denial.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797611418350",
+    "phenomenon": "strategy selection under emotional intensity variation",
+    "constructs": "emotion-regulation strategy-choice emotional-intensity engagement-disengagement",
+    "claim": "low-intensity distress favors engagement (reappraisal); high-intensity distress favors disengagement (distraction).",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797611428079",
+    "phenomenon": "race-moderated backlash against agentic female leadership",
+    "constructs": "gender-role-congruence agentic-behavior race intersectionality leadership-evaluation",
+    "claim": "dominance-backlash against agentic women occurs for White women but not Black women, showing race-gender intersection.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797611434537",
+    "phenomenon": "relational standing and subjective well-being",
+    "constructs": "sociometric-status socioeconomic-status well-being power-and-acceptance",
+    "claim": "respect and standing in face-to-face groups predicts well-being more strongly than economic status.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797611434540",
+    "phenomenon": "choice-framing and economic-inequality justification",
+    "constructs": "choice-concept personal-agency societal-attribution inequality-legitimacy",
+    "claim": "priming the concept of choice activates belief in individual agency and reduces concern about wealth inequality.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797611434748",
+    "phenomenon": "perception-mode shift under sexualization",
+    "constructs": "sexual-objectification configural-vs-analytic-processing inversion-effect gender",
+    "claim": "sexualized women are perceived analytically (like objects) rather than configurally (like persons), inverted-inversion-effect.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797612449177",
+    "phenomenon": "moral-value-framing and environmental-attitude polarization",
+    "constructs": "moral-foundations political-ideology environmental-attitudes reframing",
+    "claim": "liberals and conservatives moralize environment differently; reframing environmental harm as purity-violation reduces partisan gap.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797613494853",
+    "phenomenon": "cognitive-challenge context and self-age perception",
+    "constructs": "subjective-age self-perception memory-testing stereotype-activation",
+    "claim": "memory-test contexts make older adults feel older through cognitive-challenge stereotype activation, sparing younger adults.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797613502732",
+    "phenomenon": "sexual-imagery evaluation and product-worth association",
+    "constructs": "sexual-economics gender sex-as-valuable moral-judgment",
+    "claim": "women object to sexual imagery more when linked to low-value products; high-value association mitigates objection.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797613508412",
+    "phenomenon": "racial-progress salience and status-hierarchy threat",
+    "constructs": "system-justification racial-progress intergroup-threat status-hierarchy",
+    "claim": "racial progress increases anti-White-bias perceptions, but only among Whites who view status hierarchy as legitimate.",
+    "narrative": "context-effect",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797614527113",
+    "phenomenon": "demographic-diversity salience and political-conservatism shift",
+    "constructs": "racial-demographics group-status-threat political-ideology partisan-divide",
+    "claim": "salience of increasing racial diversity shifts White political affiliation and policy positions toward conservatism via threat.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797614534693",
+    "phenomenon": "free-will belief and moral-responsibility judgment in punishment",
+    "constructs": "free-will moral-responsibility retributive-justice neuroscience-framing",
+    "claim": "weakening free-will beliefs and scientific-neuroscience framing reduce retributive punishment support.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797614553009",
+    "phenomenon": "acoustic-cue communication of relational status",
+    "constructs": "vocal-acoustics hierarchy nonverbal-cue status-inference",
+    "claim": "high-status individuals produce distinct acoustic patterns (higher pitch variability, greater loudness variability) that perceivers use to infer rank.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797614558718",
+    "phenomenon": "weak-alternative-anchoring in negotiation",
+    "constructs": "anchoring negotiation-outcome power-perception weak-alternatives",
+    "claim": "having weak alternatives creates low-value anchors that depress first offers; having no alternatives is liberating.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797614563108",
+    "phenomenon": "divine-protection priming and nonmoral risk-taking",
+    "constructs": "religious-concept safety-perception risk-taking protective-belief",
+    "claim": "reminders of God increase nonmoral risk-taking by increasing perceived safety, especially for believers in divine protection.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  }
+]

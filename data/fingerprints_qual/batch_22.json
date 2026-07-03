@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1177/0956797617705399",
+    "phenomenon": "bias in judgment about others' truthfulness",
+    "constructs": "race social-category correction-processes motivation-for-fairness",
+    "claim": "Conscious intent to avoid prejudice causes systematic misdirected correction in judgment perception, leading to the opposite bias than intended.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797617728270",
+    "phenomenon": "categorical representation of unfamiliar versus familiar individuals",
+    "constructs": "outgroup-representation pathogen-cues categorical-reuse",
+    "claim": "Unfamiliarity triggers the same cognitive category as infection, not a dedicated group-specific threat module.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797618756862",
+    "phenomenon": "evaluative bias toward novel groups",
+    "constructs": "novelty attribute-differentiation information-ecology negative-association",
+    "claim": "Negative attitudes toward novel groups emerge from basic cognitive processes interacting with ecological patterns in which unique attributes tend to be negative.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797618760784",
+    "phenomenon": "relation between moral action and self-perception",
+    "constructs": "immorality humanness downward-spiral self-conception",
+    "claim": "Immoral behavior degrades the actor's self-perceived humanness, which in turn increases vulnerability to further immoral action.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797618779061",
+    "phenomenon": "sanctioning of defection from collective contribution",
+    "constructs": "free-riding cooperation norm-enforcement fairness-intuition",
+    "claim": "Young children intrinsically expect fairness in shared obligations and spontaneously punish those who evade contribution.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797618780643",
+    "phenomenon": "effect of belief about interest-nature on sustained engagement",
+    "constructs": "implicit-theory engagement-persistence obstacle-response motivation",
+    "claim": "Viewing interests as fixed rather than developable narrows exploration and reduces persistence when engagement becomes difficult.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797618788882",
+    "phenomenon": "facial-appearance cues correlated with actual behavior",
+    "constructs": "face-morphology moral-inference behavioral-correlation causal-influence",
+    "claim": "Facial width causally influences judgments of corruptibility, which correlate with actual corruption in real officials.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "hedged-claim"
+  },
+  {
+    "doi": "10.1177/0956797618805750",
+    "phenomenon": "contradiction between moral stance and statistical reasoning",
+    "constructs": "moral-judgment Bayesian-reasoning base-rate intergroup-bias",
+    "claim": "People simultaneously condemn use of group membership in statistical judgment and employ it themselves, resolved only by selective attention to which base-rate they consider.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797618806296",
+    "phenomenon": "retention of uncertainty in word-order encoding",
+    "constructs": "word-order parallel-processing sentence-structure constraint",
+    "claim": "Word order is encoded with uncertainty, and top-down sentence structure can suppress detection of word-order violations.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797619854706",
+    "phenomenon": "persuasion by moral versus non-moral appeals",
+    "constructs": "moral-rhetoric moralized-attitudes persuasion argument-type",
+    "claim": "Moral appeals persuade more when attitudes are already moralized, but non-moral appeals persuade better when attitudes lack moral basis.",
+    "narrative": "context-effect",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797619856844",
+    "phenomenon": "evaluation of consensus across sources",
+    "constructs": "consensus true-versus-false source-independence information-credibility",
+    "claim": "People judge surface-level consensus identically whether derived from independent sources or single source, missing the critical epistemic difference.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797619879441",
+    "phenomenon": "development of integrated event memory",
+    "constructs": "holistic-recollection binding multiway-association pattern-completion",
+    "claim": "Coherent binding of event elements emerges early but undergoes extended refinement through childhood and into adulthood.",
+    "narrative": "incremental-extension",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797620927967",
+    "phenomenon": "association between sound and shape via emotional mediation",
+    "constructs": "phonetic-semantics emotional-arousal cross-modal-mapping language-evolution",
+    "claim": "Affective arousal causally mediates the mapping between pseudowords and shapes, grounding abstract linguistic meaning in emotion.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/09567976221082637",
+    "phenomenon": "effect of choice on curiosity intensity",
+    "constructs": "autonomy curiosity learning-motivation outcome-exploration",
+    "claim": "Having chosen an option increases curiosity about its outcome compared to having the choice made for you, independent of initial preference.",
+    "narrative": "context-effect",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/1073191116686685",
+    "phenomenon": "anxiety-driven self-protective behaviors in high-stakes evaluation",
+    "constructs": "superstition reassurance-seeking anxiety-regulation test-performance",
+    "claim": "Safety behaviors in test anxiety divide into superstitious actions and reassurance-seeking, with only reassurance-seeking predicting test outcomes.",
+    "narrative": "incremental-extension",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/1077559513483002",
+    "phenomenon": "maltreatment patterns differentiating psychopathy variants",
+    "constructs": "callous-unemotional-traits childhood-abuse developmental-pathways antisocial-behavior",
+    "claim": "Primary and secondary variants of callous-unemotional traits are distinguished by different abuse-type histories, suggesting distinct developmental routes.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/1948550609360261",
+    "phenomenon": "relationship between generalized trust and lie detection",
+    "constructs": "trust interpersonal-verification deception-detection defensive-bias",
+    "claim": "High trusters detect lies more effectively than low trusters, contrary to the intuition that trust is blind.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/1948550611410890",
+    "phenomenon": "RETRACTED: impact of sensory modality on cognitive style",
+    "constructs": "sensory-processing global-local creative-analytic-thought",
+    "claim": "[RETRACTED] Different sensory modalities differentially activate creative versus analytic cognitive processes.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/1948550611432938",
+    "phenomenon": "accessibility of mortality-related thoughts after conscious suppression",
+    "constructs": "mortality-salience thought-suppression rebound-effect cognitive-control",
+    "claim": "Death thoughts do not show increased accessibility after a delay following mortality salience, contradicting suppression-rebound predictions.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/1948550612457688",
+    "phenomenon": "moral character inference from decision speed",
+    "constructs": "decision-speed moral-judgment character-inference motivation-clarity",
+    "claim": "Quick decisions appear to reflect stronger conviction and thus signal either more virtuous or more vicious character than slower decisions.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

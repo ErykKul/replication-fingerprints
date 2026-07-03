@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0099",
+    "what_manipulated": "coherence between primed affective concepts (happy/sad) and embodied reactions (approach/avoidance actions, induced mood, facial expressions)",
+    "what_measured": "recall performance on story containing emotional events",
+    "experiment": "Participants received priming (happy/sad/neutral concepts via scrambled sentences or subliminal words) and engaged in embodied reactions (arm flexion/extension, music-induced mood, or facial muscle contractions) while reading a story. Coherence between concept valence and reaction valence was tested for effects on subsequent free recall of story events.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0100",
+    "what_manipulated": "global versus local processing style (induced via Navon task, map detail task, or temporal distance) crossed with semantic prime valence (aggression-related words or neutral) or moderate versus extreme social comparison standards",
+    "what_measured": "trait judgments of ambiguous target persons (aggressiveness ratings) or self-evaluations on objective versus subjective scales",
+    "experiment": "Global and local processing was induced at outset, followed by priming or comparison standard exposure, then judgment of target. The study tested whether processing style (global producing broader categorization, local producing narrower categorization) moderates assimilation versus contrast effects in social judgment.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0101",
+    "what_manipulated": "emotional expressions from bargaining opponent (anger or happiness) crossed with distribution of information (symmetric or asymmetric knowledge of chip values) and later with power distribution (high or low consequences of rejection)",
+    "what_measured": "chip allocation offers to opponent and perceived opponent limits",
+    "experiment": "Participants took allocator role in ultimatum bargaining. They received emotional reaction (anger or happiness) from opponent, and offered chips for distribution. In Experiment 2, participants could send deceptive or truthful messages before offering. In Experiment 3, rejection consequences varied. Offers and mediating perceived limits were measured.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0103",
+    "what_manipulated": "perceivers' own communal responsiveness toward partners (via essay task about being helpful or unresponsive) and partner responsiveness (via behavioral instructions during interaction or ratings of friend caring over time)",
+    "what_measured": "perceived partner responsiveness, partner evaluation, attraction, self-disclosure willingness, support provision, and longitudinal changes in own responsiveness",
+    "experiment": "Participants manipulated to feel responsive or unresponsive toward partner, then made judgments of partner responsiveness. Perceived responsiveness and relationship-promotion outcomes (evaluation, disclosure, support) were measured. Longitudinal studies tracked projection-regulation cycles over 5 months.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-one"
+  },
+  {
+    "paper_id": "p0108",
+    "what_manipulated": "personal control (recalled positive events with or without control) crossed with framing of God (as controller versus creator) and system benevolence (government corruption index across countries)",
+    "what_measured": "beliefs in God as controlling entity, denial of randomness, support for governmental control, resistance to system change, and illusory personal control",
+    "experiment": "Personal control was reduced via memory task. Beliefs in external control systems (God, government) were assessed as compensatory mechanisms. Threat to order was mediated belief responses. Cross-national data tested whether low perceived personal control predicts higher support for governmental control, moderated by perceived benevolence.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0109",
+    "what_manipulated": "own compliance with problematic task (counterattitudinal speech or racist task decision) crossed with moral rebel presence (confederate refusing to comply versus obedient confederate) and self-affirmation (essay about important value versus food listing)",
+    "what_measured": "liking and respect for target person, agency and communion trait ratings, imagined rejection by target, and moral self-perception",
+    "experiment": "Participants completed problematic task (low-choice speech or police decision task), then evaluated confederate who either rebelled or complied. Imagined rejection by rebel mediated attraction effects. Self-affirmation eliminated rejection of rebels by buffering self-threat. Observers versus actors showed opposite preferences for rebels.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0231",
+    "what_manipulated": "political ideology (conservative vs. liberal) and stereotype functionality (whether stereotype will be needed for later categorization task)",
+    "what_measured": "negative evaluation of counterstereotypical targets; monetary resource allocation to targets",
+    "experiment": "Participants viewed photographs of targets labeled with group membership and varying in stereotypicality (gender typicality, moles, or fictional group membership). Conservatives and liberals rated targets on positivity or allocated money, with manipulation of whether stereotypes would be functionally needed. Core comparison: evaluations of counterstereotypical vs. stereotypical targets across ideology groups and stereotype functionality conditions.",
+    "design": "mixed",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0232",
+    "what_manipulated": "ecology information (desperate vs. hopeful); race information (black vs. white); combination of both",
+    "what_measured": "stereotype inferences about life history strategy (sexual unrestrictedness, impulsivity, opportunistic behavior, education investment, child investment)",
+    "experiment": "Participants rated targets on life history strategy dimensions after manipulations. Variations: Study 1 described ecologies; Studies 2-4 tested alternatives (wealth, non-life-history traits); Study 5 orthogonally manipulated race and ecology. Core comparison: inference patterns across ecology and race conditions to test whether ecology overrides race stereotypes.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0233",
+    "what_manipulated": "engagement in unethical behavior (cheating vs. no cheating); time delay before memory assessment (immediate vs. days later); perspective (first-person vs. third-person); psychological dissonance (uncertainty salience)",
+    "what_measured": "memory clarity and vividness for one's own actions; objective memory (true/false recognition); subsequent cheating behavior",
+    "experiment": "Nine studies examined memory for unethical acts. Core design: participants engaged in or read about unethical/ethical behavior, then recalled details. Studies varied manipulation of actual vs. hypothetical unethical behavior, timing of memory assessment, actor (self vs. other), and dissonance salience. Comparison: memory clarity for unethical vs. ethical acts, moderated by time and self-focus.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0234",
+    "what_manipulated": "teacher mindset about discipline (empathic vs. punitive); context of implementation (classroom vs. laboratory simulation)",
+    "what_measured": "teacher disciplinary responses; student respect for teacher; motivation to behave well; year-long suspension rates",
+    "experiment": "Three experiments tested intervention efficacy. Exp 1: Teachers read articles and described discipline responses to vignettes. Exp 2: College students imagined being disciplined empathically or punitively, reported respect and behavior motivation. Exp 3: Mixed-effects field experiment with randomized teacher assignment; measured student suspensions. Core design: manipulate framing of discipline philosophy, measure downstream effects on teacher behavior and student outcomes.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-one"
+  },
+  {
+    "paper_id": "p0235",
+    "what_manipulated": "decision-making process observability (observable vs. hidden); decision operationalization (looking choice in Exp 1; decision time in Exp 2)",
+    "what_measured": "uncalculating vs. calculating cooperation choice; trust in subsequent trust game; money returned (trustworthiness)",
+    "experiment": "Two-stage incentivized economic game. Stage 1 (Helping Game): Player A decides whether to pay cost to benefit recipient, with decision process either observable or hidden. Stage 2 (Trust Game): Player B allocates money to Player A based on observed/hidden decision process. Exp 1 operationalizes calculating via looking-choice; Exp 2 via decision time. Core comparison: cooperation rates and trust effects across observability conditions.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0236",
+    "what_manipulated": "allocation procedure fairness (fair vs. unfair); outcome size (large vs. small); temporal perspective (pre-allocation prediction vs. post-allocation actual rating)",
+    "what_measured": "allocator predictions of receiver happiness; actual receiver happiness; fairness salience",
+    "experiment": "Seven studies examined allocator-receiver perspective divergence. Studies 1-3: allocators predicted receiver happiness under fair/unfair procedures; receivers rated actual happiness. Studies 4-5: manipulated temporal perspective (pre vs. post). Studies 6-7: tested fairness vs. efficiency trade-off, with allocators predicting receiver preferences and receivers rating actual outcomes. Core design: within or between-subjects comparison of predicted vs. actual happiness effects of fairness.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  }
+]

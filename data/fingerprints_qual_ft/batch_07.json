@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0047",
+    "phenomenon": "abstract concept activation alters perceptual judgment",
+    "constructs": "embodied simulation shared-substrate cross-domain-mapping",
+    "claim": "thinking about communion-related traits triggers sensory simulation of physical warmth through common neural systems, influencing ambient temperature perception.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0048",
+    "phenomenon": "diagnostic heterogeneity within behavioral syndrome",
+    "constructs": "comorbidity emotional-processing criminal-behavior etiological-distinctness",
+    "claim": "ASPD with comorbid psychopathy and ASPD without psychopathy appear to reflect distinct underlying mechanisms despite behavioral overlap, evidenced by differential emotional processing patterns.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0049",
+    "phenomenon": "psychological interventions reduce commitment to failing decisions",
+    "constructs": "threat-reduction goal-clarity self-justification decision-vigilance",
+    "claim": "escalated commitment to losing courses of action can be reduced by diminishing self-justification threat or by clarifying decision goals and standards, though effects differ by accountability framing.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0050",
+    "phenomenon": "personality traits predict leadership behavior",
+    "constructs": "extraversion agreeableness transformational-leadership dispositional-basis",
+    "claim": "broad personality factors, particularly extraversion and agreeableness, predict transformational leadership behavior, with specific facets offering no additional predictive value beyond the general traits.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0051",
+    "phenomenon": "eating disorder subtype differs in psychological profile",
+    "constructs": "psychopathology neurosis impulsivity body-image-distortion",
+    "claim": "bulimia involves more severe psychopathology and body-image distortion than obesity or normal eating, suggesting distinct psychological mechanisms underlying binge-purge behavior.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0052",
+    "phenomenon": "systematic bias in personal-comparative probability judgment",
+    "constructs": "optimistic-bias egocentric-comparison stereotype-salience controllability",
+    "claim": "people exhibit systematic optimistic bias by comparing themselves to stereotypical underperformers rather than realistic peer distributions, a bias modulated by perceived controllability and event characteristics.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  }
+]

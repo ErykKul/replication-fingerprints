@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0080",
+    "phenomenon": "action identification reveals mental states",
+    "constructs": "action-level perspective-taking liking mentalizing",
+    "claim": "Higher-level action identification reflects and enables greater recognition of target's mental capacities.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0081",
+    "phenomenon": "metabolic resource depletion underlying willpower",
+    "constructs": "glucose consumption effort fatigue capacity",
+    "claim": "Self-control is a physiological process consuming metabolic energy rather than purely psychological.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0082",
+    "phenomenon": "systematic blindness to own conformity",
+    "constructs": "introspection illusion self-other asymmetry behavioral evidence",
+    "claim": "People overvalue their introspections and undervalue their behaviors when assessing own susceptibility to influence.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0083",
+    "phenomenon": "neural basis of dissonance reduction",
+    "constructs": "left frontal activation approach motivation attitude change",
+    "claim": "Dissonance reduction operates through approach-motivated neural activity facilitating action implementation.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0084",
+    "phenomenon": "asymmetrical emotional needs in conflict",
+    "constructs": "power status moral image acceptance victim perpetrator",
+    "claim": "Victim-perpetrator conflicts involve different impaired resources requiring context-specific forms of empowerment.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0085",
+    "phenomenon": "poignancy at meaningful endings",
+    "constructs": "mixed emotions time awareness finitude significance",
+    "claim": "Awareness of ending a meaningful experience simultaneously increases happiness and sadness regardless of age.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

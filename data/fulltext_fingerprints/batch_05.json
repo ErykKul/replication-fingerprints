@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0222",
+    "what_manipulated": "Social class position (upper vs. lower), activated through relative socioeconomic comparison",
+    "what_measured": "Unethical behavior and decision-making across multiple domains",
+    "experiment": "Seven integrated studies examined social class and unethical behavior using both observational and experimental methods. Studies 1-2 observed driving behavior in naturalistic settings, coding whether drivers of different vehicle-status cars cut off other vehicles or pedestrians. Studies 3-4 used lab measures of unethical decision-making tendencies and behavioral willingness to take resources. Studies 5-7 examined cheating, deception in negotiation, and endorsement of workplace unethical behavior. Social class was measured via subjective assessment (MacArthur scale) and manipulated through comparative ranking tasks. Statistical tests included logistic regression, ANCOVA, and mediation analyses with bootstrapping (10,000 iterations). Sample sizes ranged from 105 to 506 units per study.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-one"
+  },
+  {
+    "paper_id": "p0223",
+    "what_manipulated": "Perceived noise rate (0%, 50% syntactic errors in filler sentences) and base rate of implausible utterances (varying ratios of implausible-to-plausible fillers)",
+    "what_measured": "Preference for literal vs. semantic interpretation of implausible syntactic constructions",
+    "experiment": "Three experiments tested Bayesian noisy-channel models of sentence comprehension. Participants read target sentences (60 items total) in visually presented comprehension tasks, responding whether interpretations matched literal syntax or plausible semantic alternatives. Experiments manipulated: (1) noise rate by varying error frequency in filler sentences, and (2) base rate of implausible sentences by changing the proportion of implausible-to-plausible filler materials (1:8 in Exps 1-2; 5:16 in Exp 3). Dependent measure: binary choice (literal vs. semantic) analyzed via mixed-effects logistic regression with participant and item random effects. Sample sizes: 300 participants (Exp 1), 300 (Exp 2), 60 lab + 54 replication (Exp 3). No data exclusions reported in main analyses.",
+    "design": "between-subjects",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-one"
+  },
+  {
+    "paper_id": "p0225",
+    "what_manipulated": "Perceived intent of harm (intentional vs. unintentional medication administration by nursing home employee)",
+    "what_measured": "Motivation to blame, measured through (Exp 1) free task choice and (Exp 2) effort/persistence in blaming behavior",
+    "experiment": "Three studies measured blame motivation using behavioral rather than self-report methods. Preliminary experiment: 309 units estimated financial harm from vignettes varying only in intentionality; overestimation occurred only for intentional harm (M=$5,224 vs. $4,557 unintentional, t=2.32, p=0.02). Exp 1: 201 units freely selected one task from five options after reading vignette; blame/condemn/punish task selection doubled in intentional vs. unintentional condition (χ2=6.7, p=0.009). Exp 2: 120 units completed reinforcement game (fixed-ratio lever-pressing schedule FR3-FR24) to 'earn signatures' for petition; intentional condition produced 174.2 vs. 25.6 mean clicks (t=6.0, p<0.001). Statistical analysis included chi-square tests, t-tests, mixed ANOVA (condition × reinforcement schedule), and response elasticity calculations.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-one"
+  },
+  {
+    "paper_id": "p0226",
+    "what_manipulated": "Possibility of third-party intervention (observer condition where intervention impossible vs. peacemaker condition where intervention possible); intervention incentive structure (loss-only, fixed-payoff, gain-or-loss, gain-only); probability of third-party intervention (10%, 33%, 67%, 90% likelihood)",
+    "what_measured": "Cooperation rates among disputants and intervention rates among third parties in a game-theoretic setting",
+    "experiment": "Six experiments using the Peacemaker Game, a novel paradigm with three decision-makers (two disputants, one third party) making simultaneous anonymous choices. Experiments 1-2 compared observer vs. peacemaker conditions in interpersonal (n=172) and intergroup (n=237) contexts; cooperation measured as binary choice (triangle vs. square), analyzed via chi-square and independent-samples t-tests. Experiment 3 (n=103) manipulated third-party intervention probability across four levels; cooperation analyzed via linear regression. Experiment 4 (n=506) varied third-party payoff structure; intervention rates compared across four conditions via chi-square (χ2(3)=50.18, p<0.000001). Experiments 5-6 (n=206 and n=198) used retrospective recall with Likert-scale ratings of perceived costs/benefits of intervention; t-tests compared interveners vs. non-interveners.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0227",
+    "what_manipulated": "Postural expansiveness (expanded/open vs. contractive/closed body posture) displayed by target person in speed-dating interaction or online dating profile photograph",
+    "what_measured": "Romantic attraction and likelihood of receiving acceptance from potential partner",
+    "experiment": "Two complementary field studies. Study 1: 144 speed-dating pairs (4-minute videotaped interactions); coders rated postural expansiveness and affiliative nonverbal displays; multilevel logistic modeling tested odds of receiving 'yes' response (outcome: binary acceptance). Each 1-SD increase in expansiveness increased odds of 'yes' by 76% (odds ratio=1.76, p=0.01). Study 2a: 2,983 profile views from dating application; six confederates with expanded and contractive photo versions; chi-square test of 'yes' responses across 48-hour periods (χ2(1)=8.21, p<0.01); expansive profiles 27% more likely to elicit match. Study 2b: 853 units rated dominance and openness of photographs. Mediation analyses used Monte Carlo method (20,000 resamples) to test dominance and openness as mediators of expansiveness→attraction link; 95% CIs for indirect effects excluded zero.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-one"
+  },
+  {
+    "paper_id": "p0228",
+    "what_manipulated": "Economic inequality (actual inequality via state Gini coefficients in survey; perceived inequality via pie-chart manipulation in experiment showing 1%, 3%, 4%, 11%, 81% vs. 11%, 15%, 18%, 21%, 35% wealth distribution)",
+    "what_measured": "Generosity measured via dictator game (number of raffle tickets donated to anonymous recipient)",
+    "experiment": "Two complementary studies. Survey: n=1,498 nationally representative units completed dictator game (10 tickets, zero-sum) while residing in US states varying in Gini coefficients (0.417-0.534); hierarchical linear modeling tested income × inequality interaction on donations (γ=-1.56, SE=0.54, t=-2.91, p<0.01); income negatively predicted generosity in high-inequality states but positively in low-inequality states (regions of significance: Gini≥0.485 for negative association, ≤0.454 for positive). Experiment: n=704 MTurk units received prior questions, random assignment to high vs. low inequality pie-chart condition, then dictator game (10 tickets for $500 raffle); OLS regression tested income × condition interaction (B=-0.08, SE=0.04, t=-2.15, p<0.05); higher-income units less generous when inequality portrayed as high (B=-0.05, p<0.05) but not when low (B=0.03, ns). Controls included age, gender, education, employment, religiosity, ideology.",
+    "design": "between-subjects",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  }
+]

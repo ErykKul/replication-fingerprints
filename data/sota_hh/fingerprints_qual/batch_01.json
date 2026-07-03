@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1002/(sici)1099-0771(199806)11:2<107::aid-bdm292>3.0.co;2-y",
+    "phenomenon": "relative preference and value judgment",
+    "constructs": "evaluability valuation context separate-evaluation",
+    "claim": "isolated evaluation relies on easy-to-evaluate attributes over important ones, reversing when options are directly compared.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/a0013748",
+    "phenomenon": "attribution of moral capacity",
+    "constructs": "agency patiency moral-perception typecasting",
+    "claim": "high perceived capacity to act morally implies low perceived vulnerability to suffering, creating an inverse relation between agency and patiency.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1126/science.1130726",
+    "phenomenon": "moral transgression and physical response",
+    "constructs": "moral-purity physical-cleansing embodied-cognition threat",
+    "claim": "moral transgressions activate a psychological need for physical cleansing, and engaging in cleansing alleviates moral distress.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/1467-8284.00419",
+    "phenomenon": "intentional action attribution",
+    "constructs": "intentionality language side-effects",
+    "claim": "ordinary language use reveals specific conditions under which behaviors are attributed as intentional.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2006.01824.x",
+    "phenomenon": "perspective-taking capacity",
+    "constructs": "power egocentricity perspective-taking empathy",
+    "claim": "elevated power reduces spontaneous perspective-taking and empathy, causing overreliance on one's own vantage point.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2009.02426.x",
+    "phenomenon": "abstract judgment and embodied sensation",
+    "constructs": "embodiment weight importance cognitive-effort",
+    "claim": "bodily experience of holding weight promotes more elaborate cognitive processing and heightens perceived importance of abstract concepts.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1027/1864-9335/a000147",
+    "phenomenon": "interpersonal warmth and temperature perception",
+    "constructs": "warmth communion agency embodied-sensation",
+    "claim": "mentally activating social-connectedness traits influences physical temperature experience, independent of actual ambient conditions.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.82.5.792",
+    "phenomenon": "temporal distance and self-image",
+    "constructs": "self-esteem temporal-distance motivation past-experience",
+    "claim": "people psychologically distance themselves from past experiences and selves inconsistent with current self-image, more strongly under high self-esteem.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.81.1.33",
+    "phenomenon": "moral self-perception and behavioral expression",
+    "constructs": "credentials licensing moral-identity prejudice",
+    "claim": "establishing nonprejudiced identity through past behavior licenses subsequent expression of prejudiced or immoral attitudes.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.67.4.627",
+    "phenomenon": "mortality awareness and bias",
+    "constructs": "mortality-salience consciousness accessibility intergroup-bias",
+    "claim": "mortality-induced biases depend on death-thoughts being accessible yet outside conscious awareness, disappearing under reflective engagement.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.70.6.1142",
+    "phenomenon": "stereotype activation and control",
+    "constructs": "automatic-activation stereotypes intention cognitive-resources",
+    "claim": "stereotypes activate automatically but their behavioral expression depends on perceiver intention and available cognitive resources.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.1996.tb00346.x",
+    "phenomenon": "automatic stereotype application",
+    "constructs": "gender-stereotypes automaticity linguistic-priming implicit-beliefs",
+    "claim": "gender information in language automatically influences judgment speed, independent of explicit awareness or stated beliefs.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2009.02326.x",
+    "phenomenon": "moral self-regulation and behavior",
+    "constructs": "moral-identity self-affirmation licensing altruism",
+    "claim": "affirming positive moral identity reduces subsequent altruistic behavior, while threatening it increases moral action as identity restoration.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797610372631",
+    "phenomenon": "superstition and performance",
+    "constructs": "superstition self-efficacy luck performance-enhancement",
+    "claim": "superstitious beliefs and practices improve performance by boosting perceived self-efficacy and task persistence.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1126/science.1162548",
+    "phenomenon": "physical sensation and interpersonal perception",
+    "constructs": "warmth temperature embodiment trait-judgment",
+    "claim": "brief experience of physical warmth shapes perception of others as more interpersonally warm and increases prosocial choice.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/002224298204600109",
+    "phenomenon": "classical conditioning in consumer behavior",
+    "constructs": "music classical-conditioning product-preference attitude-formation",
+    "claim": "pairing liked or disliked music with products directly conditions product preferences through classical conditioning, independent of information content.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.82.6.956",
+    "phenomenon": "interpersonal forgiveness",
+    "constructs": "commitment betrayal motivation forgiveness",
+    "claim": "relationship commitment motivates forgiveness by promoting prorelationship cognition that reinterprets betrayal, overriding vengeance impulses.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.54.5.768",
+    "phenomenon": "facial feedback and affect",
+    "constructs": "facial-expression embodied-emotion feedback humor-response",
+    "claim": "muscle-based facial configuration influences emotional but not cognitive responses, supporting embodied origins of affect.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797610395393",
+    "phenomenon": "linguistic aspect and intentionality attribution",
+    "constructs": "verb-aspect imperfective-perfective intentionality inference",
+    "claim": "describing action in imperfective aspect (ongoing) versus perfective (completed) increases attributed intentionality by enabling richer action imagery.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797614526415",
+    "phenomenon": "regulatory fatigue and neurochemistry",
+    "constructs": "ego-depletion dopamine regulatory-control effort",
+    "claim": "psychostimulant-induced dopamine elevation blocks effort-induced regulatory depletion, linking control fatigue to neurotransmitter dynamics.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

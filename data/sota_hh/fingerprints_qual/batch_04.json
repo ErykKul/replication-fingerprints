@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1037/0278-7393.34.3.514",
+    "phenomenon": "automatic processing of stimulus-response contingencies",
+    "constructs": "attention modulation contingency prediction response threshold",
+    "claim": "Differential Stroop effects arise from learned contingencies between stimuli and responses, not from flexible modulation of attention to stimulus properties.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.186",
+    "phenomenon": "information search strategy and inference bias",
+    "constructs": "sampling strategy inductive inference feedback bias",
+    "claim": "All feasible information-gathering strategies introduce systematic biases for some inferences even when samples remain unbiased, creating an intractable dilemma in probabilistic reasoning.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.3.439",
+    "phenomenon": "rejection of remembered items in short-term memory",
+    "constructs": "familiarity recollection context retrieval item memory",
+    "claim": "Recognition decisions rely on dual processes where recollection can access memory via either context-to-item or item-to-context routes, with intrusions showing parallel processing patterns.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.2.408",
+    "phenomenon": "context-dependent forgetting of learned material",
+    "constructs": "context strength item strength spaced repetition directed forgetting",
+    "claim": "Intentional forgetting is enhanced for strong items only when strength derives from context reinstatement, not from item-level processing, supporting a context-based forgetting mechanism.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.2.302",
+    "phenomenon": "language experience and executive control differences",
+    "constructs": "bilingualism inhibition action goal maintenance reactive inhibition",
+    "claim": "Bilinguals show enhanced ability to maintain action goals rather than superior active inhibition, leading indirectly to stronger reactive suppression of interference.",
+    "narrative": "boundary-condition",
+    "scope": "single-population",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.2.343",
+    "phenomenon": "semantic structure influence on automatic arithmetic activation",
+    "constructs": "analogical priming semantic relations arithmetic facts activation",
+    "claim": "Automatic activation of arithmetic facts depends on whether the semantic structure of priming context aligns with the relational structure of the arithmetic operation.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.3.524",
+    "phenomenon": "implicit learning of sequential patterns and errors",
+    "constructs": "implicit learning repetition error learning response probability",
+    "claim": "Implicit learning of repeated sequences extends to learning error patterns, with response probability increasing for both correct and incorrect prior responses.",
+    "narrative": "incremental-extension",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.3.495",
+    "phenomenon": "processing stages in lexical decision making",
+    "constructs": "stimulus quality word frequency cascaded processing discrete processing",
+    "claim": "Additive effects of stimulus quality and word frequency mask opposing interactive processes in response-time distributions that reveal different processing architectures depending on available discriminability cues.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.249",
+    "phenomenon": "semantic interference in language production timing",
+    "constructs": "semantic interference lexical selection postlexical processing picture naming",
+    "claim": "Semantic interference effects emerge from postlexical processing stages rather than lexical selection bottlenecks, occurring even when response selection is delayed.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.2.399",
+    "phenomenon": "dimensionality of visual statistical learning",
+    "constructs": "statistical learning feature binding object recognition feature covariance",
+    "claim": "Visual statistical learning operates flexibly as object-based or feature-based depending on how feature dimensions covary, with feature sensitivity defining what counts as a perceptual unit.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.204",
+    "phenomenon": "causal inference from joint occurrence patterns",
+    "constructs": "contingency causal judgment accounting for occurrences cause strength",
+    "claim": "Causal judgments center on which cause better accounts for outcome occurrences rather than contingency alone, with presence likelihood and conditional outcome rates jointly determining perceived causal strength.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.128",
+    "phenomenon": "timing information in sequential memory and order recall",
+    "constructs": "timing memory temporal structure serial recall positional representation",
+    "claim": "Temporal information plays multiple roles in short-term memory beyond generating positional codes, with individual duration information directly influencing order memory and recall organization.",
+    "narrative": "incremental-extension",
+    "scope": "specific-context",
+    "stance": "hedged-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.80",
+    "phenomenon": "stimulus dependencies in learning and attention",
+    "constructs": "attention associative learning adjacent dependency nonadjacent dependency",
+    "claim": "Learning both adjacent and nonadjacent dependencies depends on active attentional processing rather than spatial contiguity, making joint attention necessary and sufficient for association formation.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.2.369",
+    "phenomenon": "attention protection of working memory contents",
+    "constructs": "visual working memory attention retroactive cueing interference resistance",
+    "claim": "Focused attention to a working memory item after encoding makes it resistant to interference from new information, suggesting working memory contents are volatile without sustained attentional focus.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.167",
+    "phenomenon": "decision-making and learning in uncertain environments",
+    "constructs": "Bayesian learning risk-taking sequential decision stochastic environment",
+    "claim": "Sequential risk-taking involves distinct learning and decision processes that jointly adapt to environmental structure, with learning processes potentially undermining assessment diagnosticity.",
+    "narrative": "incremental-extension",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.95.1.76",
+    "phenomenon": "social rejection of principled moral noncompliance",
+    "constructs": "moral rebellion implicit reproach self-image threat group pressure",
+    "claim": "People who break ranks on moral grounds are resented by participants when their principled refusal implicitly threatens the self-image of those who complied, but not by outside observers.",
+    "narrative": "context-effect",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.1.16",
+    "phenomenon": "convergence and divergence of attitude measurement approaches",
+    "constructs": "implicit attitude explicit attitude structural similarity measurement format",
+    "claim": "Weak correlations between implicit and explicit attitude measures reflect task format differences rather than independent cognitive systems; structural similarity increases correlation substantially.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.4.718",
+    "phenomenon": "personality trait reporting development across adolescence",
+    "constructs": "personality development Big Five coherence differentiation acquiescence",
+    "claim": "Youth personality self-reports show differential developmental trajectories, with coherence and differentiation increasing heterogeneously across Big Five domains independent of comprehension.",
+    "narrative": "boundary-condition",
+    "scope": "single-population",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.94.4.696",
+    "phenomenon": "parental attachment as anxiety buffer",
+    "constructs": "attachment mortality salience death anxiety worldview parental relationships",
+    "claim": "Parental attachment buffers existential anxiety through reduced death-thought accessibility and enhanced positive memory, with attachment style determining whether adults rely on parents versus romantic partners.",
+    "narrative": "context-effect",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/a0012833",
+    "phenomenon": "goal-based modulation of behavioral output",
+    "constructs": "action goals inaction goals cognitive output motor output prime-induced activation",
+    "claim": "General action and inaction goals modulate diverse forms of behavioral output uniformly, with multiple classes of behavior responding similarly to the same goal-activating stimuli.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  }
+]

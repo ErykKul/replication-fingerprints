@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0155",
+    "phenomenon": "Stroop effect modulation via proportion congruency",
+    "constructs": "contingency learning prediction threshold facilitation interference",
+    "claim": "Implicit learning of word-response contingencies, not strategic attention, explains proportion congruent effects on Stroop interference.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0158",
+    "phenomenon": "General activity regulation via goal priming",
+    "constructs": "action inaction goal satisfaction outcome monitoring",
+    "claim": "General action and inaction goals regulate motor and cognitive output across diverse behaviors independently of output type or valence.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0159",
+    "phenomenon": "Moral typecasting in dyadic perception",
+    "constructs": "moral agency moral patiency inverse relation dyadic schema",
+    "claim": "Perceptions of moral agency and patiency are inversely related due to asymmetrical structure of moral dyads, independent of valence and causal direction.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0160",
+    "phenomenon": "Differential moral foundations in political ideology",
+    "constructs": "moral foundations liberalism conservatism individualizing binding",
+    "claim": "Liberals construct morality from two individualizing foundations; conservatives equally weight five foundations including binding concerns.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0161",
+    "phenomenon": "Disgust-driven moral intuition uncoupled from deliberate judgment",
+    "constructs": "disgust sensitivity intuitive judgment moral condemnation implicit explicit",
+    "claim": "Individual differences in disgust sensitivity predict intuitive moral condemnation of homosexuality independent of explicit judgment, revealing dual-process architecture.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0162",
+    "phenomenon": "Visual perspective bidirectionally links to action abstraction",
+    "constructs": "visual perspective action identification abstraction third-person first-person",
+    "claim": "Third-person visual perspective causally increases abstract action representation and vice versa, linking imagery viewpoint to conceptual level.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  }
+]

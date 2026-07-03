@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0142",
+    "what_manipulated": "task-induced attentional focus on adjacent vs. nonadjacent element pairs",
+    "what_measured": "recognition accuracy for learned adjacent and nonadjacent dependencies",
+    "experiment": "Participants encoded two sequences with both adjacent and nonadjacent regularities embedded in digit strings. Half performed a task requiring processing of adjacent items; half required processing of nonadjacent items. A subsequent recognition test probed learning of both dependency types. The hypothesis tested whether attention to a specific spatial relation is sufficient for learning that relation, independent of objective contiguity.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0143",
+    "what_manipulated": "memory signal strength (familiarity) and task-specific noise added to priming and recognition processes",
+    "what_measured": "recognition accuracy and reaction times to hits, misses, false alarms, and correct rejections in continuous identification-recognition task",
+    "experiment": "A computational model incorporating a single memory signal (familiarity) scaled differently for priming and recognition tasks, each with independent sources of noise, was fitted to empirical data. The model predicts that dissociations between priming and recognition arise from independent noise, not independent memory systems.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0144",
+    "what_manipulated": "bilingual vs. monolingual language experience; task type (stop signal, inhibition of return, attentional blink)",
+    "what_measured": "stop signal reaction time (active inhibition efficiency); inhibition of return magnitude; attentional blink magnitude",
+    "experiment": "Monolinguals and bilinguals completed three tasks tapping different inhibitory mechanisms. Experiment 1 compared stop-signal performance. Experiment 2 measured inhibition of return with spatial cuing. Experiment 3 measured attentional blink in rapid serial visual presentation. Each task assessed a distinct inhibitory process to test whether bilingualism enhances active vs. reactive inhibition.",
+    "design": "between-subjects",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0145",
+    "what_manipulated": "semantic relation of word primes (categorically aligned vs. misaligned/functionally related) preceding digit pairs",
+    "what_measured": "reaction time to reject digit targets that are sum vs. neutral targets",
+    "experiment": "Participants encoded word-digit pairs where semantic relations between primes were either aligned (categorical) or misaligned (unrelated or functional) with addition structure. Both experiments measured obligatory activation of addition facts via the sum effect. Experiment 2 controlled for relatedness strength by comparing high-relatedness misaligned primes with categorically aligned primes.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0146",
+    "what_manipulated": "presence and timing of distractor pictures (semantically/phonologically related vs. unrelated); naming task (one picture vs. both pictures); word reading vs. picture naming",
+    "what_measured": "vocal naming latency; gaze shift latency; word reading latency",
+    "experiment": "Participants named green pictures while ignoring red distractor pictures, or named both, or read words while ignoring pictures. Eye movements and latencies tracked the flow of activation through word planning levels. Experiments tested whether phonological activation cascades from concepts to word forms and whether the amount of cascading is limited and task dependent.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0147",
+    "what_manipulated": "timing of attention cue (retro-cue vs. simultaneous vs. no cue); memory load (1 to 6 items); spatial overlap of memory and probe arrays",
+    "what_measured": "accuracy in change detection task; reaction time for correct responses",
+    "experiment": "Participants encoded arrays of colors or shapes, then judged whether a probe array matched memory after a retro-cue, simultaneous cue, or no cue. Experiments manipulated load, probe overlap, and comparison demands to isolate mechanisms underlying the retro-cue benefit. The design tested whether improved performance reflects memory decay, simplified comparison, interitem interference, or probe interference.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  }
+]

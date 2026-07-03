@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0080",
+    "what_manipulated": "perceiver target characteristics (likeability; victim status; action valence) and perspective-taking instruction",
+    "what_measured": "action identification level and mind attribution (intentionality, cognition, emotion)",
+    "experiment": "Participants judged action descriptions and attributed mental capacities to targets described in vignettes. Five studies manipulated target likeability, victim status, action valence, and perspective-taking instructions, measuring how participants identified the abstractness level of target actions (using behavior identification form) and attributed mental states across intentionality, cognition, and emotion dimensions.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0081",
+    "what_manipulated": "self-control task type (attention control, Stroop, emotion regulation, thought suppression) and glucose administration",
+    "what_measured": "blood glucose levels and subsequent self-control performance (Stroop errors, persistence on unsolvable task, helping behavior)",
+    "experiment": "Nine studies tested whether self-control depletes blood glucose and whether glucose restoration improves performance. Participants performed self-control tasks; glucose was measured before and after, and performance on subsequent self-control measures was assessed. Glucose drinks were administered to test causal effects on subsequent task performance.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0082",
+    "what_manipulated": "target conformity susceptibility (broad descriptions and specific instances across domains: gestures, purchases, political views, dining, media, etc.); social desirability and introspective availability of influences",
+    "what_measured": "perceived personal conformity susceptibility compared to peers; differential weighting of introspective vs. behavioral information",
+    "experiment": "Five studies measured participants' self-other asymmetry in perceived social influence. Participants assessed their own and others' susceptibility to various conformity pressures. Manipulations included varying desirability and introspective availability of influences; information-weighting measures assessed reliance on internal thoughts versus observable behavior.",
+    "design": "mixed",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0083",
+    "what_manipulated": "neurofeedback training direction (increase vs. decrease relative left frontal cortical activity) and action-oriented mindset (action-oriented, positive nonaction-oriented, or neutral)",
+    "what_measured": "relative left frontal cortical activity (EEG asymmetry) and attitude change toward chosen vs. rejected alternatives (spreading of alternatives)",
+    "experiment": "Two experiments tested whether modulating approach-motivational neural activity affects dissonance-driven attitude change. Experiment 1 used EEG neurofeedback (3 days) to manipulate frontal asymmetry after difficult decision, measuring subsequent attitude reassessment. Experiment 2 induced action-oriented mindsets and measured left frontal activation and spreading of alternatives.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0084",
+    "what_manipulated": "role (victim vs. perpetrator); condition (experimental: victim experienced injustice, perpetrator caused it; control); message type (empowerment, acceptance, both, or neither); perpetrator behavior valence (positive, neutral, negative)",
+    "what_measured": "sense of power, public moral image, need for power, need for social acceptance, willingness to reconcile",
+    "experiment": "Four studies tested whether differential emotional needs of victims (power) and perpetrators (moral image acceptance) drive reconciliation. Study 1 used a creativity test paradigm creating victim/perpetrator roles; Studies 2-4 manipulated messages of empowerment or acceptance and measured psychological resource restoration and reconciliation willingness via questionnaires and vignettes.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0085",
+    "what_manipulated": "time horizon (limited time: imagining or experiencing final visit/ending vs. control: typical/future visit) and location meaningfulness",
+    "what_measured": "happiness and sadness emotion ratings; mixed emotion scores (minimum of happiness and sadness)",
+    "experiment": "Two studies tested whether awareness of meaningful endings elicits mixed emotional experience. Study 1 used guided imagery: participants imagined a meaningful location at three time points, with experimental condition imagining a final visit. Study 2 surveyed graduating seniors on graduation day, with emphasis on the ending in limited-time condition. Emotions were rated on 7-point scales across 19 emotions.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1111/j.1468-0017.2011.01428.x",
+    "phenomenon": "variability in normative judgment across contexts",
+    "constructs": "norm-objectivity norm-relativism cultural-distance judgment-stability",
+    "claim": "Normative judgment shifts from objectivist to relativist framing as targets become culturally distant, suggesting no fixed underlying stance but context-dependent adoption of viewpoints.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1468-0068.2010.00795.x",
+    "phenomenon": "intuition reliability in abstract judgment",
+    "constructs": "context-sensitivity truth-conditions intuition-variability conversational-framing",
+    "claim": "Ordinary people lack the context-sensitive intuitions philosophers attributed to them; apparent disagreement may be error or confusion rather than genuine context-dependent knowledge judgments.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/j.1475-4975.2007.00150.x",
+    "phenomenon": "lay theories of causal absence",
+    "constructs": "folk-ontology causal-reasoning implicit-theory metaphysical-commitment",
+    "claim": "Ordinary people hold implicit metaphysical views about causation that differ from expert philosophical accounts and deserve empirical investigation.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1551-6709.2011.01210.x",
+    "phenomenon": "interaction of emotion and deliberation in normative judgment",
+    "constructs": "reflection cognitive-deliberation automatic-response judgment-type",
+    "claim": "Increased deliberation shifts judgments by allowing reasoned argument to override automatic emotional resistance, with magnitude depending on argument strength.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1741-3737.2012.00990.x",
+    "phenomenon": "expectation-formation and life-course transition timing",
+    "constructs": "expectation-value life-trajectory educational-attainment reproductive-timing",
+    "claim": "Early expectations about reproductive timing predict educational pathway choice, but actual reproductive events have weaker causal effects on persistence than expected.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "hedged-claim"
+  },
+  {
+    "doi": "10.1111/j.1741-3737.2012.01034.x",
+    "phenomenon": "cessation of intimate behavior in long-term pair bonds",
+    "constructs": "relationship-duration health-status intimate-engagement bond-quality",
+    "claim": "Cessation of intimate activity increases with time and health decline; bond quality and relationship history show gender-differentiated associations.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1933-1592.2012.00609.x",
+    "phenomenon": "lay understanding of agency and determinism",
+    "constructs": "agency free-will causality moral-responsibility determinism",
+    "claim": "Folk intuitions about agency are compatibilist when people correctly understand determinism; apparent incompatibilism results from misinterpreting determinism as mental-bypass.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/lang.12161",
+    "phenomenon": "cognitive control in cross-language sound processing",
+    "constructs": "inhibition phonological-accuracy perception-production language-proficiency",
+    "claim": "Stronger inhibitory control predicts more accurate perception and production of target-language sounds, suggesting control enhances phonological discrimination.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/nous.12017",
+    "phenomenon": "consequence-sensitivity in knowledge attribution",
+    "constructs": "stakes practical-consequence knowledge-ascription epistemic-judgment",
+    "claim": "Stakes shift knowledge attribution: identical evidence warrants less knowledge-credit when consequences of error are high.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1126/science.1091721",
+    "phenomenon": "inertia in preference formation",
+    "constructs": "default-effect choice-architecture preference-formation behavioral-inertia",
+    "claim": "Preset options shape aggregate preference through inertia; changing defaults produces large shifts in behavior.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1126/science.1130726",
+    "phenomenon": "metaphorical linking of bodily and moral purity",
+    "constructs": "moral-threat physical-cleansing embodied-cognition self-image",
+    "claim": "Moral transgression activates cleansing desire and cleansing behavior reduces moral distress, linking bodily purity concepts to moral self-restoration.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1126/science.1130726",
+    "phenomenon": "collective action and cooperation in shared-resource governance",
+    "constructs": "punishment communication cooperation resource-sustainability",
+    "claim": "Costly punishment occurs in shared-resource dilemmas but benefits depend critically on combining punishment with communication, not punishment alone.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1126/science.1186799",
+    "phenomenon": "cleansing and cognitive resolution of conflicting preferences",
+    "constructs": "choice-dissonance preference-adjustment physical-cleansing mental-reset",
+    "claim": "Physical cleansing eliminates postdecisional preference distortion, suggesting cleansing metaphorically resets past concerns.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1126/science.1189993",
+    "phenomenon": "tactile properties unconsciously shaping social perception",
+    "constructs": "sensorimotor-simulation embodied-cognition implicit-influence conceptual-metaphor",
+    "claim": "Incidental tactile properties (weight, texture, hardness) nonconsciously bias social judgment in metaphor-congruent ways.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1126/science.1190792",
+    "phenomenon": "automatic encoding and retention of others' mental states",
+    "constructs": "theory-of-mind belief-representation dual-representation social-prediction",
+    "claim": "Others' beliefs are automatically computed and maintained even when irrelevant and conflicting, shaping perception and action without explicit awareness.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1126/science.1191465",
+    "phenomenon": "retrieval-based learning and memory integration",
+    "constructs": "retrieval-practice mediator-strength cue-target-linkage memory-accessibility",
+    "claim": "Retrieval practice produces stronger memory encoding by generating mediators that are both retrievable and effective at target-elicitation.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1126/science.1195701",
+    "phenomenon": "habituation via mental simulation",
+    "constructs": "mental-representation repetition stimulus-satiation motivation-decrease",
+    "claim": "Repeated imagination of stimulus-consumption produces habituation identical to actual consumption, mediated by reduced desire not reduced palatability.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1126/science.1199327",
+    "phenomenon": "retrieval-driven versus elaborative learning pathways",
+    "constructs": "retrieval-practice elaboration conceptual-learning transfer-of-learning",
+    "claim": "Retrieval practice produces greater conceptual learning gains than elaborative study, even on conceptual transfer tasks.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1126/science.1199427",
+    "phenomenon": "expressive disclosure and pressure-performance coupling",
+    "constructs": "anxiety-regulation pressure-response expressive-writing cognitive-load",
+    "claim": "Expressive writing about test concerns immediately before high-stakes performance reduces worry-induced performance decrements.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1126/science.1207745",
+    "phenomenon": "offloading of memory to external information systems",
+    "constructs": "transactive-memory information-accessibility memory-for-location encoding-strategy",
+    "claim": "When people expect external information access, they shift from encoding facts to encoding retrieval locations, treating external systems as distributed memory.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  }
+]

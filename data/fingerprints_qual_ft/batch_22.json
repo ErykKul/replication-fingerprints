@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0148",
+    "phenomenon": "feature binding in implicit learning",
+    "constructs": "covariance, object representation, dimension diagnosticity, feature correlation",
+    "claim": "Feature binding in statistical learning is determined by correlation structure rather than fixed object categories; high covariance drives object-based learning, low covariance drives feature-based learning.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0149",
+    "phenomenon": "strength-dependent directed forgetting",
+    "constructs": "context strength, item strength, spacing, context mismatch",
+    "claim": "Directed forgetting is not strength-invariant; forgetting magnitude increases for strong items only when strength stems from context-multiplying operations like spacing, not from increased processing depth or time.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0150",
+    "phenomenon": "automatic cross-notation numerical processing",
+    "constructs": "abstract representation, automaticity, notation independence, magnitude activation",
+    "claim": "Numerical information across different notations is automatically translated to common magnitude representation, demonstrating notation-independent abstract coding.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0151",
+    "phenomenon": "recollection-based recognition with dual retrieval routes",
+    "constructs": "familiarity, recollection, context-to-item retrieval, item-to-context retrieval, serial position effects",
+    "claim": "Recognition combines familiarity and recollection through two bidirectional retrieval routes; intrusion errors reflect recollection strength, producing serial position curves parallel to positive probes.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0152",
+    "phenomenon": "illusory source recollections from stereotype activation",
+    "constructs": "expectation-consistent illusory memory, constructive recollection, gist-trace redintegration, false remembering",
+    "claim": "Stereotype activation at retrieval constructs illusory source recollections; false memories accompany high confidence and remember judgments, not guessing, demonstrating recollection is constructed from both trace and expectations.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0153",
+    "phenomenon": "time-based resource sharing in task switching",
+    "constructs": "task switching cost, attention occupation, maintenance decay, working memory capacity",
+    "claim": "Task switching impairs working memory maintenance proportional to its attentional time cost; load-independent switch cost reflects time-based resource sharing where any attention-consuming activity degrades memory trace refreshment.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

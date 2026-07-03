@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0593",
+    "what_manipulated": "depth of pragmatic reasoning required (simple vs complex referential inference)",
+    "what_measured": "choice of target vs competitor object; comprehension and production accuracy",
+    "experiment": "Two lab experiments with ~60 MTurk units each. Comprehension task: participants interpreted messages describing one of three objects, rating target vs competitor vs distractor choices on critical trials (simple vs complex implicature conditions) and filler trials (unambiguous vs ambiguous). Production task: participants selected messages to describe highlighted target objects under same condition structure. Outcomes analyzed as proportions and via logistic mixed-effects regression testing implicature difficulty and learning effects; Bayesian model comparison assessed homogeneous vs heterogeneous reasoning-type populations.",
+    "design": "between-subjects",
+    "manipulation": "observational",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0604",
+    "what_manipulated": "presence of financial liquidity; perceived criticality of need; framing of consequences as loss vs gain; availability of alternative lending options",
+    "what_measured": "loan amount requested; accuracy of cost estimation; perceived financial risk; ego depletion; repurchase intentions",
+    "experiment": "Five studies including three experiments, one qualitative content analysis of 200 CFPB complaints, and one intervention test. Experiments: Study 1 (N=207, 2×2 between-subjects: liquidity × criticality), Study 2 (N=200, 2×2 between-subjects: framing × lending options), Study 3 (N=199, 2×2×2 between-subjects: liquidity × framing × lending options). Each manipulated via scenario text; units chose loan amounts up to $1,000 against stated need of $500; measured outcomes via ANOVA with covariates (financial literacy, consideration of future consequences, income, education).",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0612",
+    "what_manipulated": "presence of virtual partner; presence of verbal encouragement from partner",
+    "what_measured": "exercise duration across five abdominal plank holds; task self-efficacy; enjoyment; effort ratings; intention to exercise",
+    "experiment": "Lab randomized trial with 115 college units (58 male, 57 female). Three between-subjects conditions at Time 2 (after Time 1 baseline): individual control, partner-without-encouragement (confederate), partner-with-encouragement (prerecorded encouragement phrases). Outcome: total seconds holding planks in each block. Analysis: 3 (condition) × 2 (sex) ANOVA on difference scores (Block 2 minus Block 1); post-hoc comparisons; ancillary analysis of self-efficacy via ANCOVA with pre-measure covariate.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0618",
+    "what_manipulated": "none; genetic variation in natural population",
+    "what_measured": "frequency of non-synonymous and nonsense SNPs in coding regions and near splice sites; pathway annotation; CADD deleteriousness scoring",
+    "experiment": "Observational genetic study. 383 ME/CFS units (self-reported diagnosis via online screening) and 23andMe genotyping (chip versions 4-5, ~570-640k SNPs). SNPs filtered for non-synonymous, nonsense, and miRNA variants; frequencies calculated in ME/CFS cohort; compared to Kaviar reference database (162M SNPs). Functional annotation via ConsensusPathDB over-representation analysis (KEGG, Reactome, etc.) with p-value cutoff 0.01. Deleteriousness scored via CADD algorithm; 50 most frequent high-frequency SNPs identified; pathway clustering by network visualization.",
+    "design": "observational",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "single-hypothesis",
+    "clarity": "partially-specified",
+    "rigor": "minimal",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0619",
+    "what_manipulated": "response effort on priming task (low vs high effort instructions); cleanliness vs neutral priming via sentence unscrambling",
+    "what_measured": "moral judgment severity (0-9 scale across six vignettes; composite and per-item); emotional states; response effort operationalized as survey completion time and page-response timing",
+    "experiment": "Three studies. Study 1 (N=214 after exclusion; online MTurk): 2 (neutral vs cleanliness priming) between-subjects design; effort operationalized as median-split survey duration. Study 2 (N=440 after exclusion; online MTurk): 2 × 2 (priming × effort manipulation) between-subjects; effort instructions explicitly varied ('work quickly' vs 'perform to best ability'). Outcome: t-tests on composite moral judgment scores; interaction via factorial ANOVA; planned exclusion for guessing hypothesis (open-ended) and insufficient effort responding (675 wpm page-timing threshold). Study 2a (N=436) confirmatory replication.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "preregistered-with-power",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0620",
+    "what_manipulated": "training type: intervention (situational awareness + tactical gaze control + visual attention) vs active control (traditional marksmanship focus)",
+    "what_measured": "decision accuracy in shoot/don't shoot video scenarios; response time to first shot; time to first effective hit; muzzle position duration at eyesight level; duration with eyes closed before shot; hit factor (marksmanship) on static targets",
+    "experiment": "Lab randomized controlled trial. N=45 senior police officers (14 female, 31 male; mean age 35.3 years, mean service 13 years). Random assignment to intervention (n=22) or control (n=23) groups. Both groups: pre-test baseline (marksmanship task + three video scenarios), then training (12-18 min educational video + practical training), then post-test (same structure). Video scenarios: 16 clips of four suspects × two shoot/two don't-shoot conditions; scenarios 19s mean duration with handgun clearly visible ≥2s. Eye-tracking (Pupil Invisible 200Hz) recorded gaze. Analysis: repeated-measures ANOVA (Time × Group) for duration measures; Wilcoxon test for decision accuracy; separate ANOVAs by group for progress; exploratory ANCOVA by suspect identity.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "preregistered-with-power",
+    "transparency": "open-one"
+  }
+]

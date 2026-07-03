@@ -1,0 +1,23 @@
+# This package SHIPS the derived corpus (data/) so `python reproduce.py` runs offline
+# with no LLM and no network. The raw FULL-TEXT corpus is rebuilt locally (README) and
+# must never be committed.
+
+# Local config (institutional credentials for the OPTIONAL full-text harvest):
+.env
+
+# Rebuilt full-text corpus + harvest working files (copyrighted, local-only):
+data/fulltext_pdf/
+data/fulltext_md/
+data/.pw_profile/
+
+# Python:
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+
+# Regenerated outputs (make reproduce): the three paper figures
+fig1_scatter.pdf
+fig2_lenses.pdf
+fig3_roc.pdf

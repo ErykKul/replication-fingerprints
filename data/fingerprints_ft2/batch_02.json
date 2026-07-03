@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0016",
+    "what_manipulated": "latent classes of narcissism: admiration vs. rivalry pathways",
+    "what_measured": "personality traits and adjustment outcomes: self-esteem, empathy, interpersonal distrust",
+    "experiment": "Latent class analysis identified subgroups via item response patterns on two narcissism subscales (admiration, rivalry); relatedness to personality traits and adjustment indicators tested via latent class regression and CFA with class membership as predictor.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0017",
+    "what_manipulated": "level of processing (perceptual vs. semantic) and musical prime valence (happy vs. angry) during encoding",
+    "what_measured": "incidental recognition memory for emotion words (joy, anger, disgust, neutral)",
+    "experiment": "Between-subjects design crossed processing depth with music type; participants encoded words via graphemic or semantic task while music played; surprise recognition memory tested with hits minus false alarms corrected.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0018",
+    "what_manipulated": "optimism (measured at baseline, not manipulated)",
+    "what_measured": "perceived stress at 3-month follow-up; social support from recipients' and providers' perspectives (baseline)",
+    "experiment": "Longitudinal dyadic design; optimism predicted stress prospectively; actor-partner interdependence models tested whether recipients' perceived support and providers' reported support mediated the optimism-stress relationship.",
+    "design": "longitudinal",
+    "manipulation": "observational",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0019",
+    "what_manipulated": "informal competition (perceived obstacle level) and contextual moderators: formal competition, irregular payment prevalence, regulatory optimism",
+    "what_measured": "new product development: binary outcome (introduced new or upgraded product vs. did not)",
+    "experiment": "Large cross-national survey of 9,522 firms; logistic regression with country fixed effects tested whether informal competition predicts NPD; main effect moderated by formal competition, corruption prevalence, and managerial optimism about regulatory environment.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0020",
+    "what_manipulated": "dictator game frame: giving (dictator owns endowment, gives to recipient) vs. taking (recipient owns endowment, dictator takes)",
+    "what_measured": "amount allocated to recipient; social type classification (selfish vs. egalitarian)",
+    "experiment": "Between-subjects design with 70 dictators and 70 recipients per frame; dictators allocated £0-£10 under neutral framing; recognition measured by hits/false-alarms corrected. Gender-stratified analyses and Probit models tested framing effects on social type.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-one"
+  },
+  {
+    "paper_id": "p0021",
+    "what_manipulated": "group size (2 vs. 5 players), player position (upstream vs. downstream), and download interruption (files preserved vs. lost if upstream blocks bandwidth)",
+    "what_measured": "infrastructure investment (tokens), resource extraction (files downloaded), earnings, income inequality (Gini coefficient)",
+    "experiment": "Laboratory commons dilemma with two decisions: investment in shared bandwidth, then extraction via file downloads. Real-time interaction with sequential access asymmetry; between-subjects treatments, 10 rounds with communication; hierarchical linear models and group-level regression analyzed investment and extraction by position and round.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  }
+]

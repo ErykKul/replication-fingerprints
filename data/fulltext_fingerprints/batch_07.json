@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0235",
+    "what_manipulated": "observability of decision-making process (choice visibility versus hidden)",
+    "what_measured": "uncalculating cooperation behavior and trust in partner",
+    "experiment": "Two-stage economic game: Stage 1 (Helping Game), unit A decides whether to pay cost to help recipient; decision process operationalized as looking choice (Exp 1: whether A chooses to see cost) or decision time (Exp 2: seconds spent deciding). Stage 2 (Trust Game), unit B observes A's stage 1 behavior and decides how much to send to A (signal of trust); A returns portion to B (trustworthiness). Between-subjects manipulation: process observable (B can condition trust on A's decision process) versus process hidden (B only knows outcome). Analysis: Chi-square or t-tests comparing proportions/times across visibility conditions; regressions predicting trust and trustworthiness from uncalculating behavior.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-one"
+  },
+  {
+    "paper_id": "p0236",
+    "what_manipulated": "fairness of allocation procedure (fair versus unfair) and temporal perspective on allocation (before versus after allocation made)",
+    "what_measured": "perceived importance of fairness and happiness with outcome",
+    "experiment": "Seven studies with varied designs. Core studies 1-3: between-subjects allocation design where units predict happiness receivers would feel under fair or unfair procedure; outcome (bonus or no bonus) manipulated; allocators predict receiver happiness, then procedure enacted, actual happiness measured via Likert scales. Studies 4-5: manipulated temporal perspective (allocators predict after allocation made versus receivers predict before allocation). Studies 6-7: allocators chose between fair-but-inefficient versus unfair-but-efficient procedures; predicted receiver happiness, then enacted and measured actual happiness. Analysis: t-tests and ANOVAs comparing predicted versus actual happiness across fairness and procedure conditions.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0237",
+    "what_manipulated": "subjective socioeconomic status (low versus high versus control) via ladder comparison task",
+    "what_measured": "appetite, food preference, and caloric intake",
+    "experiment": "Four studies manipulating subjective socioeconomic status (SSES) via ladder-comparison task (low SSES: compare self to ladder top; high SSES: compare self to ladder bottom). Study 1 (n=101): outcome = hypothetical meal selection calories (multiple regression with interaction). Study 2 (n=167): outcome = implicit association test bias for high-calorie foods over low-calorie foods (2×2 ANOVA). Study 3 (n=83): outcome = ad-libitum snack consumption during video (2×2 ANOVA on total calories and specific foods). Study 4 (n=148): outcome = ad-libitum meal consumption (2×3 ANOVA with control condition; post-hoc t-tests). All studies included baseline measures of hunger, cognitive restraint, affect, and excluded dietary restrictors (studies 2-4 only nondieters). Analysis: ANOVA/multiple regression with gender as covariate; controls for affect and self-concept.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0238",
+    "what_manipulated": "temporal focus of environmental message (past-focused versus future-focused versus control) and political ideology (conservative versus liberal)",
+    "what_measured": "attitudes toward climate change and pro-environmental behavior",
+    "experiment": "Six studies (plus meta-analysis of studies 1-6). Study 1 (n=unspecified): participants read climate messages comparing present to past versus future; evaluated message and reported environmental attitudes (interaction ANOVA). Study 2 (n=unspecified): replicated with control message. Study 3 (n=unspecified): showed pairs of photographs comparing past versus future environmental changes; measured attitudes. Studies 4a-4b: audio survey of environmental charity websites (content analysis); real charities paired with temporal focus, units allocated windfall money. Studies 5-6: similar allocation tasks with ostensible charities. Study 7: mixed-effects meta-analysis across all studies pooling effect sizes. Analysis: regression with temporal focus and ideology as predictors; ANOVA interactions; donation behavior analyzed via choice data; meta-analysis computed standardized effect sizes.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0239",
+    "what_manipulated": "presence and visual saliency of thank-you gift incentive (control versus non-salient gift versus salient gift) in direct-mail and online fundraising",
+    "what_measured": "donation rate and donation amount",
+    "experiment": "Two experiments. Field experiment (n=3,641): direct-mail fundraising campaign; units randomly assigned to control (no gift), swag gift (tumbler), or meals gift (food bank donation); outcome = binary donation response and donation amount conditional on donating. Solicitation letter was identical across conditions; gifts varied in salience via colored insert (swag and meals) versus no insert (control). Online experiment (n=771+538): Mechanical Turk sample; units allocated bonus money to Red Cross charity; between-subjects conditions: control (no gift), gift/no-image (low saliency), gift/image (high saliency); additional condition tested more-desirable gift (Amazon vs. Staples). Field analysis: OLS logistic regressions predicting donation (binary) and amount (log-transformed); stratified by prior donation amount. Online analysis: difference-in-means t-tests and logit models; visual saliency manipulated via presence/absence of image holding perceived desirability constant.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "preregistered-with-power",
+    "transparency": "open-one"
+  },
+  {
+    "paper_id": "p0240",
+    "what_manipulated": "facial traits of scientist (competence, morality, sociability, attractiveness) and scientist/story characteristics (gender, discipline, communication format)",
+    "what_measured": "interest in scientist's work, perceived research quality, and selection of science news",
+    "experiment": "Six studies. Studies 1-2 (n=216 faces, 54-762 raters each): units rated scientist faces on trait dimensions (competence, morality, sociability, attractiveness) via nine-point scales; separate groups judged interest and 'good scientist' quality. Confirmatory factor analysis extracted three factors; mixed-effects regression predicted interest and quality from facial traits and demographics. Studies 3-4 (n=849, 408): units chose real science news stories paired with high/low interest faces (study 3) or rated interest in videos with faces varying in competence/attractiveness (study 4); mixed-effects logit/regression models. Studies 5-6 (n=558, 824): units read real science articles paired with high/low 'good scientist' faces (study 5) or rated quality of research with faces varying in competence/attractiveness (study 6); mixed-effects regression predicted quality judgments. All analyses included standardized predictors, random effects by participant and face, control for participant-level variables (age, gender, science engagement).",
+    "design": "between-subjects",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "many-exploratory",
+    "clarity": "clearly-operationalized",
+    "rigor": "preregistered-with-power",
+    "transparency": "open-data-and-materials"
+  }
+]

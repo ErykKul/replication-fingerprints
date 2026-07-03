@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0116",
+    "phenomenon": "disposition shapes workplace attitudes",
+    "constructs": "affect job-attitudes trait state",
+    "claim": "Individual affective dispositions partially cause the stability and direction of job-related evaluations across settings.",
+    "narrative": "incremental-extension",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0117",
+    "phenomenon": "learning from scarce positive evidence",
+    "constructs": "inference examples categories structure",
+    "claim": "Learners resolve the infinite possible word meanings by using structure-dependent priors that bias toward natural kinds and taxonomic levels.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0118",
+    "phenomenon": "alternatives shape emotion intensity",
+    "constructs": "norms counterfactuals availability emotion",
+    "claim": "Emotional responses arise from comparing events to mentally recruited alternatives, not from objective event properties.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0119",
+    "phenomenon": "hindsight distorts predictability",
+    "constructs": "knowledge outcome alternatives bias",
+    "claim": "Knowing an outcome reduces ability to imagine alternatives, making that outcome appear inevitable rather than contingent.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0120",
+    "phenomenon": "extreme confidence lacks calibration",
+    "constructs": "certainty probability judgment accuracy",
+    "claim": "Confidence judgments at extreme levels systematically overestimate accuracy, persisting even with training and incentives.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0121",
+    "phenomenon": "abstraction eliminates perspective-taking",
+    "constructs": "risk preference prediction empathy vividity",
+    "claim": "People use own feelings to predict abstract others' risk preferences but project their own preferences onto concrete individuals.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

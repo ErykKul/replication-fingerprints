@@ -1,0 +1,26 @@
+[
+  {
+    "paper_id": "p0136",
+    "finding": "Items forgotten via inhibition during retrieval practice benefit disproportionately from subsequent relearning, recovering to higher final accessibility than non-inhibited items. Forgetting paradoxically enhances learning effectiveness by reducing initial accessibility, enabling greater retrieval-strength gains during retraining."
+  },
+  {
+    "paper_id": "p0137",
+    "finding": "Intermixed presentation of similar stimuli produces superior discrimination compared to blocked presentation independent of trial spacing, implicating attention-based feature differentiation rather than consolidation. Similarity of intermixed items is critical; alternation with dissimilar items produces no advantage."
+  },
+  {
+    "paper_id": "p0138",
+    "finding": "Phonologically related irrelevant sounds disrupt free recall but not serial recall of phonologically similar to-be-remembered items, with increased intrusion of irrelevant items. Effect emerges when category-cueing processes drive retrieval, not when temporal-order processes dominate."
+  },
+  {
+    "paper_id": "p0139",
+    "finding": "Semantic interference persists in delayed naming despite elimination of frequency effects, indicating postlexical origin independent of lexical selection bottleneck. Response exclusion from single-channel output buffer, not lexical competition, produces semantic interference."
+  },
+  {
+    "paper_id": "p0140",
+    "finding": "Reading pathway emphasis changes on trial-by-trial basis when exception words and nonwords alternate unpredictably, with larger switch costs attributable to stimulus-driven exogenous control. Regular words accommodate either pathway when context permits, eliminating switch costs."
+  },
+  {
+    "paper_id": "p0141",
+    "finding": "Semantic neighborhood effects reverse by neighbor distance: near neighbors slow word recognition via competitive settling interference, distant neighbors speed recognition via gradient facilitation. Attractor dynamics model explains simultaneous inhibitory and facilitative effects within single processing framework."
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "paper_id": "p0416",
+    "what_manipulated": "inhibitory control capacity measured via retrieval-induced inhibition task",
+    "what_measured": "accuracy of L2 phonological perception and production of vowel and consonant contrasts",
+    "experiment": "58 L2 learners (23 English-learners of L2 Spanish, 20 Spanish-learners of L2 English) completed a retrieval-induced inhibition task measuring inhibitory control, an ABX categorization task assessing segmental perception across native and nonnative vowel/consonant contrasts, and a delayed sentence repetition task assessing production accuracy. Units: individual learners. Comparison: correlation between inhibition scores and perception/production error rates, controlling for L2 vocabulary size as proficiency covariate. Statistical test: Pearson partial correlations and hierarchical regression with proficiency covariate, examining whether inhibition predicted perception (r = -0.42, p < 0.01) and consonant production (r = 0.34, p < 0.05).",
+    "design": "within-subjects",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-materials"
+  },
+  {
+    "paper_id": "p0430",
+    "what_manipulated": "tactile properties of manipulated objects (weight, texture, hardness) nonconsciously experienced during task performance",
+    "what_measured": "social judgments and decisions about unrelated people and situations in distinct domains (impression formation, bargaining, negotiation)",
+    "experiment": "Six between-subjects experiments with college/university participants (total ~300 units). In Exp 1 (n=54): participants rated job candidates while holding heavy or light clipboards, rated candidate suitability (scale 1-7). In Exp 3 (n=64): participants completed rough or smooth puzzles then rated ambiguous social interaction on coordination quality scale 1-9. In Exp 5 (n=49): participants touched soft blanket or hard wood block then rated employee rigidity on scale 1-7. In Exp 6 (n=86): participants sat in hard or soft chair and completed negotiation task with offer prices. Statistical tests: ANOVA for each experiment comparing conditions on dependent measures; all effects reported with F-statistics and p-values.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0448",
+    "what_manipulated": "study condition: retrieval practice with free recall testing vs elaborative concept mapping study activity, with fixed total study time matched across conditions",
+    "what_measured": "long-term retention and meaningful learning measured by short-answer test performance on verbatim and inference questions one week post-learning",
+    "experiment": "Two experiments with undergraduate units. Exp 1 (n=80): four within-subject conditions (study-once, repeated study, concept mapping, retrieval practice) with fixed timing. Units studied science texts then took final test one week later assessing verbatim and inference questions. Comparison: retrieval practice (M=0.67) vs concept mapping (M=0.45) on 0-1 scale. Exp 2 (n=120): within-subject design where each unit studied two texts, creating concept map for one and retrieving from the other. Final test format varied: half took short-answer, half created concept maps without texts. Statistical analysis: ANOVA F-tests on proportion correct, effect sizes (d = 1.50 for Exp 1, d = 1.07 and d = 1.01 for Exp 2).",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0454",
+    "what_manipulated": "structural incongruity in language and music: syntactic complexity in spoken sentences (Exp 1: simple, complex, ungrammatical) and harmonic incongruity in musical phrases (Exp 2: in-key, nearby-key, distant-key chords)",
+    "what_measured": "event-related brain potential (ERP) components, specifically P600 amplitude and latency across scalp sites, elicited by structurally incongruous targets",
+    "experiment": "Within-subjects design (n=15, musically educated adults) who heard 30 sets of sentence triplets (90 total sentences plus 60 fillers in 5 blocks) and 36 sets of musical phrases (108 experimental + 36 control = 144 total phrases in 4 blocks) across single session. Linguistic targets: noun phrases time-locked at onset; acceptability judgments (95% simple, 61% complex, 4% ungrammatical). Musical targets: chords time-locked at onset; acceptability (80% in-key, 49% nearby, 28% distant). EEG recorded from 13-15 scalp sites, averaged per condition. Statistical tests: repeated-measures ANOVA on mean amplitude in 300-500, 500-800, 800-1100 msec windows; F-tests on condition effects and hemisphere interactions; difference waves compared across domains (450-750 msec latency range).",
+    "design": "within-subjects",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "paper_id": "p0354",
+    "finding": "Two independent evaluative systems update simultaneously but on different information: one tracks associative cues presented subliminally, the other tracks consciously accessible behavioral information. When these conflict, the same object receives opposite evaluations from each system, which change independently in opposite directions as new information aligns with one pathway or the other."
+  },
+  {
+    "paper_id": "p0357",
+    "finding": "At 25 months, infants anticipate action based on attributing to others an outdated belief state that differs from reality, demonstrating predictive reasoning about false mental content earlier than verbal false-belief tasks detect."
+  },
+  {
+    "paper_id": "p0365",
+    "finding": "When selecting two targets in rapid succession, the second selection undergoes three independent degradations (reduced amplitude, delayed timing, increased spread) with distinct recovery timescales, indicating multiple dissociable neural processes rather than a single bottleneck."
+  },
+  {
+    "paper_id": "p0393",
+    "finding": "Summary statistics (e.g., group centroid) of unattended items are represented with higher fidelity than individual item properties of the same unattended items, because pooling noisy local estimates yields stable aggregate values when those items are ignored."
+  },
+  {
+    "paper_id": "p0396",
+    "finding": "Successive estimates from the same person on factual questions have partially independent error; averaging two guesses reduces error below either alone, and temporal delay between estimates increases independence, demonstrating probabilistic sampling from internal distributions rather than deterministic recall."
+  },
+  {
+    "paper_id": "p0402",
+    "finding": "Ambient temperature directly shifts social-cognitive processing: warmer conditions induce closer social proximity, more concrete language, and relational perceptual focus; colder conditions induce distance, abstract language, and property-focused perception, mediated through language abstraction level."
+  }
+]

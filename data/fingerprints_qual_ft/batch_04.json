@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0028",
+    "phenomenon": "visual cue influence on judgment and action",
+    "constructs": "anchor salience cognitive-resources judgment-bias behavior",
+    "claim": "Perceptual anchors automatically influence quantity judgment and subsequent consumption unless cognitive resources are depleted.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0029",
+    "phenomenon": "literacy intervention efficacy in semi-transparent orthography",
+    "constructs": "intensive-instruction phonics adaptive-software transfer",
+    "claim": "Structured, multi-component early reading intervention improves outcomes in at-risk children regardless of software adaptivity.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0030",
+    "phenomenon": "implicit classical conditioning of brain response",
+    "constructs": "consciousness masking conditioning stimulus-significance",
+    "claim": "Neural signatures of classical conditioning emerge even when the unconditioned stimulus is perceptually masked and not consciously identified.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0032",
+    "phenomenon": "institutional fairness and economic resilience",
+    "constructs": "impartiality ethnic-favoritism growth-sustainability political-stability",
+    "claim": "Perceived government impartiality reduces rent-seeking and ethnic conflict, enabling sustained growth independent of policy content.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0033",
+    "phenomenon": "operational simplicity and discipline enable flexibility",
+    "constructs": "simplicity discipline flexibility lean-processes procedure-adherence",
+    "claim": "Manufacturing flexibility arises from disciplined simplicity in process design and execution, not from trade-offs or sequential development.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0034",
+    "phenomenon": "familiarity erodes memory confidence",
+    "constructs": "repeated-exposure familiarity perceptual-processing memory-confidence",
+    "claim": "Repeated interaction with a stimulus degrades subjective clarity and confidence in memory for that stimulus via shift from perceptual to conceptual processing.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

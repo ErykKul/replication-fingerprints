@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0053",
+    "what_manipulated": "mood state (induced via event recall or weather)",
+    "what_measured": "well-being and life satisfaction judgments",
+    "experiment": "Induce transient mood through vivid description of positive/negative life events or weather conditions. Vary salience of situational attribution for mood source via expectation manipulation or priming. Measure effects on general happiness and life satisfaction ratings. Test whether mood state serves as diagnostic information for life evaluation or whether misattribution reduces reliance on mood.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0054",
+    "what_manipulated": "facial muscular activity (smile-associated muscles inhibited or facilitated)",
+    "what_measured": "humor response intensity (affective and cognitive components)",
+    "experiment": "Manipulate facial muscle contractions via pen-holding task (lips inhibit smiling; teeth facilitate smiling; hand control). Present humorous stimuli and measure ratings of funniness and amusement. Vary timing of muscle manipulation relative to stimulus presentation. Test whether peripheral facial feedback affects emotional experience absent awareness of facial expression.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0055",
+    "what_manipulated": "counterfactual default event (whether alternative to factual event undoes outcome)",
+    "what_measured": "causal judgment of prior event",
+    "experiment": "Present scenarios describing harm outcome with factual event held constant. Vary counterfactual default alternative so it either undoes or fails to undo outcome. Measure causal ratings and mutation task responses. Test whether success of counterfactual default in undoing outcome drives causal attribution via mental simulation.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0056",
+    "what_manipulated": "individual differences (optimism, self-esteem, control) and coping strategy use",
+    "what_measured": "adjustment to college, physical health, motivation, academic performance",
+    "experiment": "Measure dispositional traits and coping strategies at baseline during college entry. Assess adjustment, health, and support at 3-month follow-up. Measure motivation and grades at 2-year follow-up. Test direct effects and mediation pathways via coping and social support. Compare alternative causal models.",
+    "design": "longitudinal",
+    "manipulation": "observational",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0057",
+    "what_manipulated": "participant sex and sexual orientation",
+    "what_measured": "mating psychology preferences (six dimensions: uncommitted sex, visual stimuli, partner status, age, attractiveness, jealousy type)",
+    "experiment": "Administer multi-item scales measuring mating psychology to heterosexual and homosexual men and women. Compare group means across six dimensions via multiple regression with orthogonal contrasts. Examine scale intercorrelations and within-group patterns. Test evolutionary predictions about sex differences and sexual orientation effects.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0058",
+    "what_manipulated": "time perspective (recent vs. lifetime regret) and regret type (action vs. inaction)",
+    "what_measured": "intensity and frequency of regret experience",
+    "experiment": "Survey and interview adults about biggest regrets. Distinguish action versus inaction regrets. Present scenarios with negative outcomes from action or inaction; ask about short-term and long-term regret. Assess participants' own regrets from past week and entire life. Test whether temporal pattern reverses: actions regretted more short-term, inactions more long-term.",
+    "design": "mixed",
+    "manipulation": "observational",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  }
+]

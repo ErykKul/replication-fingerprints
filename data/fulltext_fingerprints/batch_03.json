@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0117",
+    "what_manipulated": "number and taxonomic level of labeled examples in a novel word-learning task",
+    "what_measured": "generalization of novel word labels to new objects at different taxonomic levels",
+    "experiment": "Units (25 adult participants) completed two phases: (1) word-learning phase where they saw 1 or 3 examples of a novel word applied to objects and selected matching objects from a test set of 24; (2) similarity-judgment phase where 9 participants rated pairwise similarity of objects on a 1-9 scale. Selections and similarity ratings were analyzed by comparing generalization patterns across subordinate, basic, and superordinate taxonomic levels. Hierarchical clustering reconstructed an implicit taxonomic hypothesis space used for word learning. Bayesian model with size principle and hypothesis averaging fit the aggregated generalization data (R2=.93; R2=.98 with basic-level bias added).",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0153",
+    "what_manipulated": "number of task switches required during concurrent maintenance",
+    "what_measured": "recall accuracy for concurrently maintained items (consonants)",
+    "experiment": "Four experiments (total 19-25 participants) used continuous span tasks: units maintained consonant sequences (3-8 items) while processing digit lists under time constraints. Experiments 1-2: units alternated between parity and magnitude judgments (pure lists) versus mixed lists with varying switch frequency. Experiment 3: preload procedure with high/low switch lists. Experiment 4: manipulated stimulus degradation as attentional comparison condition. Dependent measures: proportions of consonants recalled in correct order, Kendall tau rank correlation. ANOVAs tested effects of list type and length on recall; analysis of digit-processing latencies and switch costs.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0155",
+    "what_manipulated": "word-response contingency (word presented in congruent color 0%, 50%, or 75% of trials) in Stroop-like tasks",
+    "what_measured": "response latency and error rates to color identification",
+    "experiment": "Reanalysis of Jacoby et al. (2003) data plus two new experiments. Reanalysis 1: 16 participants; Stroop task with color words; verbal responses; latencies and errors analyzed by ANOVA on contingency (high/medium/low) crossed with Stroop trial type (congruent/incongruent); N=16, p<.05 as threshold. Reanalysis 2: 16 participants; 550ms response deadline to increase error rates; same ANOVA structure. Experiments 1-2: 34 and 95 participants; color-unrelated words (SEVEN, CHAIR) with two colors; keypress responses; contingency effects analyzed via one-way ANOVAs and planned comparisons; Experiment 2 tested whether increased predicted response errors drive interference effect.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0161",
+    "what_manipulated": "sexual orientation of kissing behavior in vignettes (gay vs. heterosexual) in Study 1; gay vs. straight category pairings in Implicit Association Test (IAT) in Study 2",
+    "what_measured": "attributions of intentionality (Study 1) and implicit preference associations (IAT D scores, Study 2)",
+    "experiment": "Study 1: 44 undergraduates (30 female) read vignettes describing a director's music video encouraging kissing; half read gay-kissing version, half heterosexual-kissing version. Rated intentionality (1-7 scale) and explicit moral wrongness. Regression analysis regressed intentionality on condition, disgust sensitivity (6-item DSS excluding sexual-practice items), and their interaction. Study 2: 82 Cornell students completed IAT with gay/straight category images and pleasant/unpleasant words; IAT D scores computed as primary dependent measure. Regression of IAT D on disgust sensitivity (24-item DSS excluding sexual-practice items) with gender covariate. Disgust sensitivity measured via established scales (Cronbach's α=.62 Study 1, α=.71 Study 2).",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "simple-association",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0186",
+    "what_manipulated": "resource split received before participant split (greedy, equal, or generous allocation of money or labor)",
+    "what_measured": "amount of resources allocated to future anonymous recipient",
+    "experiment": "Five experiments (100-165 units per experiment) in chain paradigm: units received allocation from prior anonymous unit then made allocation for future unit. Experiment 1: money ($6) split with 3 conditions (greedy $0, equal $3, generous $6) plus give-only control; 74-75 units per condition. Experiments 2-3: similar money/labor manipulations with 100 units total; Experiment 3 used Mechanical Turk. Experiments 4a-b: task split (good/bad activities) with 96-165 units; measured good tasks allocated and tested affect mediation via PANAS and mood intervention. Dependent measure: amount/proportion allocated; analyzed via ANOVAs on condition with post-hoc comparisons; mediation tested via bootstrapping (5000 samples).",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0209",
+    "what_manipulated": "none (observational/analytical—meta-analysis of existing money priming studies)",
+    "what_measured": "effect sizes and p-values of money priming studies; funnel plot asymmetry, selection bias indicators",
+    "experiment": "Meta-analytic comment analyzing published and unpublished money priming studies. Examined 63 experimental contrasts from Vohs (2015) tables plus seminal papers (Vohs et al. 2006, Caruso et al. 2013) and replication attempts (Rohrer et al. 2015, Klein et al. 2014). Applied four methods: (1) funnel plot asymmetry via Egger's regression; (2) selection models (Dear & Begg, Rufibach) using maximum likelihood; (3) excess-significance test comparing observed proportion significant vs. expected given power; (4) p-curve analysis of significant contrasts. No novel experiments; reanalyzed existing data to detect publication/reporting bias and p-hacking indicators across multiple convergent methods.",
+    "design": "meta-analysis",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "minimal",
+    "transparency": "none"
+  }
+]

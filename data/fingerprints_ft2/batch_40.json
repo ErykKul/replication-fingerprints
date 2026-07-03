@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0317",
+    "what_manipulated": "Product anthropomorphism (humanized vs. standard product presentation)",
+    "what_measured": "Comparative judgment strategy (absolute vs. dimension-by-dimension) and product preference",
+    "experiment": "Participants compared two product alternatives described along multiple dimensions in a consideration set. In the anthropomorphism condition, products were presented with human-like characteristics (visual/verbal); in the nonanthropomorphism condition, products were standard. Participants' strategy adoption and final preference were measured via process-tracing (MouseLab, eye-tracking) and self-reported/real choices to test if anthropomorphism increases use of absolute judgment strategy.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-one"
+  },
+  {
+    "paper_id": "p0318",
+    "what_manipulated": "Determiner type (quantificational 'every' vs. definite 'the') and ellipsis presence (antecedent-contained deletion site vs. overt verb)",
+    "what_measured": "Reading time during self-paced sentence processing",
+    "experiment": "Participants read sentences varying in determiner (quantificational or definite) and whether they contained antecedent-contained deletion (ACD) marked by auxiliary vs. overt verb. Reading times measured whether ACD resolution is facilitated when the upstream DP is quantificational, linking quantifier-raising to ACD processing. Two theories (QR-based vs. type-shifting) make divergent predictions about whether these processes interact during real-time comprehension.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0319",
+    "what_manipulated": "Display condition (simple comparison of crowd size photos vs. identification of photo source to president) and respondent's political allegiance (Trump voter, Clinton voter, nonvoter)",
+    "what_measured": "Selection of incorrect photograph (expressive responding vs. belief/misinformation)",
+    "experiment": "Online survey presented aerial photographs of two presidential inaugurations with manipulated comparison task: one condition asked which photo had more people (answer obvious), other asked which belonged to which president (answer less accessible). Responses varied by Trump support, testing whether incorrect answers reflect intentional partisan cheerleading vs. genuine misperceptions. Politically engaged Trump supporters' behavior across conditions revealed the underlying mechanism.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0320",
+    "what_manipulated": "Probability of obtaining item free (high 80% vs. low 10%) and probability of choice opportunity (10% for both treatments)",
+    "what_measured": "Willingness-to-accept for item (exchange vs. keep decision in Experiment 1; valuation in Experiment 2)",
+    "experiment": "Experiment 1: Subjects endowed with mug, randomly assigned 10% or 90% probability of trading it for pen, then asked if they would exchange. Experiment 2: Subjects assigned mug 10% or 80% probability of receiving free, then WTA elicited via Becker-DeGroot-Marschak mechanism. Both manipulated expectations exogenously (transparent randomization) to isolate effect on reference points, holding endowments constant. Tested whether expectations determine reference points in loss-aversion framework.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-one"
+  },
+  {
+    "paper_id": "p0321",
+    "what_manipulated": "Rank position in wealth distribution (last place, second-to-last, etc.) randomized each round, and probability of lottery vs. riskfree payment (Experiment 1); redistribution choice between above/below person (Experiment 2)",
+    "what_measured": "Lottery choice (Experiment 1); allocation of money to above vs. below player (Experiment 2)",
+    "experiment": "Experiment 1 (lottery): Participants randomly assigned ranks in wealth distribution, chose between riskfree payment and lottery offering chance to move up rank. Ranks re-randomized each round (also tested with accumulating balances). Experiment 2 (redistribution): Participants in modified dictator games chose whether to give additional money to person ranked above or below them. Both tested whether individuals exhibit 'last-place aversion'—disutility from being/falling to last place. Design distinguished from rank-aversion and inequality-aversion hypotheses by testing non-linear effects concentrated at distribution bottom.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-one"
+  },
+  {
+    "paper_id": "p0322",
+    "what_manipulated": "Variance measures (implied vs. realized, model-free vs. Black-Scholes, high-frequency vs. daily data) used in variance risk premium calculation; time period for return prediction (quarterly vs. monthly)",
+    "what_measured": "Quarterly/monthly excess stock returns (S&P 500)",
+    "experiment": "Time-series regression of lagged excess stock returns on variance risk premium (difference between implied and realized variances) and traditional predictor variables (P/E ratio, dividend yield, CAY, etc.) over 1990-2005 quarterly data. Model-free implied variance from options and realized variance from intraday returns used to test whether market risk aversion (proxied by variance spread) predicts returns. Robustness checks included Black-Scholes implied variance and daily realized variance, and extended regressions with multiple predictors to assess joint explanatory power.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-one"
+  }
+]

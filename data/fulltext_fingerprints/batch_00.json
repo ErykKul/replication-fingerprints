@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0003",
+    "what_manipulated": "time pressure on judgment task (constrained vs. unconstrained response window)",
+    "what_measured": "correlation between perceived risk and perceived benefit judgments across hazards",
+    "experiment": "Units were 54 first-year psychology students from the University of Western Australia (mean age 19, 78% female). Participants were randomly assigned to time-pressure or no-time-pressure conditions and rated 23 hazardous items on 7-point scales for both risk and benefit. In the time-pressure condition, responses had to be made before a 5.2-second countdown elapsed. Correlations between risk and benefit judgments were computed within each individual across items and aggregated. A two-tailed t-test (one-tailed reported) compared correlations across conditions, with analysis of both item-level and participant-level correlation patterns.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0018",
+    "what_manipulated": "dispositional optimism (measured baseline trait)",
+    "what_measured": "perceived stress at 3-month follow-up",
+    "experiment": "Units were 85 heterosexual couples (170 individuals) with relationship duration averaging 4.12 years, recruited from university campus. At baseline, optimism was measured via the Life Orientation Test Revised (6-item scale, 1-5 range). Social support from both recipients' and providers' perspectives was assessed via 2-item scales. Perceived stress was measured at 3-month follow-up using the Perceived Stress Questionnaire (4-item subscales, 1-4 range). Actor-Partner Interdependence Models were estimated using structural equation modeling with Mplus, testing whether social support mediated the optimism-stress relationship. Bootstrap analyses estimated mediation effects.",
+    "design": "longitudinal",
+    "manipulation": "observational",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0020",
+    "what_manipulated": "decision frame (giving vs. taking) in economic allocation task",
+    "what_measured": "amount allocated by dictator to passive recipient",
+    "experiment": "Units were 280 undergraduate students (balanced gender: 35 male and 35 female dictators per condition) from the University of East Anglia, randomly assigned to between-subject giving or taking conditions. In the giving frame, the dictator received £10 and allocated any amount to the recipient. In the taking frame, the recipient owned £10 and the dictator took any amount for themselves. Amounts transferred were recorded in pennies. Nonparametric Mann-Whitney tests compared allocations between treatments and by gender. OLS regressions and Probit models examined the treatment effect on allocation and on likelihood of selfish/egalitarian behavior, controlling for age.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0021",
+    "what_manipulated": "position in asymmetric resource-access hierarchy (upstream vs. downstream access order) and communication availability",
+    "what_measured": "investment in public infrastructure and extraction from common-pool resource",
+    "experiment": "Units were 75 undergraduate participants in groups of either 2 (N=20) or 5 (N=30, with one additional 5-person variant N=25). Subjects made sequential decisions: first, investment in public infrastructure (bandwidth) from a 10-token endowment, then extraction from the resulting resource pool via a 100-second download window with position-dependent access rates (upstream position A had priority). Investments determined a nonlinear production function mapping tokens to bandwidth. Groups communicated via chat for 60 seconds between rounds over 10 total rounds. Hierarchical linear models with individual and group random effects analyzed investment behavior as a function of position, prior-round earnings share, and group composition. Wilcoxon Matched-Pairs tests compared positions.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0023",
+    "what_manipulated": "violation of judgment vs. resolution (two independent binary factors: judgment-violation present/absent, resolution-violation present/absent) via hypothetical scenario vignettes",
+    "what_measured": "ratings of whether agent displays weakness of will on a 7-point Likert scale",
+    "experiment": "Experiment 1: Units were 97 undergraduate participants from UC Santa Barbara, randomly assigned to one of four vignettes (Newman's diet, Christabel's affair, Rocky's loss of nerve, or Kima's affair) varying on judgment-violation and resolution-violation. Participants rated agreement that the protagonist displays weakness of will on a 7-point scale. Two-way between-subjects ANOVA tested main effects and interactions. Experiment 2: N=274 participants (about 68 per condition) from three universities rated uniform skydiving vignettes on the same scale and ANOVA design. Experiment 3: N=117 participants rated vignettes varying action-valence and intention-valence on the same scale and ANOVA design. Percentages of agreement/disagreement were computed; means and significance tests reported.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0024",
+    "what_manipulated": "preview availability (identical vs. dissimilar preview word) and boundary location (after word n-1 vs. word n-2) in reading task",
+    "what_measured": "eye movement measures: first fixation duration, gaze duration, single fixation duration, skipping probability on target word",
+    "experiment": "Units were 36 native Chinese-reading undergraduate students from South China Normal University with normal vision. Participants read 48 experimental sentences with boundary display change during eye movements, using a gaze-contingent boundary technique. The critical manipulation crossed two boundary locations (after character n-1 or n-2) with two preview types (identical or dissimilar two-character target word). Eye movements were recorded at 1000 Hz via SR Eyelink 1000. Linear mixed models (LMM) for durations and generalized linear mixed models (GLMM) for skipping analyzed target word measures, specifying participants and items as random effects. Posterior distributions via Markov Chain Monte Carlo sampling estimated p-values.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  }
+]

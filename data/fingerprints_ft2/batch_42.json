@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0333",
+    "what_manipulated": "moral valence of side effect",
+    "what_measured": "attribution of intentionality to side effect",
+    "experiment": "Participants read vignettes in which an agent foresees but does not intend a side effect of their action. The side effect was varied as harmful or helpful to a third party. Participants rated whether the agent intentionally brought about the side effect. A second scenario repeated the structure with a military context. Design held constant the agent's stated lack of concern for the side effect while varying its moral character.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0340",
+    "what_manipulated": "apparent race or ethnicity of email requester",
+    "what_measured": "bureaucratic responsiveness and tone of response",
+    "experiment": "A randomized audit study emailed 1,017 housing authorities with requests from putative applicants bearing white, black, or Hispanic names. Response rates, response speed, and friendliness (measured by whether recipient used the requester's name) were recorded as outcomes. Each authority received one email, randomly assigned to a racial/ethnic condition, controlling for community demographics.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0341",
+    "what_manipulated": "body mass index of female bodies",
+    "what_measured": "estimated weight and just-noticeable-difference thresholds for weight discrimination",
+    "experiment": "Experiment 1: participants estimated the weight of 120 images varying in body BMI; estimated weight regressed on actual weight to test for contraction bias. Experiment 2: participants performed two-alternative forced choice discrimination of body pairs at eight BMI levels; just-noticeable-difference (JND) thresholds at 75% correct were extracted via probit analysis and analyzed as a function of BMI to test Weber's law. Both experiments used within-subjects comparisons.",
+    "design": "within-subjects",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-one"
+  },
+  {
+    "paper_id": "p0347",
+    "what_manipulated": "moral valence of side effect; question type asked",
+    "what_measured": "acceptability of reason explanation; attribution of intention versus intentional action",
+    "experiment": "Participants read harm or help side-effect vignettes and judged either whether a reason explanation sounded correct (Experiment 1) or whether the agent had an intention versus performed the action intentionally (Experiment 2). Reason explanations use the phrase 'in order to.' Design held the underlying scenario constant while varying only the moral valence and the form of the judgment question.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0348",
+    "what_manipulated": "implicit theory of intelligence belief (Study 1: observational; Study 2: taught incremental vs. control intervention)",
+    "what_measured": "mathematics grades trajectory; classroom motivation",
+    "experiment": "Study 1: Longitudinal observation of 373 seventh graders followed through eighth grade. Implicit theory measured at baseline; math grades assessed at four time points. Growth curves tested whether incremental vs. entity theory predicted grade trajectory over two years, with mediational pathways through learning goals and effort beliefs. Study 2: Quasi-experimental teaching of incremental theory via eight-week workshop; control group received alternative content. Math grades and teacher-reported motivation assessed before and after intervention.",
+    "design": "longitudinal",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0350",
+    "what_manipulated": "three-dimensional orientation of objects; spatial line-relation properties",
+    "what_measured": "visual search efficiency measured by response time slope as a function of display size",
+    "experiment": "Observers performed visual search tasks detecting targets among distractors varying in three-dimensional orientation of simple convex blocks (Experiment 1), U-shaped brackets (Experiment 2), and all possible orientations (Experiment 3). Response time was regressed on display size; rapid search (low slope) indicates preattentive feature detection. Conditions systematically manipulated shading, line junctions, and spatial relations to isolate whether search depended on image-based or scene-based orientation cues.",
+    "design": "within-subjects",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  }
+]

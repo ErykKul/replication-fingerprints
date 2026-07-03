@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0396",
+    "what_manipulated": "timing of second estimate (immediate vs. 3-week delay)",
+    "what_measured": "accuracy of averaged estimates vs. single estimates",
+    "experiment": "Units provided estimates to 8 factual questions. Half provided an unexpected second estimate immediately after the first; the other half provided a second estimate 3 weeks later, also unexpectedly. For each unit and condition, researchers calculated mean squared error for the first estimate, second estimate, and average of both, then compared via paired t-tests. Delay was hypothesized to increase independence between estimates, making the average more accurate than either single estimate.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0402",
+    "what_manipulated": "ambient temperature (warm vs. cold)",
+    "what_measured": "social proximity, language abstraction level, perceptual focus on relationships vs. properties",
+    "experiment": "Three experiments manipulated temperature via beverage (Exp 1: n=33) or room (Exp 2: n=52, Exp 3: n=39). Exp 1 measured social proximity via Inclusion of Other in Self scale. Exp 2 added language measure (Linguistic Category Model coding of video descriptions). Exp 3 added perceptual task (relational vs. property focus). Between-subjects t-tests and ANOVA tested effects of temperature; Exp 3 mediation analysis tested whether language abstraction mediated temperature→perception link via Baron-Kenny criteria and Sobel test.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0405",
+    "what_manipulated": "moral valence of agent's action outcome (helping vs. harming environment)",
+    "what_measured": "knowledge attribution to agent about side-effect",
+    "experiment": "Units (n=749) randomly assigned to help or harm vignette describing a chairman learning a new program would help or harm the environment. After reading, units rated agreement (−3 to 3 Likert scale) with 'the chairman knew that the program would [help/harm] the environment.' One-way ANOVA compared mean knowledge attribution scores between conditions using both gradient scoring (mean Likert score) and all-or-nothing scoring (dichotomized as know vs. don't know).",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0406",
+    "what_manipulated": "cultural/psychological similarity of the moral judge (same-culture classmate vs. other-culture tribe vs. extraterrestrial being)",
+    "what_measured": "agreement that disagreeing judges must have at least one who is wrong (1-7 scale)",
+    "experiment": "Six studies with overlapping designs. Study 1 (n=223) and Study 2 (n=151) varied judge cultural similarity between-subjects; Study 3 (n=61) presented all three conditions within-subjects; Study 4 (n=118) independently varied agent and judge culture; Study 5 (n=88) compared moral vs. non-moral judgments between-subjects; Study 6 (n=90) distinguished truth vs. justification questions between-subjects. Units rated agreement to 'at least one must be wrong' on 1–7 scale. Mixed ANOVAs with culture/transgression factors tested main effects and interactions; post-hoc Tukey tests examined pairwise differences.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0407",
+    "what_manipulated": "contrast frame embedded in knowledge question via explicit phrasing ('rather than' clause), linguistic construction (knowledge-wh: 'who' vs. 'what'), or question context",
+    "what_measured": "knowledge attribution agreement (1-7 scale)",
+    "experiment": "Jewel thief vignette describing a detective with fingerprint and video evidence of a theft. Experiment 1 (n not specified) randomly assigned units to knowledge-that statements with different 'rather than' contrasts and rated agreement (1–7). Experiment 2 used knowledge-wh constructions ('knows who' vs. 'knows what') with same vignette. Experiment 3 manipulated conversational context via question-under-discussion to establish contrasts without explicit wording. Final experiment (n not specified) presented a bank case with vivid error possibility (personal anecdote about bank hour changes) vs. control (no anecdote) to test salience effect. Between-subjects t-tests compared mean agreement ratings.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0414",
+    "what_manipulated": "wording of determinism description (N&K vs. NMNT formulation; with/without explicit bypassing clarification in Study 2); scenario concreteness (abstract vs. concrete scenario)",
+    "what_measured": "moral responsibility/free will attributions (MR/FW composite of 3 items on 6-point scale), bypassing interpretation (composite of 4 items on 6-point scale about mental state causal irrelevance)",
+    "experiment": "Study 1: Units (n=249 after exclusions) randomly assigned to one of four between-subjects conditions (N&K or NMNT description × abstract or concrete). Completed MR/FW composite (3-item average) and Bypassing composite (4-item average). ANOVA tested effects of description and concreteness on each composite; mediation analysis via Baron-Kenny regression tested whether bypassing mediated effect of description on MR/FW, using Sobel test. Study 2: Units (n=141) assigned to N&K or NMNT description with explicit clause stating determinism does not entail bypassing; modified concrete scenarios to low-affect action (necklace theft). Same composites measured; ANOVA tested effect of study (1 vs. 2) and description on MR/FW and Bypassing; mediation reanalyzed; competent participant subset (excluded high bypassing or incorrect modal question) analyzed separately showing >62% compatibilist responses.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  }
+]

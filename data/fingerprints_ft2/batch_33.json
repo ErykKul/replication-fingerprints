@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0243",
+    "what_manipulated": "perceived humanity (cognitive, experiential, emotional capacities) of victims",
+    "what_measured": "willingness to harm for instrumental versus moral reasons",
+    "experiment": "Participants evaluated victims varying in attributed human capacities across scenarios framing harm as either instrumentally necessary (to achieve unrelated goals) or morally justified (victims deserve punishment). Measures tracked whether dehumanization predicted harm approval in each frame, testing whether reduced humanity enables instrumental but not moral violence.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0244",
+    "what_manipulated": "exposure to information about rising economic inequality",
+    "what_measured": "opportunity beliefs (structural barriers vs. individual effort); support for government and business redistribution",
+    "experiment": "Participants read articles about rising inequality (or control) and reported beliefs about factors enabling upward mobility, then indicated support for redistribution. Mediation analyses tested whether exposure reduced faith in opportunity, increasing support for equity-enhancing policies. Three samples (convenience, convenience, nationally representative) tested replication.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0245",
+    "what_manipulated": "permanence of sharing platform (temporary vs. permanent)",
+    "what_measured": "disclosure risk (disinhibition in selfies); observer judgment of sharer's judgment quality",
+    "experiment": "Participants took selfies under temporary or permanent sharing conditions and observers rated selfies and sharers independently. Privacy concerns were measured as mediator. Multiple studies tested: whether temporariness increased compliance and disinhibition; whether observers' impressions followed content not platform; whether impressions persisted after deletion; whether friend relationships moderated effects.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0246",
+    "what_manipulated": "search strategy during choice (comparative vs. integrative transitions via interface delays)",
+    "what_measured": "patience in intertemporal discounting; sensitivity to delay/acceleration framing",
+    "experiment": "Participants chose between smaller/sooner and larger/later rewards, with information search tracked via mouselab. Experiment 1 identified natural variation in search (comparative vs. integrative) and related it to choice. Experiment 2 manipulated ease of each strategy via 1000ms delays on discouraged transitions, measuring causal effects on patience and framing sensitivity.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0248",
+    "what_manipulated": "brief training in cognitive craving regulation (POSITIVE, NEGATIVE, or CONTROL instruction)",
+    "what_measured": "healthy food choice; food craving ratings; caloric consumption; willingness to pay",
+    "experiment": "Participants completed food choice tasks before and after ROC-T training emphasizing benefits of healthy foods (POSITIVE) or harms of unhealthy (NEGATIVE) versus control look-only. Studies 1-2 measured craving/WTP effects; Studies 3-4 measured choice improvement; Study 5 measured actual consumption; Study 6 isolated training from framing using a comparison condition. All studies tested whether brief cognitive strategy training generalized to untrained items.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0249",
+    "what_manipulated": "network structure (bipartisan vs. isolated controls) crossed with partisan salience (none, political identity, party logos)",
+    "what_measured": "accuracy of climate trend interpretation; polarization gap between conservative and liberal predictions",
+    "experiment": "Participants interpreted NASA climate graphs over three rounds (initial, after peer exposure, after revised exposure). Bipartisan networks varied partisan cues: no cues, political identity labels, party logos. Measured whether exposure to opposing beliefs reduced partisan bias, and whether partisan priming reduced social learning effects. Tested on 2400+ participants with 12 independent trials.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  }
+]

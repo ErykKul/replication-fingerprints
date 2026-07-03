@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0074",
+    "what_manipulated": "attitude diagnosticity of written essay (persuasive vs. unpersuasive)",
+    "what_measured": "inferred attitude of the essay writer from reading the essay",
+    "experiment": "Participants read essays from a protagonist assigned to defend a given position (no-choice condition). Essays varied in diagnosticity: high (long, persuasive) vs. low (short, unpersuasive). Participants inferred the protagonist's true attitude on rating scales. Design tested whether correspondence bias (inferring attitudes matching behavior despite constraint) emerged across diagnostic conditions and culture.",
+    "design": "between-subjects",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0075",
+    "what_manipulated": "Big Five personality factors (measured via three different inventories: NEO–FFI, NEO–PI–R, FF–NPQ)",
+    "what_measured": "27 criterion behaviors (alcohol consumption, grade point average, dating frequency, smoking, etc.)",
+    "experiment": "Two independent samples completed three measures of Big Five personality and reported diverse behaviors via self-report questionnaires. Correlations between each factor and each criterion were computed across the four personality assessments (two samples, three measures). Replication was established when four correlations were aligned in direction and three of four were significant.",
+    "design": "between-subjects",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "many-exploratory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0076",
+    "what_manipulated": "trait inspiration (dispositional tendency to experience inspiration)",
+    "what_measured": "nomological network: approach motivation, intrinsic motivation, openness to experience, absorption, creativity, positive affect, self-esteem, optimism, self-determination; also patents held (Study 3) and daily states of inspiration (Study 4)",
+    "experiment": "Study 1 developed an eight-item trait inspiration scale and examined its factor structure across samples. Studies 2a–2c examined correlations between trait inspiration and theoretically related constructs across three independent samples. Study 3 compared patent holders (presumed high in inspiration) with alumni on trait inspiration. Study 4 used experience sampling: trait inspiration predicted daily state inspiration and related variables over 14 days.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0077",
+    "what_manipulated": "ego depletion via self-regulatory task (attention regulation or emotion suppression) vs. control condition",
+    "what_measured": "cognitive performance on tests of reasoning (GRE analytical items, Cognitive Estimation Test, GRE reading comprehension) and basic information processing (general knowledge, nonsense syllable memory)",
+    "experiment": "Participants first performed an attention-regulation task (ignoring words in video) or emotion-suppression task (stifling reactions to upsetting film) or completed a control task with no regulation requirement. Subsequently, they completed tests requiring either executive control (logical reasoning, cognitive estimation, complex reading comprehension) or basic processing (knowledge retrieval, rote memory). Resource depletion was expected to impair only controlled cognitive tasks.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0078",
+    "what_manipulated": "evaluation mode: joint evaluation (comparing multiple options) vs. separate evaluation (experiencing a single option without alternatives)",
+    "what_measured": "predicted happiness/experience ratings on 9-point scales; actual experienced happiness after task completion",
+    "experiment": "Study 1: Respondents in joint evaluation compared four scenarios (poem sales: 0, 80, 160, 240 copies sold) and predicted happiness for each. Separate evaluators received only one scenario. Study 2: Joint evaluators compared four word-reading tasks (10/25 negative, 10/25 positive words) and predicted their happiness; separate evaluators performed one task and rated experienced happiness. Study 3: Choosers compared two task–reward options (recall failure with 15g chocolate vs. recall success with 5g chocolate) in joint evaluation mode and made choices or predictions; separate evaluators received one option and experienced it.",
+    "design": "between-subjects",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0079",
+    "what_manipulated": "answer changing vs. sticking with initial answer on multiple-choice tests",
+    "what_measured": "test score outcomes; regret and frustration intensity; memory of test performance; belief in first-instinct superiority",
+    "experiment": "Study 1: Coders examined erased answers on 1,561 exams to quantify answer changes (wrong-to-right, right-to-wrong, wrong-to-wrong); students predicted outcomes. Study 2: Participants imagined test scenarios and rated regret if switching vs. sticking led to error. Study 3: Participants took GRE/SAT items, narrowed to two answers, made final choice, then weeks later recalled outcomes of stick vs. switch decisions. Study 4: Participants watched a Millionaire variant where a contestant either repeatedly stuck or repeatedly switched with equal objective outcomes; participants rated frustration and later evaluated the strategy's quality.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  }
+]

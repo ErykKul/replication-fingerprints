@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0129",
+    "phenomenon": "Memory illusion for nonpresented items",
+    "constructs": "semantic association, spreading activation, implicit memory, false report",
+    "claim": "Participants develop vivid, confident false memories of events (unpresented words) that never occurred, driven by automatic associative processes rather than conscious reconstruction.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0130",
+    "phenomenon": "Coupling between temporal and sequential information in working memory",
+    "constructs": "timing signal, order representation, context renewal, grouping",
+    "claim": "Time and order are jointly represented at multiple levels; temporal information influences order recall and vice versa, but the weighting between them is task-dependent rather than fixed.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0131",
+    "phenomenon": "Strategy-dependent manifestation of perceptual limitations",
+    "constructs": "partial information, guessing bias, task design sensitivity, lexicality",
+    "claim": "Whether repetition blindness appears for nonwords depends critically on whether task structure allows participants to use partial information to guess; this confound, not cognitive differences, explains prior conflicting findings.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0132",
+    "phenomenon": "Learning as impediment to behavioral prediction",
+    "constructs": "mental model adaptation, Bayesian updating, task diagnosticity, individual differences",
+    "claim": "Learning processes that help participants adjust to task structure simultaneously increase noise in individual differences, making ill-defined tasks poorer at predicting real-world behavior than well-defined tasks despite normative reasoning improvements.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0134",
+    "phenomenon": "Outcome-centric causal attribution over contingency-centric",
+    "constructs": "occurrence judgment, causal strength, cause prevalence, ambiguity resolution",
+    "claim": "Causal judgments prioritize explaining observed outcomes rather than computing objective contingencies; when causes compete in explaining occurrences, prevalence shifts attribution even when contingency favors a different cause.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0135",
+    "phenomenon": "Quantitative capacity differences manifest as qualitative effect reversals",
+    "constructs": "feature interference, attention scaling, individual capability, effect distribution",
+    "claim": "Phonological similarity and word-length effects vary from robust to reversed based on overall memory ability without requiring different encoding strategies; quantitative cognitive parameters produce apparent qualitative shifts.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

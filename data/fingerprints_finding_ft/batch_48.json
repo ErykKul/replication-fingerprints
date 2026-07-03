@@ -1,0 +1,26 @@
+[
+  {
+    "paper_id": "p0571",
+    "finding": "Institutional restriction on service quality (liability) has large positive effect on market efficiency; information verifiability has minimal effect despite theoretical equivalence; reputation and competition affect price distribution but not efficiency when liability absent."
+  },
+  {
+    "paper_id": "p0579",
+    "finding": "Ability to screen workers by past performance enables clustering into two job types (control vs. trust); trust strategy profitable only with screening; competition amplifies screening incentives and reduces labor market segmentation despite heterogeneous worker behavior."
+  },
+  {
+    "paper_id": "p0580",
+    "finding": "Subject confusion about declining fundamental value process drives mispricing more than cash-to-asset ratio; reframing context from abstract 'stocks' to 'depletable gold mine' reduces confusion and mispricing even when liquidity and variance parameters are increased."
+  },
+  {
+    "paper_id": "p0581",
+    "finding": "Donor-priority allocation rule increases donation registration 2-2.5x relative to baseline; effect driven by information about other donors' decisions via allocation feedback rather than pure cost reduction; priority outperforms equivalent cash incentives when introduced early."
+  },
+  {
+    "paper_id": "p0582",
+    "finding": "In perfect monitoring, punishment severity monotonically increases contributions and net payoffs; in imperfect monitoring, intermediate punishment decreases welfare (U-shaped relationship); severe punishment restores cooperation but costs offset gains, yielding net welfare near no-punishment baseline."
+  },
+  {
+    "paper_id": "p0585",
+    "finding": "Decentralized gift-exchange sustains higher trade volumes and efficiency than monetary exchange when agents are sufficiently patient; social norms implementing first-best allocation require discount factor threshold that decreases with group size, enabling equilibrium trade coordination."
+  }
+]

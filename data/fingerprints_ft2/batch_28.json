@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0193",
+    "what_manipulated": "unemployment status and duration",
+    "what_measured": "five-factor personality trait levels",
+    "experiment": "Longitudinal latent change models compared mean-level personality changes across individuals who remained employed versus those experiencing unemployment (1-4 years duration) or reemployment, measured over 4 years with controls for confounding life events.",
+    "design": "longitudinal",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0194",
+    "what_manipulated": "number and congruency of observed hand movements",
+    "what_measured": "reaction time and error rate on finger movement response",
+    "experiment": "Within-subjects task where participants responded to cued finger movements while observing one or two hands performing movements congruent, incongruent, or neutral to the required response; congruency effects were analyzed to test whether motor system simultaneously integrates actions of multiple observed agents.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0209",
+    "what_manipulated": "not applicable",
+    "what_measured": "not applicable",
+    "experiment": "Meta-analytic comment examining selection bias and reporting biases in money-priming effect literature using funnel plots, selection models, excess significance tests, and p-curve analysis; non-empirical study.",
+    "design": "meta-analysis",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "many-exploratory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0212",
+    "what_manipulated": "go/no-go task stimulus type",
+    "what_measured": "error-related negativity (ERN) and N2 event-related potential components",
+    "experiment": "Cross-sectional Go/No-Go task with prepotent go response where EEG error-monitoring components (ERN, N2) were recorded during inhibition trials and correlated with political orientation measured via single self-report item.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0214",
+    "what_manipulated": "age group, video emotionality, question type",
+    "what_measured": "theory of mind accuracy, metacognitive confidence, empathy rating, compassion rating",
+    "experiment": "Mixed design comparing younger and older adults on a naturalistic video-based task (EmpaToM) with within-subject variation in emotionality (neutral vs. negative) and question type (mentalizing vs. factual reasoning); four social understanding facets measured simultaneously within each trial.",
+    "design": "mixed",
+    "manipulation": "observational",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0215",
+    "what_manipulated": "observer age",
+    "what_measured": "estimated age of ambiguous figure",
+    "experiment": "Cross-sectional online task where observers of varying ages viewed the young/old lady bistable image briefly (500 ms) and estimated its age; correlation between observer age and perceived age tested to assess whether own-age social in-group bias affects preconscious face perception.",
+    "design": "observational-or-correlational",
+    "manipulation": "observational",
+    "effect_structure": "simple-association",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  }
+]

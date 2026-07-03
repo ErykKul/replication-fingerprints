@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0142",
+    "phenomenon": "attention-dependent associative learning across non-contiguous elements",
+    "constructs": "attention joint-processing contiguity association task-demand",
+    "claim": "Attention is both necessary and sufficient for associative learning; objective contiguity is a byproduct of where attention typically focuses, not a causal requirement.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0143",
+    "phenomenon": "single-source memory with task-specific noise produces behavioral dissociation",
+    "constructs": "familiarity signal noise task-specificity memory-system",
+    "claim": "Task-dependent noise sources rather than separate memorial systems can account for dissociations between priming and recognition across populations and conditions.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0144",
+    "phenomenon": "bilingual advantage via goal-maintenance not active inhibition",
+    "constructs": "goal-representation reactive-inhibition active-inhibition cognitive-control",
+    "claim": "Bilinguals gain executive advantage by strengthening goal representations and top-down support for relevant information, leading to indirect reactive inhibition rather than direct active inhibition.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0145",
+    "phenomenon": "semantic-arithmetic alignment modulates automatic activation",
+    "constructs": "semantic-structure arithmetic-operation alignment automatic-priming relational-priming",
+    "claim": "Automatic activation of arithmetic facts is modulated by alignment between semantic relations in priming context and the logical structure of the arithmetic operation.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0146",
+    "phenomenon": "continuous cascade with limited task-dependent flow",
+    "constructs": "cascade-processing lexical-network task-goal attention-modulation network-distance",
+    "claim": "Activation cascades continuously through the word production network from concepts to phonology, but the magnitude of cascading is limited and modulated by whether the task requires conceptual access.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0147",
+    "phenomenon": "attention consolidates memory against interference",
+    "constructs": "focused-attention memory-consolidation probe-interference working-memory durability",
+    "claim": "Visual working memory contents remain volatile unless focused attention consolidates individual items into more durable representations resistant to interference from new input.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  }
+]

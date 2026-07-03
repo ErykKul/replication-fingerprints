@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1177/0956797611402514",
+    "phenomenon": "embodied moral judgment formation",
+    "constructs": "physical purity cognition political attitude moral judgment",
+    "claim": "physical bodily states automatically influence abstract moral reasoning and stable political beliefs.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/a0036678",
+    "phenomenon": "perceived moral agency in helping behavior",
+    "constructs": "religious motivation moral judgment attribution responsibility intentionality",
+    "claim": "helping acts motivated by religious reasons are judged as less moral because observers infer reduced personal responsibility and intention.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/pspa0000032",
+    "phenomenon": "asymmetry in linguistic preference for comparative framing",
+    "constructs": "cognitive fluency comparative language use agreement truth perception",
+    "claim": "people prefer and believe statements using 'more than' over logically equivalent 'less than' statements due to differential processing fluency.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1086/678484",
+    "phenomenon": "numerical properties influencing purchase decision-making",
+    "constructs": "cognitive fluency price roundedness feeling-right decision-making emotional consonance",
+    "claim": "rounded prices encourage emotional decision-making and feel 'right' when the purchase context is emotion-driven, intensifying product evaluations.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/1948550611401425",
+    "phenomenon": "personal philosophy about life conditions and subjective wellbeing",
+    "constructs": "life philosophy belief optimism wellbeing life satisfaction civic engagement",
+    "claim": "beliefs about whether life is fundamentally short and hard associate with reduced wellbeing, optimism, and civic participation.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.66.6.1081",
+    "phenomenon": "sex differences in mating psychology dimensions",
+    "constructs": "sexual selection mating preferences sex differences sexual orientation development",
+    "claim": "sex differences in mating psychology are consistent with sexual selection theory and persist across sexual orientations.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.95.5.1150",
+    "phenomenon": "color perception influencing mate attraction",
+    "constructs": "color signal sexual attraction evolutionary psychology visual perception automatic effects",
+    "claim": "the color red automatically increases men's perception of women's sexual attractiveness without conscious awareness.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797616636631",
+    "phenomenon": "mating-relevant environmental cues altering financial risk-taking",
+    "constructs": "sex ratio mating-related risk risk-taking choice diversification financial decision-making",
+    "claim": "unfavorable sex ratios cue mating-related risk, reversing typical risk-averse diversification and increasing concentrated high-risk investment.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/0033-295x.114.2.245",
+    "phenomenon": "semantic category induction from limited examples",
+    "constructs": "word learning inductive inference Bayesian inference prior knowledge generalization",
+    "claim": "children and adults learn word meanings through Bayesian inference integrating prior knowledge with observed examples.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/a0028883",
+    "phenomenon": "egocentrism reduction in estimating others' knowledge",
+    "constructs": "perspective-taking egocentrism metacognition knowledge estimation dual-process cognition",
+    "claim": "people reduce egocentric bias when predicting others' knowledge by recognizing and discounting their own recent experience as a reference point.",
+    "narrative": "incremental-extension",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0956797609356283",
+    "phenomenon": "goal-related objects appearing spatially closer",
+    "constructs": "goal states perception distance estimation self-regulation approach motivation",
+    "claim": "desirable objects fulfilling active goals are perceived as physically closer, motivating approach behavior toward goal-relevant targets.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1177/0956797615624492",
+    "phenomenon": "automatic threat identification bias based on perceived race",
+    "constructs": "stereotyping racial bias automatic cognition threat perception weapon misidentification implicit bias",
+    "claim": "viewing Black faces, including children, automatically facilitates threat identification and inhibits safe-object recognition without conscious intent.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-006x.53.2.161",
+    "phenomenon": "psychological distress profiles in eating disorders",
+    "constructs": "eating disorders psychopathology anxiety depression impulsivity body image",
+    "claim": "individuals with bulimia show elevated psychopathology across anxiety, depression, and impulsivity compared to obese and normal-weight controls.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1176/ajp.156.2.181",
+    "phenomenon": "risk factors for suicidal acts across psychiatric contexts",
+    "constructs": "suicide attempt risk diathesis-stress impulsivity ideation psychiatric comorbidity coping resources",
+    "claim": "suicidal behavior results from a diathesis-stress interaction where impulsivity and reduced reasons-for-living diatheses amplify the effect of psychiatric stressors.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.63.6.989",
+    "phenomenon": "personality-mediated adaptation to stressful transitions",
+    "constructs": "optimism coping strategies self-esteem psychological control college adjustment social support",
+    "claim": "optimism and control improve adjustment under stress primarily by reducing avoidance coping and increasing active problem-solving and social support.",
+    "narrative": "incremental-extension",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/1467-9280.00431",
+    "phenomenon": "positive emotional states initiating upward wellbeing spirals",
+    "constructs": "positive affect broad-minded coping wellbeing emotional regulation resilience reciprocal causation",
+    "claim": "positive emotions reciprocally amplify broad cognitive coping strategies, creating self-sustaining upward spirals toward sustained wellbeing.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/1467-6494.t01-1-00094",
+    "phenomenon": "multidimensional structure of spirituality as a personality-like construct",
+    "constructs": "spirituality religiousness existential wellbeing paranormal beliefs personality dimensions existential meaning",
+    "claim": "spirituality comprises five distinct dimensions that represent personality-like trait variation independent from the Five Factor Model.",
+    "narrative": "incremental-extension",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.80.6.995",
+    "phenomenon": "distinct positive developmental trajectories in adulthood",
+    "constructs": "personal growth environmental mastery identity development generativity adult maturity multiple pathways",
+    "claim": "adults follow distinctly different but equally positive developmental patterns driven by differential emphasis on growth and mastery identity.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.84.2.411",
+    "phenomenon": "trait personality predicting behavioral outcomes across contexts",
+    "constructs": "Big Five personality traits behavioral prediction construct validity academic performance substance use",
+    "claim": "Big Five personality measures consistently predict diverse social and behavioral outcomes across multiple measurement instruments and samples.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/1467-6494.00102",
+    "phenomenon": "personality determinants of intimate relationship satisfaction",
+    "constructs": "Big Five personality affectivity partner traits relationship satisfaction conscientiousness agreeableness",
+    "claim": "trait affect and personality explain substantial relationship satisfaction variance, though own traits matter more than partner traits.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

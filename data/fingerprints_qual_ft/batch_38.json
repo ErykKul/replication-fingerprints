@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0304",
+    "phenomenon": "repeated identical product instances",
+    "constructs": "entitativity homogeneity functional-unity",
+    "claim": "Multiple identical instances of a product are perceived as more unified and homogeneous, increasing perceived efficacy of each unit.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0305",
+    "phenomenon": "goal conflict salience in time allocation",
+    "constructs": "justification-reliance instrumental-appeal temporal-trade-off",
+    "claim": "Perceiving conflict between personal goals heightens reliance on easily justifiable reasons, biasing subsequent unrelated time allocation toward work over leisure.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0306",
+    "phenomenon": "financial constraint framing in discretionary spending",
+    "constructs": "longevity-concern future-utility resource-persistence",
+    "claim": "Financial constraints shift focus toward purchase durability and future benefit streams, reversing the typical preference for experiences over material goods.",
+    "narrative": "reversal-of-expectation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0307",
+    "phenomenon": "economic condition effects on parental investment",
+    "constructs": "reproductive-value sex-differences scarcity-response",
+    "claim": "Poor economic conditions increase parental spending on daughters because daughters have more assured reproductive outcomes than sons under resource scarcity.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0308",
+    "phenomenon": "logo shape influence on product attributes",
+    "constructs": "visual-geometry imagery-generation attribute-congruence",
+    "claim": "Circular versus angular logo shapes activate softness and hardness concepts, biasing mental imagery of products toward corresponding attributes.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0310",
+    "phenomenon": "lateral display position influence on food choice",
+    "constructs": "spatial-magnitude-representation processing-fluency self-control",
+    "claim": "Displaying healthy items to the left of unhealthy items aligns with natural left-to-right magnitude representation, increasing processing ease and healthy choice likelihood.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

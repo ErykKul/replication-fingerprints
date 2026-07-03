@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0216",
+    "phenomenon": "differential visual degradation by emotion category",
+    "constructs": "eccentricity valence-discrimination accuracy visual-field-distance",
+    "claim": "peripheral visual processing degrades asymmetrically depending on emotional content, suggesting distinct neural pathways for processing different affective categories.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0217",
+    "phenomenon": "broad-spectrum psychological inoculation through active pattern recognition",
+    "constructs": "strategy-exposure reliability-judgment deceptive-communication-detection",
+    "claim": "experiential learning of deceptive-communication tactics confers measurable resistance to multiple misinformation types irrespective of demographic background.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0218",
+    "phenomenon": "two-dimensional decomposition of face evaluation",
+    "constructs": "valence dominance face-traits approach-avoidance threat-inference",
+    "claim": "spontaneous face judgments are reducible to two independent neural-computational dimensions optimized for inferring approach-safety and capability-to-harm.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0219",
+    "phenomenon": "syntax-imposed blindness to simple patterns",
+    "constructs": "syntactic-categories pattern-detection grammar modularity perceptual-impenetrability",
+    "claim": "the syntactic parsing system obligatorily forces interpretations that prevent detection of elementary repetition patterns, functioning like visual illusions in blocking simpler percepts.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0222",
+    "phenomenon": "social rank-driven unethical behavior via greed-value change",
+    "constructs": "socioeconomic-status unethical-action greed-attitudes self-interest resource-abundance",
+    "claim": "higher rank systematically increases unethical behavior through internalization of greed as a legitimate value, not through differential ability.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "paper_id": "p0223",
+    "phenomenon": "rational Bayesian sentence repair under noise",
+    "constructs": "semantic-plausibility noise-model string-edit-distance Bayesian-inference interpretation-choice",
+    "claim": "comprehenders rationally combine prior semantic expectations with likelihood models of linguistic corruption, deviating from literal interpretation predictably by edit-distance and noise-rate.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "doi": "10.1093/jcr/ucy082",
+    "phenomenon": "choice-making for shared consumption",
+    "constructs": "self-orientation group-size preference-balancing",
+    "claim": "decision-makers modulate attention to others' preferences based on both dispositional self-focus and the scale of the affected group.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1093/jcr/ucz022",
+    "phenomenon": "persistence in consumption commitment",
+    "constructs": "identity-threat self-uncertainty commitment-maintenance",
+    "claim": "uncertain self-conception drives retention of low-use ongoing purchases by making discontinuation feel like identity loss.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1093/jcr/ucz028",
+    "phenomenon": "comparison strategy under entity perception",
+    "constructs": "entity-perception holistic-evaluation attribute-bundling",
+    "claim": "perceiving choice options as unified wholes rather than attribute bundles shifts comparison from feature-by-feature to global evaluation.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1093/jos/ffr009",
+    "phenomenon": "syntactic integration during comprehension",
+    "constructs": "quantifier-scope ellipsis-resolution real-time-parsing",
+    "claim": "quantified elements facilitate downstream ellipsis resolution during parsing by engaging a unified compositional mechanism.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "hedged-claim"
+  },
+  {
+    "doi": "10.1093/poq/nfx042",
+    "phenomenon": "partisan response bias in surveys",
+    "constructs": "motivated-misreporting affective-expression political-identity",
+    "claim": "documented political misperceptions reflect partisan cheerleading more than genuine false belief.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1093/qje/qjr034",
+    "phenomenon": "reference-point formation",
+    "constructs": "expectation-as-anchor endowment-effect valuation",
+    "claim": "subjective probability of obtaining outcomes shapes the anchoring point against which gains and losses are evaluated.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1093/qje/qjt035",
+    "phenomenon": "redistribution aversion at low income",
+    "constructs": "relative-position-fear inequality-opposition zero-sum-perception",
+    "claim": "individuals just above a disadvantage threshold resist closing the gap because redistribution threatens their marginal advantage.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1093/scan/nsw175",
+    "phenomenon": "individual-difference mapping to brain morphology",
+    "constructs": "personality-structure cortical-variation neural-substrate",
+    "claim": "stable personality dimensions correlate with distributed variation in cortical thickness and surface properties.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1093/sf/sou074",
+    "phenomenon": "early-setback persistence in achievement trajectories",
+    "constructs": "status-dependence cumulative-disadvantage recovery-timing",
+    "claim": "early scholastic setbacks scar long-term educational attainment primarily through middle-stage expectations that can be revised early in secondary schooling.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1093/workar/waac024",
+    "phenomenon": "age-related shifts in work motivation",
+    "constructs": "temporal-perspective emotional-salience goal-prioritization",
+    "claim": "older workers' preference for emotionally meaningful tasks emerges from shortened time horizons and is eliminated when horizons are experimentally manipulated.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1097/00004703-200604002-00013",
+    "phenomenon": "intensive behavioral intervention outcomes",
+    "constructs": "treatment-dosage skill-acquisition developmental-trajectory",
+    "claim": "intensive early behavioral intervention produces measurable gains in cognitive and adaptive functioning when delivered in community settings.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1097/00006842-200103000-00012",
+    "phenomenon": "sensory gating of pain perception",
+    "constructs": "prepulse-inhibition pain-modulation stimulus-precedence",
+    "claim": "a weak preceding stimulus can inhibit the pain response to an intense stimulus, with greatest effect for pain-sensitive individuals.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1098/rspb.2011.1959",
+    "phenomenon": "social-network-size neural substrate",
+    "constructs": "social-connectivity brain-structure cognitive-capacity",
+    "claim": "the size of declared online social networks maps onto localized variation in brain regions supporting social perception and memory.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1098/rspb.2022.0128",
+    "phenomenon": "cooperation despite efficiency loss",
+    "constructs": "joint-action preference collective-reward coordination-intrinsic",
+    "claim": "humans value coordinated action intrinsically and choose to collaborate even when solo performance is more efficient.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/1467-6494.00102",
+    "phenomenon": "trait-based prediction of relationship satisfaction",
+    "constructs": "personality-match affective-disposition relationship-stability",
+    "claim": "individual affective traits and some personality dimensions predict one's own relationship satisfaction more than one's partner's traits.",
+    "narrative": "incremental-extension",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/1467-6494.t01-1-00094",
+    "phenomenon": "dimensionality of spiritual expression",
+    "constructs": "transcendence-orientation existential-meaning meaning-construction",
+    "claim": "spirituality encompasses multiple independent dimensions (existential, cognitive, experiential, paranormal, religious) distinct from standard personality traits.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/1467-9280.00334",
+    "phenomenon": "affective shape of probability weighting",
+    "constructs": "emotional-intensity valence probability-sensitivity",
+    "claim": "the nonlinearity of probability weighting intensifies near certainty/impossibility for emotionally vivid outcomes but not for affectively muted ones.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/1467-9280.00376",
+    "phenomenon": "implicit preference formation through association",
+    "constructs": "covariation-learning unconscious-attitude-acquisition valence-transfer",
+    "claim": "attitudes toward novel neutral objects develop through implicit detection of pairings with valenced stimuli, without explicit memory for the pairings.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

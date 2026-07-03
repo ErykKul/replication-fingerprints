@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0539",
+    "what_manipulated": "presence of facial infection cues on in-group members",
+    "what_measured": "accuracy and type of recall errors in attribution task",
+    "experiment": "Participants viewed a slideshow of eight individuals (statements paired with photos), then in a surprise recall task attempted to match statements to faces. In control, all faces healthy; in treatment, in-group faces bore infection cues (facial rash). Error patterns tested whether healthy out-group faces were confounded with infected in-group faces in memory.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0545",
+    "what_manipulated": "presence of gender in professional scenario and judgment framing (egalitarian vs. Bayesian)",
+    "what_measured": "evaluation of third party's judgment and own probability judgment of professional role",
+    "experiment": "Across studies, participants evaluated a third party's Bayesian judgment comparing gender-matched individuals in professions (e.g., man vs. woman who performed surgery), rating fairness/accuracy/intelligence. Study 4-5 participants made own probability judgments of role assignment (doctor, pilot) given identical behavior across genders, then evaluated third party making Bayesian judgment.",
+    "design": "between-subjects",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0549",
+    "what_manipulated": "age group (4-year-olds, 6-year-olds, adults) and task difficulty via task procedure version",
+    "what_measured": "retrieval dependency (contingency of success across associations within multi-element events)",
+    "experiment": "Participants learned multi-element events (scene, person, object) then performed cued recognition across all element-pair combinations. Dependency was computed as proportion of joint retrieval (both correct/both incorrect) minus predictions of independent model. Experiment 1 examined age effects in dependency; Experiment 2 dampened accuracy in 6-year-olds via same adult procedure to test dissociation between overall accuracy and dependency.",
+    "design": "mixed",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "preregistered-with-power",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0550",
+    "what_manipulated": "stimulus type (bouba-like vs. kiki-like pseudowords; rounded vs. spiky shapes; arousal level of pseudowords)",
+    "what_measured": "arousal ratings (Exp 1); acoustic feature predictions of arousal (Exp 2); probability of shape matching in 2AFC task (Exp 3)",
+    "experiment": "Experiment 1: Participants rated arousal of shapes and words separately on 5-point scale. Experiment 2: New participants rated arousal of 929 novel pseudowords; acoustic features extracted and regression models built to predict arousal of prior bouba-kiki words. Experiment 3 (preregistered): Participants heard pseudowords varying in arousal, performed 2AFC task matching each to spiky or rounded shape.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "preregistered-with-power",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0565",
+    "what_manipulated": "diagnostic group (GAD, healthy control, high trait anxiety) and facial emotion (angry, fearful, happy, neutral)",
+    "what_measured": "reaction time to peripheral targets; disengagement and engagement components of spatial attention orienting",
+    "experiment": "Experiment 1: Participants viewed centrally presented faces (three emotions) followed by brief peripheral target letter; reaction time to identify target measured disengagement. Experiment 2: Peripheral cuing task (face cue location varied; target valid/invalid) and central cuing task (eye gaze direction) measured spatial orienting. Diagnostic group status and emotion type crossed within emotional attention task.",
+    "design": "mixed",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-one"
+  },
+  {
+    "paper_id": "p0569",
+    "what_manipulated": "instruction condition: augmented feedback (aF), external focus (EF), and/or monetary reward (RE) in countermovement jumping",
+    "what_measured": "maximal jump height, ground reaction forces, joint angles, muscular activity (rectus femoris, gastrocnemius, tibialis, biceps femoris)",
+    "experiment": "Within-subjects: 18 participants performed six maximal countermovement jumps across six instruction conditions (neutral, aF, RE, aF+EF, aF+RE, aF+EF+RE), each repeated twice in randomized order. Kinetic and kinematic data recorded via force plate and motion capture; electromyography measured muscle activity during the jump.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "on-request"
+  }
+]

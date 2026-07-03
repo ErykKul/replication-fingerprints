@@ -1,0 +1,56 @@
+[
+  {
+    "paper_id": "p0093",
+    "phenomenon": "information-selection strategy shift with context",
+    "constructs": "criterion salience, decision complexity, preference reversal",
+    "claim": "selection-criterion salience (not dissonance intensity) drives preference direction for consistent versus inconsistent decision-relevant information.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0094",
+    "phenomenon": "self-regulation depletion strengthens bias",
+    "constructs": "resource limitation, motivational state, confirmatory bias",
+    "claim": "depleted self-regulation produces stronger confirmatory information processing via increased commitment, not via cognitive overload or mood disruption.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0095",
+    "phenomenon": "goal-phase activation spreads attitude strength",
+    "constructs": "implemental mind-set, procedural priming, attitude carryover",
+    "claim": "planning a decision's implementation activates one-sided cognitive processing that increases attitude strength toward unrelated objects.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0096",
+    "phenomenon": "self-esteem calibrates relationship-risk control",
+    "constructs": "goal conflict, executive control, rejection sensitivity",
+    "claim": "interpersonal risk automatically activates connectedness but a self-esteem-calibrated control system differentially executes versus suppresses this goal.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0097",
+    "phenomenon": "personal capability enables forgiveness",
+    "constructs": "empathy, self-similarity, severity reduction",
+    "claim": "recognizing one's own capacity for similar transgression increases forgiveness by reducing offense severity perception, enhancing empathic understanding, and boosting offender-similarity feelings.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "paper_id": "p0098",
+    "phenomenon": "emotion expression universality",
+    "constructs": "nonverbal signal, cross-cultural recognition, evolved expression",
+    "claim": "the pride nonverbal expression is recognized across culturally isolated and Western populations, supporting the hypothesis that it is an evolved human universal rather than a learned cultural gesture.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  }
+]

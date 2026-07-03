@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1111/j.1744-6570.1999.tb00174.x",
+    "phenomenon": "long-term life outcomes shaped by stable individual differences",
+    "constructs": "trait-stability intrinsic-extrinsic-outcomes cognitive-ability life-trajectory",
+    "claim": "personality traits and cognitive ability predict both job satisfaction and economic success across the life span, with adult measures more predictive than childhood antecedents.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0021-9010.85.5.751",
+    "phenomenon": "individual differences predicting influence and motivation of others",
+    "constructs": "trait-dimensions leadership-behavior organizational-outcomes facet-specificity",
+    "claim": "extraversion and agreeableness predict transformational leadership behavior and subsequent organizational effectiveness.",
+    "narrative": "incremental-extension",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.83.5.1165",
+    "phenomenon": "early individual characteristics foreshadowing adult adaptation patterns",
+    "constructs": "personality-continuity developmental-embedding maladaptation childhood-antecedents",
+    "claim": "childhood personality and competence shape adult emotional functioning and relationship success, particularly through negative emotionality's pervasive link to failure in developmental tasks.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "hedged-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.84.4.871",
+    "phenomenon": "motivational state characterized by elevated vision and purpose",
+    "constructs": "evocation-motivation-transcendence trait-measurement daily-experience creative-outcomes",
+    "claim": "inspiration functions as a general psychological construct with measurable trait and state components that predict creative achievement and transcendent experiences.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1515/humr.14.2.117",
+    "phenomenon": "stereotyped personality assumptions based on humor capacity",
+    "constructs": "social-desirability-bias personality-stereotyping humor-as-signal emotional-traits",
+    "claim": "individuals with above-average humor are stereotyped as lower in neuroticism and higher in agreeableness, confirming humor as a social asset.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.82.3.314",
+    "phenomenon": "emotional attribution reversing with prior contextual information",
+    "constructs": "regret-attribution prior-outcomes counterfactual-thinking context-dependency emotion-specificity",
+    "claim": "negative prior outcomes reverse the regret pattern so that inaction becomes more regrettable than action, contrary to typical findings without context.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1002/ejsp.2420170402",
+    "phenomenon": "affective preference emerging from simple ownership without use",
+    "constructs": "mere-ownership self-relevance affective-asymmetry cross-linguistic-consistency",
+    "claim": "letters from one's own name are consistently preferred across languages purely through ownership, revealing a fundamental mechanism linking self to liking.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1162/003355397555208",
+    "phenomenon": "cognitive processing of monetary value in nominal rather than real terms",
+    "constructs": "nominal-real-representation dual-processing inflation-illusion rational-deviation",
+    "claim": "money illusion arises from simultaneous processing of nominal and real representations, biasing judgment toward nominal evaluation in economic decisions.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0096-1523.3.4.544",
+    "phenomenon": "retroactive sense-making of scientific research inevitability",
+    "constructs": "hindsight-bias epistemic-certainty alternative-possibilities scientific-inference",
+    "claim": "people exhibit hindsight bias when evaluating research, believing they knew results were inevitable, reducible by considering alternative outcomes.",
+    "narrative": "incremental-extension",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.88.5.725",
+    "phenomenon": "persistent belief in first-instinct strategy despite contradicting evidence",
+    "constructs": "counterfactual-thinking availability-bias self-recrimination illusory-evidence decision-error",
+    "claim": "counterfactual thinking about wrong answer changes creates disproportionate memory and regret, making first-instinct strategy feel wiser than performance data support.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1012046108",
+    "phenomenon": "asymmetric attribution of agency and determinism to self versus peers",
+    "constructs": "self-other-asymmetry free-will-perception unpredictability intentional-causation",
+    "claim": "people perceive their own futures as more open, unpredictable, and intention-driven than peers' futures, elevating their sense of personal agency.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1177/0146167202286008",
+    "phenomenon": "asymmetric detection of bias in judgment between self and others",
+    "constructs": "bias-perception self-enhancement availability-bias motivated-reasoning epistemic-asymmetry",
+    "claim": "people consistently see cognitive biases as more prevalent in others than in themselves, resistant even to direct evidence of their own bias.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1002/(sici)1099-0771(200001/03)13:1<107::aid-bdm349>3.0.co;2-p",
+    "phenomenon": "evidence-seeking choices optimizing for confirmatory value rather than probability",
+    "constructs": "confirmatory-bias value-maximization hypothesis-testing probabilistic-reasoning motivational-influence",
+    "claim": "people choose hypothesis tests to maximize the evidential value of confirming outcomes rather than their probability, enhanced by motivational context.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1016/0022-1031(91)90011-t",
+    "phenomenon": "moral judgment divergence between harmful action and inaction",
+    "constructs": "omission-commission-asymmetry causality-attribution moral-intuition heuristic-overgeneralization",
+    "claim": "harmful omissions are judged as less immoral than equivalent commissions because people underestimate omissions' causal efficacy, revealing an overgeneralized heuristic.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.39.5.806",
+    "phenomenon": "comparative optimism bias in anticipating personal future outcomes",
+    "constructs": "comparative-bias outcome-desirability perceived-control egocentric-reasoning event-typicality",
+    "claim": "people rate their own chances as above average for positive events and below average for negative events, shaped by perceived control and focus on personal favorable factors.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1037/0022-3514.86.5.680",
+    "phenomenon": "misprediction when evaluative context shifts from joint to single",
+    "constructs": "evaluative-mode-dependency affective-forecasting attribute-weighting experiential-utility",
+    "claim": "people overpredict how much attribute differences will matter to their happiness because they rely on joint evaluation preferences when predicting single evaluation experiences.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1126/science.1091721",
+    "phenomenon": "choice outcome determined by default option presentation",
+    "constructs": "default-effect preference-formation decision-passivity structural-choice-architecture",
+    "claim": "default options substantially increase organ donation rates, demonstrating that policy structure shapes preference expression independently of stated values.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2006.01704.x",
+    "phenomenon": "stopping point in iterative estimation adjustment process",
+    "constructs": "anchor-and-adjust sufficient-plausibility search-motivation iterative-refinement",
+    "claim": "insufficient adjustment from anchors occurs because adjustments terminate upon reaching plausibility rather than accuracy, unless motivation to search increases.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02159.x",
+    "phenomenon": "asymmetric valuation of equivalent future versus past events",
+    "constructs": "temporal-value-asymmetry affective-intensity gain-loss-framing time-discounting",
+    "claim": "people value future events more highly than equidistant past events because future events generate greater affect, unifying hyperbolic discounting and gain-loss asymmetry.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1037/0096-3445.126.1.45",
+    "phenomenon": "systematic misprediction of others' risk preferences relative to own",
+    "constructs": "self-other-asymmetry risk-preference-prediction affective-vividness-salience egocentric-bias",
+    "claim": "people predict others as more risk-seeking than themselves, a bias eliminated only when targets are vivid and personal, explained through risk-as-feelings.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

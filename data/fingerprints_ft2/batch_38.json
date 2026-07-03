@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0304",
+    "what_manipulated": "quantity of product replicates shown",
+    "what_measured": "perceived product efficacy; perceived entitativity",
+    "experiment": "Five between-subjects or mixed experiments in which displays of single vs. multiple identical product units (e.g., cleaning supplies, energy supplements) were shown to participants. Perceived efficacy and mediating perceptions of product entitativity (homogeneity, functional unity) were measured via self-report scales. Alternative manipulations (ingredient unity) were tested to examine boundary conditions.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-one"
+  },
+  {
+    "paper_id": "p0305",
+    "what_manipulated": "perceived goal conflict; framing of activity as work vs. leisure",
+    "what_measured": "time spent on activity; preference for work vs. leisure; justification salience",
+    "experiment": "Seven experiments manipulating goal conflict (via goal-listing and conflict-recall tasks) then measuring time allocation to an unrelated activity framed as either work or leisure. Mediation by reliance-on-salient-justifications measured via self-report; moderation via prior choice provision and recalling past work to supply justification for leisure.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0306",
+    "what_manipulated": "salience of financial constraints; longevity of material goods vs. experiences",
+    "what_measured": "preference for material goods vs. experiences; concern about purchase longevity",
+    "experiment": "Seven studies (correlational and experimental) examining how financial-constraint salience shifts discretionary purchasing toward material goods via increased concern about longevity. Manipulation via essay prompts, measurement via choice tasks and self-report on reasons for choice. Boundary conditions tested: material goods durability and memory salience.",
+    "design": "mixed",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0307",
+    "what_manipulated": "economic conditions (recession vs. upswing); child gender; child age; participant risk aversion; participant monogamy beliefs",
+    "what_measured": "resource allocation to sons vs. daughters; perceived reproductive value of sons vs. daughters; parental investment decisions",
+    "experiment": "Five experiments manipulating economic conditions via news articles or slideshows, assessing allocation of wills and beneficial expenditures to sons vs. daughters. Mediation by perceived reproductive value tested; moderation by risk aversion and monogamy beliefs examined. Boundary condition tested: child age (infant vs. adolescent).",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0308",
+    "what_manipulated": "logo shape (circular vs. angular); mental load (visual vs. cognitive); ad headline focus; imagery disposition",
+    "what_measured": "perceived product attributes (comfortableness, durability); perceived company customer sensitivity; product attitude; willingness to pay",
+    "experiment": "Five experiments testing how circular vs. angular logo shapes influence attribute judgments via mental imagery generation. Shape effects moderated by visual (not cognitive) load, imagery predisposition, and verbal headline consistency. Mediation via softness/hardness associations and product imagery tested. Priming manipulation tested generalizability.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "mediation-or-moderation",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-one"
+  },
+  {
+    "paper_id": "p0310",
+    "what_manipulated": "lateral display position of healthy vs. unhealthy food items (left vs. right); gaze starting point; item location (left, right, or center)",
+    "what_measured": "choice of healthy vs. unhealthy option; consumption volume of healthy vs. unhealthy items",
+    "experiment": "Seven experiments (choice tasks and consumption) testing whether healthy items displayed left vs. right of unhealthy items affect selection and intake. Mental-organization operationalization via word-placement tasks. Boundary conditions tested: left-side bias ruling via center-placement control, primacy effects ruling via gaze-starting-point manipulation, consumption consequences via actual beverage intake measurement.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "simple-association",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-data-and-materials"
+  }
+]

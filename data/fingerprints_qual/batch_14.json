@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1111/1467-9280.00431",
+    "phenomenon": "reciprocal upward spiral between emotional state and coping approach",
+    "constructs": "positive-affect broad-minded-coping emotional-well-being reciprocal-dynamics",
+    "claim": "positive emotions initiate self-reinforcing cycles where affect and coping mutually enhance each other toward improved well-being",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/1467-9280.02436",
+    "phenomenon": "perceptual trade-off when attention is directed spatially",
+    "constructs": "spatial-attention temporal-resolution perception-acuity trade-off",
+    "claim": "directing spatial attention sharpens where one perceives but degrades when one perceives two successive events",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/1745-9125.12008",
+    "phenomenon": "behavioral change following relationship dissolution versus continuation",
+    "constructs": "marriage-effect situational-process enduring-process desistance",
+    "claim": "marriage reduces crime primarily through temporary situational constraints rather than stable identity transformation",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/ajps.12252",
+    "phenomenon": "differential interpersonal treatment by government personnel based on applicant characteristics",
+    "constructs": "racial-bias ethnicity-effect bureaucratic-discretion service-tone",
+    "claim": "officials grant equal access but convey different social regard through tone and formality",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/bjhp.12185",
+    "phenomenon": "systematic misperception of visual stimuli at extreme values",
+    "constructs": "contraction-bias weber-law visual-perception body-size",
+    "claim": "fundamental visual perceptual biases prevent accurate judgment and detection of changes in extreme stimuli",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/cogs.12605",
+    "phenomenon": "judgment of causal relationships as better or worse guides",
+    "constructs": "causal-stability robustness-across-conditions causal-reasoning action-guidance",
+    "claim": "people endorse causal relationships more when they are robust across varying circumstances",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/flan.12063",
+    "phenomenon": "measurement of second-language oral proficiency across learner populations",
+    "constructs": "oral-proficiency imitation-task assessment second-language-acquisition",
+    "claim": "imitation task reliably captures overall oral ability in second-language learners",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1460-2466.1984.tb02164.x",
+    "phenomenon": "learner expectations about learning from different media",
+    "constructs": "media-predisposition learning-expectations print-and-television",
+    "claim": "learners hold different expectations about what they will acquire from print versus broadcast media",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-7687.2009.00807.x",
+    "phenomenon": "neural mechanisms of selective attention across social groups",
+    "constructs": "socioeconomic-status attention-filtering neural-processing background-suppression",
+    "claim": "children from lower-SES backgrounds show weaker neural filtering of task-irrelevant information",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-7687.2009.00859.x",
+    "phenomenon": "developmental change in criteria for judging fairness",
+    "constructs": "proportion-sensitivity equity-judgment absolute-amount developmental-progression",
+    "claim": "children shift from absolute-quantity reasoning to proportion-based fairness judgments with age",
+    "narrative": "incremental-extension",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-8284.2004.00481.x",
+    "phenomenon": "folk understanding of intentionality and moral responsibility",
+    "constructs": "intentionality folk-psychology moral-judgment action-attribution",
+    "claim": "lay intuitions about intentional action inform folk theories of moral responsibility",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-8624.2007.00995.x",
+    "phenomenon": "effect of self-beliefs about ability on academic trajectory",
+    "constructs": "implicit-theories-of-intelligence malleable-vs-fixed learning-goals achievement-change",
+    "claim": "belief that ability is malleable triggers learning-oriented motivation that sustains achievement gains",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-8624.2009.01312.x",
+    "phenomenon": "neural activation during social perception in infancy",
+    "constructs": "social-brain-network temporal-regions neural-activation early-development",
+    "claim": "temporal brain regions activate during social-perception tasks in five-month-old infants",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2006.01704.x",
+    "phenomenon": "termination of adjustment process in judgment under uncertainty",
+    "constructs": "anchoring-and-adjustment self-generated-anchors plausibility-threshold adjustment-sufficiency",
+    "claim": "adjustments from self-chosen anchors terminate when reaching a plausible value rather than an accurate one",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2006.01720.x",
+    "phenomenon": "differential susceptibility to judgment biases based on quantitative skill",
+    "constructs": "numerical-ability framing-effects affect-meaning number-comprehension",
+    "claim": "skill with numbers enables more appropriate application of logical principles and generates more precise affective understanding",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2006.01824.x",
+    "phenomenon": "reduced spontaneous attention to others' mental states when holding high power",
+    "constructs": "power-differential perspective-taking egocentric-bias empathy",
+    "claim": "power reduces inclination to spontaneously consider others' viewpoints, knowledge, and emotional states",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2007.01909.x",
+    "phenomenon": "knowledge-induced bias in reasoning about others' false beliefs",
+    "constructs": "curse-of-knowledge false-belief-reasoning knowledge-interference perspective-difference",
+    "claim": "knowing an event's actual outcome interferes with reasoning about what someone else incorrectly believes",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2007.01944.x",
+    "phenomenon": "early attribution of incorrect beliefs to predict others' behavior",
+    "constructs": "false-belief-attribution mental-state-understanding action-prediction early-infancy",
+    "claim": "two-year-olds can attribute false beliefs to others to predict their actions",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02041.x",
+    "phenomenon": "simultaneous attraction toward multiple response options revealed in motor behavior",
+    "constructs": "decision-making parallel-competition response-activation motor-dynamics",
+    "claim": "competing response options exert simultaneous pull on motor execution even before conscious decision is made",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2008.02042.x",
+    "phenomenon": "immediate enhancement of goal focus following response conflict",
+    "constructs": "response-conflict goal-shielding cognitive-control attention-focus",
+    "claim": "response conflicts immediately trigger heightened shielding of current goals and suppression of distractors",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  }
+]

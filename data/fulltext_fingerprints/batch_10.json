@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0271",
+    "what_manipulated": "clarity and framing of agent's motivational state (absence of motivation, presence-without-override, inverted-commas understanding, temporary apathy, no explanation provided)",
+    "what_measured": "willingness to attribute moral judgment and understanding to agent",
+    "experiment": "Units read scenarios describing an agent (Anna) who classifies actions as morally wrong but lacks motivation to act accordingly, varying the explanation for lack of motivation. Units then indicated via Likert scale whether the agent understands/believes/thinks the action is morally wrong. Multiple scenarios tested different facets: standard psychopathy case, inverted-commas reading, inner struggle, listlessness versus no reason. Analysis compared proportions of yes/no responses and correlations with blame attributions.",
+    "design": "between-subjects",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "on-request"
+  },
+  {
+    "paper_id": "p0280",
+    "what_manipulated": "presence and placement of commercial interruptions in video content (continuous versus disrupted viewing)",
+    "what_measured": "enjoyment of program content (retrospective ratings and willingness-to-pay measure)",
+    "experiment": "Units watched video clips (sitcoms, documentaries, music videos, animations) either continuously or interrupted by commercials. Some studies manipulated placement (ads before/after versus mid-content); others manipulated whether interruptions were present. Units rated overall enjoyment on Likert scales, separate ratings of content halves, and indicated willingness to pay for similar content. Studies 5 and 6 measured real-time enjoyment via slider scales. Comparisons tested main effects of disruption and interactions with video type and unit age.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "open-one"
+  },
+  {
+    "paper_id": "p0294",
+    "what_manipulated": "country-level demographic structure (median age, proportion of younger workers, population shrinkage parameter)",
+    "what_measured": "rate of entrepreneurship (new business formation within 42 months)",
+    "experiment": "Units were individuals from the Global Entrepreneurship Monitor (GEM) survey spanning 82 countries, 2001-2010 (N>1.3 million). Analysis aggregated entrepreneurship rates by country-age-year cells. Independent variables included unit age, rank (proportion younger in workforce), and country-level demographics estimated from census data. Discrete-time logistic regression models estimated effects within each country-age group; cross-country heterogeneity was tested via meta-analysis and meta-regression linking country effect sizes to demographic indicators.",
+    "design": "observational or correlational",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0297",
+    "what_manipulated": "genre framing (story presented as Greek myth-like versus police procedural) and participant familiarity with genre",
+    "what_measured": "acceptance of moral deviance as fictional and ease of imagination",
+    "experiment": "Study 1: Units (undergraduates) read a Greek myth-style story and rated imaginability, fictionality, genre competence, and personal moral stance on Likert scales. Correlations tested links between variables. Study 2: Units (online, age 18-82) read parallel stories (female infanticide) framed as either police procedural or Aztec myth, counterbalanced within-participant. Units rated morality in the fictional world and character's moral belief. A between-subjects manipulation of genre expectations was induced by framing text. Analysis compared means between conditions (police vs. myth) via t-tests.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  },
+  {
+    "paper_id": "p0298",
+    "what_manipulated": "valence of side effect (harm versus help to environment or soldiers)",
+    "what_measured": "attribution of intentionality to agent and assignment of blame/praise",
+    "experiment": "Experiment 1: Units (N=78, Manhattan public park) randomly assigned to harm or help condition. In harm, agent knowingly harms environment while pursuing profit; in help, agent knowingly helps environment. Units rated blame/praise deserved (0-6 scale) and judged whether agent intentionally brought about the side effect. Experiment 2: similar design with military context (N=42). Units read parallel vignettes with soldiers harmed or rescued as side effects. Analysis compared proportions saying \"intentional\" and praise/blame ratings via chi-square and correlation.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "minimal",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0301",
+    "what_manipulated": "parental socioeconomic status (education and occupational status of parents) across countries",
+    "what_measured": "timing of entry into first co-residential union (marriage or cohabitation), type of first union",
+    "experiment": "Units were individuals (N=45,147) from European Social Survey Round 3 (2006/2007) across 25 countries. Dependent variables: age at first union entry and union type (cohabitation vs. marriage). Independent variables: parental SES (composite of parental education and occupational status, standardized within countries), unit education (time-varying), educational enrollment. Discrete-time event-history analysis with person-year records from age 15 to 35. Country-specific logistic models estimated effects, then meta-analysis tested overall effect and heterogeneity across countries. Meta-regression examined whether country-level SDT indicators explained variation.",
+    "design": "observational or correlational",
+    "manipulation": "observational",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "open-data-and-materials"
+  }
+]

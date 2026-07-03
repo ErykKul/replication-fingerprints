@@ -1,0 +1,182 @@
+[
+  {
+    "doi": "10.1073/pnas.1516868113",
+    "phenomenon": "impression-formation from strategic disclosure",
+    "constructs": "secrecy trustworthiness-signal inference-accuracy",
+    "claim": "agents who conceal information are judged more negatively than those who disclose, despite the concealer's belief otherwise.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1517662112",
+    "phenomenon": "negative evaluation of norm-violating group members",
+    "constructs": "stereotype-utility certainty-preference categorization",
+    "claim": "preference for certainty drives negative evaluation of individuals who deviate from group stereotypes, independent of the stereotype's truth.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1519401113",
+    "phenomenon": "stereotype content formation and override",
+    "constructs": "behavioral-ecology constraint-inference group-attribution",
+    "claim": "stereotypes reflecting presumed environmental conditions override group-based stereotypes when explicit ecological information is available.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1523586113",
+    "phenomenon": "memory distortion following transgression",
+    "constructs": "moral-cognition memory-integrity self-deception",
+    "claim": "memory for one's own unethical actions becomes progressively less clear over time, enabling repeated transgression.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1523698113",
+    "phenomenon": "relationship-quality and compliance with norms",
+    "constructs": "empathy perspective-taking relationship-maintenance",
+    "claim": "framing rule-enforcement through relational concern rather than punishment reduces defiance and improves behavioral compliance.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1601280113",
+    "phenomenon": "voluntary-action as reputation signal",
+    "constructs": "observable-action trust-inference reputation-concern",
+    "claim": "actors choose not to reveal or minimize deliberation when choosing to help others, using this unreflective stance as a trustworthiness signal.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1606574113",
+    "phenomenon": "misalignment between procedural salience and outcome satisfaction",
+    "constructs": "fairness-salience outcome-focus attention-shift",
+    "claim": "recipients care less about procedural fairness than allocators predict because the outcome dominates attention after allocation.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1607330114",
+    "phenomenon": "status-driven resource-acquisition motivation",
+    "constructs": "social-rank deprivation-response adaptive-behavior",
+    "claim": "subjective experience of low social position triggers increased appetite and caloric consumption, mimicking ecological scarcity response.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1610834113",
+    "phenomenon": "temporal-framing of normative comparison",
+    "constructs": "temporal-focus comparative-judgment behavioral-response",
+    "claim": "backward-looking comparisons activate concern in groups normally resistant to forward-looking framings, reducing ideological polarization.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1616921114",
+    "phenomenon": "incentive-induced mindset shift and motivation reduction",
+    "constructs": "extrinsic-incentive intrinsic-motivation attention-allocation",
+    "claim": "tangible incentives redirect attention from intrinsic goals to cost-benefit calculus, reducing prosocial behavior among high-intrinsic-motivation agents.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1620542114",
+    "phenomenon": "appearance-based inference in information assessment",
+    "constructs": "credibility-judgment facial-trait information-selection",
+    "claim": "observers' selection and quality-judgment of communicated information depend on communicator appearance, introducing systematic bias.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1701916114",
+    "phenomenon": "belief-driven causal attribution bias",
+    "constructs": "agency-belief situational-attribution punishment-judgment",
+    "claim": "belief in free agency strengthens attribution of behavior to internal rather than external causes, increasing prescribed punishment.",
+    "narrative": "confirmation",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1704032114",
+    "phenomenon": "flexibility-rigidity balance in norm-enforcement strategy",
+    "constructs": "learning-dynamics strategic-interaction norm-maintenance",
+    "claim": "whether norm-enforcement relies on adaptive learning or reflexive response depends on the strategic payoff structure of the interaction.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1705238114",
+    "phenomenon": "perceived-humanity and harm-justification type",
+    "constructs": "humanization utilitarian-harm moral-harm",
+    "claim": "reducing perceivers' attribution of personhood increases willingness to inflict harm when instrumentally useful, but not when morally justified.",
+    "narrative": "boundary-condition",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1706253114",
+    "phenomenon": "inequality-salience and opportunity-belief change",
+    "constructs": "structural-attribution system-belief policy-preference",
+    "claim": "exposure to rising inequality increases belief in structural barriers and support for redistribution policy.",
+    "narrative": "incremental-extension",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1706913114",
+    "phenomenon": "ephemerality and disinhibition in digital disclosure",
+    "constructs": "permanence-perception privacy-concern self-presentation",
+    "claim": "temporary-storage affordances increase disclosure risk by reducing privacy concern, but observers' impressions depend on revealed content, not storage duration.",
+    "narrative": "counterintuitive-reversal",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1707040114",
+    "phenomenon": "decision-process and temporal-discounting",
+    "constructs": "information-search strategy time-preference choice-outcome",
+    "claim": "comparative feature-based search promotes lower time-discounting than integrative within-option search, and is amenable to low-friction intervention.",
+    "narrative": "new-mechanism",
+    "scope": "broad-generalization",
+    "stance": "bold-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1707719114",
+    "phenomenon": "misperception of between-group equity",
+    "constructs": "distributional-inequality equity-perception just-world-belief",
+    "claim": "observers overestimate progress toward equity, driven by belief in distributive justice and social exposure, creating unfounded optimism.",
+    "narrative": "confirmation",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1717092115",
+    "phenomenon": "cognitive-reframing and behavioral-choice change",
+    "constructs": "cognitive-strategy preference-valuation behavior-transfer",
+    "claim": "training in reframing techniques shifts valuation and choice toward delayed gratification, with effects generalizing beyond trained items.",
+    "narrative": "new-mechanism",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  },
+  {
+    "doi": "10.1073/pnas.1722664115",
+    "phenomenon": "social-learning and partisan-framing in belief update",
+    "constructs": "collective-intelligence partisan-salience belief-polarization",
+    "claim": "exposure to diverse beliefs in structured networks improves accuracy unless partisan identity is made salient, which sustains polarization.",
+    "narrative": "boundary-condition",
+    "scope": "specific-context",
+    "stance": "measured-claim"
+  }
+]

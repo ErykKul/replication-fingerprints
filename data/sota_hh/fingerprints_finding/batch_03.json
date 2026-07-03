@@ -1,0 +1,82 @@
+[
+  {
+    "doi": "10.1037/0022-3514.92.2.325",
+    "finding": "Performing an act of regulatory control depleted a limited metabolic resource (glucose), and this depletion impaired subsequent regulatory control attempts; replenishing the resource eliminated the impairment."
+  },
+  {
+    "doi": "10.1111/j.1467-9280.2007.02004.x",
+    "finding": "Prior effortful regulatory exertion weakened conflict-monitoring neural signals, which mediated degraded performance on a subsequent executive control task."
+  },
+  {
+    "doi": "10.1037/0022-3514.74.3.774",
+    "finding": "Exerting regulatory control on one task reduced physical stamina, hastened giving up on subsequent tasks, and impaired subsequent regulatory control in different domains—consistent with a strength-depletion model."
+  },
+  {
+    "doi": "10.1037/0096-3445.136.2.241",
+    "finding": "Initial exertion of executive control (attention, inhibition, memory, emotional expression) reduced the capacity for subsequent executive control tasks, supporting a limited-resource model of executive functioning."
+  },
+  {
+    "doi": "10.1037/0022-3514.85.1.33",
+    "finding": "Depletion of self-regulatory resources impaired subsequent performance on complex thinking requiring active self-guidance, but not on simpler mental tasks requiring no self-direction."
+  },
+  {
+    "doi": "10.1037/a0027598",
+    "finding": "Maintaining important secrets was experienced as a physical burden, leading to perception of hills as steeper and reduced willingness to help with physical tasks—effects modulated by secret burden and cognitive preoccupation."
+  },
+  {
+    "doi": "10.1126/science.1132491",
+    "finding": "Primes of money elicited self-sufficient orientation, reducing both requests for help and helpfulness to others, and increasing preference for solitude and physical distance from others."
+  },
+  {
+    "doi": "10.1177/0956797609358096",
+    "finding": "Blood glucose levels regulated temporal discounting of future rewards: sugar intake reduced discounting (made people more patient), while artificial sweetener increased discounting (made people more impatient)."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.2.353",
+    "finding": "Activation spreads continuously from conceptual to phonological representations during word production, but the magnitude of activation transfer is limited and modulated by task demands."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.146",
+    "finding": "Repetition blindness for repeated items depended on participant strategy: when guessing from partial information was discouraged, repetition blindness occurred for both words and nonwords."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.3.478",
+    "finding": "Switching between tasks imposed additional demands on working memory capacity, independent of the concurrent load of maintaining items in memory."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.230",
+    "finding": "Items that had undergone retrieval-induced forgetting benefited more from relearning than items that had not been forgotten, suggesting that forgetting enables faster subsequent learning."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.237",
+    "finding": "Better discrimination of intermixed versus blocked similar stimuli was not explained by differences in trial spacing, suggesting an alternative associative-learning mechanism."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.97",
+    "finding": "Priming, recognition, and fluency effects can emerge from a single system rather than requiring multiple systems, as demonstrated through computational modeling."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.219",
+    "finding": "A single computational model predicted appropriate distributions of effect sizes for phonological and word-length effects without invoking changes in encoding strategy or storage mechanisms."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.3.460",
+    "finding": "Activated stereotypes at retrieval spontaneously generated illusory recollections consistent with expectations, as people manufactured recollective experiences from both memory traces and retrieval-context information."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.2.430",
+    "finding": "Numbers in different notational systems were automatically translated into a common magnitude representation, allowing cross-notation numerical interference even when the notation-shift was irrelevant."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.65",
+    "finding": "Semantic neighborhood density had opposite effects on word processing: near neighbors slowed processing while distant neighbors sped it up, mediated by attractor dynamics in semantic space."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.1.243",
+    "finding": "Phonological similarity between to-be-remembered items and irrelevant sounds disrupted free recall but not serial recall, when the similarity enabled category-cueing for retrieval."
+  },
+  {
+    "doi": "10.1037/0278-7393.34.3.546",
+    "finding": "Practicing only one operation (multiplication or factoring) produced interference with the other operation, while practicing both produced facilitative transfer in both directions—reflecting adaptive specialization versus flexibility."
+  }
+]

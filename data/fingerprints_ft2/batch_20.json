@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "p0136",
+    "what_manipulated": "retrieval practice (studying and retrieving category-exemplar pairs with blocks of guided cued recall)",
+    "what_measured": "recall accuracy for studied vs. unstudied exemplars, after relearning",
+    "experiment": "Participants studied category-exemplar pairs, underwent alternating retrieval-practice and relearning blocks (1-3 retrieval-practice blocks, interspersed with relearning), then completed a final cued-recall test. The comparison tested whether items subjected to retrieval-induced forgetting benefit more from relearning than unaffected items.",
+    "design": "between-subjects",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0137",
+    "what_manipulated": "stimulus presentation schedule (intermixed vs. blocked) and temporal spacing of repeated stimuli",
+    "what_measured": "discrimination accuracy on same-different test comparing trained stimuli",
+    "experiment": "Participants underwent preexposure to checkerboard stimuli (60 presentations each) presented in an intermixed sequence (AX alternating with BX) or in blocked sequences (massed CX or spaced DX), then completed a same-different discrimination test. The within-subjects design isolated effects of stimulus scheduling from temporal spacing.",
+    "design": "within-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "main-effect",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0138",
+    "what_manipulated": "irrelevant sound content (phonologically similar vs. dissimilar end-rhyme words) and recall task type (free vs. serial)",
+    "what_measured": "recall accuracy and extra-list intrusion count for to-be-remembered items",
+    "experiment": "Participants memorized word lists during retention intervals containing repeated irrelevant auditory items either sharing end-rhyme phonology (similar) or not (dissimilar), then recalled list items either freely (any order) or serially (strict order). The task-type factor isolated whether phonological disruption effects emerge only under category-cuing conditions.",
+    "design": "mixed",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "single-hypothesis",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0139",
+    "what_manipulated": "timing of distractor word presentation relative to picture onset (immediate simultaneous vs. delayed 1000-ms postponement) and semantic relatedness (category-coordinate vs. unrelated)",
+    "what_measured": "naming latency and accuracy for pictures in presence of distractor words; word frequency effects on latencies",
+    "experiment": "Participants named pictures overlaid with distractor words in immediate (simultaneous) or delayed (1000-ms gap) naming conditions. Distractor words were semantically related or unrelated. Frequency effects on naming times indicated whether lexical selection occurred before response output. Semantic interference presence/absence revealed processing locus.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0140",
+    "what_manipulated": "stimulus categories (exception words vs. nonwords or regular words) and trial sequence predictability (alternating AABB vs. single-category blocks)",
+    "what_measured": "reading aloud latency (vocal response time), accuracy, and cumulative response time distributions",
+    "experiment": "Participants read aloud exception words, regular words, and nonwords in predictable alternating sequences (AABB) or single-category blocks. Switch costs between stimulus types indexed on-the-fly control over phonological processing pathways (lexical vs. nonlexical emphasis). Response-time distribution analysis distinguished exogenous versus endogenous control.",
+    "design": "between-subjects",
+    "manipulation": "randomized-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "standard",
+    "transparency": "none"
+  },
+  {
+    "paper_id": "p0141",
+    "what_manipulated": "semantic neighborhood density independently for near neighbors (threshold >0.5 cosine similarity) vs. distant neighbors (<0.25 cosine) using feature-based representations",
+    "what_measured": "word recognition latency and accuracy in concreteness judgment; settling dynamics in attractor model simulations",
+    "experiment": "Participants judged concreteness (is it touchable?) of words varying orthogonally in near and distant semantic neighbor counts while matched on frequency, length, and other controls. Items were compared to baseline (few near, few distant). Model analyses traced how near-vs.-distant neighbor effects emerge during semantic settling. Effect signs revealed opposite inhibitory/facilitative contributions.",
+    "design": "within-subjects",
+    "manipulation": "quasi-experiment",
+    "effect_structure": "interaction",
+    "focus": "few-confirmatory",
+    "clarity": "clearly-operationalized",
+    "rigor": "controls-and-power-reported",
+    "transparency": "none"
+  }
+]
