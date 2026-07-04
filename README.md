@@ -120,13 +120,12 @@ sha256sum -c SHA256SUMS
 Expected outputs: the paper's three figures are regenerated as `fig1_scatter.pdf`, `fig2_lenses.pdf`,
 `fig3_roc.pdf`; every stage prints its numbers to stdout under a banner naming the paper item.
 
-## Citation and archive
+## Status, archive and citation
 
-This repository accompanies the paper *"Predicting Replication from Domain-Stripped Fingerprints, Where
-Citations Fail: Verifiability as an Axis of Research Value"* by Eryk Kulikowski (LIBIS, KU Leuven),
-under review at Quantitative Science Studies. A frozen copy will be archived in an institutional
-research data repository with a DOI at publication; please cite the paper (full citation added at
-publication).
+This repository is the public record of this work while the accompanying manuscript is under review:
+the full method, every reported number, and everything needed to reproduce them offline. A frozen copy
+is archived on Zenodo with a version DOI (badge added at release); until the paper is out, cite this
+repository by that DOI. The full paper citation will be added here at publication.
 
 ## License
 
