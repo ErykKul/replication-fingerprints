@@ -4,7 +4,7 @@
 # reproduce offline with no LLM and no API key:
 #
 #   make setup       create .venv and install requirements (one time)
-#   make quick       embedder-free core: Table 1, orthogonality, figures, P@k
+#   make quick       embedder-free core: Table 2, topic control, orthogonality, figures, P@k
 #   make reproduce   everything (novelty axis + ablation cells need sentence-transformers)
 #   make help        show this list
 #
@@ -20,7 +20,7 @@ help:
 	@echo "The data is already bundled; reproduction needs no LLM and no network."
 	@echo "Targets:"
 	@echo "  setup       create .venv and install requirements.txt (one time)"
-	@echo "  quick       embedder-free core (Table 1, orthogonality, figures, P@k)"
+	@echo "  quick       embedder-free core (Table 2, topic control, orthogonality, figures, P@k)"
 	@echo "  reproduce   all paper numbers   <- the main one"
 	@echo "  help        show this message"
 
