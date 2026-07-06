@@ -22,7 +22,7 @@ STAGES = [
      "experiment_maintable.py", False),
     ("Topic-confound control: within-discipline AUROC (not a subdiscipline base rate)",
      "experiment_topic_control.py", False),
-    ("Orthogonality (TOST), cross-dataset generalization, lens complementarity",
+    ("Orthogonality (TOST), cross-dataset generalization, lens complementarity, binary-presence union",
      "experiment_revisions8.py", False),
     ("Figures 1-3 + citations-at-chance (FWCI AUROC/AP)",
      "make_figures.py", False),

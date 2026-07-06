@@ -15,7 +15,7 @@ from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import make_pipeline
-from sklearn.metrics import roc_auc_score
+from sklearn.metrics import roc_auc_score, average_precision_score
 
 CV = StratifiedKFold(5, shuffle=True, random_state=0)
 TF = lambda: make_pipeline(TfidfVectorizer(stop_words="english", min_df=2, max_features=8000), LogisticRegression(max_iter=2000))
@@ -49,13 +49,18 @@ def report(title, y, texts):
     P = {}
     for name, (est, X) in texts.items():
         P[name] = probs(est(), X, y)
-        print(f"  {name:46s} {roc_auc_score(y, P[name]):.3f}")
+        ap = f"  AP {average_precision_score(y, P[name]):.3f}" if "OUR" in name else ""
+        print(f"  {name:46s} {roc_auc_score(y, P[name]):.3f}{ap}")
     base = next(k for k in texts if "SOTA-style" in k)
+    raw = next((k for k in texts if "raw-abstract" in k), None)
     for name in texts:
         if name != base and "OUR" in name:
             lo, hi, p = boot(y, P[name], P[base])
             sig = "***" if p < 0.01 else "**" if p < 0.05 else "*" if p < 0.1 else "ns"
             print(f"    ^ vs TF-IDF baseline: [{lo:+.3f},{hi:+.3f}] p={p:.3f} {sig}")
+            if raw:
+                lo, hi, p = boot(y, P[name], P[raw])
+                print(f"    ^ vs raw-abstract BoW+NB: [{lo:+.3f},{hi:+.3f}] p={p:.3f}")
 
 
 def conflicting_yu():
@@ -103,7 +108,7 @@ def main():
     else:
         print("\n### FORRT (full text): SKIPPED -- data/fulltext_md/ is empty. The full-text corpus is not"
               "\n    redistributed (copyright); rebuild it locally per the README to run the full-text rows."
-              "\n    All headline (Table 1) rows are abstract-only and print above/below.")
+              "\n    All headline (Table 2) rows are abstract-only and print above/below.")
 
     # ---- Yang/Uzzi (abstract, dirty vs cleaned) ----
     yu = pd.read_csv("data/sota_hh/yu388.csv"); yu["doi"] = yu.doi.str.lower()
@@ -126,9 +131,11 @@ def main():
     pt = probs(TF(), Tc, yc); po = probs(NB(), Uc, yc); pr = probs(NB(), Tc, yc)
     print(f"  TF-IDF(abstract)+LR                    {roc_auc_score(yc, pt):.3f}")
     print(f"  raw-abstract BoW+NB                    {roc_auc_score(yc, pr):.3f}")
-    print(f"  OUR multi-lens fingerprint BoW+NB      {roc_auc_score(yc, po):.3f}")
+    print(f"  OUR multi-lens fingerprint BoW+NB      {roc_auc_score(yc, po):.3f}  AP {average_precision_score(yc, po):.3f}")
     lo, hi, p = boot(yc, po, pt)
     print(f"    OURS - TF-IDF: [{lo:+.3f},{hi:+.3f}] p={p:.3f}")
+    lo, hi, p = boot(yc, po, pr)
+    print(f"    OURS - raw BoW+NB: [{lo:+.3f},{hi:+.3f}] p={p:.3f}")
 
 
 if __name__ == "__main__":

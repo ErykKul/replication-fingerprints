@@ -51,8 +51,8 @@ m481 = m[m.doi.isin(ld)]
 for tag, mm in [("n=502 (full FORRT with both scores)", m), ("n=481 (primary analysis set)", m481)]:
     r, _ = pearsonr(Z(mm.novelty), Z(mm.verif)); nn = len(mm); lo, hi = fisher_ci(r, nn, 0.10)
     z, se = np.arctanh(r), 1 / np.sqrt(nn - 3)
-    p_hi = norm.cdf((np.arctanh(0.15) - z) / se)          # H1: r < 0.15
-    p_lo = norm.cdf((z - np.arctanh(-0.15)) / se)          # H1: r > -0.15
+    p_hi = 1 - norm.cdf((np.arctanh(0.15) - z) / se)      # H0: r >= +0.15 vs H1: r < +0.15
+    p_lo = 1 - norm.cdf((z - np.arctanh(-0.15)) / se)      # H0: r <= -0.15 vs H1: r > -0.15
     print(f"[1] TOST {tag}: r={r:+.3f}, 90% CI [{lo:+.3f},{hi:+.3f}], TOST p={max(p_hi,p_lo):.4f} "
           f"-> equivalent to |r|<0.15: {'YES' if lo > -0.15 and hi < 0.15 else 'NO'}")
 

@@ -13,7 +13,7 @@ from sklearn.model_selection import cross_val_predict, StratifiedKFold
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import make_pipeline
-from sklearn.metrics import roc_auc_score, roc_curve
+from sklearn.metrics import roc_auc_score, roc_curve, average_precision_score
 from experiment_alllenses import lens_text
 from experiment_rnd import embed, rnd, deconfound_length
 
@@ -44,7 +44,7 @@ m = pd.read_csv("data/value_scores.csv").dropna(subset=["novelty", "verif", "rep
 Z = lambda s: (s - s.mean()) / s.std()
 nvx, vfy, yy = Z(m.novelty).values, Z(m.verif).values, m.replicated.astype(int).values
 r, pr = pearsonr(nvx, vfy)
-print(f"n_fig1={len(m)} | novelty vs verifiability r={r:.3f} (p={pr:.3f}) | citations AUROC {auc_c:.3f} | fingerprint AUROC {auc_f:.3f}")
+print(f"n_fig1={len(m)} | novelty vs verifiability r={r:.3f} (p={pr:.3f}) | citations AUROC {auc_c:.3f} AP {average_precision_score(y, fwci):.3f} | fingerprint AUROC {auc_f:.3f}")
 fig, ax = plt.subplots(figsize=(4.2, 3.5))
 for lab, c, mk, nm in [(1, BLUE, "o", "replicated"), (0, RED, "x", "failed")]:
     mask = yy == lab

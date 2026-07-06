@@ -12,6 +12,9 @@ r"""Round-11 revisions (optional strengthening; all on existing data, no new dis
     to make Figure 2 protocol-consistent.
     -> off-diagonal r 0.32-0.57 (mean 0.41); FORRT per-lens 0.681/0.665/0.629/0.676 (union 0.701);
        Yang/Uzzi per-lens (same protocol, computed alongside) 0.664/0.715/0.640/0.740 (union 0.747)
+[4] Length-insensitive binary-presence union (binary CountVectorizer + Bernoulli NB): rules out the
+    roughly fourfold lens length imbalance as the source of the union gain.
+    -> FORRT 0.696 (vs count-based union 0.701); Yang/Uzzi 0.769 (vs 0.747)
 
 Run:  PYTHONPATH=src python src/experiment_revisions8.py
 """
@@ -20,7 +23,7 @@ warnings.filterwarnings("ignore")
 from scipy.stats import pearsonr, norm
 from sklearn.model_selection import cross_val_predict, StratifiedKFold
 from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.naive_bayes import MultinomialNB
+from sklearn.naive_bayes import MultinomialNB, BernoulliNB
 from sklearn.pipeline import make_pipeline
 from sklearn.metrics import roc_auc_score
 from experiment_alllenses import lens_text
@@ -110,6 +113,14 @@ def main():
     for n in ks:
         p = cross_val_predict(nb(), np.array([LY[n][x] for x in cY]), yY, cv=CV, method="predict_proba")[:, 1]
         print(f"    YU    lens {names[n]:>13} aggregated AUROC {roc_auc_score(yY, p):.3f}")
+
+    # ---------- [4] length-insensitive binary-presence union (rules out lens length imbalance) ----------
+    nbb = lambda: make_pipeline(CountVectorizer(stop_words="english", min_df=2, binary=True), BernoulliNB())
+    for tag, Uv, yv in [("FORRT", UF, yF), ("Yang/Uzzi", UY, yY)]:
+        pb = cross_val_predict(nbb(), np.array(Uv), yv, cv=CV, method="predict_proba")[:, 1]
+        pc = cross_val_predict(nb(), np.array(Uv), yv, cv=CV, method="predict_proba")[:, 1]
+        print(f"[4] binary-presence union ({tag}): AUROC {roc_auc_score(yv, pb):.3f}  "
+              f"(count-based union: {roc_auc_score(yv, pc):.3f})")
 
 
 if __name__ == "__main__":

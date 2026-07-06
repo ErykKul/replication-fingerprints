@@ -24,11 +24,18 @@ def tost_ci(r, n, a=0.10):
     return np.tanh(z - zc * se), np.tanh(z + zc * se)
 
 
+def tost_p(r, n, bound=0.15):
+    z, se = np.arctanh(r), 1 / np.sqrt(n - 3)
+    return max(1 - norm.cdf((np.arctanh(bound) - z) / se), 1 - norm.cdf((z - np.arctanh(-bound)) / se))
+
+
 # [1] sign-stability TOST
 print("[1] sign-stability TOST (90% CI vs +-0.15 equivalence bound):")
-for tag, r, n in [("ICLR-calibrated novelty", -0.053, 481), ("psychology-background novelty", 0.112, 481)  # pinned: data/psych_background.csv (frozen OpenAlex query), experiment_revisions4 [E]]:
+# pinned: data/psych_background.csv (frozen OpenAlex query), experiment_revisions4 [E]
+for tag, r, n in [("ICLR-calibrated novelty", -0.053, 481), ("psychology-background novelty", 0.112, 481)]:
     lo, hi = tost_ci(r, n)
-    print(f"    {tag}: r={r:+.3f} 90% CI [{lo:+.3f},{hi:+.3f}] -> {'PASSES' if lo > -0.15 and hi < 0.15 else 'FAILS (CI exceeds bound)'}")
+    print(f"    {tag}: r={r:+.3f} 90% CI [{lo:+.3f},{hi:+.3f}] TOST p={tost_p(r, n):.4f} -> "
+          f"{'PASSES' if lo > -0.15 and hi < 0.15 else 'FAILS (CI exceeds bound)'}")
 
 # [2] Bonferroni for the corpus-size novelty tests
 print("[2] novelty corpus-size Bonferroni (4 tests, alpha=0.0125): p=0.031 at 5186 -> "

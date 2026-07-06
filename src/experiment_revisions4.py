@@ -32,14 +32,23 @@ alllens = set(lab) & set(absm)
 for v in L.values(): alllens &= set(v)
 print(f"[A] FORRT flow: {tot} rows -> {has_lab} clear binary outcome -> {has_ab} with abstract -> {len(alllens)} with all four lenses")
 
-# [B] within-sample abstract-vs-fulltext on the full-text subset
+# [B] within-sample abstract-vs-fulltext on the full-text subset (papers with all four FULL-TEXT lens
+# distillations bundled under data/fingerprints*_ft|_ft2; the manifest alone lists all candidates)
 man = pd.read_csv("data/fulltext_manifest.csv")[["paper_id", "doi"]]; man["doi"] = man.doi.str.lower()
-ftdois = set(man.doi) & alllens
-common = sorted(ftdois)
+pid2doi = man.set_index("paper_id").doi.to_dict()
+Lft = {n: lens_text(f"data/fingerprints{p}/batch_*.json", "paper_id") for n, p in
+       {"c": "_comp_ft", "e": "_ft2", "f": "_finding_ft", "q": "_qual_ft"}.items()}
+ftdois = {pid2doi[p] for p in set.intersection(*[set(v) for v in Lft.values()]) if p in pid2doi} & alllens
+commonB = sorted(ftdois)
+yB = np.array([lab[x] for x in commonB])
+UB = [" ".join(L[n][x] for n in L) for x in commonB]
+pB = cross_val_predict(make_pipeline(CountVectorizer(stop_words="english", min_df=2), MultinomialNB()), np.array(UB), yB, cv=CV, method="predict_proba")[:, 1]
+print(f"[B] within-sample (n={len(commonB)} full-text-matched): abstract multi-lens fingerprint AUROC {roc_auc_score(yB, pB):.3f} (vs TF-IDF-over-full-text 0.637)")
+
+# the full primary set (481) for [C]
+common = sorted(alllens)
 y = np.array([lab[x] for x in common])
 U = [" ".join(L[n][x] for n in L) for x in common]
-p = cross_val_predict(make_pipeline(CountVectorizer(stop_words="english", min_df=2), MultinomialNB()), np.array(U), y, cv=CV, method="predict_proba")[:, 1]
-print(f"[B] within-sample (n={len(common)} full-text-available): abstract multi-lens fingerprint AUROC {roc_auc_score(y, p):.3f} (vs TF-IDF-over-full-text 0.637)")
 
 # [C] cross-dataset CI (train FORRT\\YU, test YU) -- reuse experiment_reproduce numbers via bootstrap on the test preds
 # quick: load YU, train on FORRT-minus-overlap union, predict YU, bootstrap the test AUROC

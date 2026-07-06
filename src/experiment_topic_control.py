@@ -14,7 +14,7 @@ as experiment_maintable.py (loading/CV/NB config copied verbatim; pooled AUROC r
      pairs drawn from the SAME discipline only (pair-weighted across strata, plus per-stratum
      values for the large strata). If the predictor were only a topic detector, this would be ~0.5.
 
-Run:  PYTHONPATH=src ../probe/rdr/.venv/bin/python src/experiment_topic_control.py
+Run:  PYTHONPATH=src python src/experiment_topic_control.py
 """
 import glob, json, warnings, numpy as np, pandas as pd
 warnings.filterwarnings("ignore")
