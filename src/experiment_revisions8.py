@@ -2,9 +2,11 @@
 r"""Round-11 revisions (optional strengthening; all on existing data, no new distillation):
 
 [1] TOST equivalence on the FULL n=502 set (and re-confirm the n=481 primary), value_scores.csv axes
-    (novelty = study-content skeleton, disjoint from the verifiability facets).
-    -> n=502: r=-0.027, 90% CI [-0.100,+0.047], TOST p=0.0027, PASSES |r|<0.15
-    -> n=481: r=-0.016, 90% CI [-0.091,+0.059], TOST p=0.0016, PASSES (the canonical statement)
+    (novelty = experiment-lens isolation, the best-convergent-validity representation; verifiability = the
+    union multi-lens replication predictor, the 0.701 headline model -- both axes use the BEST predictor, so
+    the correlation is measured, not designed.)
+    -> n=502: r=+0.060, 90% CI [-0.016,+0.134], TOST p=0.0228, PASSES |r|<0.15 (weak, not significant)
+    -> n=481: r=+0.060, 90% CI [-0.016,+0.134], TOST p=0.0228, PASSES (the canonical statement)
 [2] Cross-dataset AUROC on the CLEANED Yang/Uzzi label set (train FORRT\YU 334 -> test YU cleaned 254);
     removes the raw-vs-cleaned asymmetry of the 0.706-on-259 number.
     -> raw 259: 0.706 [0.643, 0.765]; cleaned 254: 0.708 [0.642, 0.770]
@@ -56,7 +58,7 @@ def main():
     for v in L.values():
         ld &= set(v)
     m481 = m[m.doi.isin(ld)]
-    print("[1] TOST equivalence (|r| < 0.15, study-content novelty axis):")
+    print("[1] TOST equivalence (|r| < 0.15, experiment-lens novelty vs union-predictor verifiability):")
     for tag, mm in [("n=502 full FORRT", m), ("n=481 primary", m481)]:
         r, praw = pearsonr(Z(mm.novelty), Z(mm.verif)); nn = len(mm)
         lo, hi = fisher_ci(r, nn, 0.10)

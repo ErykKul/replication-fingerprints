@@ -32,7 +32,7 @@ def tost_p(r, n, bound=0.15):
 # [1] sign-stability TOST
 print("[1] sign-stability TOST (90% CI vs +-0.15 equivalence bound):")
 # pinned: data/psych_background.csv (frozen OpenAlex query), experiment_revisions4 [E]
-for tag, r, n in [("study-content (skeleton) novelty", -0.016, 481), ("psychology-background novelty", 0.112, 481)]:
+for tag, r, n in [("experiment-lens novelty", 0.060, 481), ("psychology-background novelty", 0.149, 481)]:
     lo, hi = tost_ci(r, n)
     print(f"    {tag}: r={r:+.3f} 90% CI [{lo:+.3f},{hi:+.3f}] TOST p={tost_p(r, n):.4f} -> "
           f"{'PASSES' if lo > -0.15 and hi < 0.15 else 'FAILS (CI exceeds bound)'}")

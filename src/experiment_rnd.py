@@ -3,7 +3,8 @@
 
 RND = the SOTA unsupervised novelty measure = distance-based isolation (Eryk's instinct): a paper is novel
 if it sits in a SPARSER neighbourhood than its own neighbours. Field-invariant (percentile rank), and it
-beats LLM-judged novelty. We run it over the fingerprint text (WHAT + experiment skeleton). On FORRT this is
+beats LLM-judged novelty. We run it over the full EXPERIMENT lens (the representation with the best
+convergent validity of any single lens), so the deployed novelty == the convergently-validated novelty. On FORRT this is
 expected to be ~flat (novelty-selected corpus, no variance) -- this run proves the mechanic and quantifies
 that, and checks the novelty<->replication direction (expected ~0 / inverse, NOT positive).
 
@@ -52,10 +53,12 @@ def deconfound_length(score, texts):
 
 
 def main():
-    m = pd.read_csv("data/psych_merged.csv")
+    from experiment_alllenses import lens_text
+    m = pd.read_csv("data/psych_merged.csv"); m["doi"] = m.doi.astype(str).str.strip().str.lower()
+    expL = lens_text("data/fingerprints_psych/batch_*.json")   # NOVELTY = isolation over the full EXPERIMENT lens: best convergent validity of any lens (per-lens comparison), and the deployed = the validated representation
+    m = m[m.doi.isin(expL)].reset_index(drop=True)
     y = m.replicated.values
-    text = (m.what_manipulated.fillna("") + " ; " + m.what_measured.fillna("") + " . "
-            + m.experiment.fillna("")).tolist()
+    text = [expL[d] for d in m.doi]
     emb, tag = embed(text)
     print(f"papers: {len(m)} | embedding: {tag} {emb.shape}")
 

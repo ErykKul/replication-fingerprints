@@ -23,10 +23,10 @@ core; `sentence-transformers` only for the novelty axis and the dense-embedder a
 Companion results, all reproduced by shipped scripts: citations at chance (FWCI AUROC 0.473, AP 0.496);
 the signal is not a subdiscipline base rate (within-discipline AUROC 0.700 vs pooled 0.701; discipline
 base rates alone reach only 0.599); cross-dataset generalization (train FORRT, test Yang/Uzzi: 0.706,
-overlap removed); novelty and verifiability are orthogonal axes (r = -0.05, TOST p = 0.016); stacking
+overlap removed); novelty and verifiability are largely independent axes (best-predictor correlation r = +0.06, not significant, TOST-equivalent to zero); stacking
 novelty onto the replication predictor *hurts* (0.701 -> 0.668, 0.720 -> 0.678, CIs exclude zero),
-exactly as the designed orthogonality predicts; the fingerprint novelty converges with an independent
-reference-spread novelty (Shibayama; Spearman rho = +0.156, p = 0.0005, n = 489).
+consistent with novelty carrying no replication signal; the fingerprint novelty converges with an independent
+reference-spread novelty (Shibayama; Spearman rho = +0.186, p < 0.001, n = 489).
 
 ## Quickstart
 
@@ -36,7 +36,7 @@ mise/asdf users, but any recent CPython works).
 ```
 make setup        # one time: create .venv and install requirements
 make reproduce    # every paper number + the three figures
-make quick        # embedder-free core only (Table 2, topic control, orthogonality, figures, P@k)
+make quick        # embedder-free core only (Table 2, topic control, orthogonality, figures)
 ```
 
 or without make:
@@ -65,13 +65,11 @@ the full-text bullet of the redistribution section below (run any of them alone 
 | Novelty-hurts stacking (0.701 -> 0.668; 0.720 -> 0.678) + vocabulary counts | `experiment_revisions6.py` |
 | Table 1 cells (representation x reader) | BoW: `experiment_maintable.py` + `experiment_sota_match.py`; MiniLM+LR (2x2): `experiment_revisions.py`; TF-IDF: `experiment_revisions3.py`; all-mpnet: `experiment_revisions5.py` |
 | Novelty vs reference-corpus size (+0.09 to +0.12 band, Results II prose) | `experiment_revisions2.py` (CIs: `revisions3`, Bonferroni: `revisions5`) |
-| Table 3 (quadrant replication rates) + multiplicative-vs-additive tau | `experiment_revisions3.py` |
-| Shibayama reference-spread convergence (rho +0.156) + nearest-cited-prior null | `compute_ref_novelty2.py` |
+| Shibayama reference-spread convergence (rho +0.186) + nearest-cited-prior null | `compute_ref_novelty2.py` |
 | ICLR expert-novelty leg (rho 0.115, AUROC 0.588) | `experiment_novelty_expert2.py` |
-| Composite ranking P@k (verifiability 0.80 vs product 0.60 at k=10) | `experiment_composite_pak.py` |
-| Psych-background orthogonality (disclosed alternative) | `experiment_revisions4.py` (TOST: `revisions5`) |
+| Psych-background orthogonality (disclosed alternative, r = +0.15) | `experiment_revisions4.py` (TOST: `revisions5`) |
 | Abstract-vs-full-text contrasts ("what carries the signal") | `experiment_perlens.py`, `experiment_threefold.py` (run offline from the bundled full-text *fingerprints*; only the TF-IDF-over-raw-full-text baseline rows need the rebuilt corpus, see below) |
-| Novelty/verifiability axes (`data/value_scores.csv`, `data/rnd_novelty.csv`) | `experiment_value.py`, `experiment_rnd.py` (bundled precomputed) |
+| Novelty axis (experiment-lens isolation) + verifiability axis (union predictor) (`data/rnd_novelty.csv`, `data/value_scores.csv`) | `experiment_rnd.py`, `experiment_value.py` (bundled precomputed) |
 
 The four verbatim lens distillation prompts (Claude 3 Haiku, temperature 0) are in `SUPPLEMENTARY.md`;
 the fingerprints they produced are bundled under `data/fingerprints*/`, so no LLM is needed.
