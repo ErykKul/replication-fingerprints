@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
-"""Assemble value = novelty x verifiability, with novelty over the FINDING (claim) space.
+"""Assemble value = novelty x verifiability, with novelty over the study-content skeleton (WHAT + experiment).
 
-Novelty = RND isolation, over three content spaces (FINDING / WHAT+experiment / combined) to see where the
-signal is cleanest. Verifiability = an unsupervised design-quality score from the facets that predicted
-replication in the psych experiment (evidence strength, within-subjects, single-focus, main-effect). Then
-value = novelty x verifiability, and we check the two axes are orthogonal and what the ranker surfaces.
+Novelty = RND isolation over the study-content skeleton (what was manipulated, what was measured, the
+experimental procedure). This is the SAME representation used for the convergent-validity check
+(experiment_rnd.py -> rnd_novelty.csv, rho=0.156 vs reference-spread), so the deployed novelty is the
+validated novelty. It is chosen to be DISJOINT from the verifiability facets: verifiability is an
+unsupervised design-quality score from evidence strength, within-subjects design, single-hypothesis focus,
+and main-effect structure -- none of which appear in the novelty skeleton -- so the two axes share no input
+fields and their orthogonality is a property of the construction, not a coincidence. (We also compute the
+FINDING-only and combined spaces below for transparency, but do not deploy them; the combined/full-lens
+spaces would re-import the verifiability facets and contaminate the axis.) Then value = novelty x
+verifiability, and we check the two axes are orthogonal and what the ranker surfaces.
 
 Run:  PYTHONPATH=src python src/experiment_value.py
 """
@@ -42,7 +48,7 @@ def main():
         nov[name] = n
         auc, (lo, hi), _, _ = auroc_ci(y, n)
         print(f"  {name:20s} spread std {n.std():4.1f} | vs replication AUROC {auc:.3f} [{lo:.3f},{hi:.3f}]")
-    m["novelty"] = nov["FINDING (claim)"]
+    m["novelty"] = nov["WHAT + experiment"]   # study-content skeleton: disjoint from the verifiability facets, = the validated (rho=0.156) representation
 
     # unsupervised verifiability = design-quality score (the replication-positive facets, from experiment_psych)
     low = lambda c: m[c].astype(str).str.lower()
