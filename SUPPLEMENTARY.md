@@ -42,13 +42,19 @@ to the concatenation of a lens's fields (the "multi-lens union" concatenates all
 > two studies testing the same kind of effect agree regardless of topic. Fields:
 > - `what_manipulated`: the independent variable(s), topic words removed (one phrase).
 > - `what_measured`: the dependent variable(s), topic words removed (one phrase).
-> - `design`: between-subjects | within-subjects | mixed | correlational | longitudinal | field | quasi-experiment
-> - `manipulation`: randomized-experiment | measured-individual-difference | natural-manipulation | none
-> - `sample_basis`: convenience | student | online-panel | representative | clinical | other
+> - `experiment`: the core operation the study performs on those variables, domain-stripped (one sentence).
+> - `design`: between-subjects | within-subjects | mixed | observational or correlational | longitudinal | meta-analysis | quasi-experiment
+> - `manipulation`: randomized-experiment | observational | quasi-experiment | mixed
+> - `effect_structure`: main-effect | interaction | simple-association | mediation-or-moderation
+> - `focus`: single-hypothesis | few-confirmatory | many-exploratory | few-exploratory
+> - `clarity`: clearly-operationalized | partially-specified | vague
 > - `rigor`: minimal | standard | controls-and-power-reported | preregistered-with-power
 >   (assign the highest level ONLY if the paper explicitly states it; quote-or-downgrade, do not infer power
 >   from covariates or counterbalancing).
-> - report the stated sample size, effect size, and p-value if present (else `not-stated`).
+> - `transparency`: none | on-request | open-materials | open-data-and-materials
+
+(The experiment-lens field schema above is reconstructed to match the ten fields present in the shipped
+`fingerprints_psych` corpus; the exact instruction string used at generation time was not retained.)
 
 ## Lens 3 — finding (the claim)
 
