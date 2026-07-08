@@ -45,7 +45,7 @@ UB = [" ".join(L[n][x] for n in L) for x in commonB]
 pB = cross_val_predict(make_pipeline(CountVectorizer(stop_words="english", min_df=2), MultinomialNB()), np.array(UB), yB, cv=CV, method="predict_proba")[:, 1]
 print(f"[B] within-sample (n={len(commonB)} full-text-matched): abstract multi-lens fingerprint AUROC {roc_auc_score(yB, pB):.3f} (vs TF-IDF-over-full-text 0.637)")
 
-# the full primary set (481) for [C]
+# the full primary set (502) for [C]
 common = sorted(alllens)
 y = np.array([lab[x] for x in common])
 U = [" ".join(L[n][x] for n in L) for x in common]

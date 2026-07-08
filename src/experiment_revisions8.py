@@ -1,23 +1,22 @@
 #!/usr/bin/env python3
 r"""Round-11 revisions (optional strengthening; all on existing data, no new distillation):
 
-[1] TOST equivalence on the FULL n=502 set (and re-confirm the n=481 primary), value_scores.csv axes
+[1] TOST equivalence on the primary n=502 analysis set, value_scores.csv axes
     (novelty = experiment-lens isolation, the best-convergent-validity representation; verifiability = the
-    union multi-lens replication predictor, the 0.701 headline model -- both axes use the BEST predictor, so
+    union multi-lens replication predictor, the 0.682 headline model -- both axes use the BEST predictor, so
     the correlation is measured, not designed.)
-    -> n=502: r=+0.060, 90% CI [-0.016,+0.134], TOST p=0.0228, PASSES |r|<0.15 (weak, not significant)
-    -> n=481: r=+0.060, 90% CI [-0.016,+0.134], TOST p=0.0228, PASSES (the canonical statement)
-[2] Cross-dataset AUROC on the CLEANED Yang/Uzzi label set (train FORRT\YU 334 -> test YU cleaned 254);
-    removes the raw-vs-cleaned asymmetry of the 0.706-on-259 number.
-    -> raw 259: 0.706 [0.643, 0.765]; cleaned 254: 0.708 [0.642, 0.770]
+    -> r=+0.039 (Pearson), 90% CI within +-0.15, TOST PASSES |r|<0.15 (weak, not significant)
+[2] Cross-dataset AUROC on the CLEANED Yang/Uzzi label set (train FORRT\YU 350 -> test YU cleaned 254);
+    removes the raw-vs-cleaned asymmetry of the raw-259 number.
+    -> raw 259: 0.713 [0.650, 0.770]; cleaned 254: 0.715 [0.652, 0.775]
 [3] 4x4 per-lens correlation matrix on FORRT: Pearson r between out-of-fold NB predicted probabilities of the
     four lenses (backs the "partially independent signal" claim), plus per-lens 5-fold AGGREGATED AUROCs used
     to make Figure 2 protocol-consistent.
-    -> off-diagonal r 0.32-0.57 (mean 0.41); FORRT per-lens 0.681/0.665/0.629/0.676 (union 0.701);
+    -> off-diagonal r roughly 0.3-0.6 (partially independent); FORRT per-lens 0.666/0.660/0.608/0.670 (union 0.682);
        Yang/Uzzi per-lens (same protocol, computed alongside) 0.664/0.715/0.640/0.740 (union 0.747)
 [4] Length-insensitive binary-presence union (binary CountVectorizer + Bernoulli NB): rules out the
     roughly fourfold lens length imbalance as the source of the union gain.
-    -> FORRT 0.696 (vs count-based union 0.701); Yang/Uzzi 0.769 (vs 0.747)
+    -> FORRT 0.674 (vs count-based union 0.682); Yang/Uzzi 0.769 (vs 0.747)
 
 Run:  PYTHONPATH=src python src/experiment_revisions8.py
 """
@@ -49,21 +48,15 @@ def tost_p(r, n, bound=0.15):
 
 
 def main():
-    # ---------- [1] TOST at n=502 and n=481 ----------
+    # ---------- [1] TOST on the primary analysis set (value_scores.csv IS the 502-paper set) ----------
     m = pd.read_csv("data/value_scores.csv").dropna(subset=["novelty", "verif", "replicated"])
-    m["doi"] = m.doi.str.lower()
     L = {n: lens_text(f"data/fingerprints{p}/batch_*.json") for n, p in
          {"c": "", "e": "_psych", "f": "_finding", "q": "_qual"}.items()}
-    ld = set(m.doi)
-    for v in L.values():
-        ld &= set(v)
-    m481 = m[m.doi.isin(ld)]
     print("[1] TOST equivalence (|r| < 0.15, experiment-lens novelty vs union-predictor verifiability):")
-    for tag, mm in [("n=502 full FORRT", m), ("n=481 primary", m481)]:
-        r, praw = pearsonr(Z(mm.novelty), Z(mm.verif)); nn = len(mm)
-        lo, hi = fisher_ci(r, nn, 0.10)
-        print(f"    {tag}: r={r:+.3f} (plain p={praw:.3f}), 90% CI [{lo:+.3f},{hi:+.3f}], "
-              f"TOST p={tost_p(r, nn):.4f} -> {'PASSES' if lo > -0.15 and hi < 0.15 else 'FAILS'}")
+    r, praw = pearsonr(Z(m.novelty), Z(m.verif)); nn = len(m)
+    lo, hi = fisher_ci(r, nn, 0.10)
+    print(f"    n={nn} primary set: r={r:+.3f} (plain p={praw:.3f}), 90% CI [{lo:+.3f},{hi:+.3f}], "
+          f"TOST p={tost_p(r, nn):.4f} -> {'PASSES' if lo > -0.15 and hi < 0.15 else 'FAILS'}")
 
     # ---------- FORRT + YU data for [2] and [3] ----------
     d = pd.read_csv("data/dataset.csv"); d["doi"] = d.doi.str.lower()

@@ -16,7 +16,7 @@ Writes data/value_scores.csv (doi, novelty, verif, replicated).
 Run:  PYTHONPATH=src python src/experiment_value.py
 """
 import numpy as np, pandas as pd
-from scipy.stats import spearmanr, rankdata
+from scipy.stats import spearmanr
 from sklearn.model_selection import cross_val_predict, StratifiedKFold
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
@@ -52,8 +52,7 @@ def main():
     print(f"axis correlation (novelty vs verifiability):     rho={r.statistic:+.3f}  p={r.pvalue:.3f}  ({sig}) "
           f"-> weak; the axes measure different things (correlation != causation)")
     m = pd.DataFrame({"doi": common, "novelty": nov, "verif": verif, "replicated": y})
-    m["value"] = (rankdata(nov) / len(nov)) * (rankdata(verif) / len(verif))   # kept for downstream compatibility only; not a headline object
-    m[["doi", "novelty", "verif", "value", "replicated"]].to_csv("data/value_scores.csv", index=False)
+    m[["doi", "novelty", "verif", "replicated"]].to_csv("data/value_scores.csv", index=False)
     print("wrote data/value_scores.csv")
 
 

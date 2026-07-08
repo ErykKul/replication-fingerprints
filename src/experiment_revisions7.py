@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Round-6 revisions: 37-paper worst-case exclusion sensitivity + TF-IDF+LR on FORRT fingerprint. Existing data.
+"""Round-6 revisions: worst-case exclusion sensitivity (papers missing a lens) + TF-IDF+LR on FORRT fingerprint. Existing data.
 
 Run:  PYTHONPATH=src python src/experiment_revisions7.py
 """
@@ -22,11 +22,11 @@ L = {n: lens_text(f"data/fingerprints{p}/batch_*.json") for n, p in {"c": "", "e
 c = sorted(set(lab) & set(ab) & set.intersection(*[set(v) for v in L.values()]))
 y = np.array([lab[x] for x in c]); U = [" ".join(L[n][x] for n in L) for x in c]
 po = cross_val_predict(make_pipeline(CountVectorizer(stop_words="english", min_df=2), MultinomialNB()), np.array(U), y, cv=CV, method="predict_proba")[:, 1]
-auc481 = roc_auc_score(y, po)
+auc_fp = roc_auc_score(y, po)   # primary-set multi-lens fingerprint AUROC (live)
 
 # TF-IDF+LR on FORRT fingerprint
 tf = roc_auc_score(y, cross_val_predict(make_pipeline(TfidfVectorizer(stop_words="english", min_df=2, max_features=8000), LogisticRegression(max_iter=2000)), np.array(U), y, cv=CV, method="predict_proba")[:, 1])
-print(f"[1] TF-IDF+LR on FORRT fingerprint = {tf:.3f}  (vs BoW+NB fingerprint 0.701, TF-IDF+LR raw abstract 0.630)")
+print(f"[1] TF-IDF+LR on FORRT fingerprint = {tf:.3f}  (vs BoW+NB fingerprint {auc_fp:.3f}, TF-IDF+LR raw abstract 0.621 [Table 1])")
 
 # 37-paper worst-case: excluded papers get the minimum verifiability score
 excl = [x for x in (set(lab) & set(ab)) if x not in set(c)]
@@ -36,8 +36,8 @@ auc_worst = roc_auc_score(y_all, p_all)
 # half-width of the bootstrap CI on the absolute 481 AUROC
 rng = np.random.RandomState(0); bs = [roc_auc_score(y[i], po[i]) for i in (rng.randint(0, len(y), len(y)) for _ in range(2000)) if len(np.unique(y[i])) > 1]
 hw = (np.percentile(bs, 97.5) - np.percentile(bs, 2.5)) / 2
-print(f"[2] 37-paper worst-case: 481 AUROC {auc481:.3f} -> 518-with-worst-case-imputation {auc_worst:.3f} "
-      f"(shift {auc481-auc_worst:+.3f}; bootstrap CI half-width {hw:.3f} -> {'WITHIN' if abs(auc481-auc_worst) < hw else 'EXCEEDS'} sampling noise)")
+print(f"[2] {len(excl)}-excluded worst-case: n={len(y)} AUROC {auc_fp:.3f} -> {len(y_all)}-with-worst-case-imputation {auc_worst:.3f} "
+      f"(shift {auc_fp-auc_worst:+.3f}; bootstrap CI half-width {hw:.3f} -> {'WITHIN' if abs(auc_fp-auc_worst) < hw else 'EXCEEDS'} sampling noise)")
 
 
 if __name__ == "__main__":

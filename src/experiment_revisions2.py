@@ -17,12 +17,7 @@ from experiment_alllenses import lens_text
 
 CV = StratifiedKFold(5, shuffle=True, random_state=0)
 
-# [5] Fisher-z CI for Spearman 0.115 (n=350)
-r, n = 0.115, 350
-z, se = np.arctanh(r), 1 / np.sqrt(n - 3)
-print(f"[5] Spearman rho=0.115 (n=350) 95% CI [{np.tanh(z-1.96*se):+.3f}, {np.tanh(z+1.96*se):+.3f}]; AUROC 0.588 CI [0.519, 0.653]")
-
-# [6] corpus-size sensitivity
+# [6] corpus-size sensitivity (novelty-vs-reviewer Spearman at each background size; computed live)
 d = pd.read_csv("data/novelty_labeled.csv")
 bg = fetch_bg("data/ml_background.csv")
 El = embed(d.text.tolist())[0]
@@ -35,6 +30,12 @@ for sz in [500, 1000, 2000, len(bg)]:
     nov = deconfound_length(rnd_vs_bg(El, Ebg[idx]), d.text.tolist())
     rho = spearmanr(nov, exp)
     print(f"      bg={sz:5d}: Spearman {rho.statistic:+.3f} (p={rho.pvalue:.3f})")
+
+# [5] Fisher-z 95% CI on the canonical full-corpus Spearman, read live from the last [6] iteration (n=350);
+# the AUROC (0.588) and its CI for the same leg are printed live by experiment_novelty_expert2.
+z, se = np.arctanh(rho.statistic), 1 / np.sqrt(len(exp) - 3)
+print(f"[5] full-corpus novelty-vs-reviewer Spearman rho={rho.statistic:+.3f} (n={len(exp)}) "
+      f"95% CI [{np.tanh(z - 1.96 * se):+.3f}, {np.tanh(z + 1.96 * se):+.3f}]")
 
 # [7] FORRT Inconclusive handling sensitivity
 x = pd.read_excel("data/forrt_red.xlsx")

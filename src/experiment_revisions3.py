@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Round-2 review revisions: reconcile TOST n, additive-vs-multiplicative, TF-IDF-on-fingerprint, quadrant CIs,
-corpus-size CIs, per-lens significance on Yang/Uzzi.  All on existing data.
+"""Round-2 review revisions: TOST equivalence, TF-IDF-on-fingerprint (Yang/Uzzi), per-lens significance on
+Yang/Uzzi.  All on existing data.
 
 Run:  PYTHONPATH=src python src/experiment_revisions3.py
 """
 import warnings, glob, json, numpy as np, pandas as pd
 warnings.filterwarnings("ignore")
-from scipy.stats import pearsonr, kendalltau, norm
+from scipy.stats import pearsonr, norm
 from sklearn.model_selection import cross_val_predict, StratifiedKFold
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
@@ -24,13 +24,6 @@ def fisher_ci(r, n, a):
     return np.tanh(z - zc * se), np.tanh(z + zc * se)
 
 
-def wilson(k, n, z=1.96):
-    p, d = k / n, 1 + z * z / n
-    c = (p + z * z / (2 * n)) / d
-    h = z * np.sqrt(p * (1 - p) / n + z * z / (4 * n * n)) / d
-    return c - h, c + h
-
-
 def probs(est, X, y): return cross_val_predict(est, np.array(X), y, cv=CV, method="predict_proba")[:, 1]
 
 
@@ -42,28 +35,14 @@ def paired_p(y, pm, pb, B=2000):
     d = np.array(d); return 2 * min((d <= 0).mean(), (d >= 0).mean())
 
 
-# [1] TOST at n=502 and n=481
-m = pd.read_csv("data/value_scores.csv").dropna(subset=["novelty", "verif", "replicated"]); m["doi"] = m.doi.str.lower()
-L = {n: lens_text(f"data/fingerprints{p}/batch_*.json") for n, p in {"c": "", "e": "_psych", "f": "_finding", "q": "_qual"}.items()}
-ld = set(m.doi)
-for v in L.values(): ld &= set(v)
-m481 = m[m.doi.isin(ld)]
-for tag, mm in [("n=502 (full FORRT with both scores)", m), ("n=481 (primary analysis set)", m481)]:
-    r, _ = pearsonr(Z(mm.novelty), Z(mm.verif)); nn = len(mm); lo, hi = fisher_ci(r, nn, 0.10)
-    z, se = np.arctanh(r), 1 / np.sqrt(nn - 3)
-    p_hi = 1 - norm.cdf((np.arctanh(0.15) - z) / se)      # H0: r >= +0.15 vs H1: r < +0.15
-    p_lo = 1 - norm.cdf((z - np.arctanh(-0.15)) / se)      # H0: r <= -0.15 vs H1: r > -0.15
-    print(f"[1] TOST {tag}: r={r:+.3f}, 90% CI [{lo:+.3f},{hi:+.3f}], TOST p={max(p_hi,p_lo):.4f} "
-          f"-> equivalent to |r|<0.15: {'YES' if lo > -0.15 and hi < 0.15 else 'NO'}")
-
-# [2] additive vs multiplicative (rankings)
-pn, pv = m.novelty.rank(pct=True), m.verif.rank(pct=True)
-mult, add = pn * pv, pn + pv
-tau = kendalltau(mult, add).statistic
-qm, qa = pd.qcut(mult.rank(method="first"), 4, labels=False), pd.qcut(add.rank(method="first"), 4, labels=False)
-print(f"[2] multiplicative vs additive composite: Kendall tau={tau:.3f}, "
-      f"{(np.abs(qm - qa) > 1).mean() * 100:.0f}% of papers disagree by >1 quartile -> "
-      f"{'not empirically distinguishable (modeling choice)' if tau > 0.8 else 'meaningfully different'}")
+# [1] TOST equivalence on the primary analysis set (value_scores.csv IS the 502-paper set carrying both axes)
+m = pd.read_csv("data/value_scores.csv").dropna(subset=["novelty", "verif", "replicated"])
+r, _ = pearsonr(Z(m.novelty), Z(m.verif)); nn = len(m); lo, hi = fisher_ci(r, nn, 0.10)
+z, se = np.arctanh(r), 1 / np.sqrt(nn - 3)
+p_hi = 1 - norm.cdf((np.arctanh(0.15) - z) / se)      # H0: r >= +0.15 vs H1: r < +0.15
+p_lo = 1 - norm.cdf((z - np.arctanh(-0.15)) / se)      # H0: r <= -0.15 vs H1: r > -0.15
+print(f"[1] TOST (n={nn}): r={r:+.3f}, 90% CI [{lo:+.3f},{hi:+.3f}], TOST p={max(p_hi,p_lo):.4f} "
+      f"-> equivalent to |r|<0.15: {'YES' if lo > -0.15 and hi < 0.15 else 'NO'}")
 
 # [3] TF-IDF+LR on fingerprint (YU ablation third cell)
 yu = pd.read_csv("data/sota_hh/yu388.csv"); yu["doi"] = yu.doi.str.lower()
@@ -74,20 +53,6 @@ for v in LY.values(): cy &= set(v)
 cy = sorted(cy); yY = np.array([labY[d] for d in cy]); UY = [" ".join(LY[n][d] for n in LY) for d in cy]
 tf = roc_auc_score(yY, probs(make_pipeline(TfidfVectorizer(stop_words="english", min_df=2), LogisticRegression(max_iter=2000)), UY, yY))
 print(f"[3] TF-IDF+LR on fingerprint (YU) = {tf:.3f}  (vs BoW+NB 0.747, MiniLM+LR 0.598: separates tokenization from model)")
-
-# [4] Wilson CIs on quadrant
-nvH, vfH = m.novelty > m.novelty.median(), m.verif > m.verif.median()
-print("[4] quadrant replication rate + Wilson 95% CI (base rate 0.52):")
-for nl, nmask in [("hi-nov", nvH), ("lo-nov", ~nvH)]:
-    for vl, vmask in [("hi-verif", vfH), ("lo-verif", ~vfH)]:
-        q = m[nmask & vmask]; lo, hi = wilson(q.replicated.sum(), len(q))
-        print(f"      {nl} x {vl}: {q.replicated.mean():.2f} [{lo:.2f},{hi:.2f}] n={len(q)}")
-
-# [5] corpus-size CIs
-print("[5] novelty corpus-size Spearman + 95% CI (n=350):")
-for sz, rho in [(500, 0.094), (1000, 0.123), (2000, 0.106), (5186, 0.115)]:
-    lo, hi = fisher_ci(rho, 350, 0.05)
-    print(f"      bg={sz:5d}: rho={rho:+.3f} 95% CI [{lo:+.3f},{hi:+.3f}] {'(incl. 0)' if lo < 0 else '(excl. 0)'}")
 
 # [6] per-lens significance on YU (vs raw abstract BoW+NB)
 absY = {r.doi: r.abstract for _, r in yu.iterrows() if isinstance(r.abstract, str) and len(r.abstract) > 60}

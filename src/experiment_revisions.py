@@ -5,7 +5,6 @@
 [2] Bootstrap 95% CI on the ABSOLUTE aggregated AUROC 0.747 (Yang/Uzzi 259).
 [3] 2x2 embedder ablation: {raw abstract, fingerprint} x {BoW+NB, MiniLM+LR} on Yang/Uzzi.
 [4] FWCI vs novelty and vs verifiability axis (FORRT) -- the empirical "citations load on novelty" test.
-[8] Product value = novelty x verifiability: 2x2 quadrant on FORRT, replication rate per quadrant.
 
 Run:  PYTHONPATH=src python src/experiment_revisions.py
 """
@@ -85,16 +84,6 @@ mm = m.copy(); mm["doi"] = mm.doi.str.lower(); mm["fwci"] = mm.doi.map(fwci)
 mm = mm.dropna(subset=["fwci"])
 rn, pn = spearmanr(mm.fwci, mm.novelty); rv, pv = spearmanr(mm.fwci, mm.verif)
 print(f"[4] FWCI vs axes (FORRT, n={len(mm)}): Spearman FWCI-novelty {rn:+.3f} (p={pn:.3f}) | FWCI-verifiability {rv:+.3f} (p={pv:.3f})")
-
-# ---------- [8] product quadrant (FORRT) ----------
-nvH = m.novelty > m.novelty.median(); vfH = m.verif > m.verif.median()
-print("[8] value = novelty x verifiability, 2x2 quadrant (FORRT, replication rate | n):")
-for nlab, nmask in [("hi-nov", nvH), ("lo-nov", ~nvH)]:
-    for vlab, vmask in [("hi-verif", vfH), ("lo-verif", ~vfH)]:
-        q = m[nmask & vmask]
-        print(f"      {nlab} x {vlab}: repl {q.replicated.mean():.2f} | n={len(q)}")
-# does the product rank differently from either axis?
-print(f"      corr(value, verif)={pearsonr(m.value, m.verif)[0]:+.2f}  corr(value, novelty)={pearsonr(m.value, m.novelty)[0]:+.2f}")
 
 
 if __name__ == "__main__":

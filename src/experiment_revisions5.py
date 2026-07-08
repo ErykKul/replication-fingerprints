@@ -4,9 +4,9 @@ FORRT category counts.  All on existing data.
 
 Run:  PYTHONPATH=src python src/experiment_revisions5.py
 """
-import warnings, glob, json, numpy as np, pandas as pd
+import os, warnings, glob, json, numpy as np, pandas as pd
 warnings.filterwarnings("ignore")
-from scipy.stats import norm
+from scipy.stats import norm, pearsonr, spearmanr
 from sklearn.model_selection import cross_val_predict, StratifiedKFold
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
@@ -15,8 +15,12 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import make_pipeline
 from sklearn.metrics import roc_auc_score
 from experiment_alllenses import lens_text
+from experiment_rnd import embed, deconfound_length
+from experiment_novelty_expert2 import rnd_vs_bg, fetch_bg
+from experiment_novelty_validate import fetch
 
 CV = StratifiedKFold(5, shuffle=True, random_state=0)
+Z = lambda s: (np.asarray(s, float) - np.mean(s)) / np.std(s)
 
 
 def tost_ci(r, n, a=0.10):
@@ -29,17 +33,41 @@ def tost_p(r, n, bound=0.15):
     return max(1 - norm.cdf((np.arctanh(bound) - z) / se), 1 - norm.cdf((z - np.arctanh(-bound)) / se))
 
 
-# [1] sign-stability TOST
+def psych_bg_orthogonality():
+    """Recompute experiment_revisions4 [E]: novelty vs a PSYCHOLOGY background, correlated with verifiability.
+    Returns (Pearson r, n) on the primary FORRT set (both scores + all four lenses)."""
+    d = pd.read_csv("data/dataset.csv"); d["doi"] = d.doi.str.lower()
+    L = {n: lens_text(f"data/fingerprints{p}/batch_*.json") for n, p in
+         {"c": "", "e": "_psych", "f": "_finding", "q": "_qual"}.items()}
+    lab = {r.doi: int(r.replicated) for _, r in d.iterrows() if pd.notna(r.replicated)}
+    absm = {r.doi: r.abstract for _, r in d.iterrows() if isinstance(r.abstract, str) and len(r.abstract) > 60}
+    common = set(lab) & set(absm)
+    for v in L.values(): common &= set(v)
+    common = sorted(common)
+    vs = pd.read_csv("data/value_scores.csv"); vs["doi"] = vs.doi.str.lower()
+    m = pd.DataFrame({"doi": common}).merge(vs[["doi", "verif"]], on="doi").dropna()
+    m["abstract"] = m.doi.map(absm)
+    bg = pd.read_csv("data/psych_background.csv") if os.path.exists("data/psych_background.csv") else fetch("C15744967", 2015, 3000)
+    nov = deconfound_length(rnd_vs_bg(embed(m.abstract.tolist())[0], embed(bg.text.tolist())[0]), m.abstract.tolist())
+    return pearsonr(Z(nov), Z(m.verif))[0], len(m)
+
+
+# [1] sign-stability TOST -- BOTH orthogonality checks recomputed LIVE (no pasted r or n)
 print("[1] sign-stability TOST (90% CI vs +-0.15 equivalence bound):")
-# pinned: data/psych_background.csv (frozen OpenAlex query), experiment_revisions4 [E]
-for tag, r, n in [("experiment-lens novelty", 0.060, 481), ("psychology-background novelty", 0.149, 481)]:
+vs = pd.read_csv("data/value_scores.csv").dropna(subset=["novelty", "verif", "replicated"])
+r1, n1 = pearsonr(Z(vs.novelty), Z(vs.verif))[0], len(vs)      # default-background novelty vs verifiability (value_scores.csv)
+r2, n2 = psych_bg_orthogonality()                              # psychology-background novelty (same computation as revisions4 [E])
+for tag, r, n in [("experiment-lens novelty", r1, n1), ("psychology-background novelty", r2, n2)]:
     lo, hi = tost_ci(r, n)
-    print(f"    {tag}: r={r:+.3f} 90% CI [{lo:+.3f},{hi:+.3f}] TOST p={tost_p(r, n):.4f} -> "
+    print(f"    {tag} (n={n}): r={r:+.3f} 90% CI [{lo:+.3f},{hi:+.3f}] TOST p={tost_p(r, n):.4f} -> "
           f"{'PASSES' if lo > -0.15 and hi < 0.15 else 'FAILS (CI exceeds bound)'}")
 
-# [2] Bonferroni for the corpus-size novelty tests
-print("[2] novelty corpus-size Bonferroni (4 tests, alpha=0.0125): p=0.031 at 5186 -> "
-      f"{'survives' if 0.031 < 0.0125 else 'does NOT survive correction'}")
+# [2] Bonferroni for the 4 corpus-size novelty tests (alpha=0.0125); the full-corpus p recomputed LIVE
+dnl = pd.read_csv("data/novelty_labeled.csv"); bgml = fetch_bg("data/ml_background.csv")
+nov_cs = deconfound_length(rnd_vs_bg(embed(dnl.text.tolist())[0], embed(bgml.text.tolist())[0]), dnl.text.tolist())
+p_full = spearmanr(nov_cs, dnl.novelty.values).pvalue
+print(f"[2] novelty corpus-size Bonferroni (4 tests, alpha=0.0125): full-corpus (n={len(bgml)}) p={p_full:.3f} -> "
+      f"{'survives' if p_full < 0.0125 else 'does NOT survive correction'}")
 
 # [3] FORRT category counts
 try:

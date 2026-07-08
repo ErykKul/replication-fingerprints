@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Round-5 revisions: novelty-hurts CIs on cleaned labels, FORRT category/absolute counts, vocab size,
-37-excluded base rate.  All on existing data.
+excluded-for-missing-lens base rate.  All on existing data.
 
 Run:  PYTHONPATH=src python src/experiment_revisions6.py
 """
@@ -61,15 +61,15 @@ bF, sF = stack(UF, yF)
 lo, hi = boot_diff(yF, bF, sF)
 print(f"[1] novelty-hurts, FORRT (n={len(c)}): {roc_auc_score(yF,bF):.3f} -> {roc_auc_score(yF,sF):.3f}, delta 95% CI [{lo:+.3f},{hi:+.3f}]")
 
-# [2] FORRT absolute counts on the 481 set
-print(f"[2] FORRT 481: {int(yF.sum())} replicated / {len(yF)-int(yF.sum())} failed (base {yF.mean():.3f})")
+# [2] FORRT absolute counts on the primary analysis set
+print(f"[2] FORRT n={len(yF)}: {int(yF.sum())} replicated / {len(yF)-int(yF.sum())} failed (base {yF.mean():.3f})")
 
 # [3] vocab size
 for tag, U in [("FORRT", UF), ("Yang/Uzzi", UY)]:
     v = CountVectorizer(stop_words="english", min_df=2).fit(U)
     print(f"[3] vocab (min_df=2, {tag}): {len(v.vocabulary_)} features over n={len(U)}")
 
-# [4] 37-excluded base rate (papers with abstract+label but missing a lens)
+# [4] excluded-for-missing-lens base rate (papers with abstract+label but missing a lens)
 excl = [x for x in (set(lab) & set(ab)) if x not in set(c)]
 er = np.mean([lab[x] for x in excl]) if excl else float("nan")
 print(f"[4] excluded-for-missing-lens: n={len(excl)}, replication base rate {er:.3f} (vs retained {yF.mean():.3f})")

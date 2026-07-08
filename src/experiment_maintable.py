@@ -2,7 +2,7 @@
 """Main results table: SOTA baselines vs ours, abstract vs full text, dirty vs cleaned labels, + significance.
 
 Aggregated AUROC (5-fold CV out-of-fold), paired-bootstrap p vs the TF-IDF baseline (the reproducible-SOTA
-method). Datasets: FORRT (abstract 481 + full text 305) and Yang/Uzzi (abstract 259, dirty + cleaned).
+method). Datasets: FORRT (abstract 502 + full text 305) and Yang/Uzzi (abstract 259, dirty + cleaned).
 Full-text multi-lens for FORRT uses the full-text lens distillations; best-source-per-lens picks the better
 source per lens.
 

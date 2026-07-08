@@ -5,11 +5,11 @@ Reviewer objection (panel 2026-07-04): the top NB features read as subdiscipline
 (cleansing/purity/attachment -> fails; statistics/numerical -> replicates), so the predictor might
 just detect research area (social priming fragile, cognitive robust) rather than study-level signal.
 
-Three measurements on the SAME primary 481-paper FORRT set and the SAME 5-fold aggregated protocol
+Three measurements on the SAME primary 502-paper FORRT set and the SAME 5-fold aggregated protocol
 as experiment_maintable.py (loading/CV/NB config copied verbatim; pooled AUROC reproduced as a gate):
   1. discipline-only baseline: out-of-fold per-discipline replication rate as the score
      (how far subfield base rates ALONE go);
-  2. pooled AUROC of the fingerprint and raw-abstract models (must reproduce 0.701 / 0.658);
+  2. pooled AUROC of the fingerprint and raw-abstract models (must reproduce 0.682 / 0.639);
   3. WITHIN-discipline AUROC of the same pooled out-of-fold predictions: over positive-negative
      pairs drawn from the SAME discipline only (pair-weighted across strata, plus per-stratum
      values for the large strata). If the predictor were only a topic detector, this would be ~0.5.
@@ -96,8 +96,8 @@ def main():
     # 2. pooled reproduction gate
     p_fp = cross_val_predict(NB(), U, y, cv=CV, method="predict_proba")[:, 1]
     p_ab = cross_val_predict(NB(), A, y, cv=CV, method="predict_proba")[:, 1]
-    print(f"fingerprint multi-lens BoW+NB, pooled:              AUROC {roc_auc_score(y, p_fp):.3f}  (gate: 0.701)")
-    print(f"raw-abstract BoW+NB, pooled:                        AUROC {roc_auc_score(y, p_ab):.3f}  (gate: 0.658)")
+    print(f"fingerprint multi-lens BoW+NB, pooled:              AUROC {roc_auc_score(y, p_fp):.3f}  (gate: 0.682)")
+    print(f"raw-abstract BoW+NB, pooled:                        AUROC {roc_auc_score(y, p_ab):.3f}  (gate: 0.639)")
 
     # 3. within-discipline AUROC of the same out-of-fold predictions
     for name, p in [("fingerprint", p_fp), ("raw-abstract", p_ab)]:

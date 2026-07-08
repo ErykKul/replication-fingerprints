@@ -117,19 +117,6 @@
     "transparency": "none"
   },
   {
-    "doi": "10.1111/j.1467-9280.2008.02227.x",
-    "what_manipulated": "priming of cleanliness concept: cognitive activation of cleanliness via word priming vs physical cleansing via hand washing vs control",
-    "what_measured": "moral judgment severity: wrongfulness ratings of described moral transgressions",
-    "experiment": "Experiment 1: units completed word-priming task (cleanliness-related words or control) then rated moral scenarios. Experiment 2: units physically washed hands after experiencing disgust or did not wash, then rated moral scenarios. Analysis compared wrongfulness ratings across cleanliness-prime conditions. Both experiments tested whether physical or conceptual purity salience reduced severity of moral judgments relative to control.",
-    "design": "between-subjects",
-    "manipulation": "randomized-experiment",
-    "effect_structure": "main-effect",
-    "focus": "few-confirmatory",
-    "clarity": "clearly-operationalized",
-    "rigor": "standard",
-    "transparency": "none"
-  },
-  {
     "doi": "10.1111/j.1467-9280.2008.02085.x",
     "what_manipulated": "measurement approach: behavioral predictors and demographic correlates of conscientiousness under self-report vs peer-report vs national-character-perception measures",
     "what_measured": "conscientiousness trait scores and their correlation with behavioral/demographic predictors",

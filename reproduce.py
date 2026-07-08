@@ -8,8 +8,8 @@ default run is fully offline.
   python reproduce.py            # everything (needs sentence-transformers for the
                                  # novelty axis + dense-embedder ablation cells)
   python reproduce.py --quick    # embedder-free core only: Table 2, topic control,
-                                 # orthogonality, figures/FWCI, composite P@k,
-                                 # Table 1 TF-IDF cell + Table 3 quadrants
+                                 # orthogonality, figures/FWCI,
+                                 # Table 1 TF-IDF cell + worst-case bound
 
 Each stage can also be run alone, e.g.  PYTHONPATH=src python src/experiment_maintable.py
 The README maps every number in the paper to its producing script.
@@ -18,6 +18,12 @@ import os, subprocess, sys, time
 
 # (banner, script, needs_embedder)
 STAGES = [
+    # score-producers: regenerate the two CSVs the downstream reads. Skipped by --quick, which then
+    # reads the committed rnd_novelty.csv / value_scores.csv.
+    ("Novelty axis: experiment-lens RND -> rnd_novelty.csv",
+     "experiment_rnd.py", True),
+    ("Both axes -> value_scores.csv (verifiability predictor + novelty)",
+     "experiment_value.py", True),
     ("TABLE 2 (tab:main): multi-lens fingerprint vs baselines, FORRT + Yang/Uzzi",
      "experiment_maintable.py", False),
     ("Topic-confound control: within-discipline AUROC (not a subdiscipline base rate)",
@@ -26,16 +32,20 @@ STAGES = [
      "experiment_revisions8.py", False),
     ("Figures 1-3 + citations-at-chance (FWCI AUROC/AP)",
      "make_figures.py", False),
-    ("Composite ranking (P@k: verifiability vs value vs novelty)",
-     "experiment_composite_pak.py", False),
-    ("Table 1 TF-IDF+LR cell, multiplicative-vs-additive tau, Table 3 quadrants",
+    ("Table 1 TF-IDF+LR fingerprint cell",
      "experiment_revisions3.py", False),
+    ("FORRT TF-IDF-on-fingerprint (0.680) + 16-excluded worst-case shift (+0.006)",
+     "experiment_revisions7.py", False),
+    ("Table 1 MiniLM+LR cells (representation x reader)",
+     "experiment_revisions.py", True),
     ("Novelty-hurts stacking (Results II) + vocabulary counts",
      "experiment_revisions6.py", True),
     ("Table 1 BoW / MiniLM cells (representation x reader, Yang/Uzzi)",
      "experiment_sota_match.py", True),
     ("Table 1 all-mpnet cell, psych-background TOST, Bonferroni, fold-level bootstrap",
      "experiment_revisions5.py", True),
+    ("Unsupervised isolation beats supervised classifiers (Results II, 0.595)",
+     "experiment_benchmark.py", True),
     ("Novelty validation: Shibayama reference-spread convergence (cached OpenAlex titles)",
      "compute_ref_novelty2.py", True),
     ("Novelty validation: ICLR expert-novelty leg",
@@ -44,6 +54,12 @@ STAGES = [
      "experiment_revisions2.py", True),
     ("Psych-background orthogonality (disclosed alternative background)",
      "experiment_revisions4.py", True),
+    ("Abstract-vs-full-text per lens (experiment lens prefers full text, +0.016)",
+     "experiment_perlens.py", True),
+    ("Raw vs abstract-fingerprint vs improved-full-text-fingerprint (0.647)",
+     "experiment_threefold.py", True),
+    ("Full-text distillation caution: rigor-inflation mechanism",
+     "experiment_fulltext.py", True),
 ]
 
 

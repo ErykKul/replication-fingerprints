@@ -15,7 +15,6 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import make_pipeline
 from sklearn.metrics import roc_auc_score, roc_curve, average_precision_score
 from experiment_alllenses import lens_text
-from experiment_rnd import embed, rnd, deconfound_length
 
 plt.rcParams.update({"font.size": 9, "axes.spines.top": False, "axes.spines.right": False})
 CV = StratifiedKFold(5, shuffle=True, random_state=0)
@@ -56,11 +55,21 @@ ax.legend(fontsize=8, framealpha=0.9)
 fig.tight_layout(); fig.savefig("fig1_scatter.pdf"); plt.close(fig)
 
 # Figure 2: the union beats every single lens
-# Per-lens numbers use the SAME 5-fold aggregated protocol as the union bars and the tables
-# (recomputed 2026-07; the earlier bars mixed 25-split per-lens values with 5-fold unions).
+# Per-lens + union AUROCs are RECOMPUTED live with the SAME 5-fold aggregated protocol as the tables
+# (ported from experiment_revisions8.py [3]); keep synced with revisions8[3].
+nb = lambda: make_pipeline(CountVectorizer(stop_words="english", min_df=2), MultinomialNB())
+oof = lambda X, yy: cross_val_predict(nb(), np.array(X), yy, cv=CV, method="predict_proba")[:, 1]
 lenses = ["compu-\ntational", "experi-\nment", "finding", "qualita-\ntive", "union"]
-forrt = [0.681, 0.665, 0.629, 0.676, 0.701]
-yu = [0.664, 0.715, 0.640, 0.740, 0.747]
+forrt = [roc_auc_score(y, oof([L[n][x] for x in common], y)) for n in L] + [auc_f]
+# Yang/Uzzi per-lens + union (same protocol; independent dataset)
+yudf = pd.read_csv("data/sota_hh/yu388.csv"); yudf["doi"] = yudf.doi.str.lower()
+labY = {row.doi: int(row.label) for _, row in yudf.iterrows() if pd.notna(row.label)}
+LY = {n: lens_text(f"data/sota_hh/fingerprints_{p}/batch_*.json") for n, p in
+      {"c": "comp", "e": "psych", "f": "finding", "q": "qual"}.items()}
+cY = sorted(set(labY) & set.intersection(*[set(v) for v in LY.values()]))
+yY = np.array([labY[x] for x in cY]); UY = [" ".join(LY[n][x] for n in LY) for x in cY]
+yu = [roc_auc_score(yY, oof([LY[n][x] for x in cY], yY)) for n in LY] + [roc_auc_score(yY, oof(UY, yY))]
+print(f"fig2 per-lens+union RECOMPUTED: FORRT {[round(v, 3) for v in forrt]} | Yang/Uzzi {[round(v, 3) for v in yu]}")
 x = np.arange(len(lenses)); w = 0.38
 fig, ax = plt.subplots(figsize=(5, 3.3))
 ax.bar(x - w / 2, forrt, w, label="FORRT", color=BLUE)
