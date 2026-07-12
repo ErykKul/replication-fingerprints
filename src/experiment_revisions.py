@@ -2,7 +2,7 @@
 """Round-1 review revisions: the statistical additions the QSS panel required (all on existing data).
 
 [1] TOST equivalence test for orthogonality (|r|<0.15).
-[2] Bootstrap 95% CI on the ABSOLUTE aggregated AUROC 0.747 (Yang/Uzzi 259).
+[2] Bootstrap 95% CI on the ABSOLUTE aggregated AUROC (Yang/Uzzi 259).
 [3] 2x2 embedder ablation: {raw abstract, fingerprint} x {BoW+NB, MiniLM+LR} on Yang/Uzzi.
 [4] FWCI vs novelty and vs verifiability axis (FORRT) -- the empirical "citations load on novelty" test.
 
@@ -11,7 +11,6 @@ Run:  PYTHONPATH=src python src/experiment_revisions.py
 import warnings, glob, json, numpy as np, pandas as pd
 warnings.filterwarnings("ignore")
 from scipy.stats import pearsonr, spearmanr, norm
-from sklearn.model_selection import cross_val_predict, StratifiedKFold
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.linear_model import LogisticRegression
@@ -20,7 +19,7 @@ from sklearn.pipeline import make_pipeline
 from sklearn.metrics import roc_auc_score
 from experiment_rnd import embed
 
-CV = StratifiedKFold(5, shuffle=True, random_state=0)
+import rcv  # metric of record: mean +/- sd over rcv.REPEATS stratified 5-fold partitions
 Z = lambda s: (s - np.mean(s)) / np.std(s)
 
 
@@ -57,25 +56,28 @@ U = [" ".join(LY[k][d] for k in LY) for d in common]
 A = [absY[d] for d in common]
 
 # [2] bootstrap 95% CI on absolute aggregated AUROC (multi-lens BoW+NB)
-pooled = cross_val_predict(make_pipeline(CountVectorizer(stop_words="english", min_df=2), MultinomialNB()),
-                           np.array(U), y, cv=CV, method="predict_proba")[:, 1]
+POOL = rcv.oof(make_pipeline(CountVectorizer(stop_words="english", min_df=2), MultinomialNB()), np.array(U), y)
+pool_m, pool_sd, _ = rcv.auc(y, POOL)
+# CI on the SAME ruler as the point estimate: resample papers, and for each resample average the AUROC
+# over the 25 partitions (bootstrapping the partition-averaged score would give the ensemble's CI).
 rng = np.random.RandomState(0); bs = []
 for _ in range(2000):
     i = rng.randint(0, len(y), len(y))
-    if len(np.unique(y[i])) > 1: bs.append(roc_auc_score(y[i], pooled[i]))
-print(f"[2] absolute AUROC (YU multi-lens) = {roc_auc_score(y, pooled):.3f}, 95% CI [{np.percentile(bs,2.5):.3f}, {np.percentile(bs,97.5):.3f}] "
+    if len(np.unique(y[i])) > 1:
+        bs.append(np.mean([rcv._fast_auc(y[i], pp[i]) for pp in POOL]))
+print(f"[2] absolute AUROC (YU multi-lens) = {pool_m:.3f} +/- {pool_sd:.3f}, 95% CI [{np.percentile(bs,2.5):.3f}, {np.percentile(bs,97.5):.3f}] "
       f"(Mottelson reproduced band 0.68-0.76)")
 
 # [3] 2x2 embedder ablation
 EU, EA = embed(list(U))[0], embed(list(A))[0]
-def oof_nb(X): return cross_val_predict(make_pipeline(CountVectorizer(stop_words="english", min_df=2), MultinomialNB()), np.array(X), y, cv=CV, method="predict_proba")[:, 1]
-def oof_lr(E): return cross_val_predict(make_pipeline(StandardScaler(), LogisticRegression(max_iter=2000)), E, y, cv=CV, method="predict_proba")[:, 1]
-cells = {"raw abstract + BoW+NB": roc_auc_score(y, oof_nb(A)),
-         "fingerprint + BoW+NB": roc_auc_score(y, oof_nb(U)),
-         "raw abstract + MiniLM+LR": roc_auc_score(y, oof_lr(EA)),
-         "fingerprint + MiniLM+LR": roc_auc_score(y, oof_lr(EU))}
-print("[3] 2x2 embedder ablation (YU, aggregated AUROC):")
-for k, v in cells.items(): print(f"      {k:30s} {v:.3f}")
+def anb(X): return rcv.auc(y, rcv.oof(make_pipeline(CountVectorizer(stop_words="english", min_df=2), MultinomialNB()), np.array(X), y))
+def alr(E): return rcv.auc(y, rcv.oof(make_pipeline(StandardScaler(), LogisticRegression(max_iter=2000)), E, y))
+cells = {"raw abstract + BoW+NB": anb(A)[:2],
+         "fingerprint + BoW+NB": anb(U)[:2],
+         "raw abstract + MiniLM+LR": alr(EA)[:2],
+         "fingerprint + MiniLM+LR": alr(EU)[:2]}
+print(f"[3] 2x2 embedder ablation (YU, aggregated AUROC, mean +/- sd over {rcv.REPEATS} partitions):")
+for k, (cm, csd) in cells.items(): print(f"      {k:30s} {cm:.3f} +/- {csd:.3f}")
 
 # ---------- [4] FWCI vs axes (FORRT) ----------
 d = pd.read_csv("data/dataset.csv"); d["doi"] = d.doi.str.lower()

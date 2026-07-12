@@ -7,7 +7,6 @@ Run:  PYTHONPATH=src python src/experiment_revisions5.py
 import os, warnings, glob, json, numpy as np, pandas as pd
 warnings.filterwarnings("ignore")
 from scipy.stats import norm, pearsonr, spearmanr
-from sklearn.model_selection import cross_val_predict, StratifiedKFold
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.linear_model import LogisticRegression
@@ -19,7 +18,8 @@ from experiment_rnd import embed, deconfound_length
 from experiment_novelty_expert2 import rnd_vs_bg, fetch_bg
 from experiment_novelty_validate import fetch
 
-CV = StratifiedKFold(5, shuffle=True, random_state=0)
+import rcv  # metric of record: mean +/- sd over rcv.REPEATS stratified 5-fold partitions
+from sklearn.model_selection import StratifiedKFold
 Z = lambda s: (np.asarray(s, float) - np.mean(s)) / np.std(s)
 
 
@@ -90,8 +90,10 @@ try:
     from sentence_transformers import SentenceTransformer
     mp = SentenceTransformer("all-mpnet-base-v2")
     EA, EU = mp.encode(A, show_progress_bar=False), mp.encode(U, show_progress_bar=False)
-    def lr(E): return roc_auc_score(y, cross_val_predict(make_pipeline(StandardScaler(), LogisticRegression(max_iter=2000)), E, y, cv=CV, method="predict_proba")[:, 1])
-    print(f"[4] all-mpnet-base-v2 + LR: raw abstract {lr(EA):.3f} | fingerprint {lr(EU):.3f}  (vs MiniLM 0.649/0.598, BoW+NB 0.619/0.747)")
+    def lr(E):
+        m, sd, _ = rcv.auc(y, rcv.oof(make_pipeline(StandardScaler(), LogisticRegression(max_iter=2000)), E, y))
+        return f"{m:.3f} +/- {sd:.3f}"
+    print(f"[4] all-mpnet-base-v2 + LR: raw abstract {lr(EA)} | fingerprint {lr(EU)}")
 except Exception as e:
     print("[4] all-mpnet error:", e)
 
@@ -104,15 +106,15 @@ c = set(lab) & set(ab)
 for v in L.values(): c &= set(v)
 c = sorted(c); yF = np.array([lab[x] for x in c])
 UF = [" ".join(L[n][x] for n in L) for x in c]; AF = [ab[x] for x in c]
-po = cross_val_predict(make_pipeline(CountVectorizer(stop_words="english", min_df=2), MultinomialNB()), np.array(UF), yF, cv=CV, method="predict_proba")[:, 1]
-pt = cross_val_predict(make_pipeline(TfidfVectorizer(stop_words="english", min_df=2, max_features=8000), LogisticRegression(max_iter=2000)), np.array(AF), yF, cv=CV, method="predict_proba")[:, 1]
-# per-fold AUROC diff bootstrap
-folds = list(CV.split(UF, yF))
-diffs = [roc_auc_score(yF[te], po[te]) - roc_auc_score(yF[te], pt[te]) for _, te in folds]
-rng = np.random.RandomState(0)
-fb = [np.mean(rng.choice(diffs, len(diffs), replace=True)) for _ in range(2000)]
-print(f"[5] FORRT fingerprint vs TF-IDF: pooled diff {roc_auc_score(yF,po)-roc_auc_score(yF,pt):+.3f}; "
-      f"per-fold mean diff {np.mean(diffs):+.3f}, fold-bootstrap 95% CI [{np.percentile(fb,2.5):+.3f},{np.percentile(fb,97.5):+.3f}]")
+PO = rcv.oof(make_pipeline(CountVectorizer(stop_words="english", min_df=2), MultinomialNB()), np.array(UF), yF)
+PT = rcv.oof(make_pipeline(TfidfVectorizer(stop_words="english", min_df=2, max_features=8000), LogisticRegression(max_iter=2000)), np.array(AF), yF)
+# [5] two independent sources of uncertainty on the same margin:
+#     (a) ACROSS PARTITIONS  -> sd of the per-partition margin (the fold lottery this repo now averages out)
+#     (b) ACROSS PAPERS      -> paired bootstrap over papers of the mean-across-partitions margin
+dm, dsd, win = rcv.margin(yF, PO, PT)
+lo, hi, p = rcv.boot(yF, PO, PT)
+print(f"[5] FORRT fingerprint vs TF-IDF: margin {dm:+.3f} +/- {dsd:.3f} across {rcv.REPEATS} partitions "
+      f"(positive in {win*100:.0f}%); paper-bootstrap 95% CI [{lo:+.3f},{hi:+.3f}], p={p:.3f}")
 
 
 if __name__ == "__main__":

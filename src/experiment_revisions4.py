@@ -7,7 +7,6 @@ Run:  PYTHONPATH=src python src/experiment_revisions4.py
 import os, warnings, glob, json, numpy as np, pandas as pd
 warnings.filterwarnings("ignore")
 from scipy.stats import pearsonr
-from sklearn.model_selection import cross_val_predict, StratifiedKFold
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import make_pipeline
@@ -17,7 +16,7 @@ from experiment_rnd import embed, deconfound_length
 from experiment_novelty_expert2 import rnd_vs_bg
 from experiment_novelty_validate import fetch
 
-CV = StratifiedKFold(5, shuffle=True, random_state=0)
+import rcv  # metric of record: mean +/- sd over rcv.REPEATS stratified 5-fold partitions
 Z = lambda s: (np.asarray(s, float) - np.mean(s)) / np.std(s)
 d = pd.read_csv("data/dataset.csv"); d["doi"] = d.doi.str.lower()
 L = {n: lens_text(f"data/fingerprints{p}/batch_*.json") for n, p in {"c": "", "e": "_psych", "f": "_finding", "q": "_qual"}.items()}
@@ -42,8 +41,8 @@ ftdois = {pid2doi[p] for p in set.intersection(*[set(v) for v in Lft.values()]) 
 commonB = sorted(ftdois)
 yB = np.array([lab[x] for x in commonB])
 UB = [" ".join(L[n][x] for n in L) for x in commonB]
-pB = cross_val_predict(make_pipeline(CountVectorizer(stop_words="english", min_df=2), MultinomialNB()), np.array(UB), yB, cv=CV, method="predict_proba")[:, 1]
-print(f"[B] within-sample (n={len(commonB)} full-text-matched): abstract multi-lens fingerprint AUROC {roc_auc_score(yB, pB):.3f} (vs TF-IDF-over-full-text 0.637)")
+bm, bsd, _ = rcv.auc(yB, rcv.oof(make_pipeline(CountVectorizer(stop_words="english", min_df=2), MultinomialNB()), np.array(UB), yB))
+print(f"[B] within-sample (n={len(commonB)} full-text-matched): abstract multi-lens fingerprint AUROC {bm:.3f} +/- {bsd:.3f}")
 
 # the full primary set (502) for [C]
 common = sorted(alllens)

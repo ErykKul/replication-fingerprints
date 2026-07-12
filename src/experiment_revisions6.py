@@ -6,7 +6,6 @@ Run:  PYTHONPATH=src python src/experiment_revisions6.py
 """
 import warnings, glob, json, numpy as np, pandas as pd
 warnings.filterwarnings("ignore")
-from sklearn.model_selection import cross_val_predict, StratifiedKFold
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.linear_model import LogisticRegression
@@ -17,27 +16,32 @@ from experiment_alllenses import lens_text
 from experiment_rnd import embed, rnd, deconfound_length
 from experiment_maintable import conflicting_yu
 
-CV = StratifiedKFold(5, shuffle=True, random_state=0)
-
-
-def nb_oof(U, y): return cross_val_predict(make_pipeline(CountVectorizer(stop_words="english", min_df=2), MultinomialNB()), np.array(U), y, cv=CV, method="predict_proba")[:, 1]
+import rcv  # metric of record: mean +/- sd over rcv.REPEATS stratified 5-fold partitions
 
 
 def stack(U, y):
-    base = nb_oof(U, y)
+    """Repeated CV. -> (BASE, STACKED) each (REPEATS, n): the union predictor, and the union predictor
+    with the novelty score stacked on top. The novelty feature is fixed (unsupervised), so only the
+    partitions vary."""
+    BASE = rcv.oof(make_pipeline(CountVectorizer(stop_words="english", min_df=2), MultinomialNB()),
+                   np.array(U), y)
     nov = deconfound_length(rnd(embed(list(U))[0])[0], list(U))
-    logit = np.log(np.clip(base, 1e-6, 1 - 1e-6) / (1 - np.clip(base, 1e-6, 1 - 1e-6)))
-    X = StandardScaler().fit_transform(np.column_stack([logit, nov]))
-    st = cross_val_predict(LogisticRegression(max_iter=2000), X, y, cv=CV, method="predict_proba")[:, 1]
-    return base, st
+    ST = []
+    for base in BASE:
+        logit = np.log(np.clip(base, 1e-6, 1 - 1e-6) / (1 - np.clip(base, 1e-6, 1 - 1e-6)))
+        X = StandardScaler().fit_transform(np.column_stack([logit, nov]))
+        ST.append(rcv.oof(LogisticRegression(max_iter=2000), X, y, repeats=1)[0])
+    return BASE, np.asarray(ST)
 
 
-def boot_diff(y, pa, pb, B=2000):
-    rng = np.random.RandomState(0); d = []
-    for _ in range(B):
-        i = rng.randint(0, len(y), len(y))
-        if len(np.unique(y[i])) > 1: d.append(roc_auc_score(y[i], pb[i]) - roc_auc_score(y[i], pa[i]))
-    d = np.array(d); return np.percentile(d, 2.5), np.percentile(d, 97.5)
+def report_stack(tag, y, BASE, ST):
+    bm, bsd, _ = rcv.auc(y, BASE)
+    sm, ssd, _ = rcv.auc(y, ST)
+    dm, dsd, win = rcv.margin(y, ST, BASE)          # stacked - base (expected NEGATIVE)
+    lo, hi, p = rcv.boot(y, ST, BASE)
+    print(f"[1] novelty-hurts, {tag} (n={len(y)}): {bm:.3f} +/- {bsd:.3f} -> {sm:.3f} +/- {ssd:.3f}, "
+          f"delta {dm:+.3f} +/- {dsd:.3f}, 95% CI [{lo:+.3f},{hi:+.3f}], p={p:.3f}, "
+          f"hurts in {(1-win)*100:.0f}% of partitions")
 
 
 # [1] novelty-hurts with CIs, cleaned Yang/Uzzi + FORRT
@@ -47,9 +51,8 @@ LY = {n: lens_text(f"data/sota_hh/fingerprints_{p}/batch_*.json") for n, p in {"
 conf = conflicting_yu()
 cy = [x for x in sorted(set(labY) & set.intersection(*[set(v) for v in LY.values()])) if x not in conf]
 yY = np.array([labY[x] for x in cy]); UY = [" ".join(LY[n][x] for n in LY) for x in cy]
-b, s = stack(UY, yY)
-lo, hi = boot_diff(yY, b, s)
-print(f"[1] novelty-hurts, cleaned Yang/Uzzi (n={len(cy)}): {roc_auc_score(yY,b):.3f} -> {roc_auc_score(yY,s):.3f}, delta 95% CI [{lo:+.3f},{hi:+.3f}]")
+B, S = stack(UY, yY)
+report_stack("cleaned Yang/Uzzi", yY, B, S)
 
 d = pd.read_csv("data/dataset.csv"); d["doi"] = d.doi.str.lower()
 lab = {r.doi: int(r.replicated) for _, r in d.iterrows() if pd.notna(r.replicated)}
@@ -57,9 +60,8 @@ ab = {r.doi: r.abstract for _, r in d.iterrows() if isinstance(r.abstract, str) 
 L = {n: lens_text(f"data/fingerprints{p}/batch_*.json") for n, p in {"c": "", "e": "_psych", "f": "_finding", "q": "_qual"}.items()}
 c = sorted(set(lab) & set(ab) & set.intersection(*[set(v) for v in L.values()]))
 yF = np.array([lab[x] for x in c]); UF = [" ".join(L[n][x] for n in L) for x in c]
-bF, sF = stack(UF, yF)
-lo, hi = boot_diff(yF, bF, sF)
-print(f"[1] novelty-hurts, FORRT (n={len(c)}): {roc_auc_score(yF,bF):.3f} -> {roc_auc_score(yF,sF):.3f}, delta 95% CI [{lo:+.3f},{hi:+.3f}]")
+BF, SF = stack(UF, yF)
+report_stack("FORRT", yF, BF, SF)
 
 # [2] FORRT absolute counts on the primary analysis set
 print(f"[2] FORRT n={len(yF)}: {int(yF.sum())} replicated / {len(yF)-int(yF.sum())} failed (base {yF.mean():.3f})")

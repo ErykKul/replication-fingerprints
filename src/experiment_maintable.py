@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
 """Main results table: SOTA baselines vs ours, abstract vs full text, dirty vs cleaned labels, + significance.
 
-Aggregated AUROC (5-fold CV out-of-fold), paired-bootstrap p vs the TF-IDF baseline (the reproducible-SOTA
-method). Datasets: FORRT (abstract 502 + full text 305) and Yang/Uzzi (abstract 259, dirty + cleaned).
+METRIC OF RECORD (see src/rcv.py): aggregated AUROC, averaged over RCV.REPEATS independent stratified
+5-fold partitions and reported as mean +/- sd ACROSS partitions. A single partition is a lottery at this
+sample size (it moves AUROC by ~0.02, the size of the effects here), so we no longer report one.
+Significance = paired bootstrap over PAPERS of the mean-across-partitions margin, plus the fraction of
+partitions in which the margin is positive.
+
+Datasets: FORRT (abstract + full text 305) and Yang/Uzzi (abstract 259, dirty + cleaned).
 Full-text multi-lens for FORRT uses the full-text lens distillations; best-source-per-lens picks the better
 source per lens.
 
@@ -10,14 +15,13 @@ Run:  PYTHONPATH=src python src/experiment_maintable.py
 """
 import glob, json, warnings, numpy as np, pandas as pd
 warnings.filterwarnings("ignore")
-from sklearn.model_selection import cross_val_predict, StratifiedKFold
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import make_pipeline
-from sklearn.metrics import roc_auc_score, average_precision_score
 
-CV = StratifiedKFold(5, shuffle=True, random_state=0)
+import rcv
+
 TF = lambda: make_pipeline(TfidfVectorizer(stop_words="english", min_df=2, max_features=8000), LogisticRegression(max_iter=2000))
 NB = lambda: make_pipeline(CountVectorizer(stop_words="english", min_df=2), MultinomialNB())
 
@@ -30,37 +34,28 @@ def lt(paths, key):
     return {str(x[key]).strip().lower(): " ".join(str(v) for k, v in x.items() if k != key) for x in r if x.get(key)}
 
 
-def probs(est, X, y):
-    return cross_val_predict(est, X, y, cv=CV, method="predict_proba")[:, 1]
-
-
-def boot(y, pm, pb, B=2000):
-    rng = np.random.RandomState(0); n = len(y); d = []
-    for _ in range(B):
-        i = rng.randint(0, n, n)
-        if len(np.unique(y[i])) > 1:
-            d.append(roc_auc_score(y[i], pm[i]) - roc_auc_score(y[i], pb[i]))
-    d = np.array(d)
-    return np.percentile(d, 2.5), np.percentile(d, 97.5), 2 * min((d <= 0).mean(), (d >= 0).mean())
-
-
 def report(title, y, texts):
-    print(f"\n### {title}: n={len(y)}, base {y.mean():.2f}  (aggregated AUROC)")
+    print(f"\n### {title}: n={len(y)}, base {y.mean():.2f}  "
+          f"(aggregated AUROC, mean +/- sd over {rcv.REPEATS} stratified 5-fold partitions)")
     P = {}
     for name, (est, X) in texts.items():
-        P[name] = probs(est(), X, y)
-        ap = f"  AP {average_precision_score(y, P[name]):.3f}" if "OUR" in name else ""
-        print(f"  {name:46s} {roc_auc_score(y, P[name]):.3f}{ap}")
+        P[name] = rcv.oof(est(), X, y)
+        m, s, _ = rcv.auc(y, P[name])
+        extra = ""
+        if "OUR" in name:
+            am, asd, _ = rcv.ap(y, P[name])
+            extra = f"  AP {am:.3f} +/- {asd:.3f}"
+        print(f"  {name:46s} {m:.3f} +/- {s:.3f}{extra}")
     base = next(k for k in texts if "SOTA-style" in k)
     raw = next((k for k in texts if "raw-abstract" in k), None)
     for name in texts:
         if name != base and "OUR" in name:
-            lo, hi, p = boot(y, P[name], P[base])
-            sig = "***" if p < 0.01 else "**" if p < 0.05 else "*" if p < 0.1 else "ns"
-            print(f"    ^ vs TF-IDF baseline: [{lo:+.3f},{hi:+.3f}] p={p:.3f} {sig}")
-            if raw:
-                lo, hi, p = boot(y, P[name], P[raw])
-                print(f"    ^ vs raw-abstract BoW+NB: [{lo:+.3f},{hi:+.3f}] p={p:.3f}")
+            for lbl, ref in [("vs TF-IDF baseline", base)] + ([("vs raw-abstract BoW+NB", raw)] if raw else []):
+                dm, ds, win = rcv.margin(y, P[name], P[ref])
+                lo, hi, p = rcv.boot(y, P[name], P[ref])
+                sig = "***" if p < 0.01 else "**" if p < 0.05 else "*" if p < 0.1 else "ns"
+                print(f"    ^ {lbl:24s} {dm:+.3f} +/- {ds:.3f} | boot 95% CI [{lo:+.3f},{hi:+.3f}] "
+                      f"p={p:.3f} {sig} | positive in {win*100:.0f}% of partitions")
 
 
 def conflicting_yu():
@@ -128,14 +123,19 @@ def main():
     keep = [i for i, x in enumerate(cY) if x not in conf]
     print(f"\n### Yang/Uzzi (abstract, CLEANED: dropped {len(cY)-len(keep)} conflicting-label DOIs) n={len(keep)}")
     yc = yY[keep]; Uc = [UY[i] for i in keep]; Tc = [absY[cY[i]] for i in keep]
-    pt = probs(TF(), Tc, yc); po = probs(NB(), Uc, yc); pr = probs(NB(), Tc, yc)
-    print(f"  TF-IDF(abstract)+LR                    {roc_auc_score(yc, pt):.3f}")
-    print(f"  raw-abstract BoW+NB                    {roc_auc_score(yc, pr):.3f}")
-    print(f"  OUR multi-lens fingerprint BoW+NB      {roc_auc_score(yc, po):.3f}  AP {average_precision_score(yc, po):.3f}")
-    lo, hi, p = boot(yc, po, pt)
-    print(f"    OURS - TF-IDF: [{lo:+.3f},{hi:+.3f}] p={p:.3f}")
-    lo, hi, p = boot(yc, po, pr)
-    print(f"    OURS - raw BoW+NB: [{lo:+.3f},{hi:+.3f}] p={p:.3f}")
+    Pt = rcv.oof(TF(), Tc, yc); Po = rcv.oof(NB(), Uc, yc); Pr = rcv.oof(NB(), Tc, yc)
+    for lbl, P in [("TF-IDF(abstract)+LR", Pt), ("raw-abstract BoW+NB", Pr), ("OUR multi-lens fingerprint BoW+NB", Po)]:
+        m, s, _ = rcv.auc(yc, P)
+        extra = ""
+        if "OUR" in lbl:
+            am, asd, _ = rcv.ap(yc, P)
+            extra = f"  AP {am:.3f} +/- {asd:.3f}"
+        print(f"  {lbl:38s} {m:.3f} +/- {s:.3f}{extra}")
+    for lbl, ref in [("OURS - TF-IDF", Pt), ("OURS - raw BoW+NB", Pr)]:
+        dm, ds, win = rcv.margin(yc, Po, ref)
+        lo, hi, p = rcv.boot(yc, Po, ref)
+        print(f"    {lbl:20s} {dm:+.3f} +/- {ds:.3f} | boot 95% CI [{lo:+.3f},{hi:+.3f}] p={p:.3f} "
+              f"| positive in {win*100:.0f}% of partitions")
 
 
 if __name__ == "__main__":

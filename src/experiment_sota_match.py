@@ -9,7 +9,7 @@ fingerprint (not the embedder) carries the signal.
 Run:  PYTHONPATH=src python src/experiment_sota_match.py
 """
 import glob, json, numpy as np, pandas as pd
-from sklearn.model_selection import StratifiedShuffleSplit, cross_val_predict, StratifiedKFold
+from sklearn.model_selection import StratifiedShuffleSplit
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.ensemble import RandomForestClassifier, VotingClassifier
@@ -18,6 +18,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import make_pipeline
 from sklearn.metrics import roc_auc_score
 from experiment_rnd import embed
+
+import rcv  # metric of record: mean +/- sd over rcv.REPEATS stratified 5-fold partitions
 
 
 def lens(p, k="doi"):
@@ -44,20 +46,19 @@ def main():
     for tr, te in StratifiedShuffleSplit(25, test_size=0.25, random_state=0).split(y, y):
         c = make_pipeline(CountVectorizer(stop_words="english", min_df=2), MultinomialNB()).fit(U[tr], y[tr])
         au.append(roc_auc_score(y[te], c.predict_proba(U[te])[:, 1]))
-    pooled = cross_val_predict(make_pipeline(CountVectorizer(stop_words="english", min_df=2), MultinomialNB()),
-                               U, y, cv=StratifiedKFold(5, shuffle=True, random_state=0), method="predict_proba")[:, 1]
+    POOL = rcv.oof(make_pipeline(CountVectorizer(stop_words="english", min_df=2), MultinomialNB()), U, y)
+    pool_m, pool_sd, _ = rcv.auc(y, POOL)
     print("OUR multi-lens union (BoW + Naive Bayes, on their papers):")
     print(f"  mean per-round AUC   {np.mean(au):.3f}   (their mean 0.72)")
-    print(f"  aggregated AUC       {roc_auc_score(y, pooled):.3f}   (their headline 0.74)")
+    print(f"  aggregated AUC       {pool_m:.3f} +/- {pool_sd:.3f}   (their headline 0.74)")
 
     E = embed(list(U))[0]
     ens = VotingClassifier([("rf", RandomForestClassifier(300, n_jobs=-1, random_state=0)),
                             ("lr", LogisticRegression(max_iter=2000))], voting="soft")
-    pe = cross_val_predict(make_pipeline(StandardScaler(), ens), E, y,
-                           cv=StratifiedKFold(5, shuffle=True, random_state=0), method="predict_proba")[:, 1]
+    pe_m, pe_sd, _ = rcv.auc(y, rcv.oof(make_pipeline(StandardScaler(), ens), E, y))
     print("\nEMBEDDER-AGNOSTIC (same fingerprint, aggregated AUC):")
-    print(f"  BoW + Naive Bayes                 {roc_auc_score(y, pooled):.3f}")
-    print(f"  embedder(MiniLM) + RF/logistic    {roc_auc_score(y, pe):.3f}   [their downstream]")
+    print(f"  BoW + Naive Bayes                 {pool_m:.3f} +/- {pool_sd:.3f}")
+    print(f"  embedder(MiniLM) + RF/logistic    {pe_m:.3f} +/- {pe_sd:.3f}   [their downstream]")
     print("  -> the fingerprint carries the signal, not the embedder (P1); a modern embedder is no stronger")
     print("     than word2vec, and their own reproduction (Mottelson & Kontogiorgos) used TF-IDF for 0.76.")
 

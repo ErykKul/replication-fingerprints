@@ -12,18 +12,17 @@ r"""Round-11 revisions (optional strengthening; all on existing data, no new dis
 [3] 4x4 per-lens correlation matrix on FORRT: Pearson r between out-of-fold NB predicted probabilities of the
     four lenses (backs the "partially independent signal" claim), plus per-lens 5-fold AGGREGATED AUROCs used
     to make Figure 2 protocol-consistent.
-    -> off-diagonal r roughly 0.3-0.6 (partially independent); FORRT per-lens 0.666/0.660/0.608/0.670 (union 0.682);
-       Yang/Uzzi per-lens (same protocol, computed alongside) 0.664/0.715/0.640/0.740 (union 0.747)
+    -> off-diagonal r roughly 0.3-0.6 (partially independent); per-lens and union AUROCs printed live;
+       Yang/Uzzi per-lens computed alongside, same protocol.
 [4] Length-insensitive binary-presence union (binary CountVectorizer + Bernoulli NB): rules out the
     roughly fourfold lens length imbalance as the source of the union gain.
-    -> FORRT 0.674 (vs count-based union 0.682); Yang/Uzzi 0.769 (vs 0.747)
+    -> reported live; do not hardcode expectations here.
 
 Run:  PYTHONPATH=src python src/experiment_revisions8.py
 """
 import warnings, numpy as np, pandas as pd
 warnings.filterwarnings("ignore")
 from scipy.stats import pearsonr, norm
-from sklearn.model_selection import cross_val_predict, StratifiedKFold
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB, BernoulliNB
 from sklearn.pipeline import make_pipeline
@@ -31,7 +30,7 @@ from sklearn.metrics import roc_auc_score
 from experiment_alllenses import lens_text
 from experiment_maintable import conflicting_yu
 
-CV = StratifiedKFold(5, shuffle=True, random_state=0)
+import rcv  # metric of record: mean +/- sd over rcv.REPEATS stratified 5-fold partitions
 Z = lambda s: (np.asarray(s, float) - np.mean(s)) / np.std(s)
 
 
@@ -93,8 +92,8 @@ def main():
     # ---------- [3] 4x4 lens score correlation matrix + per-lens aggregated AUROCs ----------
     names = {"c": "computational", "e": "experiment", "f": "finding", "q": "qualitative"}
     nb = lambda: make_pipeline(CountVectorizer(stop_words="english", min_df=2), MultinomialNB())
-    P = {n: cross_val_predict(nb(), np.array([L[n][x] for x in c]), yF, cv=CV, method="predict_proba")[:, 1]
-         for n in L}
+    PL = {n: rcv.oof(nb(), np.array([L[n][x] for x in c]), yF) for n in L}
+    P = {n: PL[n].mean(0) for n in L}   # partition-averaged per-paper scores, for the correlation matrix
     ks = list(L)
     print(f"[3] per-lens out-of-fold score correlations (FORRT n={len(c)}, Pearson):")
     print("           " + "  ".join(f"{names[k][:6]:>6}" for k in ks))
@@ -105,18 +104,19 @@ def main():
         print(f"    {names[a][:6]:>6} " + "  ".join(f"{v:+.2f}" for v in row))
     print(f"    mean off-diagonal r = {np.mean(offdiag):+.3f}, range [{min(offdiag):+.3f}, {max(offdiag):+.3f}]")
     for n in ks:
-        print(f"    FORRT lens {names[n]:>13} aggregated AUROC {roc_auc_score(yF, P[n]):.3f}")
+        m, sd, _ = rcv.auc(yF, PL[n])
+        print(f"    FORRT lens {names[n]:>13} aggregated AUROC {m:.3f} +/- {sd:.3f}")
     for n in ks:
-        p = cross_val_predict(nb(), np.array([LY[n][x] for x in cY]), yY, cv=CV, method="predict_proba")[:, 1]
-        print(f"    YU    lens {names[n]:>13} aggregated AUROC {roc_auc_score(yY, p):.3f}")
+        m, sd, _ = rcv.auc(yY, rcv.oof(nb(), np.array([LY[n][x] for x in cY]), yY))
+        print(f"    YU    lens {names[n]:>13} aggregated AUROC {m:.3f} +/- {sd:.3f}")
 
     # ---------- [4] length-insensitive binary-presence union (rules out lens length imbalance) ----------
     nbb = lambda: make_pipeline(CountVectorizer(stop_words="english", min_df=2, binary=True), BernoulliNB())
     for tag, Uv, yv in [("FORRT", UF, yF), ("Yang/Uzzi", UY, yY)]:
-        pb = cross_val_predict(nbb(), np.array(Uv), yv, cv=CV, method="predict_proba")[:, 1]
-        pc = cross_val_predict(nb(), np.array(Uv), yv, cv=CV, method="predict_proba")[:, 1]
-        print(f"[4] binary-presence union ({tag}): AUROC {roc_auc_score(yv, pb):.3f}  "
-              f"(count-based union: {roc_auc_score(yv, pc):.3f})")
+        bm, bsd, _ = rcv.auc(yv, rcv.oof(nbb(), np.array(Uv), yv))
+        cm, csd, _ = rcv.auc(yv, rcv.oof(nb(), np.array(Uv), yv))
+        print(f"[4] binary-presence union ({tag}): AUROC {bm:.3f} +/- {bsd:.3f}  "
+              f"(count-based union: {cm:.3f} +/- {csd:.3f})")
 
 
 if __name__ == "__main__":

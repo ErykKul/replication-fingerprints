@@ -9,7 +9,6 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from scipy.stats import pearsonr
-from sklearn.model_selection import cross_val_predict, StratifiedKFold
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import make_pipeline
@@ -17,7 +16,7 @@ from sklearn.metrics import roc_auc_score, roc_curve, average_precision_score
 from experiment_alllenses import lens_text
 
 plt.rcParams.update({"font.size": 9, "axes.spines.top": False, "axes.spines.right": False})
-CV = StratifiedKFold(5, shuffle=True, random_state=0)
+import rcv  # metric of record: mean over rcv.REPEATS stratified 5-fold partitions
 BLUE, RED, ORANGE = "#2a6f97", "#c1121f", "#e07a5f"
 
 d = pd.read_csv("data/dataset.csv"); d["doi"] = d.doi.str.lower()
@@ -34,9 +33,12 @@ y = np.array([labF[x] for x in common])
 U = [" ".join(L[n][x] for n in L) for x in common]
 fwci = np.array([float(fwciF[x]) for x in common])
 
-verif = cross_val_predict(make_pipeline(CountVectorizer(stop_words="english", min_df=2), MultinomialNB()),
-                          U, y, cv=CV, method="predict_proba")[:, 1]
-auc_c, auc_f = roc_auc_score(y, fwci), roc_auc_score(y, verif)
+# repeated CV: per-paper score = partition-averaged OOF prob (for the ROC curve); the reported AUROC
+# is the metric of record (mean over partitions).
+PV = rcv.oof(make_pipeline(CountVectorizer(stop_words="english", min_df=2), MultinomialNB()), U, y)
+verif = PV.mean(0)
+auc_c = roc_auc_score(y, fwci)
+auc_f, auc_f_sd, _ = rcv.auc(y, PV)
 
 # Figure 1: the two axes are near-orthogonal (canonical novelty/verif scores from experiment_value.py)
 m = pd.read_csv("data/value_scores.csv").dropna(subset=["novelty", "verif", "replicated"])
@@ -58,9 +60,9 @@ fig.tight_layout(); fig.savefig("fig1_scatter.pdf"); plt.close(fig)
 # Per-lens + union AUROCs are RECOMPUTED live with the SAME 5-fold aggregated protocol as the tables
 # (ported from experiment_revisions8.py [3]); keep synced with revisions8[3].
 nb = lambda: make_pipeline(CountVectorizer(stop_words="english", min_df=2), MultinomialNB())
-oof = lambda X, yy: cross_val_predict(nb(), np.array(X), yy, cv=CV, method="predict_proba")[:, 1]
+aucm = lambda X, yy: rcv.auc(yy, rcv.oof(nb(), np.array(X), yy))[0]
 lenses = ["compu-\ntational", "experi-\nment", "finding", "qualita-\ntive", "union"]
-forrt = [roc_auc_score(y, oof([L[n][x] for x in common], y)) for n in L] + [auc_f]
+forrt = [aucm([L[n][x] for x in common], y) for n in L] + [auc_f]
 # Yang/Uzzi per-lens + union (same protocol; independent dataset)
 yudf = pd.read_csv("data/sota_hh/yu388.csv"); yudf["doi"] = yudf.doi.str.lower()
 labY = {row.doi: int(row.label) for _, row in yudf.iterrows() if pd.notna(row.label)}
@@ -68,7 +70,7 @@ LY = {n: lens_text(f"data/sota_hh/fingerprints_{p}/batch_*.json") for n, p in
       {"c": "comp", "e": "psych", "f": "finding", "q": "qual"}.items()}
 cY = sorted(set(labY) & set.intersection(*[set(v) for v in LY.values()]))
 yY = np.array([labY[x] for x in cY]); UY = [" ".join(LY[n][x] for n in LY) for x in cY]
-yu = [roc_auc_score(yY, oof([LY[n][x] for x in cY], yY)) for n in LY] + [roc_auc_score(yY, oof(UY, yY))]
+yu = [aucm([LY[n][x] for x in cY], yY) for n in LY] + [aucm(UY, yY)]
 print(f"fig2 per-lens+union RECOMPUTED: FORRT {[round(v, 3) for v in forrt]} | Yang/Uzzi {[round(v, 3) for v in yu]}")
 x = np.arange(len(lenses)); w = 0.38
 fig, ax = plt.subplots(figsize=(5, 3.3))
@@ -81,12 +83,15 @@ ax.set_title("The union beats every single lens")
 ax.legend(fontsize=8)
 fig.tight_layout(); fig.savefig("fig2_lenses.pdf"); plt.close(fig)
 
-# Figure 3: citations are at chance
+# Figure 3: citations are at chance.
+# The fingerprint curve is the MEAN ROC across the 25 partitions, so the curve and the label sit on the
+# same ruler as the metric of record. (Drawing one curve from partition-averaged scores would show the
+# ensemble's area, 0.699, while the label says 0.682: a curve a reviewer could integrate and catch.)
 fig, ax = plt.subplots(figsize=(4, 3.5))
-for score, nm, c in [(fwci, f"citations (FWCI), AUROC {auc_c:.3f}", RED),
-                     (verif, f"fingerprint, AUROC {auc_f:.3f}", BLUE)]:
-    fpr, tpr, _ = roc_curve(y, score)
-    ax.plot(fpr, tpr, c=c, lw=1.6, label=nm)
+fpr_c, tpr_c, _ = roc_curve(y, fwci)
+ax.plot(fpr_c, tpr_c, c=RED, lw=1.6, label=f"citations (FWCI), AUROC {auc_c:.3f}")
+g, mt, m_auc, sd_auc = rcv.mean_roc(y, PV)
+ax.plot(g, mt, c=BLUE, lw=1.6, label=f"fingerprint, AUROC {m_auc:.3f} $\\pm$ {sd_auc:.3f}")
 ax.plot([0, 1], [0, 1], ls=":", c="gray", lw=0.9)
 ax.set_xlabel("false positive rate"); ax.set_ylabel("true positive rate")
 ax.set_title("Citations are at chance for replication")

@@ -7,15 +7,14 @@ Run:  PYTHONPATH=src python src/experiment_revisions3.py
 import warnings, glob, json, numpy as np, pandas as pd
 warnings.filterwarnings("ignore")
 from scipy.stats import pearsonr, norm
-from sklearn.model_selection import cross_val_predict, StratifiedKFold
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import make_pipeline
-from sklearn.metrics import roc_auc_score
 from experiment_alllenses import lens_text
 
-CV = StratifiedKFold(5, shuffle=True, random_state=0)
+import rcv  # metric of record: mean +/- sd over rcv.REPEATS stratified 5-fold partitions
+
 Z = lambda s: (np.asarray(s) - np.mean(s)) / np.std(s)
 
 
@@ -24,15 +23,14 @@ def fisher_ci(r, n, a):
     return np.tanh(z - zc * se), np.tanh(z + zc * se)
 
 
-def probs(est, X, y): return cross_val_predict(est, np.array(X), y, cv=CV, method="predict_proba")[:, 1]
+def probs(est, X, y):
+    """(REPEATS, n) out-of-fold probabilities."""
+    return rcv.oof(est, np.array(X), y)
 
 
-def paired_p(y, pm, pb, B=2000):
-    rng = np.random.RandomState(0); d = []
-    for _ in range(B):
-        i = rng.randint(0, len(y), len(y))
-        if len(np.unique(y[i])) > 1: d.append(roc_auc_score(y[i], pm[i]) - roc_auc_score(y[i], pb[i]))
-    d = np.array(d); return 2 * min((d <= 0).mean(), (d >= 0).mean())
+def A(y, P):
+    m, s, _ = rcv.auc(y, P)
+    return f"{m:.3f} +/- {s:.3f}"
 
 
 # [1] TOST equivalence on the primary analysis set (value_scores.csv IS the 502-paper set carrying both axes)
@@ -51,18 +49,19 @@ LY = {n: lens_text(f"data/sota_hh/fingerprints_{p}/batch_*.json") for n, p in {"
 cy = set(labY)
 for v in LY.values(): cy &= set(v)
 cy = sorted(cy); yY = np.array([labY[d] for d in cy]); UY = [" ".join(LY[n][d] for n in LY) for d in cy]
-tf = roc_auc_score(yY, probs(make_pipeline(TfidfVectorizer(stop_words="english", min_df=2), LogisticRegression(max_iter=2000)), UY, yY))
-print(f"[3] TF-IDF+LR on fingerprint (YU) = {tf:.3f}  (vs BoW+NB 0.747, MiniLM+LR 0.598: separates tokenization from model)")
+tf = A(yY, probs(make_pipeline(TfidfVectorizer(stop_words="english", min_df=2), LogisticRegression(max_iter=2000)), UY, yY))
+print(f"[3] TF-IDF+LR on fingerprint (YU) = {tf}  (a second lexical reader: separates tokenization from model)")
 
 # [6] per-lens significance on YU (vs raw abstract BoW+NB)
 absY = {r.doi: r.abstract for _, r in yu.iterrows() if isinstance(r.abstract, str) and len(r.abstract) > 60}
 cy2 = [d for d in cy if d in absY]
 y2 = np.array([labY[d] for d in cy2])
 base = probs(make_pipeline(CountVectorizer(stop_words="english", min_df=2), MultinomialNB()), [absY[d] for d in cy2], y2)
-print("[6] per-lens vs raw-abstract BoW+NB on YU (paired bootstrap p):")
+print("[6] per-lens vs raw-abstract BoW+NB on YU (paired bootstrap p over papers):")
 for n in LY:
     pl = probs(make_pipeline(CountVectorizer(stop_words="english", min_df=2), MultinomialNB()), [LY[n][d] for d in cy2], y2)
-    print(f"      {n:8s} AUROC {roc_auc_score(y2, pl):.3f}  p={paired_p(y2, pl, base):.3f}")
+    _, _, p = rcv.boot(y2, pl, base)
+    print(f"      {n:8s} AUROC {A(y2, pl)}  p={p:.3f}")
 
 
 if __name__ == "__main__":

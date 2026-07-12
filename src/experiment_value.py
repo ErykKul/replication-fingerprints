@@ -4,7 +4,7 @@
 NOVELTY axis      = relative-neighbor-density isolation over the EXPERIMENT lens (the best convergent
                     validity of any lens; see the per-lens comparison). Computed once in experiment_rnd.py
                     -> rnd_novelty.csv, so the deployed novelty == the convergently-validated novelty.
-VERIFIABILITY axis = the multi-lens union replication predictor (the 0.701 headline model), out-of-fold
+VERIFIABILITY axis = the multi-lens union replication predictor (the headline model), out-of-fold
                     probability. This is the SAME object used everywhere verifiability is claimed; there is
                     no separate weaker proxy.
 
@@ -17,18 +17,19 @@ Run:  PYTHONPATH=src python src/experiment_value.py
 """
 import numpy as np, pandas as pd
 from scipy.stats import spearmanr
-from sklearn.model_selection import cross_val_predict, StratifiedKFold
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import make_pipeline
 from sklearn.metrics import roc_auc_score
 from experiment_alllenses import lens_text
 
+import rcv  # metric of record: mean +/- sd over rcv.REPEATS partitions
+
 
 def main():
     # NOVELTY axis (experiment-lens isolation) from experiment_rnd.py
     rn = pd.read_csv("data/rnd_novelty.csv"); rn["doi"] = rn.doi.str.lower()
-    # VERIFIABILITY axis = union multi-lens replication predictor, out-of-fold probability (the 0.701 model)
+    # VERIFIABILITY axis = union multi-lens replication predictor, out-of-fold probability
     Lp = {"c": "data/fingerprints/batch_*.json", "e": "data/fingerprints_psych/batch_*.json",
           "f": "data/fingerprints_finding/batch_*.json", "q": "data/fingerprints_qual/batch_*.json"}
     Lx = {n: lens_text(p) for n, p in Lp.items()}
@@ -40,12 +41,16 @@ def main():
     common = sorted(common)
     y = np.array([lab[x] for x in common])
     U = [" ".join(Lx[n][x] for n in Lx) for x in common]
-    verif = cross_val_predict(make_pipeline(CountVectorizer(stop_words="english", min_df=2), MultinomialNB()),
-                              np.array(U), y, cv=StratifiedKFold(5, shuffle=True, random_state=0),
-                              method="predict_proba")[:, 1]
+    # Repeated CV: P is (REPEATS, n). The per-paper score stored below is the partition-AVERAGED
+    # out-of-fold probability (a score, not a metric); the reported AUROC is the metric of record,
+    # the mean +/- sd of the per-partition AUROC. See src/rcv.py for why these differ.
+    P = rcv.oof(make_pipeline(CountVectorizer(stop_words="english", min_df=2), MultinomialNB()),
+                np.array(U), y)
+    verif = P.mean(0)
+    vm, vsd, _ = rcv.auc(y, P)
     nov = rn.set_index("doi").loc[common].rnd.values
-    print(f"papers: {len(common)}")
-    print(f"VERIFIABILITY axis = union predictor:            AUROC vs replication {roc_auc_score(y, verif):.3f}")
+    print(f"papers: {len(common)}  ({rcv.REPEATS} stratified 5-fold partitions)")
+    print(f"VERIFIABILITY axis = union predictor:            AUROC vs replication {vm:.3f} +/- {vsd:.3f}")
     print(f"NOVELTY axis = experiment-lens isolation:        AUROC vs replication {roc_auc_score(y, nov):.3f}  (~chance)")
     r = spearmanr(nov, verif)
     sig = "significant" if r.pvalue < 0.05 else "n.s."

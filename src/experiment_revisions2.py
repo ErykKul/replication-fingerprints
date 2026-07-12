@@ -6,7 +6,6 @@ Run:  PYTHONPATH=src python src/experiment_revisions2.py
 import warnings, glob, json, numpy as np, pandas as pd
 warnings.filterwarnings("ignore")
 from scipy.stats import spearmanr
-from sklearn.model_selection import cross_val_predict, StratifiedKFold
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import make_pipeline
@@ -15,7 +14,7 @@ from experiment_rnd import embed, deconfound_length
 from experiment_novelty_expert2 import rnd_vs_bg, fetch_bg
 from experiment_alllenses import lens_text
 
-CV = StratifiedKFold(5, shuffle=True, random_state=0)
+import rcv  # metric of record: mean +/- sd over rcv.REPEATS stratified 5-fold partitions
 
 # [6] corpus-size sensitivity (novelty-vs-reviewer Spearman at each background size; computed live)
 d = pd.read_csv("data/novelty_labeled.csv")
@@ -57,17 +56,22 @@ def lab_incl(s):
 print("[7] FORRT label-handling sensitivity (multi-lens BoW+NB aggregated AUROC):")
 for name, fn in [("strict: exclude mixed/descriptive/flawed/uninformative (current)", lab_strict),
                  ("inclusive: those cases -> failed", lab_incl)]:
+    # Paper-level label EXACTLY as build_dataset.load_forrt does it: majority vote over the paper's
+    # effects, exact ties dropped. (This used to take the first effect per DOI via drop_duplicates,
+    # which is NOT the pipeline's rule and gave 6 of 514 papers a different label -- so the arm
+    # labelled "current" was not in fact current.)
     xl = x.copy(); xl["yv"] = xl.reported_success.map(fn)
-    xl = xl.dropna(subset=["yv"]).drop_duplicates("doi")
-    labm = {r_.doi: int(r_.yv) for _, r_ in xl.iterrows()}
+    xl = xl.dropna(subset=["yv"])
+    rate = xl.groupby("doi").yv.mean()
+    labm = {dd: int(v > 0.5) for dd, v in rate.items() if v != 0.5}
     common = set(labm)
     for v in L.values(): common &= set(v)
     common = sorted(common)
     if len(common) < 30: print(f"      {name}: too few matched ({len(common)})"); continue
     y = np.array([labm[dd] for dd in common])
     U = np.array([" ".join(L[k][dd] for k in L) for dd in common])
-    pooled = cross_val_predict(make_pipeline(CountVectorizer(stop_words="english", min_df=2), MultinomialNB()), U, y, cv=CV, method="predict_proba")[:, 1]
-    print(f"      {name}: n={len(y)} base={y.mean():.2f} AUROC={roc_auc_score(y, pooled):.3f}")
+    m, sd, _ = rcv.auc(y, rcv.oof(make_pipeline(CountVectorizer(stop_words="english", min_df=2), MultinomialNB()), U, y))
+    print(f"      {name}: n={len(y)} base={y.mean():.2f} AUROC={m:.3f} +/- {sd:.3f}")
 
 
 if __name__ == "__main__":

@@ -10,15 +10,14 @@ Run:  PYTHONPATH=src python src/experiment_fulltext.py
 """
 import json, glob, numpy as np, pandas as pd
 from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import cross_val_predict, StratifiedKFold
 from sklearn.preprocessing import StandardScaler
 from experiment_a import auroc_ci
 
-CV = StratifiedKFold(5, shuffle=True, random_state=0)
+import rcv  # metric of record: mean +/- sd over rcv.REPEATS stratified 5-fold partitions
 
 
 def cvp(X, y):
-    return cross_val_predict(LogisticRegression(max_iter=4000, C=0.5), X, y, cv=CV, method="predict_proba")[:, 1]
+    return rcv.score(LogisticRegression(max_iter=4000, C=0.5), X, y)
 
 
 def load(paths, key):
@@ -60,10 +59,11 @@ def main():
         print(f"-- {c}\n     abstract: {a}\n     fulltext: {f}")
 
     Z = lambda D: StandardScaler().fit_transform(D.astype(float).fillna(0))
-    print("\n=== 5-fold CV AUROC (facets predict replication, same papers) ===")
+    print(f"\n=== AUROC, mean +/- sd over {rcv.REPEATS} stratified 5-fold partitions "
+          f"(facets predict replication, same papers) ===")
     for name, F in [("facets from ABSTRACT", facets(ab)), ("facets from FULL TEXT", facets(ft))]:
-        auc, (lo, hi), _, _ = auroc_ci(y, cvp(Z(F), y))
-        print(f"  {name:22s} {auc:.3f} [{lo:.3f}, {hi:.3f}]")
+        m, sd, _ = rcv.auc(y, rcv.oof(LogisticRegression(max_iter=4000, C=0.5), Z(F), y))
+        print(f"  {name:22s} {m:.3f} +/- {sd:.3f}")
 
 
 if __name__ == "__main__":

@@ -24,20 +24,29 @@ allids = sorted({i for r in d.refids for i in r})
 
 title = json.load(open(CACHE)) if os.path.exists(CACHE) else {}
 todo = [i for i in allids if i not in title]
-print(f"{len(d)} papers, {len(allids)} refs, {len(todo)} to fetch (cache {len(title)})", flush=True)
-for k in range(0, len(todo), 50):
-    b = todo[k:k + 50]
-    try:
-        r = requests.get("https://api.openalex.org/works", params={
-            "filter": "openalex_id:" + "|".join(b), "select": "id,title", "per-page": 50, "mailto": MAIL}, timeout=60)
-        for w in r.json().get("results", []):
-            title[w["id"].rsplit("/", 1)[-1]] = w.get("title") or ""
-    except Exception:
-        pass
-    if k % 2000 == 0:
-        json.dump(title, open(CACHE, "w")); print(f"  {k}/{len(todo)}", flush=True)
-    time.sleep(0.1)
-json.dump(title, open(CACHE, "w"))
+# OFFLINE BY DEFAULT. The reported number must not depend on whether the machine has a network: the
+# committed data/ref_titles.json IS the frozen reference set, and the titles it lacks are titles OpenAlex
+# does not serve. Previously this stage silently attempted the missing fetches and swallowed the failures
+# (`except: pass`), so an online machine would quietly compute a DIFFERENT n and a different rho.
+# Pass --refresh-titles to re-harvest and re-freeze the cache deliberately.
+REFRESH = "--refresh-titles" in sys.argv
+print(f"{len(d)} papers, {len(allids)} refs, {len(todo)} missing from the frozen title cache "
+      f"(cache {len(title)}); {'REFRESHING from OpenAlex' if REFRESH else 'offline: using the cache as-is'}",
+      flush=True)
+if REFRESH:
+    for k in range(0, len(todo), 50):
+        b = todo[k:k + 50]
+        try:
+            r = requests.get("https://api.openalex.org/works", params={
+                "filter": "openalex_id:" + "|".join(b), "select": "id,title", "per-page": 50, "mailto": MAIL}, timeout=60)
+            for w in r.json().get("results", []):
+                title[w["id"].rsplit("/", 1)[-1]] = w.get("title") or ""
+        except Exception:
+            pass
+        if k % 2000 == 0:
+            json.dump(title, open(CACHE, "w")); print(f"  {k}/{len(todo)}", flush=True)
+        time.sleep(0.1)
+    json.dump(title, open(CACHE, "w"))
 
 have = [i for i in allids if title.get(i)]
 Eref = embed([title[i] for i in have])[0]

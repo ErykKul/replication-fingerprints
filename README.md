@@ -1,8 +1,8 @@
 # Predicting Replication from Domain-Stripped Fingerprints, Where Citations Fail (reproduction package)
 
 Can you tell, from a paper's text alone, whether its finding will survive replication? Citation impact
-cannot: on 502 psychology findings with known replication outcomes (FORRT Replication Database), field-weighted citation
-impact predicts replication at chance (AUROC 0.473). A **domain-stripped multi-lens fingerprint** of the
+cannot: on 498 psychology findings with known replication outcomes (FORRT Replication Database), field-weighted citation
+impact predicts replication at chance (AUROC 0.469). A **domain-stripped multi-lens fingerprint** of the
 abstract (one cached LLM call per paper, four lenses: computational, experimental, finding, qualitative)
 read by plain bag-of-words Naive Bayes does much better, and beats the reproducible baseline of the
 state-of-the-art method class on every dataset.
@@ -12,21 +12,32 @@ network access; the `--quick` core needs none). The fingerprints and all cached 
 are bundled under `data/`, so every number reproduces from the shipped files (`scikit-learn` for the
 core; `sentence-transformers` only for the novelty axis and the dense-embedder ablation cells).
 
-## The headline (Table 2 in the paper: aggregated AUROC from abstracts, 5-fold CV)
+## The headline (Table 2 in the paper: aggregated AUROC from abstracts)
+
+**Metric of record: repeated cross-validation.** Every AUROC below is the MEAN of the per-partition
+aggregated AUROC over **25 independent stratified 5-fold partitions** (seeds 0-24), reported with its
+standard deviation ACROSS partitions. A single partition is a lottery at n ~ 500 (it moves AUROC by
+~0.02, the size of the effects here), so we do not report one. Significance is a paired bootstrap over
+papers of the mean-across-partitions margin; we also report the share of partitions in which the margin
+is positive. See `src/rcv.py`.
 
 | dataset | TF-IDF+LR (SOTA method class, reproduced) | raw abstract BoW+NB | **multi-lens fingerprint (ours)** |
 |---|---|---|---|
-| FORRT (502) | 0.621 | 0.639 | **0.682** (+0.061 vs TF-IDF, p=0.006) |
-| Yang/Uzzi raw (259) | 0.635 | 0.619 | **0.747** (+0.112, p<0.001) |
-| Yang/Uzzi cleaned (254) | 0.618 | 0.615 | **0.720** (+0.102, p<0.001) |
+| FORRT (498) | 0.629 ± 0.016 | 0.644 ± 0.016 | **0.682 ± 0.012** (+0.053 vs TF-IDF, p=0.005; positive in 25/25 partitions) |
+| Yang/Uzzi raw (259) | 0.622 ± 0.017 | 0.615 ± 0.019 | **0.718 ± 0.014** (+0.096, p<0.001; 25/25) |
+| Yang/Uzzi cleaned (254) | 0.632 ± 0.022 | 0.631 ± 0.022 | **0.723 ± 0.012** (+0.091, p<0.001; 25/25) |
 
-Companion results, all reproduced by shipped scripts: citations at chance (FWCI AUROC 0.470, AP 0.504);
-the signal is not a subdiscipline base rate (within-discipline AUROC 0.676 vs pooled 0.682; discipline
-base rates alone reach only 0.587); cross-dataset generalization (train FORRT, test Yang/Uzzi: 0.713,
+The fingerprint's margin over the raw-abstract bag-of-words baseline on FORRT is +0.037 ± 0.009,
+positive in 25/25 partitions but with a paper-bootstrap p of 0.050: consistent across every split, and
+borderline against sampling noise. We report it as such.
+
+Companion results, all reproduced by shipped scripts: citations at chance (FWCI AUROC 0.469, AP 0.498);
+the signal is not a subdiscipline base rate (within-discipline AUROC 0.674 ± 0.014 vs pooled 0.682;
+discipline base rates alone reach only 0.603); cross-dataset generalization (train FORRT, test Yang/Uzzi: 0.713,
 overlap removed); novelty and verifiability are largely independent axes (best-predictor correlation r = +0.04, not significant, TOST-equivalent to zero); stacking
-novelty onto the replication predictor *hurts* (0.682 -> 0.631, 0.720 -> 0.678, CIs exclude zero),
+novelty onto the replication predictor *hurts* (0.682 -> 0.661, 0.723 -> 0.676; CIs exclude zero; hurts in 25/25 partitions),
 consistent with novelty carrying no replication signal; the fingerprint novelty converges with an independent
-reference-spread novelty (Shibayama; Spearman rho = +0.186, p < 0.001, n = 489).
+reference-spread novelty (Shibayama; Spearman rho = +0.182, p < 0.001, n = 485).
 
 ## Quickstart
 
@@ -59,16 +70,16 @@ the full-text bullet of the redistribution section below (run any of them alone 
 | paper item | script |
 |---|---|
 | Table 2 (multi-lens fingerprint vs fixed baselines) + AP + full-text row | `experiment_maintable.py` |
-| Within-discipline AUROC 0.676 / discipline-only 0.587 (topic-confound control) | `experiment_topic_control.py` |
-| Orthogonality TOST, cross-dataset 0.713/0.715, lens complementarity, binary-presence union (0.674/0.769) | `experiment_revisions8.py` |
-| Figures 1-3 + citations-at-chance (FWCI 0.470 / AP 0.504) | `make_figures.py` |
-| Novelty-hurts stacking (0.682 -> 0.631; 0.720 -> 0.678) + vocabulary counts | `experiment_revisions6.py` |
-| FORRT TF-IDF-on-fingerprint (0.680) + worst-case exclusion bound (16 missing, shift +0.006) | `experiment_revisions7.py` |
+| Within-discipline AUROC 0.674 ± 0.014 / discipline-only 0.603 (topic-confound control) | `experiment_topic_control.py` |
+| Orthogonality TOST, cross-dataset 0.713/0.715, lens complementarity, binary-presence union (0.696/0.744) | `experiment_revisions8.py` |
+| Figures 1-3 + citations-at-chance (FWCI 0.469 / AP 0.498) | `make_figures.py` |
+| Novelty-hurts stacking (0.682 -> 0.661; 0.723 -> 0.676) + vocabulary counts | `experiment_revisions6.py` |
+| FORRT TF-IDF-on-fingerprint (0.683) + worst-case exclusion bound (16 missing, shift +0.006) | `experiment_revisions7.py` |
 | Table 1 cells (representation x reader) | BoW: `experiment_maintable.py` + `experiment_sota_match.py`; MiniLM+LR (2x2): `experiment_revisions.py`; TF-IDF: `experiment_revisions3.py`; all-mpnet: `experiment_revisions5.py` |
 | Novelty vs reference-corpus size (+0.09 to +0.12 band, Results II prose) | `experiment_revisions2.py` (CIs: `revisions3`, Bonferroni: `revisions5`) |
-| Shibayama reference-spread convergence (rho +0.186) + nearest-cited-prior null | `compute_ref_novelty2.py` |
+| Shibayama reference-spread convergence (rho +0.182) + nearest-cited-prior null | `compute_ref_novelty2.py` |
 | ICLR expert-novelty leg (rho 0.115, AUROC 0.588) | `experiment_novelty_expert2.py` |
-| Psych-background orthogonality (disclosed alternative, r = +0.10, p = 0.02) | `experiment_revisions4.py` |
+| Psych-background orthogonality (disclosed alternative, r = +0.115, p = 0.010) | `experiment_revisions4.py` |
 | Abstract-vs-full-text contrasts ("what carries the signal") | `experiment_perlens.py`, `experiment_threefold.py` (run offline from the bundled full-text *fingerprints*; only the TF-IDF-over-raw-full-text baseline rows need the rebuilt corpus, see below) |
 | Novelty axis (experiment-lens isolation) + verifiability axis (union predictor) (`data/rnd_novelty.csv`, `data/value_scores.csv`) | `experiment_rnd.py`, `experiment_value.py` (bundled precomputed) |
 
@@ -115,7 +126,7 @@ This package ships **derived artifacts and openly-licensed metadata only**:
   and the harvest scripts (`src/harvest_oa.py` for open access; `src/browser_*.py` for subscription
   access through your own institution, credentials via `.env`, see `example.env`) rebuild it. All
   headline numbers are abstract-only and need none of this. One development-run figure, the
-  naive-prompt contrast (0.609 vs 0.631), predates the bundle freeze and is not regenerable from the
+  naive-prompt contrast, predates the bundle freeze and is not regenerable from the
   release; the bundled naive fingerprints (`data/fulltext_fingerprints/`) document its rigor-inflation
   mechanism instead (`src/experiment_fulltext.py`).
 

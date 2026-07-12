@@ -6,7 +6,7 @@ referenced_works, year, PMID, citations) and iCite (RCR). Fetch + cache once; th
 (experiment_a.py) reads the cache and iterates fast. No API key anywhere.
 
 Run:  python src/build_dataset.py
-Out:  data/dataset.parquet  (one row per original paper that has a clean binary label + an OpenAlex abstract)
+Out:  data/dataset.csv  (one row per original paper that has a clean binary label + an OpenAlex abstract)
 """
 import json, time, re, sys
 import requests, numpy as np, pandas as pd
@@ -20,9 +20,17 @@ def load_forrt():
     df = df[df.doi_o.notna() & df.doi_o.astype(str).str.contains("10.", na=False)].copy()
     df["doi"] = (df.doi_o.astype(str).str.strip()
                  .str.replace(r"^https?://(dx\.)?doi\.org/", "", regex=True).str.lower())
-    s = df.reported_success.astype(str).str.lower()
-    df["succ"] = np.where(s.str.contains("success"), 1.0,
-                          np.where(s.str.contains("fail"), 0.0, np.nan))  # drop mixed/other
+    # FReD's `reported_success` has exactly six values in this release:
+    #   successful (985) | failed (787) | mixed (359)
+    #   statistically successful but flawed (18) | descriptive only (10) | uninformative (5)
+    # (raw counts in forrt_red.xlsx; 970/358 after the DOI filter above)
+    # We keep ONLY the two unambiguous outcomes and drop the other four as ambiguous/uninformative.
+    # NB an earlier version matched on the SUBSTRING "success", which also swept in "statistically
+    # successful but flawed" and counted it as a success. Exact matching is what the paper describes and
+    # what we now do: it drops 5 papers (4 of them in the analysis set) and flips no paper's label.
+    s = df.reported_success.astype(str).str.strip().str.lower()
+    df["succ"] = np.where(s.eq("successful"), 1.0,
+                          np.where(s.eq("failed"), 0.0, np.nan))
     df = df.dropna(subset=["succ"])
     for c in ["es_value_o", "es_value_r"]:
         df[c] = pd.to_numeric(df[c], errors="coerce")
